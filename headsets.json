@@ -2,6 +2,7 @@
   "meta": {
     "name": "Meta",
     "channel_id": "1030165348500127825",
+    "dataset": "Meta",
     "headsets": [
       {
         "name": "Meta Quest",
@@ -52,6 +53,7 @@
   "pico": {
     "name": "Pico",
     "channel_id": "1030165439109673030",
+    "dataset": "Pico",
     "headsets": [
       {
         "name": "Pico 4",
@@ -131,6 +133,7 @@
   "pimax": {
     "name": "Pimax",
     "channel_id": "1030165460672585739",
+    "dataset": "Pimax",
     "headsets": [
       {
         "name": "Pimax 5K",
@@ -173,6 +176,7 @@
   "sony": {
     "name": "Sony",
     "channel_id": "1030165649324003348",
+    "dataset": "Sony",
     "headsets": [
       {
         "name": "Playstation VR",
@@ -187,6 +191,7 @@
   "valve": {
     "name": "Valve",
     "channel_id": "1030165539429032026",
+    "dataset": "Valve",
     "headsets": [
       {
         "name": "Valve Index",
@@ -197,6 +202,7 @@
   "varjo": {
     "name": "Varjo",
     "channel_id": "1030165649324003348",
+    "dataset": "Varjo",
     "headsets": [
       {
         "name": "Varjo Aero",
@@ -215,6 +221,7 @@
   "htc": {
     "name": "HTC",
     "channel_id": "1030166302813323325",
+    "dataset": "HTC",
     "headsets": [
       {
         "name": "Vive",
@@ -261,6 +268,7 @@
   "wmr": {
     "name": "Windows Mixed Reality",
     "channel_id": "1030165697512345600",
+    "dataset": "WMR",
     "headsets": [
       {
         "name": "HP Reverb",

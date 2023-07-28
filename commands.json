@@ -557,7 +557,7 @@
               "fields": [
                 {
                   "name": "How can a friend send me a referral?",
-                  "value": "This option, requires your friend/acquaintance to generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click “Menu” at the bottom right, there should be a large blue box that starts the referral process.",
+                  "value": "This option, requires your friend/acquaintance to generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click â€œMenuâ€ at the bottom right, there should be a large blue box that starts the referral process.",
                   "inline": true
                 },
                 {
@@ -914,7 +914,7 @@
           },
           {
             "name": "Ruler Method",
-            "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the “0” mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
+            "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the â€œ0â€ mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
           }
         ]
       }
@@ -967,7 +967,7 @@
           },
           {
             "name": "What's required?",
-            "value": "You need a VR-ready PC that meets the minimum specs — you can find out more details [here](https://support.oculus.com/444256562873335/) — as well as a USB 3.0 A-to-C or C-to-C cable — you can find more info about this with /linkcables."
+            "value": "You need a VR-ready PC that meets the minimum specs â€” you can find out more details [here](https://support.oculus.com/444256562873335/) â€” as well as a USB 3.0 A-to-C or C-to-C cable â€” you can find more info about this with /linkcables."
           }
         ]
       }
@@ -1001,6 +1001,15 @@
         "image": {
           "url": "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
         }
+      }
+    },
+    {
+      "name": "meta_bug",
+      "description": "Meta software bug causing network issues on Quest 2/Quest Pro",
+      "ephemeral": false,
+      "embed": {
+        "title": "Network issues on Quest 2/Quest Pro due to Meta software bug",
+        "description": "In version 54 of the Quest 2/Quest Pro software, Meta introduced a bug causing network issues. Users may experience latency spikes or see black bars when turning their head.\n\nTo correct this, please try the steps below.\n\nStep 1:  Opt into the Public Test Channel (PTC) to get version 55, which does not have this bug. To opt-in, open your Quest mobile app, go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'. If 'Public Test Channel' is disabled, click on it to enable. Please note, while PTC versions can offer early access to new features, they may also have their own bugs.\n\nStep 2: In your headset go to settings, system, software updates and see if you have an update available. If not, turn on your headset, connect it to wifi, plug the charger into it and set it down on a flat surface. It will update soon. Sometimes in a few minutes, sometimes it could take a few hours.\n\nAs a last resort, you could perform a factory reset and avoid enabling any experimental features. However, this solution may not work for everyone.\n\nMeta is aware of the issue and is working on a permanent fix."
       }
     },
     {
@@ -1079,6 +1088,15 @@
       "embed": {
         "title": "Quest/Rift Cross-Buy Apps",
         "description": "Rift and Quest have some games that support cross-buy, and you can find that list [here](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635).\n Please note that cross-buy can only apply between Oculus PC and Quest stores, and this does not include Steam."
+      }
+    },
+    {
+      "name": "xr",
+      "description": "What is Extended Reality (XR)",
+      "ephemeral": false,
+      "embed": {
+    	"title": "Extended Reality (XR)",
+        "description": "Extended Reality (XR) covers all the different ways we mix computer technology with our real world. Here's what that includes:\n\n**Virtual Reality (VR)**: This is like stepping into a different world. You wear a headset, and everything you see is created by a computer. It's used for video games and other interactive experiences.\n\n**Augmented Reality (AR)**: This adds computer-created elements to the real world. If you've played games where characters appear in the real world on your phone screen, or used a filter to add a hat to your selfie, that's AR!\n\n**Mixed Reality (MR)**: This is a blend of AR and VR. Here, virtual objects are added to the real world and can interact with it. It's like having virtual objects in your living room that you can move and touch."
       }
     },
     {
