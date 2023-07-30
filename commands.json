@@ -81,7 +81,7 @@
           "embeds": [
             {
               "title": "BOBOVR M2 Pro",
-              "description": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.",
+              "description": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.\n\nBeware: You are unable to use the battery feature and link cable at the same time without special cable setups.",
               "url": "https://www.bobovr.com/product/m2pro/",
               "color": null,
               "fields": [
@@ -166,7 +166,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Recommended Routers",
-        "description": "The following routers have been reported to work reliably from a number of users.\n High End - Asus RT-AX86U ($300 US) \nMid Range - Asus RT-AX55 ($145 US)\nLow End - TP-Link Archer C6 or A6 ($40 US)\nLow End - Netgear WAX202 (50$ US)",
+        "description": "The following routers have been reported to work reliably from a number of users.\n High End - Asus RT-AX86U ($265 US) \nMid Range - Asus RT-AX55 ($110 US)\nLow End - TP-Link Archer C6 or A6 ($40 US)\nLow End - Netgear WAX202 (100$ US)",
         "footer": {
           "text": "We don't recommend TP-Link AX routers as they have lots of issues."
         }
@@ -179,7 +179,7 @@
           "emoji": "",
           "embed": {
             "title": "Recommended Routers",
-            "description": "The following routers have been reported to work reliably from a number of users.\n High End - Asus RT-AX86U ($300 US) \nMid Range - Asus RT-AX55 ($145 US)\nLow End - TP-Link Archer C6 or A6 ($40 US)\nLow End - Netgear WAX202 (50$ US)",
+            "description": "The following routers have been reported to work reliably from a number of users.\n High End - Asus RT-AX86U ($265 US) \nMid Range - Asus RT-AX55 ($110 US)\nLow End - TP-Link Archer C6 or A6 ($40 US)\nLow End - Netgear WAX202 (100$ US)",
             "footer": {
               "text": "We don't recommend TP-Link AX routers as they have a lot of issues."
             }
@@ -529,7 +529,7 @@
                 },
                 {
                   "name": "Referrals",
-                  "value": "Redeem any referrals you got from friends on your Oculus App (only works before activation), or if you need one you can use <#927288276673523782>\n for more information please check out the referrals option.",
+                  "value": "Redeem any referrals you got from friends on your Oculus App (only works before activation), or if you need one you can use [Meta-dog](https://meta-dog.github.io/meta-dog/)\n for more information please check out the referrals option.",
                   "inline": false
                 },
                 {
@@ -562,7 +562,7 @@
                 },
                 {
                   "name": "I don't have a friend to give me a referral",
-                  "value": "That's fine as well! You can check out <#927288276673523782> for device referrals, this will give you a random referral with other members of our community.",
+                  "value": "That's fine as well! You can check out [Meta-dog](https://meta-dog.github.io/meta-dog/) for device referrals, this will give you a random referral from other VR users.",
                   "inline": true
                 }
               ],
@@ -617,8 +617,13 @@
               "color": null,
               "fields": [
                 {
+                  "name": "Tutorials/introductions",
+                  "value": "[First Steps](https://www.oculus.com/experiences/quest/2188021891257542/)\n[First Contact](https://www.oculus.com/experiences/quest/2188021891257542/)",
+                  "inline": false
+                },
+                {
                   "name": "Free",
-                  "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[EchoVR](https://www.oculus.com/experiences/quest/2215004568539258/)\n[Pavlov](https://www.oculus.com/experiences/quest/3649611198468269/)\n[RecRoom](https://www.oculus.com/experiences/quest/2173678582678296/)",
+                  "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[Pavlov Shack](https://www.oculus.com/experiences/quest/3649611198468269/)\n[RecRoom](https://www.oculus.com/experiences/quest/2173678582678296/)",
                   "inline": false
                 },
                 {
@@ -633,7 +638,7 @@
                 },
                 {
                   "name": "Paid - Great Multiplayer",
-                  "value": "[Among Us](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)",
+                  "value": "[Among Us](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Walkabout Mini-Golf](https://www.oculus.com/experiences/quest/2462678267173943/)",
                   "inline": false
                 }
               ]
@@ -672,7 +677,7 @@
                 },
                 {
                   "name": "PCVR",
-                  "value": "You can also play PC VR games with a [VR Ready PC](https://support.oculus.com/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)!",
+                  "value": "You can also play PC VR games with a [VR Ready PC](https://support.oculus.com/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)!\nFor more info on this use /questusb or /airlink.",
                   "inline": false
                 }
               ]
@@ -691,12 +696,12 @@
               "fields": [
                 {
                   "name": "Wired",
-                  "value": "You can play wired PC VR using Oculus Link and a USB 3.0 cable.",
+                  "value": "You can play wired PC VR using Oculus Link and a USB 3.0 cable.\nFor more info use /questusb",
                   "inline": false
                 },
                 {
                   "name": "Wireless",
-                  "value": "You can play wirelessly using [Air Link](https://support.oculus.com/airlink/), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772/), or [ALVR](https://github.com/alvr-org/ALVR).",
+                  "value": "As long as you have a good local connection you can play wirelessly using [Air Link](https://support.oculus.com/airlink/), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772/), or [ALVR](https://github.com/alvr-org/ALVR).",
                   "inline": false
                 },
                 {
@@ -898,10 +903,10 @@
     },
     {
       "name": "ipd",
-      "description": "IPD and Its Importance in VR.",
+      "description": "IPD and It's Importance in VR.",
       "ephemeral": false,
       "embed": {
-        "title": "IPD and Its Importance in VR.",
+        "title": "IPD and It's Importance in VR.",
         "description": "IPD is the distance between the pupils of your eyes. This is important for VR as you need to make sure you are within the supported IPD range of a headset, otherwise you will experience eye strain, focus issues, and other related issues.",
         "fields": [
           {
@@ -944,7 +949,7 @@
         "fields": [
           {
             "name": "Do I need a VR-ready PC?",
-            "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0)."
+            "value": "No, a normal PC or even an Android phone will work just as well, but it does require a cable to connect your Quest to your PC/Android Phone (USB 2.0 or 3.0)."
           },
           {
             "name": "Is it safe?",
@@ -967,7 +972,7 @@
           },
           {
             "name": "What's required?",
-            "value": "You need a VR-ready PC that meets the minimum specs â€” you can find out more details [here](https://support.oculus.com/444256562873335/) â€” as well as a USB 3.0 A-to-C or C-to-C cable â€” you can find more info about this with /linkcables."
+            "value": "You need a VR-ready PC that meets the minimum specs â€” you can find out more details [here](https://support.oculus.com/444256562873335/) â€” as well as a USB 3.0 A-to-C or C-to-C cable â€” you can find cable recommendations with /linkcables and more information with /questusb."
           }
         ]
       }
@@ -982,7 +987,7 @@
         "fields": [
           {
             "name": "Requirements",
-            "value": "1. [VR-Ready PC](https://support.oculus.com/444256562873335), please note this is not 100% of all hardware supported; better graphics cards than listed will work as well. \n2. 5GHz AC or AX network with a wired connection to your PC."
+            "value": "1. [VR-Ready PC](https://support.oculus.com/444256562873335), please note this is not 100% of all hardware supported; better graphics cards than listed will work as well. Note that if a card is not present on the compatibility list or is listed as unsupported there is no garantuee that it will function properly with VR. \n2. 5GHz AC or AX network with a wired connection to your PC, ideally in close proximity to your playspace with as little interfence as possible."
           },
           {
             "name": "FAQ",
@@ -1018,7 +1023,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Quest USB/Link",
-        "description": "Connecting your Quest VR headset with your VR ready PC using a USB cable allows you to play VR games from your PC, this includes Oculus rift games and Steam games. However, when purchasing a cable there are a few things to take into account: \n\n**USB Connection types**\nUSB cables can come with multiple different connector types, the ones you want to be looking for are USB type A and USB type C. All current Quest devices use a USB C port, which means that your cable needs to have at least *one* USB C connector, the other end can be either A or C; other than their shape and respective port they offer no real difference in this use case and they will perform the same.\n\n**USB standards**\nUSB standards (data speed simply said) are important for link cables, any link cable used for any of the Quest devices should be USB 3.0, also known as USB 3.1 Gen 1, and USB 3.2 Gen 1x1.\nNote that USB 2.0 will provide a very poor experience so avoid using those.\nYou can find these types of cables on A and C through various retailers at various lengths, performance-wise they are all equal.\n\n**Length**\nFor an optimal experience you ideally want a cable that is 3-5m long, generally it is not recommended that USB 2.0/3.0 cables are longer than that.\n\n**Battery time with a USB cable**\nPlaytime will be increased using a cable, but it is not guaranteed that the cable provides infinite playtime. This is a limitation of many motherboards and the cable plays no role.\n\nFor cable recommendations with detailed descriptions, use /linkcables."
+        "description": "Connecting your Quest VR headset with your VR ready PC using a USB cable allows you to play VR games from your PC, this includes Oculus rift games and Steam games. However, when purchasing a cable there are a few things to take into account: \n\n**USB Connection types**\nUSB cables can come with multiple different connector types, the ones you want to be looking for are USB type A and USB type C. All current Quest devices use a USB C port, which means that your cable needs to have at least *one* USB C connector, the other end can be either A or C; other than their shape and respective port they offer no real difference in this use case and they will perform the same.\n\n**USB standards**\nUSB standards (data speed simply said) are important for link cables, any link cable used for any of the Quest devices should be USB 3.0, also known as USB 3.1 Gen 1, and USB 3.2 Gen 1x1.\nNote that USB 2.0 will provide a very poor experience so avoid using those.\nYou can find these types of cables on A and C through various retailers at various lengths, performance-wise they are all equal.\n\n**Length**\nFor an optimal experience you ideally want a cable that is 3-5m long, generally it is not recommended that USB 2.0/3.0 cables are longer than that.\n\n**Battery time with a USB cable**\nPlaytime will be increased using a cable, but it is not guaranteed that the cable provides infinite playtime. This is a limitation of many motherboards and the cable plays no role.\n\nFor cable recommendations with detailed descriptions, use /linkcables.",
         "image": {
           "url": "https://cdn.discordapp.com/attachments/751932324186423506/762336282437222420/unknown.png"
         }
@@ -1078,7 +1083,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Virtual Desktop",
-        "description": "Virtual Desktop is a Quest application that allows you to use your desktop in VR, watch videos, as well as use it for wireless PC VR with a VR-ready PC.\nFor first-time setup and general FAQ, please check out [this guide](https://reddit.com/r/OculusQuest/wiki/faq/virtualdesktop)."
+        "description": "Virtual Desktop is a paid Quest application that allows you to use your desktop in VR, watch videos, as well as use it for wireless PC VR with a VR-ready PC.\nFor first-time setup and general FAQ, please check out [this guide](https://reddit.com/r/OculusQuest/wiki/faq/virtualdesktop)."
       }
     },
     {
@@ -1087,7 +1092,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Quest/Rift Cross-Buy Apps",
-        "description": "Rift and Quest have some games that support cross-buy, and you can find that list [here](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635).\n Please note that cross-buy can only apply between Oculus PC and Quest stores, and this does not include Steam."
+        "description": "Rift and Quest have some games that support cross-buy, this means that when you buy a supported game you get it both on your PC and Quest, and you can find a list of said games[here](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635).\n Please note that cross-buy can only apply between Oculus PC and Quest stores, and this does not include Steam."
       }
     },
     {
@@ -1162,7 +1167,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Quest Referrals",
-        "description": "If you are looking to get or submit your own referral, look into [Meta Dog](https://meta-dog.github.io/meta-dog/) for app referrals\n For Device referrals check out <#927288276673523782>."
+        "description": "If you are looking to get or submit your own referral, look into [Meta Dog](https://meta-dog.github.io/meta-dog/) for app and device referrals"
       }
     },    
     {
