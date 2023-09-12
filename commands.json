@@ -166,10 +166,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Recommended Routers",
-        "description": "The following routers have been reported to work reliably from a number of users.\n High End - Asus RT-AX86U ($300 US) \nMid Range - Asus RT-AX55 ($145 US)\nLow End - TP-Link Archer C6 or A6 ($40 US)\nLow End - Netgear WAX202 (50$ US)",
-        "footer": {
-          "text": "We don't recommend TP-Link AX routers as they have lots of issues."
-        }
+        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
       },
       "pages": [
         {
@@ -177,23 +174,23 @@
           "title": "Main Page",
           "description": "",
           "emoji": "",
-          "embed": {
-            "title": "Recommended Routers",
-            "description": "The following routers have been reported to work reliably from a number of users.\n High End - Asus RT-AX86U ($300 US) \nMid Range - Asus RT-AX55 ($145 US)\nLow End - TP-Link Archer C6 or A6 ($40 US)\nLow End - Netgear WAX202 (50$ US)",
-            "footer": {
-              "text": "We don't recommend TP-Link AX routers as they have a lot of issues."
+          "embeds": [
+            {
+              "title": "Recommended Routers",
+              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+              
             }
-          }
+          ]
         },
         {
           "name": "TPLinkC6",
-          "title": "TP-Link C6",
-          "description": "Low End - TP Link C6",
+          "title": "TP-Link Archer C6 or A6",
+          "description": "Low End (AC) - TP-Link C6 or A6",
           "emoji": "",
           "embeds": [
             {
-              "title": "TP-Link C6",
-              "description": "The C6 is a good dedicated router specifically for wireless VR usage.\n\nYou can find different variants of this such as the A6, and there are multiple versions of this router - the V2 and V3 are known to be good.",
+              "title": "TP-Link Archer C6 or A6",
+              "description": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop.",
               "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
               "color": null,
               "fields": [
@@ -204,26 +201,89 @@
                 },
                 {
                   "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/TP-Link-AC1200-Smart-WiFi-Router/dp/B07Z4XDK19) [Canada](https://www.amazon.ca/TP-Link-Archer-A6-AC1200-Router/dp/B07N1L5HX1) [UK](https://www.amazon.co.uk/Archer-C6-Wireless-External-Antennas/dp/B07GVR9TG7)",
+                  "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH)",
                   "inline": true
                 }
               ],
               "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/930481659822895186/Archer-C6-1_large_1533257570157x.png"
+                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
               }
             }
           ]
         },
         {
+          "name": "TPLinkAXE5400",
+          "title": "TP-Link AXE5400/AXE75",
+          "description": "Dedicated (AXE) - TP-Link AXE5400/AXE75",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "TP-Link AXE5400/AXE75",
+              "description": "The TP-Link AXE5400/AXE75 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+              "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
+              "color": null,
+              "fields": [
+                {
+                  "name": "Info",
+                  "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                  "inline": true
+                },
+                {
+                  "name": "Store Links",
+                  "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
+                  "inline": true
+                }
+              ],
+              "thumbnail": {
+                "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
+              }
+            }
+          ]
+        },    
+        {
+          "name": "OpalGLSFT1200",
+          "title": "Opal GL-SFT1200",
+          "description": "Low End (AC) - Opal GL-SFT1200",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Opal GL-SFT1200",
+              "description": "The Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
+              "url": "https://www.gl-inet.com/products/gl-sft1200/",
+              "color": null,
+              "fields": [
+                {
+                  "name": "Info",
+                  "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
+                  "inline": true
+                },
+                {
+                  "name": "Dedicated Bridging Setup",
+                  "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
+                  "inline": true
+                },     
+                {
+                  "name": "Store Links",
+                  "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
+                  "inline": true
+                }
+              ],
+              "thumbnail": {
+                "url": "https://cdn.example.com/image-url.png"
+              }
+            }
+          ]
+        },      
+        {
           "name": "WAX202",
           "title": "Netgear WAX202",
-          "description": "Low End - Netgear WAX202",
+          "description": "Low End (AX) - Netgear WAX202",
           "emoji": "",
           "embeds": [
             {
               "title": "Netgear WAX202",
               "description": "The WAX202 is a good dedicated router specifically for wireless VR usage, it's priced well for an AX router and can function as an AP.",
-              "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
+              "url": "https://www.netgear.com/business/wifi/access-points/wax202/",
               "color": null,
               "fields": [
                 {
@@ -244,43 +304,14 @@
           ]
         },
         {
-          "name": "AsusRTAX55",
-          "title": "Asus RT-AX55",
-          "description": "Mid Range - Asus RT-AX55",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Asus RT-AX55",
-              "description": "The RT-AX55 is a good router for general household use and wireless streaming.",
-              "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/All-series/RT-AX55/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/ASUS-AX1800-WiFi-Router-RT-AX55/dp/B08J6CFM39) [Canada](https://www.amazon.ca/RT-AX55-802-11ax-Lifetime-Internet-Beamforming/dp/B08KCJ6JSN) [UK](https://www.amazon.co.uk/RT-AX55-Dual-band-MU-MIMO-AiProtection-Adaptive/dp/B08CBC9B7X/)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/930531594899423292/81CcABl-WSL.png"
-              }
-            }
-          ]
-        },
-        {
           "name": "AsusAX86U",
           "title": "Asus RT-AX86U",
-          "description": "High End - Asus RT-AX86U",
+          "description": "High End (AX) - Asus RT-AX86U",
           "emoji": "",
           "embeds": [
             {
               "title": "Asus RT-AX86U",
-              "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels which decreases interference in congested areas.",
+              "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
               "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
               "color": null,
               "fields": [
@@ -298,7 +329,7 @@
               "thumbnail": {
                 "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
               }
-            }
+            }          
           ]
         }
       ]
@@ -429,7 +460,7 @@
                 },
                 {
                   "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/Kuject-Separate-Charging-Ultra-Durable-Accessories/dp/B09TN25765) [Amazon Canada](https://www.amazon.ca/Kuject-Separate-Charging-Ultra-Durable-Accessories/dp/B09TN25765) [Amazon UK](https://www.amazon.co.uk/Kuject-Separate-Charging-Ultra-Durable-Accessories-Black/dp/B09V7PNS4R)",
+                  "value": "[Amazon USA](https://www.amazon.com/dp/B0BRKKFJ3X/) [Amazon Canada](https://www.amazon.ca/dp/B0BRKKFJ3X/)",
                   "inline": true
                 }
               ],
@@ -557,12 +588,12 @@
               "fields": [
                 {
                   "name": "How can a friend send me a referral?",
-                  "value": "This option, requires your friend/acquaintance to generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click â€œMenuâ€ at the bottom right, there should be a large blue box that starts the referral process.",
+                  "value": "This option, requires your friend/acquaintance to generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click Menu at the bottom right, there should be a large blue box that starts the referral process.",
                   "inline": true
                 },
                 {
                   "name": "I don't have a friend to give me a referral",
-                  "value": "That's fine as well! You can check out <#927288276673523782> for device referrals, this will give you a random referral with other members of our community.",
+                  "value": "That's fine as well! You can check out <#927288276673523782> for referrals, this will guide you to get a random referral with other members of our community.",
                   "inline": true
                 }
               ],
@@ -826,7 +857,7 @@
                 },
                 {
                   "name": "Kuject USB Link Cable",
-                  "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever.\n[Amazon US](https://www.amazon.com/Kuject-Separate-Charging-Ultra-Durable-Accessories/dp/B09TN25765)",
+                  "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever.\n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
                   "inline": false 
                 },
                 {
@@ -944,7 +975,7 @@
         "fields": [
           {
             "name": "Do I need a VR-ready PC?",
-            "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0)."
+            "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality."
           },
           {
             "name": "Is it safe?",
@@ -967,7 +998,7 @@
           },
           {
             "name": "What's required?",
-            "value": "You need a VR-ready PC that meets the minimum specs â€” you can find out more details [here](https://support.oculus.com/444256562873335/) â€” as well as a USB 3.0 A-to-C or C-to-C cable â€” you can find more info about this with /linkcables."
+            "value": "You need a VR-ready PC that meets the minimum specs, you can find out more details [here](https://support.oculus.com/444256562873335/) as well as a USB 3.0 A-to-C or C-to-C cable.\n You can find more info about this with /linkcables."
           }
         ]
       }
@@ -1004,15 +1035,6 @@
       }
     },
     {
-      "name": "meta_bug",
-      "description": "Meta software bug causing network issues on Quest 2/Quest Pro",
-      "ephemeral": false,
-      "embed": {
-        "title": "Network issues on Quest 2/Quest Pro due to Meta software bug",
-        "description": "In version 54 of the Quest 2/Quest Pro software, Meta introduced a bug causing network issues. Users may experience latency spikes or see black bars when turning their head.\n\nTo correct this, please try the steps below.\n\nStep 1:  Opt into the Public Test Channel (PTC) to get version 55, which does not have this bug. To opt-in, open your Quest mobile app, go to 'Devices', then 'Headset Settings', and then 'Advanced Settings'. If 'Public Test Channel' is disabled, click on it to enable. Please note, while PTC versions can offer early access to new features, they may also have their own bugs.\n\nStep 2: In your headset go to settings, system, software updates and see if you have an update available. If not, turn on your headset, connect it to wifi, plug the charger into it and set it down on a flat surface. It will update soon. Sometimes in a few minutes, sometimes it could take a few hours.\n\nAs a last resort, you could perform a factory reset and avoid enabling any experimental features. However, this solution may not work for everyone.\n\nMeta is aware of the issue and is working on a permanent fix."
-      }
-    },
-    {
       "name": "questusb",
       "description": "Quest - Link - USB",
       "ephemeral": false,
@@ -1022,15 +1044,6 @@
         "image": {
           "url": "https://cdn.discordapp.com/attachments/751932324186423506/762336282437222420/unknown.png"
         }
-      }
-    },
-    {
-      "name": "discordquest",
-      "description": "Quest - Discord on Quest",
-      "ephemeral": false,
-      "embed": {
-        "title": "Discord on Quest",
-        "description": "Discord is only currently possible on Quest through either a sideloadable APK, or through the web browser.\nHowever,  You cannot do background audio without [Oculess's background audio fix](https://github.com/basti564/Oculess#enable-background-audio)\n This may now be possible on the Quest Pro as well."
       }
     },
     {
@@ -1057,7 +1070,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Airlink is no longer in experimental",
-        "description": "Air Link is moving out of the experimental settings panel and will now be available under system settings.",
+        "description": "Air Link is out of the experimental settings panel and will now be available under system settings - Link.",
         "image": {
           "url": "https://cdn.discordapp.com/attachments/416305941491875851/996586946941956096/unknown.png"
         }
@@ -1158,11 +1171,33 @@
     },
     {
       "name": "questreferrals",
-      "description": "Quest Referral info",
+      "description": "Quest - Referral System",
       "ephemeral": false,
       "embed": {
-        "title": "Quest Referrals",
-        "description": "If you are looking to get or submit your own referral, look into [Meta Dog](https://meta-dog.github.io/meta-dog/) for app referrals\n For Device referrals check out <#927288276673523782>."
+        "title": "Quest Referral System",
+        "description": "Participate in the Meta Quest Referral program to earn store credits and provide discounts to community members. You can refer both devices and individual apps/games using your personalized referral links.",
+        "fields": [
+          {
+            "name": "Referral Benefits",
+            "value": "1. **Meta Quest Device Referral:** Share a device referral link. When a member purchases and activates their device using your link, both of you earn $30 in Meta Quest Store Credit.\n2. **App Referral:** Share an app/game referral link. The member who uses your link gets a 25% discount on their purchase, and you earn a $5 Meta Quest Store Credit."
+          },
+          {
+            "name": "Saving Your Referral Links",
+            "value": "1. **App:** Use `/savereferral app [URL]` to store a new app referral link.\n2. **Device:** Use `/savereferral device [URL]` to store a new device referral link."
+          },
+          {
+            "name": "Requesting Referral Links",
+            "value": "1. **App:** To retrieve an app referral link, type `/getreferral app` and specify the app name when prompted.\n2. **Device:** To obtain a randomized device referral link, type `/getreferral device`."
+          },
+          {
+            "name": "Checking Your Referrals",
+            "value": "Use `/viewreferrals` to see your stored referral links along with their view counts."
+          },
+          {
+            "name": "Meta Dog",
+            "value": "For a broader reach across multiple communities, visit [Meta Dog](https://meta-dog.github.io/meta-dog/)."
+          }
+        ]
       }
     },    
     {
