@@ -1052,7 +1052,7 @@
       "ephemeral": false,
       "embed": {
         "title": "Recommended GPU Drivers",
-        "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)"
+        "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000: [23.4.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-4-2)"
       }
     },
     {
