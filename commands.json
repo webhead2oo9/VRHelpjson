@@ -161,6 +161,167 @@
       ]
     },
     {
+      "name": "quest3straps",
+      "description": "Quest 3 Straps",
+      "ephemeral": false,
+      "embed": {
+        "title": "Quest 3 Straps",
+        "description": "Please select a strap below for more information, or 'Summary' for an overview."
+      },
+      "pages": [
+        {
+          "name": "Summary",
+          "title": "Summary",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Quest 3 Straps",
+              "description": "The Quest 3 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box.",
+              "color": null,
+              "fields": [
+                {
+                  "name": "BOBOVR M3 Mini Sports",
+                  "value": "The BOBOVR M3 mini is a headstrap similar to that of the Meta Elite Strap, but at a cheaper asking price. This is a minimalistic yet comfortable strap.",
+                  "inline": false
+                },
+                {
+                  "name": "BOBOVR M3 Pro",
+                  "value": "The BOBOVR M3 Pro is a popular halo-style strap with a built-in battery.",
+                  "inline": false
+                },
+                {
+                  "name": "Kiwi Comfort Headstrap",
+                  "value": "The Kiwi Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This is the same as the last gen Kiwi Elite Strap but is now retrofitted for Quest 3.",
+                  "inline": false
+                },
+                {
+                  "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
+                  "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3s design, saving you the money of having to purchase a new strap all together.",
+                  "inline": false
+                }
+              ],
+              "thumbnail": {
+                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+              }
+            }
+          ]
+        },
+        {
+          "name": "BOBOVR M3 Mini Sports",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "BOBOVR M3 Mini Sports",
+              "description": "The BOBOVR M3 Mini is a new comfort strap in the old fashion Elite strap-style, it is made to fit nicely around the head without interferance around the ears. It is a simplistic yet comfortable strap\n\nIt can be found in multiple regions and is a good choice for a comfort upgrade.\n\n **Note as of 2023-12-29:** Due to shortages this strap is currently unavailable in many places, including certain regional Amazons. The links below might not work",
+              "url": "https://www.bobovr.com/products/m3-mini",
+              "color": null,
+              "fields": [
+                {
+                  "name": "Info",
+                  "value": "__Included Battery__: No \n __Included Audio__: No",
+                  "inline": true
+                },
+                {
+                  "name": "Store Links",
+                  "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)",
+                  "inline": true
+                }
+              ],
+              "thumbnail": {
+                "url": "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
+              }
+            }
+          ]
+        },
+        {
+          "name": "BOBOVR M3 Pro",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "BOBOVR M3 Pro",
+              "description": "The BOBOVR M3 PRO is a 'halo' style strap that's the new version of the M2 Pro retrofitted for the Quest 3, inbuilt comes the function for hotswappable batteries.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.\n\n **Note as of 2023-12-29:** Due to shortages this strap is currently unavailable in many places, including certain regional Amazons. The links below might not work",
+              "url": "https://www.bobovr.com/products/bobovr-m3-pro",
+              "color": null,
+              "fields": [
+                {
+                  "name": "Info",
+                  "value": "__Included Battery__: Yes \n __Included Audio__: No",
+                  "inline": true
+                },
+                {
+                  "name": "Store Links",
+                  "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [BOBOVRs Site](https://www.bobovr.com/products/bobovr-m3-pro)",
+                  "inline": true
+                }
+              ],
+              "thumbnail": {
+                "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190109050558480424/Untitled.jpg?ex=65a09a6c&is=658e256c&hm=60b72ab5558d547ef2d7be9fa46abfec728565ce7a1db5e4bf7754fc3def4c04&"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Kiwi Comfort Headstrap",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Kiwi Comfort headstrap",
+              "description": "The Kiwi Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. This is the same as the last generation of the Kiwi Elite Strap but is now retrofitted for the Quest 3\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
+              "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
+              "color": null,
+              "fields": [
+                {
+                  "name": "Info",
+                  "value": "__Included Battery__: No \n __Included Audio__: No",
+                  "inline": true
+                },
+                {
+                  "name": "Store Links",
+                  "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [Amazon Canada](https://www.amazon.ca/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [UK](https://www.amazon.co.uk/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ), [KIWIs Website](https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3)",
+                  "inline": true
+                }
+              ],
+              "thumbnail": {
+                "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190110505214423101/KIWIdesign_comfort_head_strap_for_Quest_3_1_440c2370-eb07-4de3-b367-0f8477c7f10f.webp?ex=65a09bc7&is=658e26c7&hm=1f18c1cb4bb2f4da076d4f23b4166889f20468a1197af80c2ed2f5e4675b29c0&"
+              }
+            }
+          ]
+        },
+        {
+          "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "BOBOVR M2 > M3 Pro Retrofit Kit",
+              "description": "BOBOVR has launched a retrofit kit that allows any owners of the BOBOVR M2 Pro to convert their strap into a retrofitted Quest 3 strap. In the kit you will find additional cushions, mounting plastics, screws and a screwdriver.\n\n On the site you will find more information as well as instructions. \n\n **Note as of 2023-12-29:** Due to shortages this kit is currently unavailable in many places, including certain regional Amazons. The links below might not work",
+              "url": "https://www.bobovr.com/products/m2-to-m3-pro",
+              "color": null,
+              "fields": [
+                {
+                  "name": "Info",
+                  "value": "__Included Battery__: No \n __Included Audio__: No",
+                  "inline": true
+                },
+                {
+                  "name": "Store Links",
+                  "value": "[BOBOVRs Website](https://www.bobovr.com/products/m2-to-m3-pro)",
+                  "inline": true
+                }
+              ],
+              "thumbnail": {
+                "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "routers",
       "description": "Recommended Routers",
       "ephemeral": false,
