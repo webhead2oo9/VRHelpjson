@@ -1159,6 +1159,96 @@
     }
   },
   {
+    "name": "questplus",
+    "description": "Info on the Quest Subscription Service, **Quest+**",
+    "embed": {
+      "title": "Meta Quest +",
+      "description": "The below pages contain info on Meta Quest +, click each one to learn more about the program, or 'Summary' for a brief overview.",
+      "pages": [
+        {
+          "name": "Summary",
+          "title": "Summary",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Summary",
+              "description": "Meta Quest+ is Meta's version of Xbox Gamepass - Get 2 monthly games, selected by Meta, to add to your library each month and explore the **Games Catalog** to add even more!",
+              "color": null,
+              "thumbnail": {
+                "url": "https://www.uploadvr.com/content/images/size/w1024/format/webp/2024/02/Meta-Quest-Plus-subscription.png"
+              }
+            },
+          ]
+        },
+        {
+          "name": "Monthly Games",
+          "title": "Monthly Games",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Monthly Games",
+              "description": "Like PlayStation Plus, Meta Quest + grants you access to **two Meta-Curated games** a month, these change every month, and the games being different every month is not guaranteed, you can see what games are free for the month by clicking [here](https://www.meta.com/experiences/meta-quest-plus/)",
+              "color": null,
+              "thumbnail": {
+                "url": "https://www.uploadvr.com/content/images/size/w1024/format/webp/2024/02/Meta-Quest-Plus-subscription.png"
+              }
+            },
+          ]
+        },
+        {
+          "name": "Game Catalog",
+          "title": "Game Catalog",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Game Catalog",
+              "description": "As of March 2024, Meta Quest + now offers a game catalog! These games rotate in and out just like Gamepass, check back in every few months to check whats new, you can see a full list of the currently available titles, [here](https://www.meta.com/experiences/section/746836817401205/)",
+              "color": null,
+              "thumbnail": {
+                "url": ""
+              }
+            },
+          ]
+        },
+        {
+          "name": "Do I keep my games after cancelling?",
+          "title": "Do I keep my games after cancelling?",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Do I keep my games after cancelling?",
+              "description": "No, just like Xbox Gamepass or PlayStation Plus, you lose access to your games once your month is over, until your month is over you will have access to your games however.\n As soon as you resubscribe, you'll regain access to all claimed games, regardless if it's still their month or not.",
+              "color": null,
+              "thumbnail": {
+                "url": ""
+              }
+            },
+          ]
+        },
+        {
+          "name": "Do I get the Rift Versions of these games?",
+          "title": "Do I get the Rift Versions of these games?",
+          "description": "",
+          "emoji": "",
+          "embeds": [
+            {
+              "title": "Do I get the Rift Versions of these games?",
+              "description": "At this moment, no. However this can change in the future.",
+              "color": null,
+              "thumbnail": {
+                "url": ""
+              }
+            },
+          ]
+        },
+      ]
+    }
+  },
+  {
     "name": "ipd",
     "description": "IPD and Its Importance in VR.",
     "ephemeral": false,
