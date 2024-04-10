@@ -1,1221 +1,1530 @@
 [
-    {
-      "name": "queststraps",
-      "description": "Quest 2 Straps",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest 2 Straps",
-        "description": "Please select a strap below for more information, or 'Summary' for an overview."
-      },
-      "pages": [
-        {
-          "name": "Summary",
-          "title": "Summary",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Quest Straps",
-              "description": "The Quest 2 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "BOBOVR M2+",
-                  "value": "The BOBOVR M2 is a popular halo-style strap.",
-                  "inline": false
-                },
-                {
-                  "name": "BOBOVR M2 Pro",
-                  "value": "The BOBOVR M2 Pro is a popular halo-style strap with a built-in battery.",
-                  "inline": false
-                },
-                {
-                  "name": "Kiwi Elite Strap",
-                  "value": "The Kiwi Elite Strap is similar to the official Elite Strap but without the cracking issue of the official strap, and is known to be comfortable.",
-                  "inline": false
-                },
-                {
-                  "name": "Vive Deluxe Audio Strap",
-                  "value": "The Vive Deluxe Audio Strap is a solution using a strap designed for a Vive with integrated audio, but is quite costly.",
-                  "inline": false
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "BOBOVR M2+",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "BOBOVR M2+",
-              "description": "The BOBOVR M2+ is a 'halo'-style strap that's very common in the communinity.\n\nIt can be found in multiple regions, and is generally known to be a good overall choice for comfort and value.",
-              "url": "https://www.bobovr.com/product/m2/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Included Battery__: No \n __Included Audio__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M2-Replacement-Pressure-Comfortable/dp/B08YR8LFH3) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Adjustable-Cushion%EF%BC%8CReplacement-Strap%EF%BC%8CIncrease/dp/B093WNWZRR/) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Replacement-Accessories-Adjustable-Pressure-M2-Strap/dp/B094J91ST9) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935042459333967963/WechatIMG1273.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "BOBOVR M2 Pro",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "BOBOVR M2 Pro",
-              "description": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.",
-              "url": "https://www.bobovr.com/product/m2pro/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Included Battery__: Yes \n __Included Audio__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M2-Pro-Lightweight-Replaceable/dp/B09JNR4Y15) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Pro-Lightweight-Uninterrupted/dp/B09JNR4Y15) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M2-Battery-Replacement-Accessories-White/dp/B09KNF4Q9G) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935048206922944565/WechatIMG1111.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "Kiwi Elite Strap",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Kiwi Elite Strap",
-              "description": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
-              "url": "https://www.kiwidesign.shop/products/upgraded-elite-strap-for-oculus-quest-2",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Included Battery__: No \n __Included Audio__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Accessories-Enhanced-Support/dp/B098JTDPQC) [Amazon Canada](https://www.amazon.ca/KIWI-design-Upgraded-Enhanced-Support/dp/B098JTDPQC) [UK](https://www.amazon.co.uk/KIWI-design-Upgraded-Accessories-Enhanced-Head-Strap/dp/B098JTDPQC), [AliExpress](https://www.aliexpress.com/item/1005003162851232.html)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935115896010203136/KIWIdesign_Meta__Quest_2_EliteStrap_700x700.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "Vive Deluxe Audio Strap",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Vive Deluxe Audio Strap",
-              "description": "The Vive Deluxe Audio Strap is a popular strap due to the integrated audio. However, it is not as popular as it once was due to pricing. \n The Quest 2 has modular strap attachments that support third party straps designed specifically for Quest 2, and as such, other straps like the BOBOVR and Kiwi have been made for far cheaper.\n\n You can get a Vive Deluxe Audio Strap for $100 typically, but you also need a 3D-printed adapter. \n If you do not have a 3D printer, you will have to pay upwards of $20 for the adapter.",
-              "url": "https://www.vive.com/us/accessory/vive-deluxe-audio-strap/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Included Battery__: No \n __Included Audio__: Yes",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/HTC-Vive-Deluxe-Audio-Strap-pc/dp/B06Y2GDXMC) [Amazon Canada](https://www.amazon.ca/HTC-99HAMR001-00-Deluxe-Audio-Strap/dp/B06Y2GDXMC) [Amazon UK](https://www.amazon.co.uk/VIVE-Deluxe-Audio-Strap-schwarz/dp/B072586SVF)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935117590597107742/61aVKko6rkL.png"
-              }
-            }
-          ]
-        }
-      ]
+  {
+    "name": "quest2straps",
+    "description": "Quest 2 Straps",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest 2 Straps",
+      "description": "Please select a strap below for more information, or 'Summary' for an overview."
     },
-    {
-      "name": "routers",
-      "description": "Recommended Routers",
-      "ephemeral": false,
-      "embed": {
-        "title": "Recommended Routers",
-        "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+    "pages": [
+      {
+        "name": "Summary",
+        "title": "Summary",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Quest Straps",
+            "description": "The Quest 2 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos.",
+            "color": null,
+            "fields": [
+              {
+                "name": "BOBOVR M2+",
+                "value": "The BOBOVR M2 is a popular halo-style strap.",
+                "inline": false
+              },
+              {
+                "name": "BOBOVR M2 Pro",
+                "value": "The BOBOVR M2 Pro is a popular halo-style strap with a built-in battery.",
+                "inline": false
+              },
+              {
+                "name": "Kiwi Elite Strap",
+                "value": "The Kiwi Elite Strap is similar to the official Elite Strap but without the cracking issue of the official strap, and is known to be comfortable.",
+                "inline": false
+              },
+              {
+                "name": "Vive Deluxe Audio Strap",
+                "value": "The Vive Deluxe Audio Strap is a solution using a strap designed for a Vive with integrated audio, but is quite costly.",
+                "inline": false
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+            }
+          }
+        ]
       },
-      "pages": [
-        {
-          "name": "main",
-          "title": "Main Page",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Recommended Routers",
-              "description": "The following routers have been reported to work reliably from a number of users.\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE - Wifi 6e *) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AX) - Netgear WAX202 ($60 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+      {
+        "name": "BOBOVR M2+",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "BOBOVR M2+",
+            "description": "The BOBOVR M2+ is a 'halo'-style strap that's very common in the communinity.\n\nIt can be found in multiple regions, and is generally known to be a good overall choice for comfort and value.",
+            "url": "https://www.bobovr.com/product/m2/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: No \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M2-Replacement-Pressure-Comfortable/dp/B08YR8LFH3) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Adjustable-Cushion%EF%BC%8CReplacement-Strap%EF%BC%8CIncrease/dp/B093WNWZRR/) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Replacement-Accessories-Adjustable-Pressure-M2-Strap/dp/B094J91ST9) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935042459333967963/WechatIMG1273.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BOBOVR M2 Pro",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "BOBOVR M2 Pro",
+            "description": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.",
+            "url": "https://www.bobovr.com/product/m2pro/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: Yes \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M2-Pro-Lightweight-Replaceable/dp/B09JNR4Y15) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Pro-Lightweight-Uninterrupted/dp/B09JNR4Y15) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M2-Battery-Replacement-Accessories-White/dp/B09KNF4Q9G) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935048206922944565/WechatIMG1111.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Elite Strap",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Kiwi Elite Strap",
+            "description": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
+            "url": "https://www.kiwidesign.shop/products/upgraded-elite-strap-for-oculus-quest-2",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: No \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Accessories-Enhanced-Support/dp/B098JTDPQC) [Amazon Canada](https://www.amazon.ca/KIWI-design-Upgraded-Enhanced-Support/dp/B098JTDPQC) [UK](https://www.amazon.co.uk/KIWI-design-Upgraded-Accessories-Enhanced-Head-Strap/dp/B098JTDPQC), [AliExpress](https://www.aliexpress.com/item/1005003162851232.html)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935115896010203136/KIWIdesign_Meta__Quest_2_EliteStrap_700x700.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Vive Deluxe Audio Strap",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Vive Deluxe Audio Strap",
+            "description": "The Vive Deluxe Audio Strap is a popular strap due to the integrated audio. However, it is not as popular as it once was due to pricing. \n The Quest 2 has modular strap attachments that support third party straps designed specifically for Quest 2, and as such, other straps like the BOBOVR and Kiwi have been made for far cheaper.\n\n You can get a Vive Deluxe Audio Strap for $100 typically, but you also need a 3D-printed adapter. \n If you do not have a 3D printer, you will have to pay upwards of $20 for the adapter.",
+            "url": "https://www.vive.com/us/accessory/vive-deluxe-audio-strap/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: No \n __Included Audio__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/HTC-Vive-Deluxe-Audio-Strap-pc/dp/B06Y2GDXMC) [Amazon Canada](https://www.amazon.ca/HTC-99HAMR001-00-Deluxe-Audio-Strap/dp/B06Y2GDXMC) [Amazon UK](https://www.amazon.co.uk/VIVE-Deluxe-Audio-Strap-schwarz/dp/B072586SVF)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935117590597107742/61aVKko6rkL.png"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "routers",
+    "description": "Recommended Routers",
+    "ephemeral": false,
+    "embed": {
+      "title": "Recommended Routers",
+      "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+    },
+    "pages": [
+      {
+        "name": "main",
+        "title": "Main Page",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Recommended Routers",
+            "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+            
+          }
+        ]
+      },
+      {
+        "name": "TPLinkC6",
+        "title": "TP-Link Archer C6 or A6",
+        "description": "Low End (AC) - TP-Link C6 or A6",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link Archer C6 or A6",
+            "description": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop.",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7) [Canada](https://www.amazon.ca/Archer-C6-802-11ac-Ethernet-Wireless/dp/B07RWD9ZTW) [UK](https://www.amazon.co.uk/Archer-C6-Wireless-External-Antennas/dp/B07GVR9TG7)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://m.media-amazon.com/images/I/511foPyRPML._AC_SL1000_.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "name": "OpalGLSFT1200",
+        "title": "Opal GL-SFT1200",
+        "description": "Low End (AC) - Opal GL-SFT1200",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Opal GL-SFT1200",
+            "description": "The Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
+            "url": "https://www.gl-inet.com/products/gl-sft1200/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
+                "inline": true
+              },   
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.example.com/image-url.png"
+            }
+          }
+        ]
+      },      
+      {
+        "name": "AsusAX86U",
+        "title": "Asus RT-AX86U",
+        "description": "High End (AX) - Asus RT-AX86U",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Asus RT-AX86U",
+            "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
+            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/ASUS-RT-AX86U-802-11ax-Lifetime-Internet/dp/B08BJHS3X7?) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N?) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB?)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
+            }
+          }          
+        ]
+      },
+      {
+        "name": "TPLinkAXE5400",
+        "title": "TP-Link AXE5400/AXE75",
+        "description": "Dedicated (AXE) - TP-Link AXE5400/AXE75",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link AXE5400/AXE75",
+            "description": "The TP-Link AXE5400/AXE75 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "minion6e",
+        "title": "Davolink Minion 6E",
+        "description": "High End (AXE 6E) - Davolink Minion 6E",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Davolink Minion Kevin 6E",
+            "description": "The 'Kevin' Router is a good dedicated 6E Router, offering one of the best prices on a 6E Router/AP that has been tested.",
+            "url": "http://www.davolink.co.kr/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6E / AC\n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/Davolink-Minions-Kevin-Wi-Fi-Router/dp/B0CJXZSLNM?)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
+            }
+          }
+        ]
+      },   
+      {
+        "name": "tplaxe300",
+        "title": "TP-Link AXE300/AXE16000",
+        "description": "High End (AXE) - TP-Link AXE300/AXE16000",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link AXE300/AXE16000",
+            "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
+            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
+            }
+          }          
+        ]
+      }
+    ]
+  },
+  {
+    "name": "linkcables",
+    "description": "Oculus Quest 1/2 Link Cables",
+    "ephemeral": false,
+    "embed": {
+      "title": "Link Cables",
+      "description": "Please select a cable below for more information, or 'Summary' for an overview.\n These are only tested on Quest 1 and 2, except the INIU."
+    },
+    "pages": [
+      {
+        "name": "Summary",
+        "title": "Summary",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Link Cables",
+            "description": "There are many cables available for the Quest, as it only requires a USB 3.0 connection to work. In the dropdown below, you can see details on multiple cables, including photos.",
+            "color": null,
+            "fields": [
+              {
+                "name": "KIWI Design Link Cable",
+                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.",
+                "inline": false
+              },
+              {
+                "name": "Syntech Link Cable",
+                "value": "The Syntech Design Link Cable is a USB A to C cable that is 4, 5, or 6 meters long, depending on which one you purchase.",
+                "inline": false
+              },
+              {
+                "name": "Kuject USB Link Cable",
+                "value": "Kuject's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever. (Quest 2 Only)'",
+                "inline": false
+              },
+              {
+                "name": "INIU Link Cable",
+                "value": "INIU's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever (Quest 2, Pro & 3)",
+                "inline": false
+              },
+              {
+                "name": "Meta Official Link Cable",
+                "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.",
+                "inline": false
+              },
+              {
+                "name": "Anker Fiber Link Cable",
+                "value": "The anker cable is a very similar cable to the official Meta link cable, but is sold by Anker and has slightly different asthetics. It is also USB C to C.",
+                "inline": false
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Design Link Cable",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Kiwi Design Link Cable",
+            "description": "The Kiwi Design Link Cable is a copper standard cable made by a reputable company.",
+            "url": "https://www.kiwidesign.shop/products/qc-kiwi-design-transfer-charging-compatible ",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M/6M",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA (5M)](https://www.amazon.com/KIWI-design-Accessories-Compatible-Headset/dp/B09N77BGDF) [Amazon Canada (5M)](https://www.amazon.ca/KIWI-design-Compatible-Accessories-High-Speed/dp/B09N77BGDF) [Amazon UK (5M)](https://www.amazon.co.uk/KIWI-design-Compatible-Oculus-Accessories/dp/B09N77BGDF) [AliExpress (6M)](https://s.click.aliexpress.com/e/_DCPk11l)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Syntech Link Cable",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Syntech Link Cable",
+            "description": "The Syntech cable is a copper standard cable made by a smaller company, and is not avalable on Amazon UK or Aliexpress.",
+            "url": "https://syntechhome.com/products/quest-2-link-cable",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 4M/5M/6M",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91) [Amazon Canada](https://www.amazon.ca/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1004914067737169940/unknown.png?width=905&height=905"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kuject USB Link Cable",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Kuject USB A Link Cable",
+            "description": "The Kuject USB C cable is a unique cable in the fact it can support external power, this allows you to have unlimited playtime on link regardless of your USB ports output. (Quest 2)",
+            "url": "https://kuject.com/product/kuject-designed-link-cable-for-oculus-quest-2-smart-chip-supported-charging-while-playing-separated-charging-port-cable-usb-3-0-type-a-to-c-for-vr-headset-accessories-and-gaming-pc-16ft/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/dp/B0BRKKFJ3X/) [Amazon Canada](https://www.amazon.ca/dp/B0BRKKFJ3X/)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1004916959307104336/unknown.png?width=905&height=905"
+            }
+          }
+        ]
+      },
+      {
+        "name": "INIU Link Cable",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "INIU Link Cable",
+            "description": "The INIU Link cable is a unique cable in the fact it can support external power, this allows you to have unlimited playtime on link regardless of your USB ports output. (Quest 2, Pro, and 3)",
+            "url": "https://iniushop.com/collections/cables",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/dp/B0BRQMFDQ3)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://m.media-amazon.com/images/I/81+t8OSS6kL._AC_SL1500_.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Meta Official Link Cable",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Meta Official Link Cable",
+            "description": "The official cable is known to be a reliable good option as it's a lightweight thin fiber optic cable, but it is much more expensive then other options.",
+            "url": "https://store.facebook.com/quest/accessories/quest-2/link-cable/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__USB A or C (PC End)__: C \n __90 Degree Angle__: Yes \n Length: 5M",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/Oculus-Virtual-Reality-Headset-Cable-Gaming/dp/B081SHD773) [Amazon Canada](https://www.amazon.ca/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773) [Amazon UK](https://www.amazon.co.uk/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773/)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Anker Fiber Link Cable",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Anker Fiber Link Cable",
+            "description": "The anker cable is a known good alternative to the official link cable, it is also fiber optic like the official cable, at the same length and pricing.",
+            "url": "https://www.anker.com/products/y2112?ref=seriesProduct",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__USB A or C (PC End)__: C \n __90 Degree Angle__: Yes \n Length: 5M",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/Anker-High-Speed-Transfer-Charging-Compatible/dp/B09G5S9T6V)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1004920165194018836/unknown.png?width=883&height=905"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "welcometoquest",
+    "description": "Quest New User Guide",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest New User Guide",
+      "description": "Please select a section to start"
+    },
+    "pages": [
+      {
+        "name": "Getting Started",
+        "title": "Getting Started",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "So you just got it out of the box, now what?",
+            "description": "",
+            "color": null,
+            "fields": [
+              {
+                "name": "Charge",
+                "value": "Plug in your quest to charge, so after everything is ready you have plenty of battery!",
+                "inline": false
+              },
+              {
+                "name": "Create your account",
+                "value": "Make your Meta account if you haven't already on the Mobile app.",
+                "inline": false
+              },
+              {
+                "name": "Referrals",
+                "value": "Redeem any referrals you got from friends on your Oculus App (only works before activation), or if you need one you can use <#927288276673523782>\n for more information please check out the referrals option.",
+                "inline": false
+              },
+              {
+                "name": "Video Guide",
+                "value": "Follow the [video guide](https://youtu.be/ZBSiZ5Pcjjg) by Oculus, this will help get you setup in your new Quest.",
+                "inline": false
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Referrals",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "What are referrals?",
+            "description": "When setting up a Meta Quest 2 or Meta Quest Pro you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
+            "url": "https://www.oculus.com/quest-2-referrals/",
+            "color": null,
+            "fields": [
+              {
+                "name": "How can a friend send me a referral?",
+                "value": "This option, requires your friend/acquaintance to generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click Menu at the bottom right, there should be a large blue box that starts the referral process.",
+                "inline": true
+              },
+              {
+                "name": "I don't have a friend to give me a referral",
+                "value": "That's fine as well! You can check out <#927288276673523782> for referrals, this will guide you to get a random referral with other members of our community.",
+                "inline": true
+              }
+            ],
+            "image": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056146259800490034/Screenshot_20221224_014744_Meta_Quest.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Anything you should avoid?",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Anything I should avoid?",
+            "description": "As you are new to VR, there are a few things you should consider.",
+            "color": null,
+            "fields": [
+              {
+                "name": "Guardian",
+                "value": "Make sure you set your guardian in a nice open area with nothing to hit\n I'd personally advise you give a little buffer on top, when your new it's pretty easy to get a bit excited and swing past the guardian as well.",
+                "inline": false
+              },
+              {
+                "name": "Sunlight",
+                "value": "Make sure you keep the lenses (the part you look into, not the cameras) away from direct sun, as that can burn the displays inside the headset rather quickly.",
+                "inline": false
+              },
+              {
+                "name": "Sickness",
+                "value": "If you start to feel sick, make sure you take breaks! Pushing through it can make it worse in a lot of cases.",
+                "inline": false
+              },
+              {
+                "name": "Cleaning the lenses",
+                "value": "Make sure you don't use any cleaning liquids on your lenses, and only use microfiber cloths.",
+                "inline": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "What games should I start with?",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "What games to start with?",
+            "description": "One thing to consider when looking into new games is the comfort rating, as your new to VR you would want to look into more 'comfortable' experiences until you get more familiar with VR.\n Here is some reccomendations to get started.",
+            "color": null,
+            "fields": [
+              {
+                "name": "Free",
+                "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[Rec Room](https://www.oculus.com/experiences/quest/2173678582678296/)",
+                "inline": false
+              },
+              {
+                "name": "Paid - Get Moving",
+                "value": "[Beat Saber](https://www.oculus.com/experiences/quest/2448060205267927)\n[Synth Riders](https://www.oculus.com/experiences/quest/2436558143118760)\n[The Light Brigade](https://www.meta.com/experiences/2681027292004911/)\n[COMPOUND](https://www.meta.com/experiences/5472934942761937/)\n[Thrill Of The Fight](https://www.oculus.com/experiences/quest/3008315795852749)",
+                "inline": false
+              },
+              {
+                "name": "Paid - Great Stationary",
+                "value": "[I Expect You To Die 2](https://www.oculus.com/experiences/quest/2970998659623177)\n[Real VR Fishing](https://www.meta.com/experiences/2582932495064035/)\n[Puzzling Places](https://www.meta.com/experiences/3931148300302917/)\n[Moss 2](https://www.oculus.com/experiences/quest/4395292760584049/)\n[Tetris Effect](https://www.oculus.com/experiences/quest/3386618894743567)\n[Vermillion](https://www.oculus.com/experiences/quest/4900967296622279)",
+                "inline": false
+              },
+              {
+                "name": "Paid - Great Multiplayer",
+                "value": "[Among Us](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov](https://www.oculus.com/experiences/quest/3649611198468269/)",
+                "inline": false
+              },
+              {
+                "name": "Other Guides",
+                "value": "Check out [Gibby's Guide](https://gibbysguide.org/content/gibbysguidev24_lores.pdf) as they make a monthly guide on new content!",
+                "inline": false
+              }
+
               
-            }
-          ]
-        },
-        {
-          "name": "TPLinkC6",
-          "title": "TP-Link Archer C6 or A6",
-          "description": "Low End (AC) - TP-Link C6 or A6",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "TP-Link Archer C6 or A6",
-              "description": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop.",
-              "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "TPLinkAXE5400",
-          "title": "TP-Link AXE5400/AXE75",
-          "description": "Dedicated (AXE) - TP-Link AXE5400/AXE75",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "TP-Link AXE5400/AXE75",
-              "description": "The TP-Link AXE5400/AXE75 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
-              "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
-              }
-            }
-          ]
-        },    
-        {
-          "name": "OpalGLSFT1200",
-          "title": "Opal GL-SFT1200",
-          "description": "Low End (AC) - Opal GL-SFT1200",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Opal GL-SFT1200",
-              "description": "The Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
-              "url": "https://www.gl-inet.com/products/gl-sft1200/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Dedicated Bridging Setup",
-                  "value": "Follow the [Opal Travel Router Setup Guide](https://discord.com/channels/564087419918483486/692030889932095529/1081059165713207326) or use r/opal for further information.",
-                  "inline": true
-                },     
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.example.com/image-url.png"
-              }
-            }
-          ]
-        },      
-        {
-          "name": "WAX202",
-          "title": "Netgear WAX202",
-          "description": "Low End (AX) - Netgear WAX202",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Netgear WAX202",
-              "description": "The WAX202 is a good dedicated router specifically for wireless VR usage, it's priced well for an AX router and can function as an AP.",
-              "url": "https://www.netgear.com/business/wifi/access-points/wax202/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6 / AC\n__Supports DFS__: No",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/NETGEAR-4-Stream-Dual-Band-Gigabit-Router/dp/B097HMLTQX) [Canada](https://www.amazon.ca/NETGEAR-Wireless-Desktop-Access-WAX202/dp/B097HMLTQX) [UK](https://www.amazon.co.uk/NETGEAR-Wireless-Access-Point-WAX202/dp/B098FGSHXH)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1030167263011151994/WAX202.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "AsusAX86U",
-          "title": "Asus RT-AX86U",
-          "description": "High End (AX) - Asus RT-AX86U",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Asus RT-AX86U",
-              "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
-              "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[USA](https://www.amazon.com/ASUS-RT-AX86U-802-11ax-Lifetime-Internet/dp/B08BJHS3X7) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
-              }
-            }          
-          ]
-        }
-      ]
-    },
-    {
-      "name": "linkcables",
-      "description": "Oculus Quest Link Cables",
-      "ephemeral": false,
-      "embed": {
-        "title": "Link Cables",
-        "description": "Please select a cable below for more information, or 'Summary' for an overview."
+            ]
+          }
+        ]
       },
-      "pages": [
-        {
-          "name": "Summary",
-          "title": "Summary",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Link Cables",
-              "description": "There are many cables available for the Quest, as it only requires a USB 3.0 connection to work. In the dropdown below, you can see details on multiple cables, including photos.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "KIWI Design Link Cable",
-                  "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.",
-                  "inline": false
-                },
-                {
-                  "name": "Syntech Link Cable",
-                  "value": "The Syntech Design Link Cable is a USB A to C cable that is 4, 5, or 6 meters long, depending on which one you purchase.",
-                  "inline": false
-                },
-                {
-                  "name": "Kuject USB Link Cable",
-                  "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever.'",
-                  "inline": false
-                },
-                {
-                  "name": "Meta Official Link Cable",
-                  "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.",
-                  "inline": false
-                },
-                {
-                  "name": "Anker Fiber Link Cable",
-                  "value": "The anker cable is a very similar cable to the official Meta link cable, but is sold by Anker and has slightly different asthetics. It is also USB C to C.",
-                  "inline": false
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+      {
+        "name": "What else can I do with my quest?",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "What else can I do?",
+            "description": "Looking through the store and can't find something that suits you?",
+            "color": null,
+            "fields": [
+              {
+                "name": "Other stores",
+                "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto), or [App Lab](https://www.applabdb.com/)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
+                "inline": false
+              },
+              {
+                "name": "Explore",
+                "value": "Explore the world in [Wooorld](https://www.oculus.com/experiences/quest/4360608937312293) with friends.",
+                "inline": false
+              },
+              {
+                "name": "Watch Something",
+                "value": "You can try 3D Movies out in [Bigscreen](https://www.oculus.com/experiences/quest/2497738113633933/), either with new friends or old, go solo in Meta Quest TV and check out their collection or join a live event in [Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/).",
+                "inline": false
+              },
+              {
+                "name": "Productivity",
+                "value": "You can be productive, use it as a virtual computer with multi tasking with browsers, or connected to a computer with programs like [Workrooms](https://www.oculus.com/experiences/quest/2514011888645651), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772), [vSpacial](https://www.oculus.com/experiences/quest/2540393919317658), and [Immersed](https://www.oculus.com/experiences/quest/2849273531812512/)",
+                "inline": false
+              },
+              {
+                "name": "PCVR",
+                "value": "You can also play PC VR games with a [VR Ready PC](https://support.oculus.com/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)!",
+                "inline": false
               }
-            }
-          ]
-        },
-        {
-          "name": "Kiwi Design Link Cable",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Kiwi Design Link Cable",
-              "description": "The Kiwi Design Link Cable is a copper standard cable made by a reputable company.",
-              "url": "https://www.kiwidesign.shop/products/qc-kiwi-design-transfer-charging-compatible ",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M/6M",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA (5M)](https://www.amazon.com/KIWI-design-Accessories-Compatible-Headset/dp/B09N77BGDF) [Amazon Canada (5M)](https://www.amazon.ca/KIWI-design-Compatible-Accessories-High-Speed/dp/B09N77BGDF) [Amazon UK (5M)](https://www.amazon.co.uk/KIWI-design-Compatible-Oculus-Accessories/dp/B09N77BGDF) [AliExpress (6M)](https://s.click.aliexpress.com/e/_DCPk11l)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
-              }
-            }
-          ]
-        },
-        {
-          "name": "Syntech Link Cable",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Syntech Link Cable",
-              "description": "The Syntech cable is a copper standard cable made by a smaller company, and is not avalable on Amazon UK or Aliexpress.",
-              "url": "https://syntechhome.com/products/quest-2-link-cable",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 4M/5M/6M",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91) [Amazon Canada](https://www.amazon.ca/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://media.discordapp.net/attachments/875149053221019668/1004914067737169940/unknown.png?width=905&height=905"
-              }
-            }
-          ]
-        },
-        {
-          "name": "Kuject USB Link Cable",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Kuject USB A Link Cable",
-              "description": "The Kuject USB C cable is a unique cable in the fact it can support external power, this allows you to have unlimited playtime on link regardless of your USB ports output.",
-              "url": "https://kuject.com/product/kuject-designed-link-cable-for-oculus-quest-2-smart-chip-supported-charging-while-playing-separated-charging-port-cable-usb-3-0-type-a-to-c-for-vr-headset-accessories-and-gaming-pc-16ft/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/dp/B0BRKKFJ3X/) [Amazon Canada](https://www.amazon.ca/dp/B0BRKKFJ3X/)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://media.discordapp.net/attachments/875149053221019668/1004916959307104336/unknown.png?width=905&height=905"
-              }
-            }
-          ]
-        },
-        {
-          "name": "Meta Official Link Cable",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Meta Official Link Cable",
-              "description": "The official cable is known to be a reliable good option as it's a lightweight thin fiber optic cable, but it is much more expensive then other options.",
-              "url": "https://store.facebook.com/quest/accessories/quest-2/link-cable/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__USB A or C (PC End)__: C \n __90 Degree Angle__: Yes \n Length: 5M",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/Oculus-Virtual-Reality-Headset-Cable-Gaming/dp/B081SHD773) [Amazon Canada](https://www.amazon.ca/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773) [Amazon UK](https://www.amazon.co.uk/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773/)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
-              }
-            }
-          ]
-        },
-        {
-          "name": "Anker Fiber Link Cable",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Anker Fiber Link Cable",
-              "description": "The anker cable is a known good alternative to the official link cable, it is also fiber optic like the official cable, at the same length and pricing.",
-              "url": "https://www.anker.com/products/y2112?ref=seriesProduct",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Info",
-                  "value": "__USB A or C (PC End)__: C \n __90 Degree Angle__: Yes \n Length: 5M",
-                  "inline": true
-                },
-                {
-                  "name": "Store Links",
-                  "value": "[Amazon USA](https://www.amazon.com/Anker-High-Speed-Transfer-Charging-Compatible/dp/B09G5S9T6V)",
-                  "inline": true
-                }
-              ],
-              "thumbnail": {
-                "url": "https://media.discordapp.net/attachments/875149053221019668/1004920165194018836/unknown.png?width=883&height=905"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "welcometoquest",
-      "description": "Quest New User Guide",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest New User Guide",
-        "description": "Please select a section to start"
+            ]
+          }
+        ]
       },
-      "pages": [
-        {
-          "name": "Getting Started",
-          "title": "Getting Started",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "So you just got it out of the box, now what?",
-              "description": "",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Charge",
-                  "value": "Plug in your quest to charge, so after everything is ready you have plenty of battery!",
-                  "inline": false
-                },
-                {
-                  "name": "Create your account",
-                  "value": "Make your Meta account if you haven't already on the Mobile app.",
-                  "inline": false
-                },
-                {
-                  "name": "Referrals",
-                  "value": "Redeem any referrals you got from friends on your Oculus App (only works before activation), or if you need one you can use <#927288276673523782>\n for more information please check out the referrals option.",
-                  "inline": false
-                },
-                {
-                  "name": "Video Guide",
-                  "value": "Follow the [video guide](https://youtu.be/ZBSiZ5Pcjjg) by Oculus, this will help get you setup in your new Quest.",
-                  "inline": false
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+      {
+        "name": "What about PCVR?",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "PCVR",
+            "description": "As long as you have a VR Ready PC, you can play PC VR either wired or wireless! This does include SteamVR Games as well.",
+            "color": null,
+            "fields": [
+              {
+                "name": "Wired",
+                "value": "You can play wired PC VR using Oculus Link and a USB 3.0 cable.",
+                "inline": false
+              },
+              {
+                "name": "Wireless",
+                "value": "You can play wirelessly using [Air Link](https://support.oculus.com/airlink/), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772/), [Steam Link](https://www.meta.com/experiences/5841245619310585/) or [ALVR](https://github.com/alvr-org/ALVR).",
+                "inline": false
+              },
+              {
+                "name": "Where should I buy my games for PCVR?",
+                "value": "A lot of people prefer Steam, and I agree - however I would check to see if the game is [crossbuy](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635) before you buy on steam, as a 'crossbuy' title you can buy on Quest and get on the Rift store and Quest store. (PC and Quest at the same time).",
+                "inline": false
               }
-            }
-          ]
-        },
-        {
-          "name": "Referrals",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "What are referrals?",
-              "description": "When setting up a Meta Quest 2 or Meta Quest Pro you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
-              "url": "https://www.oculus.com/quest-2-referrals/",
-              "color": null,
-              "fields": [
-                {
-                  "name": "How can a friend send me a referral?",
-                  "value": "This option, requires your friend/acquaintance to generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click Menu at the bottom right, there should be a large blue box that starts the referral process.",
-                  "inline": true
-                },
-                {
-                  "name": "I don't have a friend to give me a referral",
-                  "value": "That's fine as well! You can check out <#927288276673523782> for referrals, this will guide you to get a random referral with other members of our community.",
-                  "inline": true
-                }
-              ],
-              "image": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056146259800490034/Screenshot_20221224_014744_Meta_Quest.png"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Accessories - Quest 2 Headstrap",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Quest 2 Straps",
+            "description": "The Quest has replaceable straps you can find from different vendors, here is the most popular in our community.",
+            "color": null,
+            "fields": [
+              {
+                "name": "BOBOVR M2+",
+                "value": "The BOBOVR M2+ is a 'halo'-style strap that's very common in the communinity.\n It can be found in multiple regions, from multiple websites. \n This strap does not have a built in battery.\n[Amazon US](https://www.amazon.com/BOBOVR-M2-Replacement-Pressure-Comfortable/dp/B08YR8LFH3)",
+                "inline": false
+              },
+              {
+                "name": "BOBOVR M2 Pro",
+                "value": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n It can be found in most regions, but not as many as the main one as this does support a hotswappable battery, and that can limit it's shipping locations.\n[Amazon US](https://www.amazon.com/Compatible-Connection-Lightweight-Replaceable-Accessories-Quest2/dp/B09JNR4Y15)",
+                "inline": false
+              },
+              {
+                "name": "Kiwi Elite Strap",
+                "value": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases.\n This does not include a battery.\n[Amazon US](https://www.amazon.com/KIWI-design-Upgraded-Oculus-Battery/dp/B09JKQXFZY/)",
+                "inline": false
               }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151426822311946/shopping.png"
             }
-          ]
-        },
-        {
-          "name": "Anything you should avoid?",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Anything I should avoid?",
-              "description": "As you are new to VR, there are a few things you should consider.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Guardian",
-                  "value": "Make sure you set your guardian in a nice open area with nothing to hit\n I'd personally advise you give a little buffer on top, when your new it's pretty easy to get a bit excited and swing past the guardian as well.",
-                  "inline": false
-                },
-                {
-                  "name": "Sunlight",
-                  "value": "Make sure you keep the lenses (the part you look into, not the cameras) away from direct sun, as that can burn the displays inside the headset rather quickly.",
-                  "inline": false
-                },
-                {
-                  "name": "Sickness",
-                  "value": "If you start to feel sick, make sure you take breaks! Pushing through it can make it worse in a lot of cases.",
-                  "inline": false
-                },
-                {
-                  "name": "Cleaning the lenses",
-                  "value": "Make sure you don't use any cleaning liquids on your lenses, and only use microfiber cloths.",
-                  "inline": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "What games should I start with?",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "What games to start with?",
-              "description": "One thing to consider when looking into new games is the comfort rating, as your new to VR you would want to look into more 'comfortable' experiences until you get more familiar with VR.\n Here is some reccomendations to get started.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Free",
-                  "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[EchoVR](https://www.oculus.com/experiences/quest/2215004568539258/)\n[Pavlov](https://www.oculus.com/experiences/quest/3649611198468269/)\n[RecRoom](https://www.oculus.com/experiences/quest/2173678582678296/)",
-                  "inline": false
-                },
-                {
-                  "name": "Paid - Get Moving",
-                  "value": "[Beat Saber](https://www.oculus.com/experiences/quest/2448060205267927)\n[Synth Riders](https://www.oculus.com/experiences/quest/2436558143118760)\n[Thrill Of The Fight](https://www.oculus.com/experiences/quest/3008315795852749)",
-                  "inline": false
-                },
-                {
-                  "name": "Paid - Great Stationary",
-                  "value": "[I Expect You To Die 2](https://www.oculus.com/experiences/quest/2970998659623177)\n[Moss 2](https://www.oculus.com/experiences/quest/4395292760584049/)\n[Tetris Effect](https://www.oculus.com/experiences/quest/3386618894743567)\n[Vermillion](https://www.oculus.com/experiences/quest/4900967296622279)",
-                  "inline": false
-                },
-                {
-                  "name": "Paid - Great Multiplayer",
-                  "value": "[Among Us](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)",
-                  "inline": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "What else can I do with my quest?",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "What else can I do?",
-              "description": "Looking through the store and can't find something that suits you?",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Other stores",
-                  "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto), or [App Lab](https://www.applabdb.com/)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
-                  "inline": false
-                },
-                {
-                  "name": "Explore",
-                  "value": "Explore the world in [Wooorld](https://www.oculus.com/experiences/quest/4360608937312293) with friends.",
-                  "inline": false
-                },
-                {
-                  "name": "Watch Something",
-                  "value": "You can try 3D Movies out in [Bigscreen](https://www.oculus.com/experiences/quest/2497738113633933/), either with new friends or old, go solo in Meta Quest TV and check out their collection or join a live event in [Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/).",
-                  "inline": false
-                },
-                {
-                  "name": "Productivity",
-                  "value": "You can be productive, use it as a virtual computer with multi tasking with browsers, or connected to a computer with programs like [Workrooms](https://www.oculus.com/experiences/quest/2514011888645651), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772), [vSpacial](https://www.oculus.com/experiences/quest/2540393919317658), and [Immersed](https://www.oculus.com/experiences/quest/2849273531812512/)",
-                  "inline": false
-                },
-                {
-                  "name": "PCVR",
-                  "value": "You can also play PC VR games with a [VR Ready PC](https://support.oculus.com/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)!",
-                  "inline": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "What about PCVR?",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "PCVR",
-              "description": "As long as you have a VR Ready PC, you can play PC VR either wired or wireless! This does include SteamVR Games as well.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Wired",
-                  "value": "You can play wired PC VR using Oculus Link and a USB 3.0 cable.",
-                  "inline": false
-                },
-                {
-                  "name": "Wireless",
-                  "value": "You can play wirelessly using [Air Link](https://support.oculus.com/airlink/), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772/), or [ALVR](https://github.com/alvr-org/ALVR).",
-                  "inline": false
-                },
-                {
-                  "name": "Where should I buy my games for PCVR?",
-                  "value": "A lot of people prefer Steam, and I agree - however I would check to see if the game is [crossbuy](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635) before you buy on steam, as a 'crossbuy' title you can buy on Quest and get on the Rift store and Quest store. (PC and Quest at the same time).",
-                  "inline": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Accessories - Headstrap",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Quest Straps",
-              "description": "The Quest has replaceable straps you can find from different vendors, here is the most popular in our community.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "BOBOVR M2+",
-                  "value": "The BOBOVR M2+ is a 'halo'-style strap that's very common in the communinity.\n It can be found in multiple regions, from multiple websites. \n This strap does not have a built in battery.\n[Amazon US](https://www.amazon.com/BOBOVR-M2-Replacement-Pressure-Comfortable/dp/B08YR8LFH3)",
-                  "inline": false
-                },
-                {
-                  "name": "BOBOVR M2 Pro",
-                  "value": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n It can be found in most regions, but not as many as the main one as this does support a hotswappable battery, and that can limit it's shipping locations.\n[Amazon US](https://www.amazon.com/Compatible-Connection-Lightweight-Replaceable-Accessories-Quest2/dp/B09JNR4Y15)",
-                  "inline": false
-                },
-                {
-                  "name": "Kiwi Elite Strap",
-                  "value": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases.\n This does not include a battery.\n[Amazon US](https://www.amazon.com/KIWI-design-Upgraded-Oculus-Battery/dp/B09JKQXFZY/)",
-                  "inline": false
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151426822311946/shopping.png"
+          }
+        ]
+      },
+      {
+        "name": "Accessories - Quest 2 Facial Interface",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Quest 2 Facial Interfaces",
+            "description": "The Quest has a replaceable facial interface, as well as covers you can put over the existing facial interface.",
+            "color": null,
+            "fields": [
+              {
+                "name": "Included Silicon Cover",
+                "value": "Meta now includes a Silicon Cover for the existing facial interface, it's suggested to try this before replacing the interface to see if you are comfortable with it as is.",
+                "inline": false
+              },
+              {
+                "name": "VRCover",
+                "value": "VRCover makes multiple different replacement interfaces as well as other accessories, and people have had good results with this as a replacement gasket.\n[Amazon US](https://www.amazon.com/Interface-Replacement-Standard-Not-Machine-Specific/dp/B08HMQK73M)",
+                "inline": false
+              },
+              {
+                "name": "AMVR",
+                "value": "AMVR makes a few Quest solutions, and has a gasket designed specifically for airflow that has positive reviews.\n[Amazon US](https://www.amazon.com/AMVR-Resilient-Anti-Leakage-Replacement-Accessories/dp/B08ZMYF69S)",
+                "inline": false
               }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151854586802186/01-oculus-quest-2.png"
             }
-          ]
-        },
-        {
-          "name": "Accessories - Facial Interface",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Quest Facial Interfaces",
-              "description": "The Quest has a replaceable facial interface, as well as covers you can put over the existing facial interface.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "Included Silicon Cover",
-                  "value": "Meta now includes a Silicon Cover for the existing facial interface, it's suggested to try this before replacing the interface to see if you are comfortable with it as is.",
-                  "inline": false
-                },
-                {
-                  "name": "VRCover",
-                  "value": "VRCover makes multiple different replacement interfaces as well as other accessories, and people have had good results with this as a replacement gasket.\n[Amazon US](https://www.amazon.com/Interface-Replacement-Standard-Not-Machine-Specific/dp/B08HMQK73M)",
-                  "inline": false
-                },
-                {
-                  "name": "AMVR",
-                  "value": "AMVR makes a few Quest solutions, and has a gasket designed specifically for airflow that has positive reviews.\n[Amazon US](https://www.amazon.com/AMVR-Resilient-Anti-Leakage-Replacement-Accessories/dp/B08ZMYF69S)",
-                  "inline": false
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151854586802186/01-oculus-quest-2.png"
+          }
+        ]
+      },
+      {
+        "name": "Accessories - Controller - Quest 2 Grips",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Quest 2 Controller Grips",
+            "description": "The Quest 2 controllers do include a strap that you put around your wrist.\n Some people however prefer a 'knuckles' style grip that you can let go of the controller and keep playing, here's a few brands below.",
+            "color": null,
+            "fields": [
+              {
+                "name": "AUBIKA Grip",
+                "value": "The AUBIKA grip is a knuckeles style grip, however it has a built in rechargeable battery, which gets rid of the need for AA's as well, this is a new option that does not have a lot of reviews so far, but current reviews are positive.\n[Amazon US](https://www.amazon.com/Rechargeable-Controller-Oculus-Quest-Accessories-2/dp/B0BHSTZJ94/)",
+                "inline": false
+              },
+              {
+                "name": "Kiwi Grip",
+                "value": "Kiwi sells a knuckles style grip that has great reviews and is suitable for larger hands. This does not include a rechargeable battery\n[Amazon US](https://www.amazon.com/KIWI-design-Controller-Adjustable-Accessories/dp/B09J8HJMFK/)",
+                "inline": false
+              },
+              {
+                "name": "AMVR Grip",
+                "value": "AMVR sells a knuckles style grip that also has a battery door.\n [Amazon US](https://www.amazon.com/Controller-Anti-Throw-Accessories-Battery-Opening-Adjustable/dp/B09HC4DFVM/)",
+                "inline": false
               }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152099873882212/media.png"
             }
-          ]
-        },
-        {
-          "name": "Accessories - Controller Grips",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Controller Grips",
-              "description": "The Quest 2 controllers do include a strap that you put around your wrist.\n Some people however prefer a 'knuckles' style grip that you can let go of the controller and keep playing, here's a few brands below.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "AUBIKA Grip",
-                  "value": "The AUBIKA grip is a knuckeles style grip, however it has a built in rechargeable battery, which gets rid of the need for AA's as well, this is a new option that does not have a lot of reviews so far, but current reviews are positive.\n[Amazon US](https://www.amazon.com/Rechargeable-Controller-Oculus-Quest-Accessories-2/dp/B0BHSTZJ94/)",
-                  "inline": false
-                },
-                {
-                  "name": "Kiwi Grip",
-                  "value": "Kiwi sells a knuckles style grip that has great reviews and is suitable for larger hands. This does not include a rechargeable battery\n[Amazon US](https://www.amazon.com/KIWI-design-Controller-Adjustable-Accessories/dp/B09J8HJMFK/)",
-                  "inline": false
-                },
-                {
-                  "name": "AMVR Grip",
-                  "value": "AMVR sells a knuckles style grip that also has a battery door.\n [Amazon US](https://www.amazon.com/Controller-Anti-Throw-Accessories-Battery-Opening-Adjustable/dp/B09HC4DFVM/)",
-                  "inline": false
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152099873882212/media.png"
+          }
+        ]
+      },
+      {
+        "name": "Accessories - Link Cables",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Quest Link Cables",
+            "description": "There are many cables available for the Quest, as it only requires a USB 3.0 connection to work. Here is some examples, but you can find other vendors as well. Only tested on Quest 2.",
+            "color": null,
+            "fields": [
+              {
+                "name": "KIWI Design Link Cable",
+                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.\n [Amazon US](https://www.amazon.com/KIWI-design-Accessories-Compatible-Headset/dp/B09N77BGDF)",
+                "inline": false
+              },
+              {
+                "name": "Syntech Link Cable",
+                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 4, 5, or 6 meters long, depending on which one you purchase.\n[Amazon US](https://www.amazon.com/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91)",
+                "inline": false 
+              },
+              {
+                "name": "Kuject USB Link Cable",
+                "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever. **Not on quest 3** \n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
+                "inline": false 
+              },
+              {
+                "name": "INIU Link Cable",
+                "value": "INIU's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever (Quest 2, Pro & 3)",
+                "inline": false
+              },                
+              {
+                "name": "Meta Official Link Cable",
+                "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.\n[Amazon US](https://www.amazon.com/Oculus-Virtual-Reality-Headset-Cable-Gaming/dp/B081SHD773)",
+                "inline": false 
               }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152249912524840/oculus_quest_2_usb_port.png"
             }
-          ]
-        },
+          }
+        ]
+      },
+      {
+        "name": "Support",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Support",
+            "description": "If you are having issues with your Quest, please check out <#1030166436297064510>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "volunteersupport",
+    "description": "Support is volunteer driven.",
+    "ephemeral": false,
+    "embed": {
+      "title": "Support is volunteer-driven",
+      "description": "Be patient, be civil, and be descriptive about your issues.\n\nAll support is volunteer driven, we help who we can as we can. Not everyone knows how to help you, and not everyone will. Avoid pinging staff directly, they are volunteers too and will assist when possible.\n\nBe as descriptive as you can with your issue; it's a lot more likely someone will remember something if they see a keyword that helps them.",
+      "fields": [
         {
-          "name": "Accessories - Link Cables",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Quest Link Cables",
-              "description": "There are many cables available for the Quest, as it only requires a USB 3.0 connection to work. Here is some examples, but you can find other vendors as well.",
-              "color": null,
-              "fields": [
-                {
-                  "name": "KIWI Design Link Cable",
-                  "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.\n [Amazon US](https://www.amazon.com/KIWI-design-Accessories-Compatible-Headset/dp/B09N77BGDF)",
-                  "inline": false
-                },
-                {
-                  "name": "Syntech Link Cable",
-                  "value": "The Kiwi Design Link Cable is a USB A to C cable that is 4, 5, or 6 meters long, depending on which one you purchase.\n[Amazon US](https://www.amazon.com/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91)",
-                  "inline": false 
-                },
-                {
-                  "name": "Kuject USB Link Cable",
-                  "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever.\n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
-                  "inline": false 
-                },
-                {
-                  "name": "Meta Official Link Cable",
-                  "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.\n[Amazon US](https://www.amazon.com/Oculus-Virtual-Reality-Headset-Cable-Gaming/dp/B081SHD773)",
-                  "inline": false 
-                }
-              ],
-              "thumbnail": {
-                "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152249912524840/oculus_quest_2_usb_port.png"
-              }
-            }
-          ]
-        },
-        {
-          "name": "Support",
-          "description": "",
-          "emoji": "",
-          "embeds": [
-            {
-              "title": "Support",
-              "description": "If you are having issues with your Quest, please check out <#1030166436297064510>"
-            }
-          ]
+          "name": "Ask in One Channel",
+          "value": "Posting the same issue in multiple channel leads to confusion, reduces the willingness of volunteers to assist, and does not accelerate response times. Stick to #support channels for each issue."
         }
       ]
+    }
+  },
+  {
+    "name": "quest3straps",
+    "description": "Quest 3 Straps",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest 3 Straps",
+      "description": "Please select a strap below for more information, or 'Summary' for an overview."
     },
-    {
-      "name": "volunteersupport",
-      "description": "Support is volunteer driven.",
-      "ephemeral": false,
-      "embed": {
-        "title": "Support is volunteer-driven",
-        "description": "Be patient, be civil, and be descriptive about your issues.\n\n All support is volunteer driven; we help who we can as we can. Not everyone knows how to help you, and not everyone will.\n\n Be as descriptive as you can with your issue; it's a lot more likely someone will remember something if they see a keyword that helps them.\n\n",
-        "footer": {
-          "text": "Check out #support for more information."
+    "pages": [
+      {
+        "name": "Summary",
+        "title": "Summary",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Quest 3 Straps",
+            "description": "The Quest 3 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box.",
+            "color": null,
+            "fields": [
+              {
+                "name": "BOBOVR M3 Mini Sports",
+                "value": "The BOBOVR M3 mini is a headstrap similar to that of the Meta Elite Strap, but at a cheaper asking price. This is a minimalistic yet comfortable strap.",
+                "inline": false
+              },
+              {
+                "name": "BOBOVR M3 Pro",
+                "value": "The BOBOVR M3 Pro is a popular halo-style strap with a built-in battery.",
+                "inline": false
+              },
+              {
+                "name": "Kiwi Comfort Headstrap",
+                "value": "The Kiwi Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This is the same as the last gen Kiwi Elite Strap but is now retrofitted for Quest 3.",
+                "inline": false
+              },
+              {
+                "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
+                "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3s design, saving you the money of having to purchase a new strap all together.",
+                "inline": false
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BOBOVR M3 Mini Sports",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "BOBOVR M3 Mini Sports",
+            "description": "The BOBOVR M3 Mini is a new comfort strap in the old fashion Elite strap-style, it is made to fit nicely around the head without interferance around the ears. It is a simplistic yet comfortable strap\n\nIt can be found in multiple regions and is a good choice for a comfort upgrade.\n\n **Note as of 2023-12-29:** Due to shortages this strap is currently unavailable in many places, including certain regional Amazons. The links below might not work",
+            "url": "https://www.bobovr.com/products/m3-mini",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: No \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BOBOVR M3 Pro",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "BOBOVR M3 Pro",
+            "description": "The BOBOVR M3 PRO is a 'halo' style strap that's the new version of the M2 Pro retrofitted for the Quest 3, inbuilt comes the function for hotswappable batteries.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.\n\n **Note as of 2023-12-29:** Due to shortages this strap is currently unavailable in many places, including certain regional Amazons. The links below might not work",
+            "url": "https://www.bobovr.com/products/bobovr-m3-pro",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: Yes \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [BOBOVRs Site](https://www.bobovr.com/products/bobovr-m3-pro)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190109050558480424/Untitled.jpg?ex=65a09a6c&is=658e256c&hm=60b72ab5558d547ef2d7be9fa46abfec728565ce7a1db5e4bf7754fc3def4c04&"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Comfort Headstrap",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Kiwi Comfort headstrap",
+            "description": "The Kiwi Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. This is the same as the last generation of the Kiwi Elite Strap but is now retrofitted for the Quest 3\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
+            "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: No \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [Amazon Canada](https://www.amazon.ca/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [UK](https://www.amazon.co.uk/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ), [KIWIs Website](https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190110505214423101/KIWIdesign_comfort_head_strap_for_Quest_3_1_440c2370-eb07-4de3-b367-0f8477c7f10f.webp?ex=65a09bc7&is=658e26c7&hm=1f18c1cb4bb2f4da076d4f23b4166889f20468a1197af80c2ed2f5e4675b29c0&"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "BOBOVR M2 > M3 Pro Retrofit Kit",
+            "description": "BOBOVR has launched a retrofit kit that allows any owners of the BOBOVR M2 Pro to convert their strap into a retrofitted Quest 3 strap. In the kit you will find additional cushions, mounting plastics, screws and a screwdriver.\n\n On the site you will find more information as well as instructions. \n\n **Note as of 2023-12-29:** Due to shortages this kit is currently unavailable in many places, including certain regional Amazons. The links below might not work",
+            "url": "https://www.bobovr.com/products/m2-to-m3-pro",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: No \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[BOBOVRs Website](https://www.bobovr.com/products/m2-to-m3-pro)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vdresolution",
+    "description": "Quest - Virtual Desktop - Resolution",
+    "ephemeral": false,
+    "embed": {
+      "title": "Sharing Screenshots of the Performance Overlay",
+      "description": "Render Resolution __per eye__",
+      "fields": [
+        {
+          "name": "Quest",
+          "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
         },
-        "color": 15548997,
-        "fields": [
-          {
-            "name": "Asking in multiple channels",
-            "value": "Just don't do this - it's against the rules, it causes people to not want to help you, and it does nothing to get your answer faster."
-          }
-        ]
-      }
-    },
-    {
-      "name": "vdresolution",
-      "description": "Quest - Virtual Desktop - Resolution",
-      "ephemeral": false,
-      "embed": {
-        "title": "Sharing Screenshots of the Performance Overlay",
-        "description": "Render Resolution __per eye__",
-        "fields": [
-          {
-            "name": "Quest",
-            "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
-          },
-          {
-            "name": "Quest 2/Pico Neo 3/Quest Pro",
-            "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro Only)"
-          },
-          {
-            "name": "Pico 4",
-            "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ipd",
-      "description": "IPD and Its Importance in VR.",
-      "ephemeral": false,
-      "embed": {
-        "title": "IPD and Its Importance in VR.",
-        "description": "IPD is the distance between the pupils of your eyes. This is important for VR as you need to make sure you are within the supported IPD range of a headset, otherwise you will experience eye strain, focus issues, and other related issues.",
-        "fields": [
-          {
-            "name": "Common IPD Ranges",
-            "value": "Quest 2 - 3 Settings - 58mm, 63mm, 68mm (+/-2.5mm in each direction)\nValve Index - 58-70mm\nReverb G2 - 60-68mm\n[VRCompare for more headsets](https://vr-compare.com/)"
-          },
-          {
-            "name": "How to check?",
-            "value": "There are a few ways to check, but the two main methods are measuring with a ruler in front of a mirror or using the app [EyeMeasure](https://apps.apple.com/us/app/eyemeasure/id1417435049)\n You want the 'Far' IPD from this app."
-          },
-          {
-            "name": "Ruler Method",
-            "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the â€œ0â€ mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
-          }
-        ]
-      }
-    },
-    {
-      "name": "specs",
-      "description": "Minimum PC Specs",
-      "ephemeral": false,
-      "embed": {
-        "title": "General Minimum Specs for VR",
-        "description": "OS: Windows 10\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ RAM\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater\nUSB Ports: 1x 3.1 port\nFree Space: 35GB on C:",
-        "fields": [
-          {
-            "name": "Detailed Info",
-            "value": "You can find detailed minimums below, please note minimum does not mean you can play every game.\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
-          }
-        ]
-      }
-    },
-    {
-      "name": "sidequest",
-      "description": "Quest - Sidequest",
-      "ephemeral": false,
-      "embed": {
-        "title": "Sidequest",
-        "description": "Sidequest is a widely known application that allows you to 'sideload' third-party apps and modifications to your Quest.",
-        "fields": [
-          {
-            "name": "Do I need a VR-ready PC?",
-            "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality."
-          },
-          {
-            "name": "Is it safe?",
-            "value": "It is accepted by Oculus and you can find information on how to install it [here](https://sidequestvr.com/setup-howto) with all setup instructions."
-          }
-        ]
-      }
-    },
-    {
-      "name": "oculuslink",
-      "description": "Quest - Link",
-      "ephemeral": false,
-      "embed": {
-        "title": "Oculus Link",
-        "description": "Oculus Link is a feature built into the Quest that allows you to use your Quest as a PC VR headset while wired into a VR-ready PC.",
-        "fields": [
-          {
-            "name": "Can I play any VR game?",
-            "value": "You can generally play any Oculus Rift or SteamVR title while on Link, as long as your PC is capable of running it."
-          },
-          {
-            "name": "What's required?",
-            "value": "You need a VR-ready PC that meets the minimum specs, you can find out more details [here](https://support.oculus.com/444256562873335/) as well as a USB 3.0 A-to-C or C-to-C cable.\n You can find more info about this with /linkcables."
-          }
-        ]
-      }
-    },
-    {
-      "name": "airlink",
-      "description": "Quest - Air Link",
-      "ephemeral": false,
-      "embed": {
-        "title": "Air Link",
-        "description": "Air Link is the wireless PCVR feature introduced in [V28](https://www.oculus.com/blog/introducing-oculus-air-link-a-wireless-way-to-play-pc-vr-games-on-oculus-quest-2-plus-infinite-office-updates-support-for-120-hz-on-quest-2-and-more/)",
-        "fields": [
-          {
-            "name": "Requirements",
-            "value": "1. [VR-Ready PC](https://support.oculus.com/444256562873335), please note this is not 100% of all hardware supported; better graphics cards than listed will work as well. \n2. 5GHz AC or AX network with a wired connection to your PC."
-          },
-          {
-            "name": "FAQ",
-            "value": "1. **Is my internet good enough?:** Internet does not matter for Air Link, you only need a good local connection.\n2. **Can I play SteamVR on this?:** Yes, SteamVR is fully supported just like wired link.\n3. **Is my router good enough?:** If you want more information, look up your router's model number and make sure it's AX or AC, or provide your model number in your help thread.\n4. **I'm having issues, where can I get help?:** Please create a thread using #support."
-          }
-        ]
-      }
-    },
-    {
-      "name": "vdoverlay",
-      "description": "Quest - Virtual Desktop - Overlay",
-      "ephemeral": false,
-      "embed": {
-        "title": "Sharing Screenshots of the Performance Overlay",
-        "description": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and make sure 'copy screenshots to desktop' is enabled.\n2.) Go into the Streaming tab and check 'Show performance overlay'.\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold right Oculus button and press right trigger or left trigger to take a screenshot.\n\n The screenshot will be found on your desktop and you can share it here.",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
+        {
+          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
+          "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
+        },
+        {
+          "name": "Pico 4",
+          "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120"
         }
-      }
-    },
-    {
-      "name": "questusb",
-      "description": "Quest - Link - USB",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest USB/Link",
-        "description": "Connecting your Quest VR headset with your VR ready PC using a USB cable allows you to play VR games from your PC, this includes Oculus rift games and Steam games. However, when purchasing a cable there are a few things to take into account: \n\n**USB Connection types**\nUSB cables can come with multiple different connector types, the ones you want to be looking for are USB type A and USB type C. All current Quest devices use a USB C port, which means that your cable needs to have at least *one* USB C connector, the other end can be either A or C; other than their shape and respective port they offer no real difference in this use case and they will perform the same.\n\n**USB standards**\nUSB standards (data speed simply said) are important for link cables, any link cable used for any of the Quest devices should be USB 3.0, also known as USB 3.1 Gen 1, and USB 3.2 Gen 1x1.\nNote that USB 2.0 will provide a very poor experience so avoid using those.\nYou can find these types of cables on A and C through various retailers at various lengths, performance-wise they are all equal.\n\n**Length**\nFor an optimal experience you ideally want a cable that is 3-5m long, generally it is not recommended that USB 2.0/3.0 cables are longer than that.\n\n**Battery time with a USB cable**\nPlaytime will be increased using a cable, but it is not guaranteed that the cable provides infinite playtime. This is a limitation of many motherboards and the cable plays no role.\n\nFor cable recommendations with detailed descriptions, use /linkcables.",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/751932324186423506/762336282437222420/unknown.png"
+      ]
+    }
+  },
+  {
+    "name": "ipd",
+    "description": "IPD and Its Importance in VR.",
+    "ephemeral": false,
+    "embed": {
+      "title": "IPD and Its Importance in VR.",
+      "description": "IPD is the distance between the pupils of your eyes. This is important for VR as you need to make sure you are within the supported IPD range of a headset, otherwise you will experience eye strain, focus issues, and other related issues.",
+      "fields": [
+        {
+          "name": "Common IPD Ranges",
+          "value": "Quest 2 - 3 Settings - 58mm, 63mm, 68mm (+/-2.5mm in each direction)\nValve Index - 58-70mm\nReverb G2 - 60-68mm\n[VRCompare for more headsets](https://vr-compare.com/)"
+        },
+        {
+          "name": "How to check?",
+          "value": "There are a few ways to check, but the two main methods are measuring with a ruler in front of a mirror or using the app [EyeMeasure](https://apps.apple.com/us/app/eyemeasure/id1417435049)\n You want the 'Far' IPD from this app."
+        },
+        {
+          "name": "Ruler Method",
+          "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the â€œ0â€ mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
         }
-      }
-    },
-    {
-      "name": "gpudrivers",
-      "description": "Recommended GPU Drivers",
-      "ephemeral": false,
-      "embed": {
-        "title": "Recommended GPU Drivers",
-        "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000: [23.4.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-4-2)"
-      }
-    },
-    {
-      "name": "questpcvrinfo",
-      "description": "Request more information - PC - Quest",
-      "ephemeral": false,
-      "embed": {
-        "title": "Please provide more information",
-        "description": "All support is volunteer, to be able to have people help it's best if you could provide more information about your computer or issue. \n Please provide relevent computer information such as your CPU, Graphics Card, and Operating System.\n Additionally, any information you could see to be helpful to further assist, if this is airlink or vd related, your network setup such as router model, and if you are wired can help in these cases too.\n \n[You can also contact Oculus before reaching out to the community for help.](https://tickets.oculusvr.com/hc/en-us/requests/new)"
-      }
-    },
-    {
-      "name": "airlinkupdate",
-      "description": "Airlink is no longer in experimental",
-      "ephemeral": false,
-      "embed": {
-        "title": "Airlink is no longer in experimental",
-        "description": "Air Link is out of the experimental settings panel and will now be available under system settings - Link.",
-        "image": {
-          "url": "https://cdn.discordapp.com/attachments/416305941491875851/996586946941956096/unknown.png"
+      ]
+    }
+  },
+  {
+    "name": "specs",
+    "description": "Minimum PC Specs",
+    "ephemeral": false,
+    "embed": {
+      "title": "General Minimum Specs for VR",
+      "description": "OS: Windows 10\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ RAM\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater\nUSB Ports: 1x 3.1 port\nFree Space: 35GB on C:",
+      "fields": [
+        {
+          "name": "Detailed Info",
+          "value": "You can find detailed minimums below, please note minimum does not mean you can play every game.\n[Oculus Rift S Supported Specs](https://store.facebook.com/help/quest/articles/getting-started/getting-started-with-rift/rift-s-minimum-requirements/)\n[Oculus Link Supported Specs](https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
         }
-      }
-    },
-    {
-      "name": "applab",
-      "description": "Quest - App Lab",
-      "ephemeral": false,
-      "embed": {
-        "title": "App Lab",
-        "description": "For information about App Lab, please see [here](https://www.reddit.com/r/oculusquest/wiki/faq/applab)."
-      }
-    },
-    {
-      "name": "virtualdesktop",
-      "description": "Quest - Virtual Desktop",
-      "ephemeral": false,
-      "embed": {
-        "title": "Virtual Desktop",
-        "description": "Virtual Desktop is a Quest application that allows you to use your desktop in VR, watch videos, as well as use it for wireless PC VR with a VR-ready PC.\nFor first-time setup and general FAQ, please check out [this guide](https://reddit.com/r/OculusQuest/wiki/faq/virtualdesktop)."
-      }
-    },
-    {
-      "name": "crossbuy",
-      "description": "Quest - Cross-Buy",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest/Rift Cross-Buy Apps",
-        "description": "Rift and Quest have some games that support cross-buy, and you can find that list [here](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635).\n Please note that cross-buy can only apply between Oculus PC and Quest stores, and this does not include Steam."
-      }
-    },
-    {
-      "name": "xr",
-      "description": "What is Extended Reality (XR)",
-      "ephemeral": false,
-      "embed": {
-    	"title": "Extended Reality (XR)",
-        "description": "Extended Reality (XR) covers all the different ways we mix computer technology with our real world. Here's what that includes:\n\n**Virtual Reality (VR)**: This is like stepping into a different world. You wear a headset, and everything you see is created by a computer. It's used for video games and other interactive experiences.\n\n**Augmented Reality (AR)**: This adds computer-created elements to the real world. If you've played games where characters appear in the real world on your phone screen, or used a filter to add a hat to your selfie, that's AR!\n\n**Mixed Reality (MR)**: This is a blend of AR and VR. Here, virtual objects are added to the real world and can interact with it. It's like having virtual objects in your living room that you can move and touch."
-      }
-    },
-    {
-      "name": "crossplay",
-      "description": "Quest - Crossplay",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest/Rift Crossplay Apps",
-        "description": "Rift and Quest have some games that support crossplay (playing multiplayer between different platforms (Steam, Rift, Quest, and/or PSVR)), and you can find that list [here](https://www.reddit.com/r/oculus/wiki/crossplay).\nPlease note that this is a community-maintained list and will not always be accurate."
-      }
-    },
-    {
-      "name": "valvesupport",
-      "description": "Index - Official Support",
-      "ephemeral": false,
-      "embed": {
-        "title": "Valve Support",
-        "description": "You can contact Valve via a ticket [here](https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820)."
-      }
-    },
-    {
-      "name": "oculussupport",
-      "description": "Quest - Official Support",
-      "ephemeral": false,
-      "embed": {
-        "title": "Oculus/Meta Support",
-        "description": "You can contact Oculus Support via either a ticket or live chat [here](https://store.facebook.com/help/support/quest/)."
-      }
-    },
-    {
-      "name": "manualupdate",
-      "description": "Quest - Manual Update",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest Manual Update",
-        "description": "You can find a guide on how to manually update [here](https://www.reddit.com/r/oculusquest/wiki/guides/manualupdate). You will also need a copy of the firmware you want to update to."
-      }
-    },
-    {
-      "name": "justask",
-      "description": "Don't ask to ask",
-      "ephemeral": false,
-      "embed": {
-        "title": "Don't ask to ask; just ask",
-        "description": "When you ask 'Hey can anyone help me?', this can be seen as bad form.\n The best way to get assistance is to ask your entire question, with details, in a relevant channel.\n There are plenty of reasons why people that do have the knowledge would not admit to it, but by asking the full question you are asking people to answer a question, not take responsibility to answer the question they may not have the answer to.",
-        "footer": {
-          "text": "Check out #support for troubleshooting"
+      ]
+    }
+  },
+  {
+    "name": "sidequest",
+    "description": "Quest - Sidequest",
+    "ephemeral": false,
+    "embed": {
+      "title": "Sidequest",
+      "description": "Sidequest is a widely known application that allows you to 'sideload' third-party apps and modifications to your Quest.",
+      "fields": [
+        {
+          "name": "Do I need a VR-ready PC?",
+          "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality."
+        },
+        {
+          "name": "Is it safe?",
+          "value": "It is accepted by Oculus and you can find information on how to install it [here](https://sidequestvr.com/setup-howto) with all setup instructions."
         }
-      }
-    },
-    {
-      "name": "hla",
-      "description": "Half-Life: Alyx - Stutter Fix",
-      "ephemeral": false,
-      "embed": {
-        "title": "Half-Life: Alyx - Stutter Fix",
-        "description": "Right-click Half-Life: Alyx in Steam then click Properties, in 'General' click in 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
-      }
-    },
-    {
-      "name": "questreferrals",
-      "description": "Quest - Referral System",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest Referral System",
-        "description": "Participate in the Meta Quest Referral program to earn store credits and provide discounts to community members. You can refer both devices and individual apps/games using your personalized referral links.",
-        "fields": [
-          {
-            "name": "Referral Benefits",
-            "value": "1. **Meta Quest Device Referral:** Share a device referral link. When a member purchases and activates their device using your link, both of you earn $30 in Meta Quest Store Credit.\n2. **App Referral:** Share an app/game referral link. The member who uses your link gets a 25% discount on their purchase, and you earn a $5 Meta Quest Store Credit."
-          },
-          {
-            "name": "Saving Your Referral Links",
-            "value": "1. **App:** Use `/savereferral app [URL]` to store a new app referral link.\n2. **Device:** Use `/savereferral device [URL]` to store a new device referral link."
-          },
-          {
-            "name": "Requesting Referral Links",
-            "value": "1. **App:** To retrieve an app referral link, type `/getreferral app` and specify the app name when prompted.\n2. **Device:** To obtain a randomized device referral link, type `/getreferral device`."
-          },
-          {
-            "name": "Checking Your Referrals",
-            "value": "Use `/viewreferrals` to see your stored referral links along with their view counts."
-          },
-          {
-            "name": "Meta Dog",
-            "value": "For a broader reach across multiple communities, visit [Meta Dog](https://meta-dog.github.io/meta-dog/)."
-          }
-        ]
-      }
-    },    
-    {
-      "name": "questfactoryreset",
-      "description": "Quest Factory Reset",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest Factory Reset",
-        "description": "If you need to factory reset your Quest, please enable [cloud sync](https://support.oculus.com/articles/in-vr-experiences/oculus-features/cloud-sync/) and then follow [these](https://support.oculus.com/articles/fix-a-problem/troubleshoot-headsets-and-accessories/troubleshooting-factory-reset-quest-2/) instructions on the factory reset."
-      }
-    },
-    {
-      "name": "cloudbackup",
-      "description": "Quest Cloud Backup",
-      "ephemeral": false,
-      "embed": {
-        "title": "Quest Cloud Backup",
-        "description": "You can see what games you own that support cloud backup [here](https://secure.oculus.com/my/cloud-backup/)."
+      ]
+    }
+  },
+  {
+    "name": "oculuslink",
+    "description": "Quest - Link",
+    "ephemeral": false,
+    "embed": {
+      "title": "Oculus Link",
+      "description": "Oculus Link is a feature built into the Quest that allows you to use your Quest as a PC VR headset while wired into a VR-ready PC.",
+      "fields": [
+        {
+          "name": "Can I play any VR game?",
+          "value": "You can generally play any Oculus Rift or SteamVR title while on Link, as long as your PC is capable of running it."
+        },
+        {
+          "name": "What's required?",
+          "value": "You need a VR-ready PC that meets the minimum specs, you can find out more details [here](https://support.oculus.com/444256562873335/) as well as a USB 3.0 A-to-C or C-to-C cable.\n You can find more info about this with /linkcables."
+        }
+      ]
+    }
+  },
+  {
+    "name": "airlink",
+    "description": "Quest - Air Link",
+    "ephemeral": false,
+    "embed": {
+      "title": "Air Link",
+      "description": "Air Link is the wireless PCVR feature introduced in [V28](https://www.oculus.com/blog/introducing-oculus-air-link-a-wireless-way-to-play-pc-vr-games-on-oculus-quest-2-plus-infinite-office-updates-support-for-120-hz-on-quest-2-and-more/)",
+      "fields": [
+        {
+          "name": "Requirements",
+          "value": "1. [VR-Ready PC](https://support.oculus.com/444256562873335), please note this is not 100% of all hardware supported; better graphics cards than listed will work as well. \n2. 5GHz AC or AX network with a wired connection to your PC."
+        },
+        {
+          "name": "FAQ",
+          "value": "1. **Is my internet good enough?:** Internet does not matter for Air Link, you only need a good local connection.\n2. **Can I play SteamVR on this?:** Yes, SteamVR is fully supported just like wired link.\n3. **Is my router good enough?:** If you want more information, look up your router's model number and make sure it's AX or AC, or provide your model number in your help thread.\n4. **I'm having issues, where can I get help?:** Please create a thread using #support."
+        }
+      ]
+    }
+  },
+  {
+    "name": "vdoverlay",
+    "description": "Quest - Virtual Desktop - Overlay",
+    "ephemeral": false,
+    "embed": {
+      "title": "Sharing Screenshots of the Performance Overlay",
+      "description": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and make sure 'copy screenshots to desktop' is enabled.\n2.) Go into the Streaming tab and check 'Show performance overlay'.\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold right Oculus button and press right trigger or left trigger to take a screenshot.\n\n The screenshot will be found on your desktop and you can share it here.",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
       }
     }
-  ]
+  },
+  {
+    "name": "questusb",
+    "description": "Quest - Link - USB",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest USB/Link",
+      "description": "Connecting your Quest VR headset with your VR ready PC using a USB cable allows you to play VR games from your PC, this includes Oculus rift games and Steam games. However, when purchasing a cable there are a few things to take into account: \n\n**USB Connection types**\nUSB cables can come with multiple different connector types, the ones you want to be looking for are USB type A and USB type C. All current Quest devices use a USB C port, which means that your cable needs to have at least *one* USB C connector, the other end can be either A or C; other than their shape and respective port they offer no real difference in this use case and they will perform the same.\n\n**USB standards**\nUSB standards (data speed simply said) are important for link cables, any link cable used for any of the Quest devices should be USB 3.0, also known as USB 3.1 Gen 1, and USB 3.2 Gen 1x1.\nNote that USB 2.0 will provide a very poor experience so avoid using those.\nYou can find these types of cables on A and C through various retailers at various lengths, performance-wise they are all equal.\n\n**Length**\nFor an optimal experience you ideally want a cable that is 3-5m long, generally it is not recommended that USB 2.0/3.0 cables are longer than that.\n\n**Battery time with a USB cable**\nPlaytime will be increased using a cable, but it is not guaranteed that the cable provides infinite playtime. This is a limitation of many motherboards and the cable plays no role.\n\nFor cable recommendations with detailed descriptions, use /linkcables.",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/751932324186423506/762336282437222420/unknown.png"
+      }
+    }
+  },
+  {
+    "name": "iobt",
+    "description": "Meta Inside Out Body Tracking",
+    "ephemeral": false,
+    "embed": {
+      "title": "Inside Out Body Tracking",
+      "description": "Meta's Inside Out Body Tracking IOBT for the Quest 2 and 3 is a technology that tracks the user's upper body movements using the headset's cameras. This feature allows the VR system to accurately display the user's arms and torso movements in VR. \n\nMeta has an inside out body tracking demo you can try [here](https://www.meta.com/experiences/6511679575602893/)"
+    }
+  },
+  {
+    "name": "gpudrivers",
+    "description": "Recommended GPU Drivers",
+    "ephemeral": false,
+    "embed": {
+      "title": "Recommended GPU Drivers",
+      "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000: [23.10.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-10-2)"
+    }
+  },
+  {
+    "name": "questpcvrinfo",
+    "description": "Request more information - PC - Quest",
+    "ephemeral": false,
+    "embed": {
+      "title": "Please provide more information",
+      "description": "All support is volunteer, to be able to have people help it's best if you could provide more information about your computer or issue. \n Please provide relevent computer information such as your CPU, Graphics Card, and Operating System.\n Additionally, any information you could see to be helpful to further assist, if this is airlink or vd related, your network setup such as router model, and if you are wired can help in these cases too.\n \n[You can also contact Oculus before reaching out to the community for help.](https://tickets.oculusvr.com/hc/en-us/requests/new)"
+    }
+  },
+  {
+    "name": "airlinkupdate",
+    "description": "Airlink is no longer in experimental",
+    "ephemeral": false,
+    "embed": {
+      "title": "Airlink is no longer in experimental",
+      "description": "Air Link is out of the experimental settings panel and will now be available under system settings - Link.",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/416305941491875851/996586946941956096/unknown.png"
+      }
+    }
+  },
+  {
+    "name": "applab",
+    "description": "Quest - App Lab",
+    "ephemeral": false,
+    "embed": {
+      "title": "App Lab",
+      "description": "For information about App Lab, please see [here](https://www.reddit.com/r/oculusquest/wiki/faq/applab)."
+    }
+  },
+  {
+    "name": "virtualdesktop",
+    "description": "Quest - Virtual Desktop",
+    "ephemeral": false,
+    "embed": {
+      "title": "Virtual Desktop",
+      "description": "Virtual Desktop is a Quest application that allows you to use your desktop in VR, watch videos, as well as use it for wireless PC VR with a VR-ready PC.\nFor first-time setup and general FAQ, please check out [this guide](https://reddit.com/r/OculusQuest/wiki/faq/virtualdesktop)."
+    }
+  },
+  {
+    "name": "crossbuy",
+    "description": "Quest - Cross-Buy",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest/Rift Cross-Buy Apps",
+      "description": "Rift and Quest have some games that support cross-buy, and you can find that list [here](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635).\n Please note that cross-buy can only apply between Oculus PC and Quest stores, and this does not include Steam."
+    }
+  },
+  {
+    "name": "xr",
+    "description": "What is Extended Reality (XR)",
+    "ephemeral": false,
+    "embed": {
+    "title": "Extended Reality (XR)",
+      "description": "Extended Reality (XR) covers all the different ways we mix computer technology with our real world. Here's what that includes:\n\n**Virtual Reality (VR)**: This is like stepping into a different world. You wear a headset, and everything you see is created by a computer. It's used for video games and other interactive experiences.\n\n**Augmented Reality (AR)**: This adds computer-created elements to the real world. If you've played games where characters appear in the real world on your phone screen, or used a filter to add a hat to your selfie, that's AR!\n\n**Mixed Reality (MR)**: This is a blend of AR and VR. Here, virtual objects are added to the real world and can interact with it. It's like having virtual objects in your living room that you can move and touch."
+    }
+  },
+  {
+    "name": "crossplay",
+    "description": "Quest - Crossplay",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest/Rift Crossplay Apps",
+      "description": "Rift and Quest have some games that support crossplay (playing multiplayer between different platforms (Steam, Rift, Quest, and/or PSVR)), and you can find that list [here](https://www.reddit.com/r/oculus/wiki/crossplay).\nPlease note that this is a community-maintained list and will not always be accurate."
+    }
+  },
+  {
+    "name": "valvesupport",
+    "description": "Index - Official Support",
+    "ephemeral": false,
+    "embed": {
+      "title": "Valve Support",
+      "description": "You can contact Valve via a ticket [here](https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820)."
+    }
+  },
+  {
+    "name": "oculussupport",
+    "description": "Quest - Official Support",
+    "ephemeral": false,
+    "embed": {
+      "title": "Oculus/Meta Support",
+      "description": "You can contact Oculus Support via either a ticket or live chat [here](https://store.facebook.com/help/support/quest/)."
+    }
+  },
+  {
+    "name": "manualupdate",
+    "description": "Quest - Manual Update",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest Manual Update",
+      "description": "You can find a guide on how to manually update [here](https://www.reddit.com/r/oculusquest/wiki/guides/manualupdate). You will also need a copy of the firmware you want to update to."
+    }
+  },
+  {
+    "name": "internet",
+    "description": "Internet isn't used when streaming",
+    "ephemeral": false,
+    "embed": {
+      "title": "Internet isn't used when streaming",
+      "description": "Once your VR headset is connected to your computer, all data traffic remains local. This is true whether you're connected directly to your main router or to a dedicated router on the same local area network (LAN). The only requirement is a wired connection from your PC to a router. The VR headset then connects wirelessly to the same router or dedicated router.",
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/1051582245649006593/1188703795560063006/VD_internet_command.png"
+      }
+    }
+  },
+  {
+    "name": "justask",
+    "description": "Don't ask to ask",
+    "ephemeral": false,
+    "embed": {
+      "title": "Don't ask to ask; just ask",
+      "description": "When you ask 'Hey can anyone help me?', this can be seen as bad form.\n The best way to get assistance is to ask your entire question, with details, in a relevant channel.\n There are plenty of reasons why people that do have the knowledge would not admit to it, but by asking the full question you are asking people to answer a question, not take responsibility to answer the question they may not have the answer to.",
+      "footer": {
+        "text": "Check out #support for volunteer support."
+      }
+    }
+  },
+  {
+    "name": "hla",
+    "description": "Half-Life: Alyx - Stutter Fix",
+    "ephemeral": false,
+    "embed": {
+      "title": "Half-Life: Alyx - Stutter Fix",
+      "description": "Right-click Half-Life: Alyx in Steam then click Properties, in 'General' click in 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
+    }
+  },
+  {
+    "name": "questreferrals",
+    "description": "Quest - Referral System",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest Referrals",
+      "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below."
+    },
+    "pages": [
+      {
+        "name": "Main",
+        "title": "Main",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Main",
+            "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below.",
+            "color": null,
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1211531528039960577/image.png?"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Saving Your Referral Links",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Saving Your Referral Links",
+            "description": "To save your referral link for the bot to provide users when requested, follow the below instructions.",
+            "color": null,
+            "fields": [
+              {
+                "name": "Device",
+                "value": "Type /savereferral device in any channel you can type in and type or paste your link in. This will only be shown to you. ",
+                "inline": false
+              },
+              {
+                "name": "App",
+                "value": "Type /savereferral app in any channel you can type in and type or paste your link in. In platform select the platform you purchased the game on, this only supports Meta Platforms.",
+                "inline": false
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1211536822119702568/image.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Getting Referral Links",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Getting Referral Links",
+            "description": "The Referral bot allows you to get randomized links.",
+            "color": null,
+            "fields": [
+              {
+                "name": "Device",
+                "value": "Type /getreferral device in any channel you can type in, the response is only shown to you",
+                "inline": false
+              },
+              {
+                "name": "App",
+                "value": "Type /getreferral app, then type in the app name\n This also can be done in any channel you can type in, the response is only shown to you.",
+                "inline": false
+              }
+            ],
+            "thumbnail": {
+              "url": "https://media.discordapp.net/attachments/875149053221019668/1211536069841911828/image.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "What are Referrals?",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "What are Referrals?",
+            "description": "Referrals in the Meta Quest Referral Program are a straightforward way for you to engage with other community members by offering them a chance to join the VR world with a bonus or get a new game with a bonus.\n\n You share a specific link with community members for purchasing Quest devices or select apps and games using our bot, and when they use your link for a purchase, they receive a discount or a bonus, and you earn store credit as a thank you.\n It is beneficial for both sides: community members save on their purchase, and you get credits to use in the Meta Quest Store.\n\n Our bot is fully randomized and will select your link at random if a user requests it.",
+            "color": null
+          }
+        ]
+      }
+    ]
+  },    
+  {
+    "name": "questfactoryreset",
+    "description": "Quest Factory Reset",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest Factory Reset",
+      "description": "If you need to factory reset your Quest, please enable [cloud sync](https://support.oculus.com/articles/in-vr-experiences/oculus-features/cloud-sync/) and then follow [these](https://www.meta.com/help/quest/articles/fix-a-problem/troubleshoot-headsets-and-accessories/troubleshooting-factory-reset-quest/) instructions on the factory reset."
+    }
+  },
+  {
+    "name": "cloudbackup",
+    "description": "Quest Cloud Backup",
+    "ephemeral": false,
+    "embed": {
+      "title": "Quest Cloud Backup",
+      "description": "You can see what games you own that support cloud backup [here](https://secure.oculus.com/my/cloud-backup/)."
+    }
+  }
+]
