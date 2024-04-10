@@ -716,12 +716,12 @@
               },
               {
                 "name": "Paid - Great Stationary",
-                "value": "[I Expect You To Die 2: Cog in the Machine](https://www.oculus.com/experiences/quest/2970998659623177)\n[Real VR Fishing](https://www.meta.com/experiences/2582932495064035/)\n[Puzzling Places](https://www.meta.com/experiences/3931148300302917/)\n[Moss: Book 2](https://www.oculus.com/experiences/quest/4395292760584049/)\n[Tetris Effect](https://www.oculus.com/experiences/quest/3386618894743567)\n[Vermillion](https://www.oculus.com/experiences/quest/4900967296622279)",
+                "value": "[I Expect You To Die 2: Spy and the Liar](https://www.oculus.com/experiences/quest/2970998659623177)\n[Real VR Fishing](https://www.meta.com/experiences/2582932495064035/)\n[Puzzling Places](https://www.meta.com/experiences/3931148300302917/)\n[Moss: Book 2](https://www.oculus.com/experiences/quest/4395292760584049/)\n[Tetris Effect: Connected](https://www.oculus.com/experiences/quest/3386618894743567)\n[Vermillion](https://www.oculus.com/experiences/quest/4900967296622279)",
                 "inline": false
               },
               {
                 "name": "Paid - Great Multiplayer",
-                "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov](https://www.oculus.com/experiences/quest/3649611198468269/)",
+                "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov: Shack](https://www.oculus.com/experiences/quest/3649611198468269/)",
                 "inline": false
               },
               {
@@ -1176,7 +1176,7 @@
               "description": "Meta Quest+ is Meta's version of Xbox Gamepass - Get 2 monthly games, selected by Meta, to add to your library each month and explore the **Games Catalog** to add even more!",
               "color": null,
               "thumbnail": {
-                "url": "https://www.uploadvr.com/content/images/size/w1024/format/webp/2024/02/Meta-Quest-Plus-subscription.png"
+                "url": "https://www.uploadvr.com/content/images/size/w1200/2024/02/Meta-Quest-Plus-subscription.png"
               }
             },
           ]
@@ -1205,7 +1205,7 @@
           "embeds": [
             {
               "title": "Game Catalog",
-              "description": "As of March 2024, Meta Quest + now offers a game catalog! These games rotate in and out just like Gamepass, check back in every few months to check whats new, you can see a full list of the currently available titles, [here](https://www.meta.com/experiences/section/746836817401205/)",
+              "description": "As of March 2024, Meta Quest + now offers a game catalog! These games rotate in and out just like Gamepass, check back in every few months to check whats new, you can see a full list of the currently available titles [here](https://www.meta.com/experiences/section/746836817401205/)",
               "color": null,
               "thumbnail": {
                 "url": ""
