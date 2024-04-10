@@ -706,7 +706,7 @@
             "fields": [
               {
                 "name": "Free",
-                "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[Rec Room](https://www.oculus.com/experiences/quest/2173678582678296/)",
+                "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[Rec Room](https://www.oculus.com/experiences/quest/2173678582678296/)\n(MiReality Pool (MR))[https://www.meta.com/experiences/5796340207136099/]\n(Blaston)[https://www.meta.com/experiences/2307085352735834/]",
                 "inline": false
               },
               {
@@ -716,12 +716,17 @@
               },
               {
                 "name": "Paid - Great Stationary",
-                "value": "[I Expect You To Die 2](https://www.oculus.com/experiences/quest/2970998659623177)\n[Real VR Fishing](https://www.meta.com/experiences/2582932495064035/)\n[Puzzling Places](https://www.meta.com/experiences/3931148300302917/)\n[Moss 2](https://www.oculus.com/experiences/quest/4395292760584049/)\n[Tetris Effect](https://www.oculus.com/experiences/quest/3386618894743567)\n[Vermillion](https://www.oculus.com/experiences/quest/4900967296622279)",
+                "value": "[I Expect You To Die 2: Cog in the Machine](https://www.oculus.com/experiences/quest/2970998659623177)\n[Real VR Fishing](https://www.meta.com/experiences/2582932495064035/)\n[Puzzling Places](https://www.meta.com/experiences/3931148300302917/)\n[Moss: Book 2](https://www.oculus.com/experiences/quest/4395292760584049/)\n[Tetris Effect](https://www.oculus.com/experiences/quest/3386618894743567)\n[Vermillion](https://www.oculus.com/experiences/quest/4900967296622279)",
                 "inline": false
               },
               {
                 "name": "Paid - Great Multiplayer",
-                "value": "[Among Us](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov](https://www.oculus.com/experiences/quest/3649611198468269/)",
+                "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov](https://www.oculus.com/experiences/quest/3649611198468269/)",
+                "inline": false
+              },
+              {
+                "name": "Paid - Close to Home (Mixed Reality)",
+                "value": "[Battle Talent](https://www.meta.com/experiences/8752849024786000/)\n[Blockworks](https://www.meta.com/experiences/4795837347172093/)\n[Track Craft](https://www.meta.com/experiences/5802051039897223/)\n[Neko Atsume Purrfect Kitty Collector](https://www.meta.com/experiences/8401739766534648/)\n[Synth Riders](https://www.meta.com/experiences/quest/2436558143118760)\n[Angry Birds VR: Isle of Pigs](https://www.meta.com/experiences/2718606324833775/)",
                 "inline": false
               },
               {
@@ -968,7 +973,7 @@
         }
       ]
     }
-  },
+  }
   {
     "name": "quest3straps",
     "description": "Quest 3 Straps",
@@ -1326,7 +1331,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Virtual Desktop",
-      "description": "Virtual Desktop is a Quest application that allows you to use your desktop in VR, watch videos, as well as use it for wireless PC VR with a VR-ready PC.\nFor first-time setup and general FAQ, please check out [this guide](https://reddit.com/r/OculusQuest/wiki/faq/virtualdesktop)."
+      "description": "Virtual Desktop is a Quest application that allows you to use your desktop in VR, watch videos, as well as use it for wireless PC VR with a VR-ready PC.\nFor first-time setup and general FAQ, please check out [this guide](https://reddit.com/r/OculusQuest/wiki/faq/virtualdesktop), if you need further help, please visit their [Discord](https://discord.gg/fzvaHfpneH)"
     }
   },
   {
