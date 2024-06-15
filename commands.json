@@ -166,7 +166,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended Routers",
-      "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+      "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AX) - PRISMXR Puppis S1 (80$)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
     },
     "pages": [
       {
@@ -214,7 +214,7 @@
       {
         "name": "OpalGLSFT1200",
         "title": "Opal GL-SFT1200",
-        "description": "Low End (AC) - Opal GL-SFT1200",
+        "description": "Portable (AC) - Opal GL-SFT1200",
         "emoji": "",
         "embeds": [
           {
@@ -326,7 +326,36 @@
             }
           }
         ]
-      },   
+      },
+      {
+        "name": "puppiss1",
+        "title": "PRISMXR Puppis S1",
+        "description": "Portable (AX) - PRISMXR Puppis S1",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "PRISMXR Puppis S1",
+            "description": "The Puppis is a small USB connected device that uses a mobile device to setup a connection to your existing network, it can't be used for multiple devices but is a very solid option for just a VR device connected to it.",
+            "url": "https://www.prismxr.com/products/prismxr-puppis-s1-ax3000-wifi6-router-for-pc-vr-streaming-quest-3-compatible",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6 / AX",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/PRISMXR-Streaming-Compatible-Accessories-Wireless/dp/B0CFDL5Y7F)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://images-ext-1.discordapp.net/external/rRFkGCfqqhBfuQ0_wnX6IQWwXb3fdaj41iLEg4Ty1LM/https/m.media-amazon.com/images/I/51vTZVO%2BbUL._AC_SL1500_.jpg"
+            }
+          }
+        ]
+      },           
       {
         "name": "tplaxe300",
         "title": "TP-Link AXE300/AXE16000",
@@ -1387,7 +1416,16 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "Nvidia: [Latest drivers](https://www.nvidia.com/download/index.aspx)\nAMD RX 400/500: [20.10.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-20-10-1)\nAMD 5000/6000: [22.11.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-11-2)\nAMD 7000: [23.10.2](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-10-2)"
+      "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224484/)\nAMD RX 400/500 series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/)\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html)"
+    }
+  },
+  {
+    "name": "ddu",
+    "description": "DDU - Uninstall and Reinstall Drivers",
+    "ephemeral": false,
+    "embed": {
+      "title": "Uninstall and Reinstall GPU Drivers",
+      "description": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the reccomended drivers, to check the latest recommendations type /drivers."
     }
   },
   {
@@ -1522,7 +1560,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Quest Referrals",
-      "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below."
+      "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below. \n\nPlease note this system is having issues due to Meta changes."
     },
     "pages": [
       {
@@ -1615,7 +1653,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Quest Factory Reset",
-      "description": "If you need to factory reset your Quest, please enable [cloud sync](https://support.oculus.com/articles/in-vr-experiences/oculus-features/cloud-sync/) and then follow [these](https://www.meta.com/help/quest/articles/fix-a-problem/troubleshoot-headsets-and-accessories/troubleshooting-factory-reset-quest/) instructions on the factory reset."
+      "description": "If you need to factory reset your Quest, follow [these](https://www.meta.com/help/quest/articles/fix-a-problem/troubleshoot-headsets-and-accessories/troubleshooting-factory-reset-quest/) instructions on the factory reset."
     }
   },
   {
