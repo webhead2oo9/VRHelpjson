@@ -177,7 +177,7 @@
         "embeds": [
           {
             "title": "Recommended Routers",
-            "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+            "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AX) - PRISMXR Puppis S1 (80$)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
             
           }
         ]
