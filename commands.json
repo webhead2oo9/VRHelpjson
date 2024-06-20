@@ -1296,8 +1296,12 @@
       "fields": [
         {
           "name": "Do I need a VR-ready PC?",
-          "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality."
+          "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality, if you want to install games without using a computer, you can also install it onto your headset however it's use is limited."
         },
+        {
+          "name": "How do I install it onto my Quest?",
+          "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
+        },  
         {
           "name": "What does it hold?",
           "value": "Not only does it hold third-party apps, such as mods and fangames, you can also change your recording values, and install mods and apks directly to your headset via your PC.\nYou can also find custom Home Environments on it."
