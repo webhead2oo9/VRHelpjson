@@ -15,7 +15,7 @@
         "emoji": "",
         "embeds": [
           {
-            "title": "Quest Straps",
+            "title": "Quest 2 Straps",
             "description": "The Quest 2 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos.",
             "color": null,
             "fields": [
@@ -1034,8 +1034,18 @@
                 "inline": false
               },
               {
-                "name": "Kiwi Comfort Headstrap",
-                "value": "The Kiwi Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This is the same as the last gen Kiwi Elite Strap but is now retrofitted for Quest 3.",
+                "name": "BOBOVR S3 Pro Super",
+                "value": "The BOBOVR S3 Pro is a pricey headstrap similiar to it's other battery straps, however it has ''2 times'' the capacity of the B2, thanks to it's 10,000mAh battery, and also includes a built-in Air Conditioning system.",
+                "inline": false
+              },
+              {
+                "name": "Kiwi K4 Comfort Headstrap",
+                "value": "The Kiwi K4 Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This version varies from the base comfort strap in that it has a Stealh Knob, and additional cushioning.",
+                "inline": false
+              },
+              {
+                "name": "Kiwi Battery Headstrap",
+                "value": "The Kiwi Battery Headstrap is similiar to the comfort headstrap, but it has a built-in battery, extending playtime for 2+ hours in one charge.",
                 "inline": false
               },
               {
@@ -1107,13 +1117,41 @@
         ]
       },
       {
-        "name": "Kiwi Comfort Headstrap",
+        "name": "BOBOVR S3 Pro Super",
         "description": "",
         "emoji": "",
         "embeds": [
           {
-            "title": "Kiwi Comfort headstrap",
-            "description": "The Kiwi Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. This is the same as the last generation of the Kiwi Elite Strap but is now retrofitted for the Quest 3\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
+            "title": "BOBOVR S3 Pro Super",
+            "description": "The BOBOVR S3 Pro Super is a 'halo' style strap that's quite pricier than it's competitors, but offers a lot for the price. It has a 10,000 mAh battery, which is twice the capacity of their B2 Strap's battery, and has a built-in Air Conditioning system, and can still be hotswapped.",
+            "url": "https://www.bobovr.com/products/bobovr-m3-pro",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: Yes \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[BOBOVR's Site](https://www.bobovr.com/products/s3-pro?srsltid=AfmBOopluxsPtRJMbFaJuf5iQt13F1xb1kNLAkEqVltCtJKNh_fo1q4r)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kiwi K4 Comfort Head Strap",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Kiwi K4 Comfort Headstrap",
+            "description": "The Kiwi K4 Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. While keeping the same simple design of the previous iteration, this version of the strap has ''upgraded comfort'' and a ''stealth knob''.\n\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
             "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
             "color": null,
             "fields": [
@@ -1124,12 +1162,40 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [Amazon Canada](https://www.amazon.ca/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [UK](https://www.amazon.co.uk/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ), [KIWIs Website](https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3)",
+                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/k4-comfort-head-strap)",
                 "inline": true
               }
             ],
             "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190110505214423101/KIWIdesign_comfort_head_strap_for_Quest_3_1_440c2370-eb07-4de3-b367-0f8477c7f10f.webp?ex=65a09bc7&is=658e26c7&hm=1f18c1cb4bb2f4da076d4f23b4166889f20468a1197af80c2ed2f5e4675b29c0&"
+              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_ComfortHeadStrapforQuest3_0.png?v=1719542495&width=600"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Battery Headstrap",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Kiwi Battery Headstrap",
+            "description": "The Kiwi Battery Headstrap is an upgraded version of it's base Comfort headstrap, allowing for longer playtimes and 2PC charging, it has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load), and has a memory foam backing.",
+            "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: Yes \n __Included Audio__: No",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
             }
           }
         ]
