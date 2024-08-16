@@ -781,7 +781,7 @@
             "fields": [
               {
                 "name": "Other stores",
-                "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto), or [App Lab](https://www.applabdb.com/)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
+                "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto), or [App Lab (Early Access)](https://www.applabdb.com/)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
                 "inline": false
               },
               {
@@ -1517,11 +1517,11 @@
   },
   {
     "name": "applab",
-    "description": "Quest - App Lab",
+    "description": "Quest - App Lab (Early Access)",
     "ephemeral": false,
     "embed": {
-      "title": "App Lab",
-      "description": "For information about App Lab, please see [here](https://www.reddit.com/r/oculusquest/wiki/faq/applab)."
+      "title": "App Lab (Early Access)",
+      "description": "For information about App Lab (now known as Meta Early Access), please see [here](https://www.reddit.com/r/oculusquest/wiki/faq/applab)."
     }
   },
   {
