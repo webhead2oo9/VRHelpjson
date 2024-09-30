@@ -1536,6 +1536,18 @@
     }
   },
   {
+    "name": "psvr2adapter",
+    "description": "Information on the **PSVR2 - PC Adapter**",
+    "ephemeral": false,
+    "embed": {
+      "title": "Information on the **PSVR2 - PC Adapter**",
+      "description": "The PSVR2 Adapter is an officially released product by Sony that let's you use your PSVR2 on PC (with purchase of an adapter), and is a great entrypoint into PCVR for people who do not have another headset.",
+      "image": {
+        "url": ""
+      }
+    }
+  },
+  {
     "name": "applab",
     "description": "Quest - App Lab (Early Access)",
     "ephemeral": false,
