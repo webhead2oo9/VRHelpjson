@@ -15,7 +15,7 @@
         "emoji": "",
         "embeds": [
           {
-            "title": "Quest 2 Straps",
+            "title": "Quest Straps",
             "description": "The Quest 2 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos.",
             "color": null,
             "fields": [
@@ -177,7 +177,7 @@
         "embeds": [
           {
             "title": "Recommended Routers",
-            "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AX) - PRISMXR Puppis S1 (80$)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+            "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
             
           }
         ]
@@ -781,7 +781,7 @@
             "fields": [
               {
                 "name": "Other stores",
-                "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto), or [App Lab (Early Access)](https://www.applabdb.com/)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
+                "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto), or [App Lab](https://www.applabdb.com/)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
                 "inline": false
               },
               {
@@ -1034,18 +1034,8 @@
                 "inline": false
               },
               {
-                "name": "BOBOVR S3 Pro Super",
-                "value": "The BOBOVR S3 Pro is a pricey headstrap similiar to it's other battery straps, however it has ''2 times'' the capacity of the B2, thanks to it's 10,000mAh battery, and also includes a built-in Air Conditioning system.",
-                "inline": false
-              },
-              {
-                "name": "Kiwi K4 Comfort Headstrap",
-                "value": "The Kiwi K4 Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This version varies from the base comfort strap in that it has a Stealh Knob, and additional cushioning.",
-                "inline": false
-              },
-              {
-                "name": "Kiwi Battery Headstrap",
-                "value": "The Kiwi Battery Headstrap is similiar to the comfort headstrap, but it has a built-in battery, extending playtime for 2+ hours in one charge.",
+                "name": "Kiwi Comfort Headstrap",
+                "value": "The Kiwi Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This is the same as the last gen Kiwi Elite Strap but is now retrofitted for Quest 3.",
                 "inline": false
               },
               {
@@ -1117,41 +1107,13 @@
         ]
       },
       {
-        "name": "BOBOVR S3 Pro Super",
+        "name": "Kiwi Comfort Headstrap",
         "description": "",
         "emoji": "",
         "embeds": [
           {
-            "title": "BOBOVR S3 Pro Super",
-            "description": "The BOBOVR S3 Pro Super is a 'halo' style strap that's quite pricier than it's competitors, but offers a lot for the price. It has a 10,000 mAh battery, which is twice the capacity of their B2 Strap's battery, and has a built-in Air Conditioning system, and can still be hotswapped.",
-            "url": "https://www.bobovr.com/products/bobovr-m3-pro",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Included Battery__: Yes \n __Included Audio__: No",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[BOBOVR's Site](https://www.bobovr.com/products/s3-pro?srsltid=AfmBOopluxsPtRJMbFaJuf5iQt13F1xb1kNLAkEqVltCtJKNh_fo1q4r)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Kiwi K4 Comfort Head Strap",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Kiwi K4 Comfort Headstrap",
-            "description": "The Kiwi K4 Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. While keeping the same simple design of the previous iteration, this version of the strap has ''upgraded comfort'' and a ''stealth knob''.\n\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
+            "title": "Kiwi Comfort headstrap",
+            "description": "The Kiwi Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. This is the same as the last generation of the Kiwi Elite Strap but is now retrofitted for the Quest 3\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
             "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
             "color": null,
             "fields": [
@@ -1162,40 +1124,12 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/k4-comfort-head-strap)",
+                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [Amazon Canada](https://www.amazon.ca/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ) [UK](https://www.amazon.co.uk/KIWI-design-Compatible-Accessories-Replacement/dp/B0CMW2WTNJ), [KIWIs Website](https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3)",
                 "inline": true
               }
             ],
             "thumbnail": {
-              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_ComfortHeadStrapforQuest3_0.png?v=1719542495&width=600"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Kiwi Battery Headstrap",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Kiwi Battery Headstrap",
-            "description": "The Kiwi Battery Headstrap is an upgraded version of it's base Comfort headstrap, allowing for longer playtimes and 2PC charging, it has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load), and has a memory foam backing.",
-            "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Included Battery__: Yes \n __Included Audio__: No",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
+              "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190110505214423101/KIWIdesign_comfort_head_strap_for_Quest_3_1_440c2370-eb07-4de3-b367-0f8477c7f10f.webp?ex=65a09bc7&is=658e26c7&hm=1f18c1cb4bb2f4da076d4f23b4166889f20468a1197af80c2ed2f5e4675b29c0&"
             }
           }
         ]
@@ -1392,12 +1326,8 @@
       "fields": [
         {
           "name": "Do I need a VR-ready PC?",
-          "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality, if you want to install games without using a computer, you can also install it onto your headset however it's use is limited."
+          "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality."
         },
-        {
-          "name": "How do I install it onto my Quest?",
-          "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
-        },  
         {
           "name": "What does it hold?",
           "value": "Not only does it hold third-party apps, such as mods and fangames, you can also change your recording values, and install mods and apks directly to your headset via your PC.\nYou can also find custom Home Environments on it."
@@ -1521,11 +1451,11 @@
   },
   {
     "name": "applab",
-    "description": "Quest - App Lab (Early Access)",
+    "description": "Quest - App Lab",
     "ephemeral": false,
     "embed": {
-      "title": "App Lab (Early Access)",
-      "description": "For information about App Lab (now known as Meta Early Access), please see [here](https://www.reddit.com/r/oculusquest/wiki/faq/applab)."
+      "title": "App Lab",
+      "description": "For information about App Lab, please see [here](https://www.reddit.com/r/oculusquest/wiki/faq/applab)."
     }
   },
   {
@@ -1623,100 +1553,7 @@
       "title": "Half-Life: Alyx - Stutter Fix",
       "description": "Right-click Half-Life: Alyx in Steam then click Properties, in 'General' click in 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
     }
-  },
-  {
-    "name": "questreferrals",
-    "description": "Quest - Referral System",
-    "ephemeral": false,
-    "embed": {
-      "title": "Quest Referrals",
-      "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below. \n\nPlease note this system is having issues due to Meta changes."
-    },
-    "pages": [
-      {
-        "name": "Main",
-        "title": "Main",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Main",
-            "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below.",
-            "color": null,
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/875149053221019668/1211531528039960577/image.png?"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Saving Your Referral Links",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Saving Your Referral Links",
-            "description": "To save your referral link for the bot to provide users when requested, follow the below instructions.",
-            "color": null,
-            "fields": [
-              {
-                "name": "Device",
-                "value": "Type /savereferral device in any channel you can type in and type or paste your link in. This will only be shown to you. ",
-                "inline": false
-              },
-              {
-                "name": "App",
-                "value": "Type /savereferral app in any channel you can type in and type or paste your link in. In platform select the platform you purchased the game on, this only supports Meta Platforms.",
-                "inline": false
-              }
-            ],
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/875149053221019668/1211536822119702568/image.png"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Getting Referral Links",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Getting Referral Links",
-            "description": "The Referral bot allows you to get randomized links.",
-            "color": null,
-            "fields": [
-              {
-                "name": "Device",
-                "value": "Type /getreferral device in any channel you can type in, the response is only shown to you",
-                "inline": false
-              },
-              {
-                "name": "App",
-                "value": "Type /getreferral app, then type in the app name\n This also can be done in any channel you can type in, the response is only shown to you.",
-                "inline": false
-              }
-            ],
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/875149053221019668/1211536069841911828/image.png"
-            }
-          }
-        ]
-      },
-      {
-        "name": "What are Referrals?",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "What are Referrals?",
-            "description": "Referrals in the Meta Quest Referral Program are a straightforward way for you to engage with other community members by offering them a chance to join the VR world with a bonus or get a new game with a bonus.\n\n You share a specific link with community members for purchasing Quest devices or select apps and games using our bot, and when they use your link for a purchase, they receive a discount or a bonus, and you earn store credit as a thank you.\n It is beneficial for both sides: community members save on their purchase, and you get credits to use in the Meta Quest Store.\n\n Our bot is fully randomized and will select your link at random if a user requests it.",
-            "color": null
-          }
-        ]
-      }
-    ]
-  },    
+  },  
   {
     "name": "questfactoryreset",
     "description": "Quest Factory Reset",
