@@ -748,6 +748,29 @@
         ]
       },
       {
+        "name": "Offers",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "I bought a Quest that includes a special offer, such as a Game or Subscriptions, how do I activate these?",
+            "description": "You can activate these by setting up the headset! They will appear the first time you link your headset to the mobile app in the Quest App.",
+            "url": "https://www.meta.com/ca/quest/batman-arkham-shadow/",
+            "color": null,
+            "fields": [
+              {
+                "name": "What happens if I dismiss the page?",
+                "value": "Don't fret, you should get an email containing links to the pages to claim these offers post-setup! You can also find these in the store under a featured image called *Included with your Meta Quest 3/3S*.",
+                "inline": true
+              }
+            ],
+            "image": {
+              "url": "https://media.discordapp.net/attachments/1085774520792666154/1296572384295256164/Screenshot_20241017_163536_Meta_Horizon.jpg?ex=6712c6a1&is=67117521&hm=6880f2a9a772bbce74e8432c875cf6fbb66269c5c82f9109729897ed0816f41e&=&format=webp&width=341&height=675"
+            }
+          }
+        ]
+      },
+      {
         "name": "Anything you should avoid?",
         "description": "",
         "emoji": "",
