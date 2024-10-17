@@ -162,11 +162,11 @@
   },
   {
     "name": "routers",
-    "description": "Recommended Routers",
+    "description": "Community Tested Routers",
     "ephemeral": false,
     "embed": {
-      "title": "Recommended Routers",
-      "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AX) - PRISMXR Puppis S1 (80$)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+      "title": "Community Tested Routers",
+      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE / WiFi 6E) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
     },
     "pages": [
       {
@@ -176,8 +176,8 @@
         "emoji": "",
         "embeds": [
           {
-            "title": "Recommended Routers",
-            "description": "The following routers have been reported by numerous users to work reliably.\nSole/Upgrade (AXE) TP-Link AXE300/AXE16000 ($450 US)\nSole/Upgrade (AX) - Asus RT-AX86U ($300 US)\nDedicated (AXE 6E) - TP-Link AXE5400/AXE75 ($160-$200)\nDedicated (AXE 6E) - Davolink Minion 6E ($129 US)\nPortable (AX) - PRISMXR Puppis S1 (80$)\nPortable (AC) - Opal GL-SFT1200 ($50 US)\nDedicated (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested."
+            "title": "Community Tested Routers",
+            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
             
           }
         ]
@@ -201,25 +201,25 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7) [Canada](https://www.amazon.ca/Archer-C6-802-11ac-Ethernet-Wireless/dp/B07RWD9ZTW) [UK](https://www.amazon.co.uk/Archer-C6-Wireless-External-Antennas/dp/B07GVR9TG7)",
+                "value": "[USA Amazon](https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7) [Canada Amazon](https://www.amazon.ca/ROUTER-TP-LINK-ARCHER-AC1200-MU-MIMO/dp/B08GDC3534/) [UK](https://www.amazon.co.uk/TP-Link-AC1200-Wireless-Wi-Fi-Router/dp/B07L5YRYF4)",
                 "inline": true
               }
             ],
             "thumbnail": {
-              "url": "https://m.media-amazon.com/images/I/511foPyRPML._AC_SL1000_.jpg"
+              "url": "https://static.tp-link.com/Archer-C6-1_normal_1533257570157g.jpg"
             }
           }
         ]
       },
       {
         "name": "OpalGLSFT1200",
-        "title": "Opal GL-SFT1200",
-        "description": "Portable (AC) - Opal GL-SFT1200",
+        "title": "GL.iNet Opal GL-SFT1200",
+        "description": "Low End (AC) - Opal GL-SFT1200",
         "emoji": "",
         "embeds": [
           {
-            "title": "Opal GL-SFT1200",
-            "description": "The Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
+            "title": "GL.iNet Opal GL-SFT1200",
+            "description": "The GL.iNet Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
             "url": "https://www.gl-inet.com/products/gl-sft1200/",
             "color": null,
             "fields": [
@@ -227,7 +227,7 @@
                 "name": "Info",
                 "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
                 "inline": true
-              },   
+              },  
               {
                 "name": "Store Links",
                 "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
@@ -235,94 +235,7 @@
               }
             ],
             "thumbnail": {
-              "url": "https://cdn.example.com/image-url.png"
-            }
-          }
-        ]
-      },      
-      {
-        "name": "AsusAX86U",
-        "title": "Asus RT-AX86U",
-        "description": "High End (AX) - Asus RT-AX86U",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Asus RT-AX86U",
-            "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
-            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/ASUS-RT-AX86U-802-11ax-Lifetime-Internet/dp/B08BJHS3X7?) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N?) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB?)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
-            }
-          }          
-        ]
-      },
-      {
-        "name": "TPLinkAXE5400",
-        "title": "TP-Link AXE5400/AXE75",
-        "description": "Dedicated (AXE) - TP-Link AXE5400/AXE75",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "TP-Link AXE5400/AXE75",
-            "description": "The TP-Link AXE5400/AXE75 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
-            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
-            }
-          }
-        ]
-      },
-      {
-        "name": "minion6e",
-        "title": "Davolink Minion 6E",
-        "description": "High End (AXE 6E) - Davolink Minion 6E",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Davolink Minion Kevin 6E",
-            "description": "The 'Kevin' Router is a good dedicated 6E Router, offering one of the best prices on a 6E Router/AP that has been tested.",
-            "url": "http://www.davolink.co.kr/",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Wireless Type__: Wifi 6E / AC\n__Supports DFS__: Yes",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/Davolink-Minions-Kevin-Wi-Fi-Router/dp/B0CJXZSLNM?)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
+              "url": "https://m.media-amazon.com/images/I/41sKZ-x0NDL._AC_UF894,1000_QL80_.jpg"
             }
           }
         ]
@@ -330,7 +243,7 @@
       {
         "name": "puppiss1",
         "title": "PRISMXR Puppis S1",
-        "description": "Portable (AX) - PRISMXR Puppis S1",
+        "description": "Dedicated (AX) - PRISMXR Puppis S1",
         "emoji": "",
         "embeds": [
           {
@@ -355,7 +268,152 @@
             }
           }
         ]
-      },           
+      },         
+      {
+        "name": "BerylGLMT3000",
+        "title": "GL.iNet Beryl GL-MT3000",
+        "description": "Dedicated (AX) GL.iNet Beryl GL-MT3000",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "GL.iNet Beryl GL-MT3000",
+            "description": "The GL.iNet Beryl GL-MT3000 is a good dedicated router for bridging and repeating an existing wireless network. Unlike the GL.iNet Opal GL-SFT1200, the Beryl supports DFS channels which can be useful when there are limited clear 5ghz channels. Currently you will need to update this to beta firmware 4.6.0 or later for proper performance.",
+            "url": "https://www.gl-inet.com/products/gl-mt3000/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
+                "inline": true
+              },     
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://m.media-amazon.com/images/I/41IiLQJghoL._AC_SX679_.jpg"
+            }
+          }
+        ]
+      }, 
+      {
+        "name": "TPLinkAXE5400",
+        "title": "TP-Link Archer AXE75/AXE5400",
+        "description": "Dedicated (AXE) - TP-Link Archer AXE75/AXE5400",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link Archer AXE75/AXE5400",
+            "description": "The TP-Link Archer AXE75/AXE5400 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "TPLinkBE9300",
+        "title": "TP-Link BE9300/BE550",
+        "description": "Dedicated (Wifi 7) - TP-Link BE9300/BE550",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "TP-Link BE9300/BE550",
+            "description": "The TP-Link BE9300/BE550 is a Wifi 7 (Works for Wifi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wifi 7 but Wifi 7 routers function as Wifi 6e as well",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9300/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6/6e/7 5/6Ghz\n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA Amazon](https://www.amazon.com/gp/product/B0CJSNSVMR/) [USA Walmart](https://www.walmart.com/ip/TP-Link-Archer-BE9300-Router-Tri-Band-WiFi-7-Wireless-Router-up-to-9-2-Gbps-Speeds-Easy-Setup-Parental-Controls/3339006219) [EU Amazon](https://www.amazon.de/-/en/Archer-BE550/dp/B0CJSNSVMR/)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/682369095798489129/1224843314860265584/61Uj6QU3jBL.png?ex=661ef73a&is=660c823a&hm=6949b4ed6de752b8f09c80967deb5a509dcdc15eb945a307895500e38ea76229&"
+            }
+          }
+        ]
+      },     
+      {
+        "name": "minion6e",
+        "title": "Davolink Minion 6E",
+        "description": "High End (AXE 6E) - Davolink Minion 6E",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Davolink Minion 6E",
+            "description": "The 'Kevin' Router is a good dedicated 6E Router, offering one of the best prices on a 6E Router/AP that has been tested.",
+            "url": "http://www.davolink.co.kr/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6E / AC\n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA Amazon](https://www.amazon.com/Davolink-Minions-Kevin-Wi-Fi-Router/dp/B0CJXZSLNM?)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "AsusAX86U",
+        "title": "Asus RT-AX86U",
+        "description": "High End (AX) - Asus RT-AX86U",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Asus RT-AX86U",
+            "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
+            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[USA](https://www.amazon.com/ASUS-RT-AX86U-802-11ax-Lifetime-Internet/dp/B08BJHS3X7) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
+            }
+          }          
+        ]
+      },
       {
         "name": "tplaxe300",
         "title": "TP-Link AXE300/AXE16000",
@@ -365,7 +423,7 @@
           {
             "title": "TP-Link AXE300/AXE16000",
             "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
-            "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+            "url": "https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/",
             "color": null,
             "fields": [
               {
@@ -646,7 +704,7 @@
               },
               {
                 "name": "Referrals",
-                "value": "Redeem any referrals you got from friends on your Oculus App (only works before activation), or if you need one you can use <#927288276673523782>\n for more information please check out the referrals option.",
+                "value": "Redeem any referrals you got from friends on your Horizon App (only works before activation), for more information please check out the referrals command!",
                 "inline": false
               },
               {
@@ -668,7 +726,7 @@
         "embeds": [
           {
             "title": "What are referrals?",
-            "description": "When setting up a Meta Quest 2 or Meta Quest Pro you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
+            "description": "When setting up a Quest (2/3/3S/Pro) you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
             "url": "https://www.oculus.com/quest-2-referrals/",
             "color": null,
             "fields": [
@@ -678,8 +736,8 @@
                 "inline": true
               },
               {
-                "name": "I don't have a friend to give me a referral",
-                "value": "That's fine as well! You can check out <#927288276673523782> for referrals, this will guide you to get a random referral with other members of our community.",
+                "name": "What can you refer?",
+                "value": "Apps, Meta Quest Plus, and Devices! Apps give the referred user a 15% discount, and the referal owner 2-5$ in Quest Cash depending on the games price. Quest Plus gives you a week trial, and if you pay for a full month, the referral owner gets a full month free.",
                 "inline": true
               }
             ],
@@ -750,17 +808,17 @@
               },
               {
                 "name": "Paid - Great Multiplayer",
-                "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov: Shack](https://www.oculus.com/experiences/quest/3649611198468269/)\n[Walkabout Minigolf](https://www.meta.com/en-gb/experiences/walkabout-mini-golf/2462678267173943/)",
+                "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Dimensional Double Shift](https://www.meta.com/experiences/dimensional-double-shift/4449903565103159/)\n[Walkabout Minigolf](https://www.meta.com/en-gb/experiences/walkabout-mini-golf/2462678267173943/)",
                 "inline": false
               },
               {
                 "name": "Paid - Close to Home (Mixed Reality)",
-                "value": "[Battle Talent](https://www.meta.com/experiences/8752849024786000/)\n[Blockworks](https://www.meta.com/experiences/4795837347172093/)\n[Track Craft](https://www.meta.com/experiences/5802051039897223/)\n[Neko Atsume Purrfect Kitty Collector](https://www.meta.com/experiences/8401739766534648/)\n[Synth Riders](https://www.meta.com/experiences/quest/2436558143118760)\n[Angry Birds VR: Isle of Pigs](https://www.meta.com/experiences/2718606324833775/)",
+                "value": "[Battle Talent](https://www.meta.com/experiences/8752849024786000/)\n[Guardian of Realms](https://www.meta.com/experiences/guardian-of-realms/25106457802334660/)\n[Track Craft](https://www.meta.com/experiences/5802051039897223/)\n[Neko Atsume Purrfect Kitty Collector](https://www.meta.com/experiences/8401739766534648/)\n[Synth Riders](https://www.meta.com/experiences/quest/2436558143118760)\n[Angry Birds VR: Isle of Pigs](https://www.meta.com/experiences/2718606324833775/)",
                 "inline": false
               },
               {
                 "name": "Other Guides",
-                "value": "Check out [Gibby's Guide](https://gibbysguide.org/content/gibbysguidev24_lores.pdf) as they make a monthly guide on new content!",
+                "value": "Check out [Gibby's Guide](https://gibbysguide.org/) as they make a monthly guide on new content!",
                 "inline": false
               }
 
@@ -781,7 +839,7 @@
             "fields": [
               {
                 "name": "Other stores",
-                "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto), or [App Lab (Early Access)](https://www.applabdb.com/)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
+                "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
                 "inline": false
               },
               {
@@ -955,7 +1013,7 @@
               },
               {
                 "name": "Kuject USB Link Cable",
-                "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever. **Not on quest 3** \n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
+                "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever. **CANNOT CHARGE THE QUEST 3/3S** \n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
                 "inline": false 
               },
               {
@@ -1020,7 +1078,7 @@
         "embeds": [
           {
             "title": "Quest 3 Straps",
-            "description": "The Quest 3 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box.",
+            "description": "The Quest 3 Family of headsets support modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box.",
             "color": null,
             "fields": [
               {
@@ -1039,18 +1097,18 @@
                 "inline": false
               },
               {
-                "name": "Kiwi K4 Boost Comfort Headstrap",
-                "value": "The Kiwi K4 Boost Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This version varies from the base comfort strap in that it has a Stealh Knob, and additional cushioning.",
+                "name": "Kiwi K4 Comfort Headstrap",
+                "value": "The Kiwi K4 Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This version varies from the base comfort strap in that it has a Stealh Knob, and additional cushioning.",
                 "inline": false
               },
               {
-                "name": "Kiwi H4 Boost Halo Battery Strap",
-                "value": "The Kiwi H4 Boost is similiar to the K4 Boost, but it is in the form of a Halo strap instead of a "Comfort" strap.",
+                "name": "Kiwi Battery Headstrap",
+                "value": "The Kiwi Battery Headstrap is similiar to the comfort headstrap, but it has a built-in battery, extending playtime for 2+ hours in one charge.",
                 "inline": false
               },
               {
                 "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
-                "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3s design, saving you the money of having to purchase a new strap all together.",
+                "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3's design, saving you the money of having to purchase a new strap all together.",
                 "inline": false
               }
             ],
@@ -1134,7 +1192,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[BOBOVR's Site](https://www.bobovr.com/products/s3-pro?srsltid=AfmBOopluxsPtRJMbFaJuf5iQt13F1xb1kNLAkEqVltCtJKNh_fo1q4r)",
+                "value": "[BOBOVR's Site](https://www.bobovr.com/products/s3-pro)",
                 "inline": true
               }
             ],
@@ -1150,7 +1208,7 @@
         "emoji": "",
         "embeds": [
           {
-            "title": "Kiwi K4 Boost Comfort Headstrap",
+            "title": "Kiwi K4 Comfort Headstrap",
             "description": "The Kiwi K4 Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. While keeping the same simple design of the previous iteration, this version of the strap has ''upgraded comfort'' and a ''stealth knob''.\n\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
             "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
             "color": null,
@@ -1162,24 +1220,24 @@
               },
               {
                 "name": "Store Links",
-                "value": "[KIWI's Website](https://www.kiwidesign.com/products/k4-boost-comfort-battery-head-strap)",
+                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/k4-comfort-head-strap)",
                 "inline": true
               }
             ],
             "thumbnail": {
-              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign-K4-Boost-Battery-Strap-6.jpg?v=1727594149&width=800"
+              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_ComfortHeadStrapforQuest3_0.png?v=1719542495&width=600"
             }
           }
         ]
       },
       {
-        "name": "Kiwi H4 Boost Headstrap",
+        "name": "Kiwi Battery Headstrap",
         "description": "",
         "emoji": "",
         "embeds": [
           {
-            "title": "Kiwi H4 Boost Headstrap",
-            "description": "The Kiwi H4 Boost Headstrap is an upgraded version of it's K4 Boost, but in a Halo format, and has the same specs as the K4 Boost.",
+            "title": "Kiwi Battery Headstrap",
+            "description": "The Kiwi Battery Headstrap is an upgraded version of it's base Comfort headstrap, allowing for longer playtimes and 2PC charging, it has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load), and has a memory foam backing.",
             "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
             "color": null,
             "fields": [
@@ -1190,12 +1248,12 @@
               },
               {
                 "name": "Store Links",
-                "value": "[KIWI's Website](https://www.kiwidesign.com/products/h4-boost-halo-battery-strap)",
+                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
                 "inline": true
               }
             ],
             "thumbnail": {
-              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign-H4-Boost-Halo-Battery-Strap-0.jpg?v=1727602103&width=800"
+              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
             }
           }
         ]
@@ -1243,7 +1301,7 @@
           "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
         },
         {
-          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
+          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3/3S",
           "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
         },
         {
@@ -1255,7 +1313,7 @@
   },
   {
     "name": "questplus",
-    "description": "Info on the Quest Subscription Service, Quest+",
+    "description": "Information on the Quest Subscription Service, Quest+",
     "ephemeral": false,
     "embed": {
       "title": "Meta Quest +",
@@ -1311,6 +1369,22 @@
         ]
       },
       {
+        "name": "Deals",
+        "title": "Deals",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Deals",
+            "description": "Meta Quest + now offers exclusive deals! This not only includes a randomly rotating library of Deals, but also occasionally they will give out 30% coupons for **any game on the Store!**",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },
+      {
         "name": "Do I keep my games after cancelling?",
         "title": "Do I keep my games after cancelling?",
         "description": "",
@@ -1327,22 +1401,6 @@
         ]
       },
       {
-        "name": "Are there exclusive deals for being subscribed?",
-        "title": "Are there exclusive deals for being subscribed?",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Are there exclusive deals for being subscribed?",
-            "description": "Yes! These change bi-monthly and can range from the hottest new titles, to older hits, like Superhot or Job Simulator! These are usually 10-25% off, but sometimes can be 40% off! Meta also sometimes will give off ***30% off any game*** coupons randomly, these are usually just before sales.",
-            "color": null,
-            "thumbnail": {
-              "url": ""
-            }
-          }
-        ]
-      },
-      {
         "name": "Do I get the Rift Versions of these games?",
         "title": "Do I get the Rift Versions of these games?",
         "description": "",
@@ -1351,6 +1409,22 @@
           {
             "title": "Do I get the Rift Versions of these games?",
             "description": "At this moment, no. However this can change in the future.",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "I just bought a Quest 3/3S, how do I activate my free months?",
+        "title": "I just bought a Quest 3/3S, how do I activate my free months?",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "I just bought a Quest 3/3S, how do I activate my free months?",
+            "description": "When you activate your Quest 3/3S, You will get a prompt to redeem Arkham Shadow **and** the Months, if you skipped this when setting up, check your emails! There should be a email in there with steps to redeem.",
             "color": null,
             "thumbnail": {
               "url": ""
@@ -1411,13 +1485,13 @@
           "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality, if you want to install games without using a computer, you can also install it onto your headset however it's use is limited."
         },
         {
-          "name": "How do I install it onto my Quest?",
-          "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
-        },  
-        {
           "name": "What does it hold?",
           "value": "Not only does it hold third-party apps, such as mods and fangames, you can also change your recording values, and install mods and apks directly to your headset via your PC.\nYou can also find custom Home Environments on it."
         },
+        {
+          "name": "How do I install it onto my Quest?",
+          "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
+        },          
         {
           "name": "Is it safe?",
           "value": "It is accepted (and even endorsed) by Meta and you can find information on how to install it [here](https://sidequestvr.com/setup-howto) with all setup instructions."
@@ -1493,7 +1567,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Inside Out Body Tracking",
-      "description": "Meta's Inside Out Body Tracking IOBT for the Quest 2 and 3 is a technology that tracks the user's upper body movements using the headset's cameras. This feature allows the VR system to accurately display the user's arms and torso movements in VR. \n\nMeta has an inside out body tracking demo you can try [here](https://www.meta.com/experiences/6511679575602893/)"
+      "description": "Meta's Inside Out Body Tracking IOBT for the Quest 2 and 3 is a technology that tracks the user's upper body movements using the headset's cameras. This feature allows the VR system to accurately display the user's arms and torso movements in VR. \n\nMeta has an inside out body tracking demo you can try [here](https://www.meta.com/experiences/6511679575602893/). This is also used on Virtual Desktop for Full Body Tracking on SteamVR."
     }
   },
   {
@@ -1502,7 +1576,10 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224484/)\nAMD RX 400/500 series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/)\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html)"
+      "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224483/en-us/)\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/)\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html)",
+      "footer": {
+        "text": "Newer drivers may perform fine for people, issues can be isolated."      
+      }
     }
   },
   {
@@ -1515,45 +1592,35 @@
     }
   },
   {
+    "name": "routersetup",
+    "description": "Dedicated Router Setup Diagram",
+    "ephemeral": false,
+    "embed": {
+      "title": "Dedicated Router Setup Diagram",
+      "image": {
+        "url": "https://vrdiscord.com/images/routersetup.png"
+      }
+    }
+  },
+  {
+    "name": "altroutersetup",
+    "description": "Alternate Dedicated Router Setup Diagrams",
+    "ephemeral": false,
+    "embed": {
+      "title": "Alternate Dedicated Router Setup Diagrams",
+      "image": {
+        "url": "https://vrdiscord.com/images/network_setups.png"
+      }
+    }
+  },
+
+  {
     "name": "questpcvrinfo",
     "description": "Request more information - PC - Quest",
     "ephemeral": false,
     "embed": {
       "title": "Please provide more information",
       "description": "All support is volunteer, to be able to have people help it's best if you could provide more information about your computer or issue. \n Please provide relevent computer information such as your CPU, Graphics Card, and Operating System.\n Additionally, any information you could see to be helpful to further assist, if this is airlink or vd related, your network setup such as router model, and if you are wired can help in these cases too.\n \n[You can also contact Oculus before reaching out to the community for help.](https://tickets.oculusvr.com/hc/en-us/requests/new)"
-    }
-  },
-  {
-    "name": "airlinkupdate",
-    "description": "Airlink is no longer in experimental",
-    "ephemeral": false,
-    "embed": {
-      "title": "Airlink is no longer in experimental",
-      "description": "Air Link is out of the experimental settings panel and will now be available under system settings - Link.",
-      "image": {
-        "url": "https://cdn.discordapp.com/attachments/416305941491875851/996586946941956096/unknown.png"
-      }
-    }
-  },
-  {
-    "name": "psvr2adapter",
-    "description": "Information on the **PSVR2 - PC Adapter**",
-    "ephemeral": false,
-    "embed": {
-      "title": "Information on the **PSVR2 - PC Adapter**",
-      "description": "The PSVR2 Adapter is an officially released product by Sony that let's you use your PSVR2 on PC (with purchase of an adapter), and is a great entrypoint into PCVR for people who do not have another headset.",
-      "image": {
-        "url": ""
-      }
-    }
-  },
-  {
-    "name": "applab",
-    "description": "Quest - App Lab (Early Access)",
-    "ephemeral": false,
-    "embed": {
-      "title": "App Lab (Early Access)",
-      "description": "For information about App Lab (now known as Meta Early Access), please see [here](https://www.reddit.com/r/oculusquest/wiki/faq/applab)."
     }
   },
   {
@@ -1589,7 +1656,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Quest/Rift Crossplay Apps",
-      "description": "Rift and Quest have some games that support crossplay (playing multiplayer between different platforms (Steam, Rift, Quest, and/or PSVR)), and you can find that list [here](https://www.reddit.com/r/oculus/wiki/crossplay).\nPlease note that this is a community-maintained list and will not always be accurate."
+      "description": "Rift and Quest have some games that support crossplay (playing multiplayer between different platforms (Steam, Rift, Quest, and/or PSVR)), and you can find that list [here](https://www.reddit.com/r/oculus/wiki/crossplay).\nPlease note that this is a community-maintained list and will not always be accurate. (Frequently Outdated, for up to date info, check with the Developers!)"
     }
   },
   {
@@ -1651,100 +1718,7 @@
       "title": "Half-Life: Alyx - Stutter Fix",
       "description": "Right-click Half-Life: Alyx in Steam then click Properties, in 'General' click in 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
     }
-  },
-  {
-    "name": "questreferrals",
-    "description": "Quest - Referral System",
-    "ephemeral": false,
-    "embed": {
-      "title": "Quest Referrals",
-      "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below. \n\nPlease note this system is having issues due to Meta changes."
-    },
-    "pages": [
-      {
-        "name": "Main",
-        "title": "Main",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Main",
-            "description": "Meta offers a referral system for the the Quest and Apps over 10$. \n You can request referrals with /getreferral app or /getreferral device.\n For additional details please choose below.",
-            "color": null,
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/875149053221019668/1211531528039960577/image.png?"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Saving Your Referral Links",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Saving Your Referral Links",
-            "description": "To save your referral link for the bot to provide users when requested, follow the below instructions.",
-            "color": null,
-            "fields": [
-              {
-                "name": "Device",
-                "value": "Type /savereferral device in any channel you can type in and type or paste your link in. This will only be shown to you. ",
-                "inline": false
-              },
-              {
-                "name": "App",
-                "value": "Type /savereferral app in any channel you can type in and type or paste your link in. In platform select the platform you purchased the game on, this only supports Meta Platforms.",
-                "inline": false
-              }
-            ],
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/875149053221019668/1211536822119702568/image.png"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Getting Referral Links",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Getting Referral Links",
-            "description": "The Referral bot allows you to get randomized links.",
-            "color": null,
-            "fields": [
-              {
-                "name": "Device",
-                "value": "Type /getreferral device in any channel you can type in, the response is only shown to you",
-                "inline": false
-              },
-              {
-                "name": "App",
-                "value": "Type /getreferral app, then type in the app name\n This also can be done in any channel you can type in, the response is only shown to you.",
-                "inline": false
-              }
-            ],
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/875149053221019668/1211536069841911828/image.png"
-            }
-          }
-        ]
-      },
-      {
-        "name": "What are Referrals?",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "What are Referrals?",
-            "description": "Referrals in the Meta Quest Referral Program are a straightforward way for you to engage with other community members by offering them a chance to join the VR world with a bonus or get a new game with a bonus.\n\n You share a specific link with community members for purchasing Quest devices or select apps and games using our bot, and when they use your link for a purchase, they receive a discount or a bonus, and you earn store credit as a thank you.\n It is beneficial for both sides: community members save on their purchase, and you get credits to use in the Meta Quest Store.\n\n Our bot is fully randomized and will select your link at random if a user requests it.",
-            "color": null
-          }
-        ]
-      }
-    ]
-  },    
+  },  
   {
     "name": "questfactoryreset",
     "description": "Quest Factory Reset",
