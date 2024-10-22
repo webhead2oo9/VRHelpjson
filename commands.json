@@ -704,7 +704,7 @@
               },
               {
                 "name": "Referrals",
-                "value": "Redeem any referrals you got from friends on your Oculus App (only works before activation), or if you need one you can use <#927288276673523782>\n for more information please check out the referrals option.",
+                "value": "Redeem any referrals you got from friends on your Horizon App (only works before activation), for more information please check out the referrals command!",
                 "inline": false
               },
               {
@@ -726,7 +726,7 @@
         "embeds": [
           {
             "title": "What are referrals?",
-            "description": "When setting up a Meta Quest 2 or Meta Quest Pro you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
+            "description": "When setting up a Quest (2/3/3S/Pro) you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
             "url": "https://www.oculus.com/quest-2-referrals/",
             "color": null,
             "fields": [
@@ -736,13 +736,36 @@
                 "inline": true
               },
               {
-                "name": "I don't have a friend to give me a referral",
-                "value": "That's fine as well! You can check out <#927288276673523782> for referrals, this will guide you to get a random referral with other members of our community.",
+                "name": "What can you refer?",
+                "value": "Apps, Meta Quest Plus, and Devices! Apps give the referred user a 15% discount, and the referal owner 2-5$ in Quest Cash depending on the games price. Quest Plus gives you a week trial, and if you pay for a full month, the referral owner gets a full month free.",
                 "inline": true
               }
             ],
             "image": {
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056146259800490034/Screenshot_20221224_014744_Meta_Quest.png"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Offers",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "I bought a Quest that includes a special offer, such as a Game or Subscriptions, how do I activate these?",
+            "description": "You can activate these by setting up the headset! They will appear the first time you link your headset to the mobile app in the Quest App.",
+            "url": "https://www.meta.com/ca/quest/batman-arkham-shadow/",
+            "color": null,
+            "fields": [
+              {
+                "name": "What happens if I dismiss the page?",
+                "value": "Don't fret, you should get an email containing links to the pages to claim these offers post-setup! You can also find these in the store under a featured image called *Included with your Meta Quest 3/3S*.",
+                "inline": true
+              }
+            ],
+            "image": {
+              "url": "https://media.discordapp.net/attachments/1085774520792666154/1296572384295256164/Screenshot_20241017_163536_Meta_Horizon.jpg?ex=6712c6a1&is=67117521&hm=6880f2a9a772bbce74e8432c875cf6fbb66269c5c82f9109729897ed0816f41e&=&format=webp&width=341&height=675"
             }
           }
         ]
@@ -808,12 +831,12 @@
               },
               {
                 "name": "Paid - Great Multiplayer",
-                "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov: Shack](https://www.oculus.com/experiences/quest/3649611198468269/)\n[Walkabout Minigolf](https://www.meta.com/en-gb/experiences/walkabout-mini-golf/2462678267173943/)",
+                "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Dimensional Double Shift](https://www.meta.com/experiences/dimensional-double-shift/4449903565103159/)\n[Walkabout Minigolf](https://www.meta.com/en-gb/experiences/walkabout-mini-golf/2462678267173943/)",
                 "inline": false
               },
               {
                 "name": "Paid - Close to Home (Mixed Reality)",
-                "value": "[Battle Talent](https://www.meta.com/experiences/8752849024786000/)\n[Blockworks](https://www.meta.com/experiences/4795837347172093/)\n[Track Craft](https://www.meta.com/experiences/5802051039897223/)\n[Neko Atsume Purrfect Kitty Collector](https://www.meta.com/experiences/8401739766534648/)\n[Synth Riders](https://www.meta.com/experiences/quest/2436558143118760)\n[Angry Birds VR: Isle of Pigs](https://www.meta.com/experiences/2718606324833775/)",
+                "value": "[Battle Talent](https://www.meta.com/experiences/8752849024786000/)\n[Guardian of Realms](https://www.meta.com/experiences/guardian-of-realms/25106457802334660/)\n[Track Craft](https://www.meta.com/experiences/5802051039897223/)\n[Neko Atsume Purrfect Kitty Collector](https://www.meta.com/experiences/8401739766534648/)\n[Synth Riders](https://www.meta.com/experiences/quest/2436558143118760)\n[Angry Birds VR: Isle of Pigs](https://www.meta.com/experiences/2718606324833775/)",
                 "inline": false
               },
               {
@@ -821,8 +844,6 @@
                 "value": "Check out [Gibby's Guide](https://gibbysguide.org/) as they make a monthly guide on new content!",
                 "inline": false
               }
-
-              
             ]
           }
         ]
@@ -1013,7 +1034,7 @@
               },
               {
                 "name": "Kuject USB Link Cable",
-                "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever. **Not on quest 3** \n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
+                "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever. **CANNOT CHARGE THE QUEST 3/3S** \n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
                 "inline": false 
               },
               {
@@ -1078,7 +1099,7 @@
         "embeds": [
           {
             "title": "Quest 3 Straps",
-            "description": "The Quest 3 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box.",
+            "description": "The Quest 3 Family of headsets support modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box.",
             "color": null,
             "fields": [
               {
@@ -1108,7 +1129,7 @@
               },
               {
                 "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
-                "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3s design, saving you the money of having to purchase a new strap all together.",
+                "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3's design, saving you the money of having to purchase a new strap all together.",
                 "inline": false
               }
             ],
@@ -1301,7 +1322,7 @@
           "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
         },
         {
-          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
+          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3/3S",
           "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
         },
         {
@@ -1313,7 +1334,7 @@
   },
   {
     "name": "questplus",
-    "description": "Info on the Quest Subscription Service, Quest+",
+    "description": "Information on the Quest Subscription Service, Quest+",
     "ephemeral": false,
     "embed": {
       "title": "Meta Quest +",
@@ -1369,6 +1390,22 @@
         ]
       },
       {
+        "name": "Deals",
+        "title": "Deals",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Deals",
+            "description": "Meta Quest + now offers exclusive deals! This not only includes a randomly rotating library of Deals, but also occasionally they will give out 30% coupons for **any game on the Store!**",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },
+      {
         "name": "Do I keep my games after cancelling?",
         "title": "Do I keep my games after cancelling?",
         "description": "",
@@ -1393,6 +1430,22 @@
           {
             "title": "Do I get the Rift Versions of these games?",
             "description": "At this moment, no. However this can change in the future.",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "I just bought a Quest 3/3S, how do I activate my free months?",
+        "title": "I just bought a Quest 3/3S, how do I activate my free months?",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "I just bought a Quest 3/3S, how do I activate my free months?",
+            "description": "When you activate your Quest 3/3S, You will get a prompt to redeem Arkham Shadow **and** the Months, if you skipped this when setting up, check your emails! There should be a email in there with steps to redeem.",
             "color": null,
             "thumbnail": {
               "url": ""
@@ -1624,7 +1677,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Quest/Rift Crossplay Apps",
-      "description": "Rift and Quest have some games that support crossplay (playing multiplayer between different platforms (Steam, Rift, Quest, and/or PSVR)), and you can find that list [here](https://www.reddit.com/r/oculus/wiki/crossplay).\nPlease note that this is a community-maintained list and will not always be accurate. (Usually outdated)"
+      "description": "Rift and Quest have some games that support crossplay (playing multiplayer between different platforms (Steam, Rift, Quest, and/or PSVR)), and you can find that list [here](https://www.reddit.com/r/oculus/wiki/crossplay).\nPlease note that this is a community-maintained list and will not always be accurate. (Frequently Outdated, for up to date info, check with the Developers!)"
     }
   },
   {
