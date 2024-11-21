@@ -726,18 +726,18 @@
         "embeds": [
           {
             "title": "What are referrals?",
-            "description": "When setting up a Meta Quest 2 or Meta Quest Pro you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
+            "description": "When setting up a Meta Quest Device you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
             "url": "https://www.oculus.com/quest-2-referrals/",
             "color": null,
             "fields": [
               {
                 "name": "How can a friend send me a referral?",
-                "value": "This option, requires your friend/acquaintance to generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click Menu at the bottom right, there should be a large blue box that starts the referral process.",
+                "value": "This option, requires your friend/acquaintance to first, add you as a friend on their Quest Account, and then generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click your Avatar at the bottom of the screen, click the 3 lines in the top right, then scroll down to Referrals which is marked with a Diamond, there should be a large blue box that starts the referral process.",
                 "inline": true
               },
               {
-                "name": "I don't have a friend to give me a referral",
-                "value": "That's fine as well! You can check out <#927288276673523782> for referrals, this will guide you to get a random referral with other members of our community.",
+                "name": "What can be referred?",
+                "value": "As of recent, this has changed to Games, Devices, and Meta Quest +! One thing that is important to note, is that if you own MQ+, you are unable to share or use App Referrals.",
                 "inline": true
               }
             ],
@@ -889,6 +889,35 @@
               {
                 "name": "Where should I buy my games for PCVR?",
                 "value": "A lot of people prefer Steam, and most people agree - however I would check to see if the game is [crossbuy](https://www.oculus.com/experiences/quest/section/2335732183153590/#/?_k=l5u635) before you buy on steam, as a 'crossbuy' title you can buy on Quest and get on the Rift store and Quest store. (PC and Quest at the same time).",
+                "inline": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "I'm looking for discounts..",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Discounts",
+            "description": "Your just in luck, there are many ways to find discounts for games!",
+            "color": null,
+            "fields": [
+              {
+                "name": "Meta Store",
+                "value": "The Meta Store always has *something* on-sale, you can find this via going into the store, and using the *On-Sale* filter, on both the desktop, in-headset, and app stores!",
+                "inline": false
+              },
+              {
+                "name": "Reddit",
+                "value": "The wonderful users of the OculusQuest subreddit have compiled a [**Mega-Thread**](https://www.reddit.com/r/OculusQuest/comments/1ed8b5a/discounted_games_megathread/) of current games that have codes, this list is always updating, so check back frequently if your eyeing a game!",
+                "inline": false
+              },
+              {
+                "name": "Referrals / Creator Codes",
+                "value": "Referrals and Creator Codes are your second best friend if none of the above has something for the specific game your looking for, Referrals give 15% off a game, but require you to be friends with the user, and Creator Codes give 10% off a game, and can be used at any time by any one, you just need to find one, usually YouTubers will put these in the descriptions of their videos.",
                 "inline": false
               }
             ]
@@ -1361,6 +1390,22 @@
           {
             "title": "Game Catalog",
             "description": "As of March 2024, Meta Quest + now offers a game catalog! These games rotate in and out just like Gamepass, check back in every few months to check whats new, you can see a full list of the currently available titles [here](https://www.meta.com/experiences/section/746836817401205/)",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Membership Deals",
+        "title": "Membership Deals",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Membership Deals",
+            "description": "Meta Quest + now includes exclusive deals for members, these include deals on hit classics such as **Superhot VR**, but will also rotate in new titles, like **Arizona Sunshine 2** and many others! Meta will also occasionally give out 30% off coupons for *any* game on the Store to subscribers!",
             "color": null,
             "thumbnail": {
               "url": ""
