@@ -733,15 +733,15 @@
               {
                 "name": "How can a friend send me a referral?",
                 "value": "This option, requires your friend/acquaintance to first, add you as a friend on their Quest Account, and then generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click your Avatar at the bottom of the screen, click the 3 lines in the top right, then scroll down to Referrals which is marked with a Diamond, there should be a large blue box that starts the referral process.",
-                "inline": true
+                "inline": false
               },
               {
                 "name": "What can be referred?",
                 "value": "As of recent, this has changed to Games, Devices, and Meta Quest +! One thing that is important to note, is that if you own MQ+, you are unable to share or use App Referrals.",
-                "inline": true
+                "inline": false
               }
             ],
-            "image": {
+            "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056146259800490034/Screenshot_20221224_014744_Meta_Quest.png"
             }
           }
@@ -896,7 +896,7 @@
         ]
       },
       {
-        "name": "I'm looking for discounts..",
+        "name": "I'm looking for discounts",
         "description": "",
         "emoji": "",
         "embeds": [
