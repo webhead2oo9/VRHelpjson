@@ -20,11 +20,6 @@
             "color": null,
             "fields": [
               {
-                "name": "BOBOVR M2+",
-                "value": "The BOBOVR M2 is a popular halo-style strap.",
-                "inline": false
-              },
-              {
                 "name": "BOBOVR M2 Pro",
                 "value": "The BOBOVR M2 Pro is a popular halo-style strap with a built-in battery.",
                 "inline": false
@@ -47,34 +42,6 @@
         ]
       },
       {
-        "name": "BOBOVR M2+",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "BOBOVR M2+",
-            "description": "The BOBOVR M2+ is a 'halo'-style strap that's very common in the community.\n\nIt can be found in multiple regions, and is generally known to be a good overall choice for comfort and value.",
-            "url": "https://www.bobovr.com/product/m2/",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Included Battery__: No \n __Included Audio__: No",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M2-Replacement-Pressure-Comfortable/dp/B08YR8LFH3) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Adjustable-Cushion%EF%BC%8CReplacement-Strap%EF%BC%8CIncrease/dp/B093WNWZRR/) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Replacement-Accessories-Adjustable-Pressure-M2-Strap/dp/B094J91ST9) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935042459333967963/WechatIMG1273.png"
-            }
-          }
-        ]
-      },
-      {
         "name": "BOBOVR M2 Pro",
         "description": "",
         "emoji": "",
@@ -92,7 +59,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M2-Pro-Lightweight-Replaceable/dp/B09JNR4Y15) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Pro-Lightweight-Uninterrupted/dp/B09JNR4Y15) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M2-Battery-Replacement-Accessories-White/dp/B09KNF4Q9G) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
+                "value": "[Amazon Affliate](https://vrdiscord.com/go/bobo-m2-pro) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Pro-Lightweight-Uninterrupted/dp/B09JNR4Y15) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M2-Battery-Replacement-Accessories-White/dp/B09KNF4Q9G) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
                 "inline": true
               }
             ],
@@ -120,7 +87,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Accessories-Enhanced-Support/dp/B098JTDPQC) [Amazon Canada](https://www.amazon.ca/KIWI-design-Upgraded-Enhanced-Support/dp/B098JTDPQC) [UK](https://www.amazon.co.uk/KIWI-design-Upgraded-Accessories-Enhanced-Head-Strap/dp/B098JTDPQC), [AliExpress](https://www.aliexpress.com/item/1005003162851232.html)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/kiwi-q2-comfort) [Amazon Canada](https://www.amazon.ca/KIWI-design-Upgraded-Enhanced-Support/dp/B098JTDPQC) [UK](https://www.amazon.co.uk/KIWI-design-Upgraded-Accessories-Enhanced-Head-Strap/dp/B098JTDPQC), [AliExpress](https://www.aliexpress.com/item/1005003162851232.html)",
                 "inline": true
               }
             ],
@@ -148,7 +115,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/HTC-Vive-Deluxe-Audio-Strap-pc/dp/B06Y2GDXMC) [Amazon Canada](https://www.amazon.ca/HTC-99HAMR001-00-Deluxe-Audio-Strap/dp/B06Y2GDXMC) [Amazon UK](https://www.amazon.co.uk/VIVE-Deluxe-Audio-Strap-schwarz/dp/B072586SVF)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/vive-deluxe-audio) [Amazon Canada](https://www.amazon.ca/HTC-99HAMR001-00-Deluxe-Audio-Strap/dp/B06Y2GDXMC) [Amazon UK](https://www.amazon.co.uk/VIVE-Deluxe-Audio-Strap-schwarz/dp/B072586SVF)",
                 "inline": true
               }
             ],
@@ -201,7 +168,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA Amazon](https://www.amazon.com/Dual-band-Gigabit-WiFi-Internet-Router/dp/B08KJF5BS7) [Canada Amazon](https://www.amazon.ca/ROUTER-TP-LINK-ARCHER-AC1200-MU-MIMO/dp/B08GDC3534/) [UK](https://www.amazon.co.uk/TP-Link-AC1200-Wireless-Wi-Fi-Router/dp/B07L5YRYF4)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/tplink-c6) [Canada Amazon](https://www.amazon.ca/ROUTER-TP-LINK-ARCHER-AC1200-MU-MIMO/dp/B08GDC3534/) [UK](https://www.amazon.co.uk/TP-Link-AC1200-Wireless-Wi-Fi-Router/dp/B07L5YRYF4)",
                 "inline": true
               }
             ],
@@ -230,7 +197,7 @@
               },  
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/glinet-opal) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
                 "inline": true
               }
             ],
@@ -259,7 +226,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/PRISMXR-Streaming-Compatible-Accessories-Wireless/dp/B0CFDL5Y7F)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/prismxr-puppis)",
                 "inline": true
               }
             ],
@@ -288,7 +255,7 @@
               },     
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/glinet-beryl) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)",
                 "inline": true
               }
             ],
@@ -317,7 +284,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [USA Amazon](https://www.amazon.com/TP-Link-Tri-Band-Archer-AXE75-Wireless/dp/B0B3SQK74L/) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
+                "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [Amazon Affliate](https://www.vrdiscord.com/go/tplink-axe75) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
                 "inline": true
               }
             ],
@@ -346,7 +313,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA Amazon](https://www.amazon.com/gp/product/B0CJSNSVMR/) [USA Walmart](https://www.walmart.com/ip/TP-Link-Archer-BE9300-Router-Tri-Band-WiFi-7-Wireless-Router-up-to-9-2-Gbps-Speeds-Easy-Setup-Parental-Controls/3339006219) [EU Amazon](https://www.amazon.de/-/en/Archer-BE550/dp/B0CJSNSVMR/)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/tplink-be550) [USA Walmart](https://www.walmart.com/ip/TP-Link-Archer-BE9300-Router-Tri-Band-WiFi-7-Wireless-Router-up-to-9-2-Gbps-Speeds-Easy-Setup-Parental-Controls/3339006219) [EU Amazon](https://www.amazon.de/-/en/Archer-BE550/dp/B0CJSNSVMR/)",
                 "inline": true
               }
             ],
@@ -375,7 +342,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA Amazon](https://www.amazon.com/Davolink-Minions-Kevin-Wi-Fi-Router/dp/B0CJXZSLNM?)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/davolink-kevin)",
                 "inline": true
               }
             ],
@@ -404,7 +371,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/ASUS-RT-AX86U-802-11ax-Lifetime-Internet/dp/B08BJHS3X7) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/asus-ax86u) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB)",
                 "inline": true
               }
             ],
@@ -423,7 +390,7 @@
           {
             "title": "TP-Link AXE300/AXE16000",
             "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
-            "url": "https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/",
+            "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe300/",
             "color": null,
             "fields": [
               {
@@ -433,7 +400,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[USA](https://www.amazon.com/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/tplink-axe300/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)",
                 "inline": true
               }
             ],
@@ -486,13 +453,13 @@
                 "inline": false
               },
               {
+                "name": "Syntech Link Cable with Charging",
+                "value": "Syntech's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever (Quest 2, Pro & 3)",
+                "inline": false
+              },              
+              {
                 "name": "Meta Official Link Cable",
                 "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.",
-                "inline": false
-              },
-              {
-                "name": "Anker Fiber Link Cable",
-                "value": "The anker cable is a very similar cable to the official Meta link cable, but is sold by Anker and has slightly different asthetics. It is also USB C to C.",
                 "inline": false
               }
             ],
@@ -520,7 +487,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA (5M)](https://www.amazon.com/KIWI-design-Accessories-Compatible-Headset/dp/B09N77BGDF) [Amazon Canada (5M)](https://www.amazon.ca/KIWI-design-Compatible-Accessories-High-Speed/dp/B09N77BGDF) [Amazon UK (5M)](https://www.amazon.co.uk/KIWI-design-Compatible-Oculus-Accessories/dp/B09N77BGDF) [AliExpress (6M)](https://s.click.aliexpress.com/e/_DCPk11l)",
+                "value": "[Amazon Affliate (5M)](https://vrdiscord.com/go/kiwi-link) [Amazon Canada (5M)](https://www.amazon.ca/KIWI-design-Compatible-Accessories-High-Speed/dp/B09N77BGDF) [Amazon UK (5M)](https://www.amazon.co.uk/KIWI-design-Compatible-Oculus-Accessories/dp/B09N77BGDF) [AliExpress (6M)](https://s.click.aliexpress.com/e/_DCPk11l)",
                 "inline": true
               }
             ],
@@ -548,7 +515,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91) [Amazon Canada](https://www.amazon.ca/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/syntech-link) [Amazon Canada](https://www.amazon.ca/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91)",
                 "inline": true
               }
             ],
@@ -576,7 +543,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/dp/B0BRKKFJ3X/) [Amazon Canada](https://www.amazon.ca/dp/B0BRKKFJ3X/)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/kuject-link/) [Amazon Canada](https://www.amazon.ca/dp/B0BRKKFJ3X/)",
                 "inline": true
               }
             ],
@@ -604,7 +571,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/dp/B0BRQMFDQ3)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/iniu-link)",
                 "inline": true
               }
             ],
@@ -614,6 +581,34 @@
           }
         ]
       },
+      {
+        "name": "Syntech Link Cable with Charging",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Syntech Link Cable with Charging",
+            "description": "The Syntech Link Cable with Charging is similar to the INIU cable in the fact it can support external power, this allows you to have unlimited playtime on link regardless of your USB ports output. (Quest 2, Pro, and 3)",
+            "url": "https://syntechhome.com/collections/cable",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/syntech-link-charge)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://vrdiscord.com/images/products/cables/syntec-cable-powered.jpeg"
+            }
+          }
+        ]
+      },      
       {
         "name": "Meta Official Link Cable",
         "description": "",
@@ -632,40 +627,12 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/Oculus-Virtual-Reality-Headset-Cable-Gaming/dp/B081SHD773) [Amazon Canada](https://www.amazon.ca/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773) [Amazon UK](https://www.amazon.co.uk/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773/)",
+                "value": "[Amazon Affliate](https://vrdiscord.com/go/meta-link) [Amazon Canada](https://www.amazon.ca/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773) [Amazon UK](https://www.amazon.co.uk/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773/)",
                 "inline": true
               }
             ],
             "thumbnail": {
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Anker Fiber Link Cable",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Anker Fiber Link Cable",
-            "description": "The anker cable is a known good alternative to the official link cable, it is also fiber optic like the official cable, at the same length and pricing.",
-            "url": "https://www.anker.com/products/y2112?ref=seriesProduct",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__USB A or C (PC End)__: C \n __90 Degree Angle__: Yes \n Length: 5M",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/Anker-High-Speed-Transfer-Charging-Compatible/dp/B09G5S9T6V)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/875149053221019668/1004920165194018836/unknown.png?width=883&height=905"
             }
           }
         ]
@@ -725,19 +692,24 @@
         "emoji": "",
         "embeds": [
           {
-            "title": "What are referrals?",
-            "description": "When setting up a Meta Quest Device you can use a referral to gain a free $30 in-store credit for the Meta store.\n This has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link",
+            "title": "What are Referrals?",
+            "description": "When setting up a Meta Quest Device you can use a referral to gain a free $30 in-store credit for the Meta store.\nThis has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link.",
             "url": "https://www.oculus.com/quest-2-referrals/",
             "color": null,
             "fields": [
               {
                 "name": "How can a friend send me a referral?",
-                "value": "This option, requires your friend/acquaintance to first, add you as a friend on their Quest Account, and then generate a referral link in their Meta Quest app. \nTo do this have them go into the Meta Quest app and click your Avatar at the bottom of the screen, click the 3 lines in the top right, then scroll down to Referrals which is marked with a Diamond, there should be a large blue box that starts the referral process.",
+                "value": "Your friend must first add you as a friend on their Quest Account and then generate a referral link in the Meta Quest app:\n1. Go to the Meta Quest app.\n2. Tap your Avatar at the bottom.\n3. Click the three lines at the top-right corner.\n4. Scroll down and find **Referrals** (diamond icon).\n5. Use the large blue box to start the referral process.",
                 "inline": false
               },
               {
                 "name": "What can be referred?",
-                "value": "As of recent, this has changed to Games, Devices, and Meta Quest +! One thing that is important to note, is that if you own MQ+, you are unable to share or use App Referrals.",
+                "value": "The referral program includes **Devices**, **Games**, and **Meta Quest+ Subscription**. \n**Important:** If you own Meta Quest+, you are unable to share or use App Referrals.",
+                "inline": false
+              },
+              {
+                "name": "Additional Details",
+                "value": "Device referrals provide $30 credits to both parties after device setup. App referrals give up to **15% discounts to recipients** and small credit rewards (e.g., $6) to referrers. Certain pricing and use limits apply.",
                 "inline": false
               }
             ],
@@ -746,7 +718,7 @@
             }
           }
         ]
-      },
+      },      
       {
         "name": "Anything you should avoid?",
         "description": "",
@@ -935,20 +907,20 @@
             "color": null,
             "fields": [
               {
-                "name": "BOBOVR M2+",
-                "value": "The BOBOVR M2+ is a 'halo'-style strap that's very common in the community.\n It can be found in multiple regions, from multiple websites. \n This strap does not have a built in battery.\n[Amazon US](https://www.amazon.com/BOBOVR-M2-Replacement-Pressure-Comfortable/dp/B08YR8LFH3)",
+                "name": "BOBOVR M1 Plus",
+                "value": "Halo-style strap with dual pad options. Supports battery dock expansion. Does not include it however.\n[Amazon Affliate](https://vrdiscord.com/go/bobo-m1-plus)",
                 "inline": false
               },
               {
                 "name": "BOBOVR M2 Pro",
-                "value": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n It can be found in most regions, but not as many as the main one as this does support a hotswappable battery, and that can limit it's shipping locations.\n[Amazon US](https://www.amazon.com/Compatible-Connection-Lightweight-Replaceable-Accessories-Quest2/dp/B09JNR4Y15)",
+                "value": "The BOBOVR M2 PRO is a 'halo' style strap that's a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n It can be found in most regions, but not as many as the main one as this does support a hotswappable battery, and that can limit it's shipping locations.\n[Amazon Affliate](https://vrdiscord.com/go/bobo-m2-pro)",
                 "inline": false
               },
               {
-                "name": "Kiwi Elite Strap",
-                "value": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases.\n This does not include a battery.\n[Amazon US](https://www.amazon.com/KIWI-design-Upgraded-Oculus-Battery/dp/B09JKQXFZY/)",
+                "name": "KIWI design Comfort Battery",
+                "value": "Elite-style strap with 6400mAh battery, memory foam cushions, and simultaneous charging support.\n[Amazon Affliate](https://vrdiscord.com/go/B09XF69CR9)",
                 "inline": false
-              }
+              }                        
             ],
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151426822311946/shopping.png"
@@ -1032,27 +1004,32 @@
             "fields": [
               {
                 "name": "KIWI Design Link Cable",
-                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.\n [Amazon US](https://www.amazon.com/KIWI-design-Accessories-Compatible-Headset/dp/B09N77BGDF)",
+                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.\n [Amazon Affliate](https://www.vrdiscord.com/go/kiwi-link)",
                 "inline": false
               },
               {
                 "name": "Syntech Link Cable",
-                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 4, 5, or 6 meters long, depending on which one you purchase.\n[Amazon US](https://www.amazon.com/Syntech-Compatible-Transfer-Charging-Headset/dp/B098399X91)",
+                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 4, 5, or 6 meters long, depending on which one you purchase.\n[Amazon Affliate](https://www.vrdiscord.com/go/syntech-link)",
                 "inline": false 
               },
               {
                 "name": "Kuject USB Link Cable",
-                "value": "Kuject's USB A cable is the only one on this list that can accept external power, which means even on a weak USB port, it can keep playing forever. **Not on quest 3** \n[Amazon US](https://www.amazon.com/dp/B0BRKKFJ3X/)",
+                "value": "Kuject's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever. **Not on quest 3** \n[Amazon Affliate](https://www.vrdiscord.com/go/kuject-link/)",
                 "inline": false 
               },
               {
+                "name": "Syntech Link Cable with Charging",
+                "value": "Syntech's USB cable can accept external power, which means even on a weak USB port, it can keep playing forever. (Quest 2, Pro & 3) \n[Amazon Affliate](https://www.vrdiscord.com/go/syntech-link-charge/)",
+                "inline": false 
+              },              
+              {
                 "name": "INIU Link Cable",
-                "value": "INIU's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever (Quest 2, Pro & 3)",
+                "value": "INIU's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever (Quest 2, Pro & 3)\n[Amazon Affliate](https://vrdiscord.com/go/iniu-link)",
                 "inline": false
               },                
               {
                 "name": "Meta Official Link Cable",
-                "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.\n[Amazon US](https://www.amazon.com/Oculus-Virtual-Reality-Headset-Cable-Gaming/dp/B081SHD773)",
+                "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.\n[Amazon Affliate](https://vrdiscord.com/go/meta-link)",
                 "inline": false 
               }
             ],
@@ -1116,12 +1093,7 @@
                 "inline": false
               },
               {
-                "name": "BOBOVR M3 Pro",
-                "value": "The BOBOVR M3 Pro is a popular halo-style strap with a built-in battery.",
-                "inline": false
-              },
-              {
-                "name": "BOBOVR S3 Pro Super",
+                "name": "BOBOVR S3 Pro",
                 "value": "The BOBOVR S3 Pro is a pricey headstrap similiar to it's other battery straps, however it has ''2 times'' the capacity of the B2, thanks to it's 10,000mAh battery, and also includes a built-in Air Conditioning system.",
                 "inline": false
               },
@@ -1165,7 +1137,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/bobo-m3-mini) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)",
                 "inline": true
               }
             ],
@@ -1176,40 +1148,12 @@
         ]
       },
       {
-        "name": "BOBOVR M3 Pro",
+        "name": "BOBOVR S3 Pro",
         "description": "",
         "emoji": "",
         "embeds": [
           {
-            "title": "BOBOVR M3 Pro",
-            "description": "The BOBOVR M3 PRO is a 'halo' style strap that's the new version of the M2 Pro retrofitted for the Quest 3, inbuilt comes the function for hotswappable batteries.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.\n\n **Note as of 2023-12-29:** Due to shortages this strap is currently unavailable in many places, including certain regional Amazons. The links below might not work",
-            "url": "https://www.bobovr.com/products/bobovr-m3-pro",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Included Battery__: Yes \n __Included Audio__: No",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M3-Pro-Accessories-Compatible/dp/B0CJLG9SBR) [BOBOVRs Site](https://www.bobovr.com/products/bobovr-m3-pro)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190109050558480424/Untitled.jpg?ex=65a09a6c&is=658e256c&hm=60b72ab5558d547ef2d7be9fa46abfec728565ce7a1db5e4bf7754fc3def4c04&"
-            }
-          }
-        ]
-      },
-      {
-        "name": "BOBOVR S3 Pro Super",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "BOBOVR S3 Pro Super",
+            "title": "BOBOVR S3 Pro",
             "description": "The BOBOVR S3 Pro Super is a 'halo' style strap that's quite pricier than it's competitors, but offers a lot for the price. It has a 10,000 mAh battery, which is twice the capacity of their B2 Strap's battery, and has a built-in Air Conditioning system, and can still be hotswapped.",
             "url": "https://www.bobovr.com/products/bobovr-m3-pro",
             "color": null,
@@ -1221,7 +1165,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[BOBOVR's Site](https://www.bobovr.com/products/s3-pro)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/bobo-s3-pro)",
                 "inline": true
               }
             ],
@@ -1249,7 +1193,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/k4-comfort-head-strap)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/kiwi-k4) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/k4-comfort-head-strap)",
                 "inline": true
               }
             ],
@@ -1277,7 +1221,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
+                "value": "[Amazon Affliate](https://www.vrdiscord.com/go/kiwi-spc) [Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
                 "inline": true
               }
             ],
