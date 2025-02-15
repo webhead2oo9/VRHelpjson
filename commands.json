@@ -1111,11 +1111,6 @@
             "color": null,
             "fields": [
               {
-                "name": "BOBOVR M3 Mini Sports",
-                "value": "The BOBOVR M3 mini is a headstrap similar to that of the Meta Elite Strap, but at a cheaper asking price. This is a minimalistic yet comfortable strap.",
-                "inline": false
-              },
-              {
                 "name": "BOBOVR M3 Pro",
                 "value": "The BOBOVR M3 Pro is a popular halo-style strap with a built-in battery.",
                 "inline": false
@@ -1131,8 +1126,8 @@
                 "inline": false
               },
               {
-                "name": "Kiwi Battery Headstrap",
-                "value": "The Kiwi Battery Headstrap is similiar to the comfort headstrap, but it has a built-in battery, extending playtime for 2+ hours in one charge.",
+                "name": "Kiwi H4 Comfort Headstrap",
+                "value": "The Kiwi H4 Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This version varies from the base comfort strap in that it has a Stealh Knob, and additional cushioning.",
                 "inline": false
               },
               {
@@ -1143,34 +1138,6 @@
             ],
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-            }
-          }
-        ]
-      },
-      {
-        "name": "BOBOVR M3 Mini Sports",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "BOBOVR M3 Mini Sports",
-            "description": "The BOBOVR M3 Mini is a new comfort strap in the old fashion Elite strap-style, it is made to fit nicely around the head without interferance around the ears. It is a simplistic yet comfortable strap\n\nIt can be found in multiple regions and is a good choice for a comfort upgrade.\n\n **Note as of 2023-12-29:** Due to shortages this strap is currently unavailable in many places, including certain regional Amazons. The links below might not work",
-            "url": "https://www.bobovr.com/products/m3-mini",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Included Battery__: No \n __Included Audio__: No",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[Amazon USA](https://www.amazon.com/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
             }
           }
         ]
@@ -1238,13 +1205,13 @@
         "embeds": [
           {
             "title": "Kiwi K4 Comfort Headstrap",
-            "description": "The Kiwi K4 Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. While keeping the same simple design of the previous iteration, this version of the strap has ''upgraded comfort'' and a ''stealth knob''.\n\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
+            "description": "The Kiwi K4 Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion. While keeping the same simple design of the previous iteration, this version of the strap has ''upgraded comfort'' and a ''stealth knob''.\n\n One of the main benefits of this is that it's able to fit in the official case and third party cases. \n There is also a 'Boost' variant of this strap, which has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load)",
             "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
             "color": null,
             "fields": [
               {
                 "name": "Info",
-                "value": "__Included Battery__: No \n __Included Audio__: No",
+                "value": "__Included Battery__: No (Boost: Yes) \n __Included Audio__: No",
                 "inline": true
               },
               {
@@ -1260,19 +1227,19 @@
         ]
       },
       {
-        "name": "Kiwi Battery Headstrap",
+        "name": "Kiwi H4 Comfort Headstrap",
         "description": "",
         "emoji": "",
         "embeds": [
           {
-            "title": "Kiwi Battery Headstrap",
-            "description": "The Kiwi Battery Headstrap is an upgraded version of it's base Comfort headstrap, allowing for longer playtimes and 2PC charging, it has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load), and has a memory foam backing.",
+            "title": "Kiwi H4 Comfort Headstrap",
+            "description": "The Kiwi H4 Comfort Headstrap is an upgraded strap in the style of the official Elite Strap with a nice cushioned head cushion. While keeping the same simple design of the previous iteration, this version of the strap has ''upgraded comfort'' and a ''stealth knob'' and has been adapted to a 'Halo' format.\n\n One of the main benefits of this is that it's able to fit in the official case and third party cases. \n There is also a 'Boost' variant of this strap, which has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load)",
             "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
             "color": null,
             "fields": [
               {
                 "name": "Info",
-                "value": "__Included Battery__: Yes \n __Included Audio__: No",
+                "value": "__Included Battery__: No (Boost: Yes) \n __Included Audio__: No",
                 "inline": true
               },
               {
@@ -1406,6 +1373,22 @@
           {
             "title": "Membership Deals",
             "description": "Meta Quest + now includes exclusive deals for members, these include deals on hit classics such as **Superhot VR**, but will also rotate in new titles, like **Arizona Sunshine 2** and many others! Meta will also occasionally give out 30% off coupons for *any* game on the Store to subscribers!",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Game Trials",
+        "title": "Game Trials",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Game Trials",
+            "description": "As of February 14th, 2025, Meta Quest + now occasionally offers Game Trials! These are random, and completely up to Meta, but they last for up to 2 weeks.\n To check if there is a current trial, check your Meta Quest + dashboard.",
             "color": null,
             "thumbnail": {
               "url": ""
