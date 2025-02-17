@@ -433,8 +433,8 @@
             "color": null,
             "fields": [
               {
-                "name": "KIWI Design Link Cable",
-                "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 long, and just like INIU's cable, can accept external power.",
+                "name": "KIWI Design L1 Plus Link Cable",
+                "value": "The Kiwi Design L1 Plus Link Cable is a USB A to C cable that is 5 long, and just like INIU's cable, can accept external power.",
                 "inline": false
               },
               {
@@ -470,7 +470,7 @@
         ]
       },
       {
-        "name": "Kiwi Design Link Cable",
+        "name": "Kiwi Design L1 Plus Link Cable",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -879,7 +879,7 @@
             "fields": [
               {
                 "name": "Meta Store",
-                "value": "The Meta Store always has *something* on-sale, you can find this via going into the store, and using the *On-Sale* filter, on both the desktop, in-headset, and app stores!",
+                "value": "The Meta Store always has *something* on-sale, you can find this via going into the store, and using the *On-Sale* filter, on both the desktop, in-headset, and app, or you can view the 'Sales' tab if your in-headset!",
                 "inline": false
               },
               {
