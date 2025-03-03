@@ -77,7 +77,7 @@
           {
             "title": "Kiwi Elite Strap",
             "description": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
-            "url": "https://www.kiwidesign.shop/products/upgraded-elite-strap-for-oculus-quest-2",
+            "url": "https://www.kiwidesign.com/products/upgraded-elite-strap-for-oculus-quest-2",
             "color": null,
             "fields": [
               {
@@ -477,7 +477,7 @@
           {
             "title": "Kiwi Design Link Cable",
             "description": "The Kiwi Design Link Cable is a copper standard cable made by a reputable company.",
-            "url": "https://www.kiwidesign.shop/products/qc-kiwi-design-transfer-charging-compatible ",
+            "url": "https://www.kiwidesign.com/products/qc-kiwi-design-transfer-charging-compatible ",
             "color": null,
             "fields": [
               {
@@ -879,7 +879,7 @@
             "fields": [
               {
                 "name": "Meta Store",
-                "value": "The Meta Store always has *something* on-sale, you can find this via going into the store, and using the *On-Sale* filter, on both the desktop, in-headset, and app stores!",
+                "value": "The Meta Store always has *something* on-sale, you can find this via going into the store, and using the *On-Sale* filter, on both the desktop, in-headset, and app, or you can view the 'Sales' tab if your in-headset!",
                 "inline": false
               },
               {
@@ -1317,7 +1317,7 @@
         "embeds": [
           {
             "title": "Monthly Games",
-            "description": "Like PlayStation Plus, Meta Quest + grants you access to **two Meta-Curated games** a month, these change every month, and the games being different every month is not guaranteed, you can see what games are free for the month by clicking [here](https://www.meta.com/experiences/meta-quest-plus/)",
+            "description": "Meta Quest+ is Meta's version of Xbox Gamepass/Live Gold - Get 2 monthly games, selected by Meta, to add to your library each month and explore the **Games Catalog** to add even more!",
             "color": null,
             "thumbnail": {
               "url": "https://www.uploadvr.com/content/images/size/w1024/format/webp/2024/02/Meta-Quest-Plus-subscription.png"
@@ -1333,7 +1333,7 @@
         "embeds": [
           {
             "title": "Game Catalog",
-            "description": "As of March 2024, Meta Quest + now offers a game catalog! These games rotate in and out just like Gamepass, check back in every few months to check whats new, you can see a full list of the currently available titles [here](https://www.meta.com/experiences/section/746836817401205/)",
+            "description": "Meta Quest + also offers a game catalog! These games rotate in and out just like Gamepass or PS+, check back in every few months to check whats new, you can see a full list of the currently available titles [here](https://www.meta.com/experiences/section/746836817401205/)",
             "color": null,
             "thumbnail": {
               "url": ""
@@ -1349,7 +1349,7 @@
         "embeds": [
           {
             "title": "Membership Deals",
-            "description": "Meta Quest + now includes exclusive deals for members, these include deals on hit classics such as **Superhot VR**, but will also rotate in new titles, like **Arizona Sunshine 2** and many others! Meta will also occasionally give out 30% off coupons for *any* game on the Store to subscribers!",
+            "description": "Meta Quest + includes exclusive deals for members, these include deals on hit classics such as **Superhot VR**, but will also rotate in new titles, like **Arizona Sunshine 2** and many others! Meta will also occasionally give out 30% off coupons for *any* game on the Store to subscribers!",
             "color": null,
             "thumbnail": {
               "url": ""
@@ -1373,6 +1373,38 @@
           }
         ]
       },
+      {
+        "name": "Game Trials",
+        "title": "Game Trials",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Game Trials",
+            "description": "As of February 2025, Meta Quest + now occasionally offers Game Trials! These are random, and completely up to Meta, but they last for up to 2 weeks.\n To check if there is a current trial, check your Meta Quest + dashboard.",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Exclusive Add-on Packs",
+        "title": "Exclusive Add-on Packs",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Exclusive Add-on Packs",
+            "description": "As of February 2025, Meta Quest + now offers Add-On packs! These behave functionally like their counterparts on Gamepass and PS+, sometimes these will be game DLCs that anyone can buy (like Walkabout Minigolf courses!), other times they will be exclusive to the program! These can currently only be found in-headset.",
+            "color": null,
+            "thumbnail": {
+              "url": ""
+            }
+          }
+        ]
+      },              
       {
         "name": "Do I get the Rift Versions of these games?",
         "title": "Do I get the Rift Versions of these games?",
