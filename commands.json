@@ -1111,6 +1111,16 @@
                 "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
                 "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3s design, saving you the money of having to purchase a new strap all together.",
                 "inline": false
+              },
+              {
+                "name": "KIWI design H4 Boost Battery Halo",
+                "value": "Halo-style strap with Single-Point-Charging (Charge Quest and Battery with one cable) with FOV adjustment.",
+                "inline": false
+              },
+              {
+                "name": "KIWI design K4 Boost Battery",
+                "value": "Elite-style strap with Single-Point-Charging (Charge Quest and Battery with one cable).",
+                "inline": false
               }
             ],
             "thumbnail": {
@@ -1255,6 +1265,62 @@
             ],
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
+            }
+          }
+        ]
+      },
+      {
+        "name": "KIWI design H4 Boost Battery Halo",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "KIWI design H4 Boost Battery Halo",
+            "description": "The KIWI design H4 Boost Battery Halo is a premium halo-style strap featuring Single-Point-Charging, which allows you to charge both your Quest and the battery with a single cable. It also includes FOV adjustment capability to optimize your field of view.\n\nWith a 5300mAh battery, this strap provides extended playtime while maintaining comfort with its balanced weight distribution across the halo design.",
+            "url": "https://www.kiwidesign.com/products/h4-boost-battery-halo-head-strap-for-quest-3",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: Yes (5300mAh) \n __Included Audio__: No \n __Weight__: 446g",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon Affliate (USA)](https://vrdiscord.com/go/kiwi-h4-boost) [KIWI's Website](https://www.kiwidesign.com/products/h4-boost-battery-halo-head-strap-for-quest-3)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_h4_boost_halo_head_strap_for_meta_quest_3.png?v=1701075252&width=600"
+            }
+          }
+        ]
+      },
+      {
+        "name": "KIWI design K4 Boost Battery",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "KIWI design K4 Boost Battery",
+            "description": "The KIWI design K4 Boost Battery is an elite-style strap with Single-Point-Charging technology, allowing you to charge both your Quest and the strap's battery with a single cable. This streamlined charging solution eliminates the need for multiple cables or power sources.\n\nFeaturing a 5300mAh battery, the K4 Boost provides substantial additional playtime while maintaining a relatively lightweight design at 358g.",
+            "url": "https://www.kiwidesign.com/products/k4-boost-battery-head-strap-for-quest-3",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Included Battery__: Yes (5300mAh) \n __Included Audio__: No \n __Weight__: 358g",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon Affliate (USA)](https://vrdiscord.com/go/kiwi-k4-boost) [KIWI's Website](https://www.kiwidesign.com/products/k4-boost-battery-head-strap-for-quest-3)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_k4_boost_battery_head_strap_for_meta_quest_3.png?v=1700650307&width=600"
             }
           }
         ]
