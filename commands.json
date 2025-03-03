@@ -48,7 +48,7 @@
         "embeds": [
           {
             "title": "BOBOVR M2 Pro",
-            "description": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a sucessor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.",
+            "description": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a successor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.",
             "url": "https://www.bobovr.com/product/m2pro/",
             "color": null,
             "fields": [
@@ -221,7 +221,7 @@
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6 / AX",
+                "value": "__Wireless Type__: WiFi 6 / AX",
                 "inline": true
               },
               {
@@ -250,7 +250,7 @@
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
+                "value": "__Wireless Type__: WiFi 6 / AX\n__Supports DFS__: Yes",
                 "inline": true
               },     
               {
@@ -273,13 +273,13 @@
         "embeds": [
           {
             "title": "TP-Link Archer AXE75/AXE5400",
-            "description": "The TP-Link Archer AXE75/AXE5400 is a Wifi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+            "description": "The TP-Link Archer AXE75/AXE5400 is a WiFi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
             "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
             "color": null,
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                "value": "__Wireless Type__: WiFi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
                 "inline": true
               },
               {
@@ -302,13 +302,13 @@
         "embeds": [
           {
             "title": "TP-Link BE9300/BE550",
-            "description": "The TP-Link BE9300/BE550 is a Wifi 7 (Works for Wifi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wifi 7 but Wifi 7 routers function as Wifi 6e as well",
+            "description": "The TP-Link BE9300/BE550 is a Wifi 7 (Works for WiFi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wifi 7 but Wifi 7 routers function as WiFi 6e as well",
             "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9300/",
             "color": null,
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6/6e/7 5/6Ghz\n__Supports DFS__: Yes",
+                "value": "__Wireless Type__: WiFi 6/6e/7 5/6Ghz\n__Supports DFS__: Yes",
                 "inline": true
               },
               {
@@ -337,7 +337,7 @@
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6E / AC\n__Supports DFS__: Yes",
+                "value": "__Wireless Type__: WiFi 6E / AC\n__Supports DFS__: Yes",
                 "inline": true
               },
               {
@@ -366,7 +366,7 @@
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6 / AX\n__Supports DFS__: Yes",
+                "value": "__Wireless Type__: WiFi 6 / AX\n__Supports DFS__: Yes",
                 "inline": true
               },
               {
@@ -389,13 +389,13 @@
         "embeds": [
           {
             "title": "TP-Link AXE300/AXE16000",
-            "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured Wifi 6E/AXE router with solid performance.",
+            "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured WiFi 6E/AXE router with solid performance.",
             "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe300/",
             "color": null,
             "fields": [
               {
                 "name": "Info",
-                "value": "__Wireless Type__: Wifi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+                "value": "__Wireless Type__: WiFi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
                 "inline": true
               },
               {
@@ -504,7 +504,7 @@
         "embeds": [
           {
             "title": "Syntech Link Cable",
-            "description": "The Syntech cable is a copper standard cable made by a smaller company, and is not avalable on Amazon UK or Aliexpress.",
+            "description": "The Syntech cable is a copper standard cable made by a smaller company, and is not available on Amazon UK or Aliexpress.",
             "url": "https://syntechhome.com/products/quest-2-link-cable",
             "color": null,
             "fields": [
@@ -760,7 +760,7 @@
         "embeds": [
           {
             "title": "What games to start with?",
-            "description": "One thing to consider when looking into new games is the comfort rating, as your new to VR you would want to look into more 'comfortable' experiences until you get more familiar with VR.\n Here is some reccomendations to get started.",
+            "description": "One thing to consider when looking into new games is the comfort rating, as your new to VR you would want to look into more 'comfortable' experiences until you get more familiar with VR.\n Here is some recommendations to get started.",
             "color": null,
             "fields": [
               {
@@ -1141,7 +1141,7 @@
         "embeds": [
           {
             "title": "BOBOVR M3 Mini Sports",
-            "description": "The BOBOVR M3 Mini is a new comfort strap in the old fashion Elite strap-style, it is made to fit nicely around the head without interferance around the ears. It is a simplistic yet comfortable strap\n\nIt can be found in multiple regions and is a good choice for a comfort upgrade.\n\n **Note as of 2023-12-29:** Due to shortages this strap is currently unavailable in many places, including certain regional Amazons. The links below might not work",
+            "description": "The BOBOVR M3 Mini is a comfort strap in the old fashion Elite strap-style, it is made to fit nicely around the head without interferance around the ears. It is a simplistic yet comfortable strap\n\nIt can be found in multiple regions and is a good choice for a comfort upgrade.",
             "url": "https://www.bobovr.com/products/m3-mini",
             "color": null,
             "fields": [
@@ -1241,7 +1241,7 @@
               }
             ],
             "thumbnail": {
-              "url": "hthttps://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
+              "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
             }
           }
         ]
@@ -1264,7 +1264,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon Affliate (USA)](https://www.vrdiscord.com/go/kiwi-spc) [Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/) [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/), [KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
+                "value": "[Amazon Affliate (USA)](https://www.vrdiscord.com/go/kiwi-spc)\n[Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/)\n [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/),\n[KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
                 "inline": true
               }
             ],
@@ -1320,7 +1320,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-meta-quest-3-head-strap/dp/B0D6W88TCN?maas=maas_adg_AFB44EF008C1C472E574EBA32088E9A0_afap_abs&ref_=aa_maas&tag=maas) [KIWI's Website](https://www.kiwidesign.com/products/h4-boost-halo-battery-strap)",
+                "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-meta-quest-3-head-strap/dp/B0D6W88TCN?maas=maas_adg_AFB44EF008C1C472E574EBA32088E9A0_afap_abs&ref_=aa_maas&tag=maas)\n [KIWI's Website](https://www.kiwidesign.com/products/h4-boost-halo-battery-strap)",
                 "inline": true
               }
             ],
@@ -1348,7 +1348,7 @@
               },
               {
                 "name": "Store Links",
-                "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-Boost-Comfort-Battery/dp/B0D4TGY2F2?maas=maas_adg_E7F02FAF4A4989232FEDE23DFE6CD469_afap_abs&ref_=aa_maas&tag=maas) [KIWI's Website](https://www.kiwidesign.com/products/k4-boost-comfort-battery-head-strap)",
+                "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-Boost-Comfort-Battery/dp/B0D4TGY2F2?maas=maas_adg_E7F02FAF4A4989232FEDE23DFE6CD469_afap_abs&ref_=aa_maas&tag=maas)\n[KIWI's Website](https://www.kiwidesign.com/products/k4-boost-comfort-battery-head-strap)",
                 "inline": true
               }
             ],
