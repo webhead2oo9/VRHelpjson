@@ -1664,7 +1664,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "Nvidia: [552.44](https://www.nvidia.com/download/driverResults.aspx/224483/en-us/)\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/)\nAMD 5000/6000/7000 series: [23.12.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-23-12-1.html)",
+      "description": "Nvidia: [572.16](https://www.nvidia.com/en-us/drivers/details/240547/)\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/)\nAMD 5000/6000/7000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)",
       "footer": {
         "text": "Newer drivers may perform fine for people, issues can be isolated."      
       }
