@@ -1659,15 +1659,12 @@
     }
   },
   {
-    "name": "gpudrivers",
+    "name": "drivers",
     "description": "Recommended GPU Drivers",
     "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "Nvidia: [572.16](https://www.nvidia.com/en-us/drivers/details/240547/)\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/)\nAMD 5000/6000/7000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html)",
-      "footer": {
-        "text": "Newer drivers may perform fine for people, issues can be isolated."      
-      }
+    "description": "Nvidia RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nNvidia: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.6.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-6-2.html)"
     }
   },
   {
@@ -1857,17 +1854,7 @@
               },
               {
                 "name": "Performance",
-                "value": "**AirLink**: Variable reliability\n**Virtual Desktop**: Most consistent\n**Steam Link**: Good performance",
-                "inline": true
-              },
-              {
-                "name": "Setup",
-                "value": "**AirLink**: Simple but limited\n**Virtual Desktop**: Most options\n**Steam Link**: Plug-and-play",
-                "inline": true
-              },
-              {
-                "name": "Best For",
-                "value": "**AirLink**: Oculus PC games\n**Virtual Desktop**: Power users\n**Steam Link**: Steam VR games",
+                "value": "**AirLink**: Problematic\n**Virtual Desktop**: Consistent\n**Steam Link**: Consistent",
                 "inline": true
               },
               {
@@ -1897,19 +1884,19 @@
             "fields": [
               {
                 "name": "Pros",
-                "value": "- Completely free\n- Built into Quest - no extra downloads\n- Simple setup process\n- Works with all Oculus PC content\n- Supports Link Cable for wired option\n- Official Meta support"
+                "value": "Completely free\n- Built into Quest - no extra downloads\n- Simple setup process\n- Works with all Oculus PC content\n- Supports Link Cable for wired option\n- Official Meta support"
               },
               {
                 "name": "Cons",
-                "value": "- Frequent stuttering/lag issues\n- Limited customization options\n- Higher PC resource usage\n- Less reliable than alternatives\n- Minimal configuration options"
+                "value": "Frequent stuttering/lag issues\n- Limited customization options\n- Higher PC resource usage\n- Less reliable than alternatives\n- Minimal configuration options"
               },
               {
                 "name": "Performance Details",
-                "value": "- **Quality**: Good when working properly\n- **Stability**: Inconsistent, varies by setup\n- **Bitrate**: Up to 700 Mbps (on H.264 with debug edits)\n- **CPU Usage**: Higher than alternatives"
+                "value": "**Quality**: Good when working properly\n- **Stability**: Inconsistent, varies by setup\n- **Bitrate**: Up to 700 Mbps (on H.264 with debug edits)\n- **CPU Usage**: Higher than alternatives"
               },
               {
                 "name": "Use AirLink When",
-                "value": "- Playing Oculus-exclusive games\n- You need wired Link Cable option\n- Other solutions aren't available\n- Testing basic PCVR functionality"
+                "value": "Playing Oculus-exclusive games\n- You need wired Link Cable option\n- Other solutions aren't available\n- Testing basic PCVR functionality"
               }
             ],
             "footer": {
@@ -1931,19 +1918,19 @@
             "fields": [
               {
                 "name": "Pros",
-                "value": "- Best overall performance\n- SSW (frame generation)\n- Super Resolution upscaling\n- Multiple codec options\n- VDXR runtime (+10% performance)\n- Bitrates up to 500 Mbps\n- Regular updates\n- Multi-monitor streaming\n- Most customization options"
+                "value": "Best overall performance\n- SSW (frame generation)\n- Super Resolution upscaling\n- Multiple codec options\n- VDXR runtime (+10% performance)\n- Bitrates up to 500 Mbps\n- Regular updates\n- Multi-monitor streaming\n- Most customization options"
               },
               {
                 "name": "Cons",
-                "value": "- Costs $24.99\n- Learning curve for settings\n- Minor game compatibility issues\n- No cable support\n- More complex initial setup"
+                "value": "Costs $24.99\n- Learning curve for settings\n- Minor game compatibility issues\n- No cable support\n- More complex initial setup"
               },
               {
                 "name": "Exclusive Features",
-                "value": "- **SSW**: Headset-based frame generation\n- **SGSR**: Qualcomm upscaling technology\n- **VDXR**: Custom OpenXR runtime\n- **Codecs**: H.264+, HEVC, AV1 10-bit\n- **Body Tracking**: Full passthrough support\n- **Hand Tracking**: Index controller emulation"
+                "value": "**SSW**: Headset-based frame generation\n- **SGSR**: Qualcomm upscaling technology\n- **VDXR**: Custom OpenXR runtime\n- **Codecs**: H.264+, HEVC, AV1 10-bit\n- **Body Tracking**: Full passthrough support\n- **Hand Tracking**: Index controller emulation"
               },
               {
                 "name": "Use Virtual Desktop When",
-                "value": "- You want the best performance\n- Playing demanding games (sims)\n- You need advanced features\n- Maximum customization desired\n- $24.99 fits your budget"
+                "value": "You want the best performance\n- Playing demanding games (sims)\n- You need advanced features\n- Maximum customization desired\n- $24.99 fits your budget"
               }
             ],
             "footer": {
@@ -1965,19 +1952,19 @@
             "fields": [
               {
                 "name": "Pros",
-                "value": "- Completely free\n- Plug-and-play setup\n- No Oculus software needed\n- Direct Steam VR integration\n- Simple, clean interface\n- Good performance\n- Easiest setup process"
+                "value": "Completely free\n- Plug-and-play setup\n- No Oculus software needed\n- Direct Steam VR integration\n- Simple, clean interface\n- Good performance\n- Easiest setup process"
               },
               {
                 "name": "Cons",
-                "value": "- Wireless only (no cable)\n- Some users report stuttering\n- Limited configuration options\n- Newer, less mature\n- Only for Steam content\n- Fewer features than VD"
+                "value": "Wireless only (no cable)\n- Some users report stuttering\n- Limited configuration options\n- Newer, less mature\n- Only for Steam content\n- Fewer features than VD"
               },
               {
                 "name": "Performance Details",
-                "value": "- **Quality**: Good compression\n- **Stability**: Generally reliable\n- **Setup**: Easiest of all three\n- **Compatibility**: Steam VR only\n- **Resource Usage**: Moderate"
+                "value": "**Quality**: Good compression\n- **Stability**: Generally reliable\n- **Setup**: Easiest of all three\n- **Compatibility**: Steam VR only\n- **Resource Usage**: Moderate"
               },
               {
                 "name": "Use Steam Link When",
-                "value": "- You primarily play Steam VR games\n- You want a free solution\n- Simple setup is priority\n- You're new to wireless PCVR\n- Avoiding Oculus software"
+                "value": "You primarily play Steam VR games\n- You want a free solution\n- Simple setup is priority\n- You're new to wireless PCVR\n- Avoiding Oculus software"
               }
             ],
             "footer": {
@@ -2036,11 +2023,11 @@
             "fields": [
               {
                 "name": "Network Requirements (ALL Solutions)",
-                "value": "**CRITICAL**: ALL wireless PCVR solutions require:\n- **PC wired to router via Ethernet cable**\n- **Router**: WiFi 5 minimum, WiFi 6 recommended\n- **Network**: Dedicated 5GHz band\n- **Placement**: Same room, line of sight\n\n*Wireless PC connections will result in poor performance*"
+                "value": "**CRITICAL**: ALL wireless PCVR solutions require:\n**PC wired to router via Ethernet cable**\n**Router**: WiFi 5 minimum, WiFi 6 recommended\n **Network**: Dedicated 5GHz band\n**Placement**: Same room, line of sight\n\n*Wireless PC connections will result in poor performance*"
               },
               {
                 "name": "PC Requirements",
-                "value": "- **GPU**: GTX 1060 / RX 580 minimum\n- **CPU**: i5-4590 / Ryzen 5 1500X minimum\n- **RAM**: 8GB minimum, 16GB recommended\n- **USB**: USB 3.0 (for Link Cable - AirLink only)"
+                "value": "**GPU**: GTX 1060 / RX 580 minimum\n**CPU**: i5-4590 / Ryzen 5 1500X minimum\n**RAM**: 8GB minimum, 16GB recommended\n**USB**: USB 3.0 (for Link Cable - AirLink only)"
               },
               {
                 "name": "Required Software",
@@ -2079,15 +2066,15 @@
               },
               {
                 "name": "Budget Conscious?",
-                "value": "**Use Steam Link** - It's free and works well\n\nOnly consider Virtual Desktop if you:\n- Need advanced features\n- Want the absolute best quality\n- Have specific compatibility needs"
+                "value": "**Use Steam Link** - It's free and works well\n\nJust.. Avoid Air Link."
               },
               {
                 "name": "Want The Best?",
-                "value": "**Virtual Desktop** is worth the $24.99\n- Most features and options\n- Best performance potential\n- Active development\n- Power user features"
+                "value": "**Virtual Desktop** is worth the $24.99\nMost features and options\nBest performance potential\nActive development\nPower user features"
               },
               {
                 "name": "Community Choice",
-                "value": "Based on user feedback:\n- Virtual Desktop preferred by enthusiasts\n- Steam Link growing in popularity\n- AirLink mostly for Oculus exclusives\n- Most try free options first"
+                "value": "Based on user feedback:\nVirtual Desktop preferred by enthusiasts\nSteam Link growing in popularity\nAirLink mostly for Oculus exclusives\nMost try free options first"
               }
             ],
             "footer": {
