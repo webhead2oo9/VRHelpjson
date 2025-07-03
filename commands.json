@@ -1824,5 +1824,278 @@
       "title": "Quest Cloud Backup",
       "description": "You can see what games you own that support cloud backup [here](https://secure.oculus.com/my/cloud-backup/)."
     }
+  },
+  {
+    "name": "pcvrstreaming",
+    "description": "AirLink vs Virtual Desktop vs Steam Link Comparison",
+    "ephemeral": false,
+    "embed": {
+      "title": "Wireless PCVR Streaming: AirLink vs Virtual Desktop vs Steam Link",
+      "description": "A comprehensive comparison of the three main wireless PCVR streaming solutions for Quest headsets.",
+      "fields": [
+        {
+          "name": "🏆 Quick Verdict",
+          "value": "**Best Overall**: Virtual Desktop ($24.99) - Most reliable and feature-rich\n**Best Free Option**: Steam Link - Simple setup, good performance\n**Alternative**: AirLink - Built-in but less reliable\n\n💡 Try Steam Link first, then consider Virtual Desktop for advanced features."
+        }
+      ]
+    },
+    "pages": [
+      {
+        "name": "main",
+        "title": "Quick Comparison Table",
+        "description": "",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Wireless PCVR Streaming Solutions Overview",
+            "description": "Here's a quick comparison of all three wireless streaming options.",
+            "fields": [
+              {
+                "name": "💰 Cost",
+                "value": "**AirLink**: Free\n**Virtual Desktop**: $24.99\n**Steam Link**: Free",
+                "inline": true
+              },
+              {
+                "name": "🎮 Performance",
+                "value": "**AirLink**: Variable reliability\n**Virtual Desktop**: Most consistent\n**Steam Link**: Good performance",
+                "inline": true
+              },
+              {
+                "name": "🔧 Setup",
+                "value": "**AirLink**: Simple but limited\n**Virtual Desktop**: Most options\n**Steam Link**: Plug-and-play",
+                "inline": true
+              },
+              {
+                "name": "🎯 Best For",
+                "value": "**AirLink**: Oculus PC games\n**Virtual Desktop**: Power users\n**Steam Link**: Steam VR games",
+                "inline": true
+              },
+              {
+                "name": "⚡ Latency",
+                "value": "All three have similar latency when working properly",
+                "inline": true
+              },
+              {
+                "name": "🔌 Cable Support",
+                "value": "**AirLink**: Yes (Link Cable)\n**Virtual Desktop**: No\n**Steam Link**: No",
+                "inline": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "airlink",
+        "title": "Meta AirLink",
+        "description": "Meta's official wireless solution",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Meta AirLink - Official Free Solution",
+            "description": "Built into Quest headsets, AirLink is Meta's official wireless PCVR streaming.",
+            "color": 3447003,
+            "fields": [
+              {
+                "name": "✅ Pros",
+                "value": "• Completely free\n• Built into Quest - no extra downloads\n• Simple setup process\n• Works with all Oculus PC content\n• Supports Link Cable for wired option\n• Official Meta support"
+              },
+              {
+                "name": "❌ Cons",
+                "value": "• Frequent stuttering/lag issues\n• Limited customization options\n• Higher PC resource usage\n• Less reliable than alternatives\n• Minimal configuration options"
+              },
+              {
+                "name": "📊 Performance",
+                "value": "• **Quality**: Good when working properly\n• **Stability**: Inconsistent, varies by setup\n• **Bitrate**: Up to 700 Mbps (on H.264 with debug edits)\n• **CPU Usage**: Higher than alternatives"
+              },
+              {
+                "name": "🎯 Use AirLink When",
+                "value": "• Playing Oculus-exclusive games\n• You need wired Link Cable option\n• Other solutions aren't available\n• Testing basic PCVR functionality"
+              }
+            ],
+            "footer": {
+              "text": "Verdict: Free but less reliable than alternatives"
+            }
+          }
+        ]
+      },
+      {
+        "name": "virtualdesktop",
+        "title": "Virtual Desktop",
+        "description": "Premium third-party solution",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Virtual Desktop - Premium Wireless Solution",
+            "description": "The most feature-rich and reliable wireless PCVR streaming option.",
+            "color": 9807270,
+            "fields": [
+              {
+                "name": "✅ Pros",
+                "value": "• Best overall performance\n• SSW (frame generation)\n• Super Resolution upscaling\n• Multiple codec options\n• VDXR runtime (+10% performance)\n• Bitrates up to 500 Mbps\n• Regular updates\n• Multi-monitor streaming\n• Most customization options"
+              },
+              {
+                "name": "❌ Cons",
+                "value": "• Costs $24.99\n• Learning curve for settings\n• Minor game compatibility issues\n• No cable support\n• More complex initial setup"
+              },
+              {
+                "name": "🚀 Exclusive Features",
+                "value": "• **SSW**: Headset-based frame generation\n• **SGSR**: Qualcomm upscaling technology\n• **VDXR**: Custom OpenXR runtime\n• **Codecs**: H.264+, HEVC, AV1 10-bit\n• **Body Tracking**: Full passthrough support\n• **Hand Tracking**: Index controller emulation"
+              },
+              {
+                "name": "🎯 Use Virtual Desktop When",
+                "value": "• You want the best performance\n• Playing demanding games (sims)\n• You need advanced features\n• Maximum customization desired\n• $24.99 fits your budget"
+              }
+            ],
+            "footer": {
+              "text": "Verdict: Worth the price for serious PCVR users"
+            }
+          }
+        ]
+      },
+      {
+        "name": "steamlink",
+        "title": "Steam Link",
+        "description": "Valve's free streaming solution",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Steam Link - Valve's Free Alternative",
+            "description": "Native Steam VR streaming app, a solid free option for wireless PCVR.",
+            "color": 1146986,
+            "fields": [
+              {
+                "name": "✅ Pros",
+                "value": "• Completely free\n• Plug-and-play setup\n• No Oculus software needed\n• Direct Steam VR integration\n• Simple, clean interface\n• Good performance\n• Easiest setup process"
+              },
+              {
+                "name": "❌ Cons",
+                "value": "• Wireless only (no cable)\n• Some users report stuttering\n• Limited configuration options\n• Newer, less mature\n• Only for Steam content\n• Fewer features than VD"
+              },
+              {
+                "name": "📊 Performance",
+                "value": "• **Quality**: Good compression\n• **Stability**: Generally reliable\n• **Setup**: Easiest of all three\n• **Compatibility**: Steam VR only\n• **Resource Usage**: Moderate"
+              },
+              {
+                "name": "🎯 Use Steam Link When",
+                "value": "• You primarily play Steam VR games\n• You want a free solution\n• Simple setup is priority\n• You're new to wireless PCVR\n• Avoiding Oculus software"
+              }
+            ],
+            "footer": {
+              "text": "Verdict: Best free option for most users"
+            }
+          }
+        ]
+      },
+      {
+        "name": "comparison",
+        "title": "Detailed Comparison",
+        "description": "Side-by-side feature comparison",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Feature-by-Feature Comparison",
+            "description": "Detailed comparison of key features across all three solutions.",
+            "fields": [
+              {
+                "name": "🎨 Visual Quality",
+                "value": "**Virtual Desktop**: Best - up to 500 Mbps, multiple codecs\n**Steam Link**: Good - solid compression\n**AirLink**: Good - up to 700 Mbps (on H.264 with debug edits)"
+              },
+              {
+                "name": "⚡ Latency",
+                "value": "All three solutions offer similar latency when configured properly and working well. Network quality matters more than the software choice."
+              },
+              {
+                "name": "🛠️ Customization",
+                "value": "**Virtual Desktop**: Extensive options and tweaks\n**AirLink**: Basic settings only\n**Steam Link**: Limited options"
+              },
+              {
+                "name": "🎮 Game Support",
+                "value": "**AirLink**: All PC VR content\n**Virtual Desktop**: Most games (check compatibility)\n**Steam Link**: Steam VR games only"
+              },
+              {
+                "name": "💻 PC Impact",
+                "value": "**Virtual Desktop**: Low resource usage\n**Steam Link**: Low resource usage\n**AirLink**: Highest CPU usage"
+              },
+              {
+                "name": "🔄 Updates & Support",
+                "value": "**Virtual Desktop**: Frequent updates, active dev\n**Steam Link**: Regular Valve updates\n**AirLink**: Periodic Meta updates"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "requirements",
+        "title": "Requirements & Setup",
+        "description": "What you need for each solution",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Setup Requirements",
+            "description": "Hardware and software requirements for wireless PCVR streaming.",
+            "fields": [
+              {
+                "name": "🌐 Network Requirements (ALL Solutions)",
+                "value": "⚠️ **CRITICAL**: ALL wireless PCVR solutions require:\n• **PC wired to router via Ethernet cable**\n• **Router**: WiFi 5 minimum, WiFi 6 recommended\n• **Network**: Dedicated 5GHz band\n• **Placement**: Same room, line of sight\n\n*Wireless PC connections will result in poor performance*"
+              },
+              {
+                "name": "💻 PC Requirements",
+                "value": "• **GPU**: GTX 1060 / RX 580 minimum\n• **CPU**: i5-4590 / Ryzen 5 1500X minimum\n• **RAM**: 8GB minimum, 16GB recommended\n• **USB**: USB 3.0 (for Link Cable - AirLink only)"
+              },
+              {
+                "name": "📥 Required Software",
+                "value": "**AirLink**: Oculus PC app\n**Virtual Desktop**: VD app ($24.99) + VD Streamer (PC)\n**Steam Link**: Steam + Steam Link app (Quest)"
+              },
+              {
+                "name": "⚡ Quick Start Order",
+                "value": "1. **Steam Link** - Install and connect\n2. **AirLink** - Enable in Oculus settings\n3. **Virtual Desktop** - Buy, install, configure"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "recommendations",
+        "title": "Final Recommendations",
+        "description": "Which solution is right for you?",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "Which Streaming Solution Should You Choose?",
+            "description": "Our recommendations based on different use cases and priorities.",
+            "color": 16776960,
+            "fields": [
+              {
+                "name": "🆕 New to PCVR?",
+                "value": "**Start with**: Steam Link\n**Why**: Free, simple, reliable\n**Then consider**: Virtual Desktop for more features\n**Skip**: AirLink unless you need it"
+              },
+              {
+                "name": "🎮 Steam VR Focus?",
+                "value": "**Best choice**: Steam Link\n**Why**: Direct integration, free, simple\n**Premium option**: Virtual Desktop\n**Avoid**: AirLink adds overhead"
+              },
+              {
+                "name": "✈️ Flight Sim / Racing?",
+                "value": "**Best choice**: Virtual Desktop\n**Why**: SSW, best performance, stability\n**Settings**: VDXR runtime, H.264+\n**Free option**: Steam Link"
+              },
+              {
+                "name": "💸 Budget Conscious?",
+                "value": "**Use Steam Link** - It's free and works well\n\nOnly consider Virtual Desktop if you:\n• Need advanced features\n• Want the absolute best quality\n• Have specific compatibility needs"
+              },
+              {
+                "name": "🏆 Want The Best?",
+                "value": "**Virtual Desktop** is worth the $24.99\n• Most features and options\n• Best performance potential\n• Active development\n• Power user features"
+              },
+              {
+                "name": "📊 Community Choice",
+                "value": "Based on user feedback:\n• Virtual Desktop preferred by enthusiasts\n• Steam Link growing in popularity\n• AirLink mostly for Oculus exclusives\n• Most try free options first"
+              }
+            ],
+            "footer": {
+              "text": "Remember: Ethernet to your router is REQUIRED for good wireless PCVR!"
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
