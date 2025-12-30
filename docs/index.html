@@ -200,11 +200,10 @@ title: VR Discord Commands Reference
       padding: 1.25rem 1.5rem 1.25rem 3.5rem;
       font-size: 1.125rem;
       font-family: 'Outfit', sans-serif;
-      background: var(--glass-bg);
-      border: 1px solid var(--glass-border);
+      background: rgba(15, 15, 25, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: var(--border-radius);
       color: var(--text-primary);
-      backdrop-filter: blur(20px);
       position: relative;
       transition: all var(--transition-smooth);
     }
@@ -215,8 +214,9 @@ title: VR Discord Commands Reference
 
     .search-box:focus {
       outline: none;
-      background: rgba(20, 20, 35, 0.8);
-      box-shadow: 0 0 40px rgba(0, 245, 255, 0.2);
+      background: rgba(15, 15, 25, 0.95);
+      border-color: rgba(0, 245, 255, 0.3);
+      box-shadow: 0 0 30px rgba(0, 245, 255, 0.1);
     }
 
     .search-icon {
@@ -273,35 +273,21 @@ title: VR Discord Commands Reference
     /* Command Card */
     .command-card {
       position: relative;
-      background: var(--glass-bg);
-      border: 1px solid var(--glass-border);
+      background: rgba(15, 15, 25, 0.95);
+      border: 1px solid rgba(255, 255, 255, 0.06);
       border-radius: var(--border-radius);
-      backdrop-filter: blur(20px);
       overflow: hidden;
       transition: all var(--transition-smooth);
     }
 
-    .command-card::before {
-      content: '';
-      position: absolute;
-      inset: -1px;
-      background: var(--gradient-holo);
-      background-size: 400% 400%;
-      border-radius: var(--border-radius);
-      opacity: 0;
-      z-index: -1;
-      transition: opacity var(--transition-smooth);
-      animation: holoShift 8s ease infinite;
-    }
-
-    .command-card:hover::before {
-      opacity: 1;
-    }
-
     .command-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 245, 255, 0.1);
-      background: rgba(20, 20, 35, 0.8);
+      border-color: rgba(0, 245, 255, 0.2);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 245, 255, 0.05);
+    }
+
+    .command-card.expanded {
+      border-color: rgba(0, 245, 255, 0.15);
     }
 
     .command-header {
@@ -351,8 +337,8 @@ title: VR Discord Commands Reference
       display: flex;
       align-items: center;
       justify-content: center;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--glass-border);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
       border-radius: 10px;
       color: var(--text-muted);
       font-size: 0.75rem;
@@ -362,14 +348,14 @@ title: VR Discord Commands Reference
     }
 
     .command-card:hover .expand-btn {
-      background: rgba(0, 245, 255, 0.1);
-      border-color: rgba(0, 245, 255, 0.3);
+      background: rgba(0, 245, 255, 0.08);
+      border-color: rgba(0, 245, 255, 0.2);
       color: var(--cyan);
     }
 
     .command-card.expanded .expand-btn {
       transform: rotate(90deg);
-      background: rgba(0, 245, 255, 0.15);
+      background: rgba(0, 245, 255, 0.1);
       color: var(--cyan);
     }
 
@@ -386,7 +372,7 @@ title: VR Discord Commands Reference
 
     .command-content {
       padding: 0 1.5rem 1.5rem;
-      border-top: 1px solid var(--glass-border);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
     }
 
     /* Embed Section */
@@ -412,7 +398,7 @@ title: VR Discord Commands Reference
       margin: 1.25rem 0;
       border-radius: 12px;
       overflow: hidden;
-      border: 1px solid var(--glass-border);
+      border: 1px solid rgba(255, 255, 255, 0.05);
     }
 
     .embed-image img {
@@ -430,8 +416,8 @@ title: VR Discord Commands Reference
     }
 
     .field {
-      background: rgba(0, 0, 0, 0.3);
-      border: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.05);
       border-left: 3px solid var(--purple);
       border-radius: 10px;
       padding: 1rem 1.25rem;
@@ -468,16 +454,16 @@ title: VR Discord Commands Reference
     /* Pages/Tabs */
     .pages-section {
       margin-top: 1.5rem;
-      background: rgba(0, 0, 0, 0.2);
-      border: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.05);
       border-radius: 12px;
       overflow: hidden;
     }
 
     .pages-header {
       padding: 1rem 1.25rem;
-      background: rgba(0, 0, 0, 0.3);
-      border-bottom: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.5);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
       font-family: 'Space Mono', monospace;
       font-size: 0.875rem;
       color: var(--text-secondary);
@@ -494,10 +480,10 @@ title: VR Discord Commands Reference
       display: flex;
       gap: 0.25rem;
       padding: 0.75rem;
-      background: rgba(0, 0, 0, 0.2);
+      background: rgba(0, 0, 0, 0.3);
       overflow-x: auto;
       scrollbar-width: thin;
-      scrollbar-color: var(--glass-border) transparent;
+      scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
     }
 
     .tabs-nav::-webkit-scrollbar {
@@ -567,8 +553,8 @@ title: VR Discord Commands Reference
       padding: 0.5rem 0.875rem;
       font-size: 0.8125rem;
       font-weight: 500;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.06);
       border-radius: 8px;
       color: var(--text-secondary);
       text-decoration: none;
@@ -576,8 +562,8 @@ title: VR Discord Commands Reference
     }
 
     .store-link:hover {
-      background: rgba(0, 245, 255, 0.1);
-      border-color: rgba(0, 245, 255, 0.3);
+      background: rgba(0, 245, 255, 0.08);
+      border-color: rgba(0, 245, 255, 0.2);
       color: var(--cyan);
       transform: translateY(-1px);
     }
@@ -629,8 +615,8 @@ title: VR Discord Commands Reference
       right: 2rem;
       width: 48px;
       height: 48px;
-      background: var(--glass-bg);
-      border: 1px solid var(--glass-border);
+      background: rgba(15, 15, 25, 0.95);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 14px;
       color: var(--text-secondary);
       font-size: 1.25rem;
@@ -638,13 +624,12 @@ title: VR Discord Commands Reference
       opacity: 0;
       visibility: hidden;
       transition: all var(--transition-smooth);
-      backdrop-filter: blur(20px);
       z-index: 100;
     }
 
     .scroll-top:hover {
       background: rgba(0, 245, 255, 0.1);
-      border-color: rgba(0, 245, 255, 0.3);
+      border-color: rgba(0, 245, 255, 0.2);
       color: var(--cyan);
       transform: translateY(-2px);
     }
@@ -751,7 +736,7 @@ title: VR Discord Commands Reference
       height: 120px;
       object-fit: cover;
       border-radius: 10px;
-      border: 1px solid var(--glass-border);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     @media (max-width: 500px) {

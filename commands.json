@@ -1365,7 +1365,7 @@
     "description": "Quest - Virtual Desktop - Resolution",
     "ephemeral": false,
     "embed": {
-      "title": "Sharing Screenshots of the Performance Overlay",
+      "title": "VD Resolution",
       "description": "Render Resolution __per eye__",
       "fields": [
         {
