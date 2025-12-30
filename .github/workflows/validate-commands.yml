@@ -23,8 +23,19 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Validate JSON syntax
+        run: |
+          echo "Checking JSON syntax..."
+          node -e "JSON.parse(require('fs').readFileSync('commands.json', 'utf8'))" || {
+            echo "❌ Invalid JSON syntax in commands.json"
+            exit 1
+          }
+          echo "✅ JSON syntax is valid"
+
       - name: Install ajv-cli
         run: npm install -g ajv-cli ajv-formats
 
       - name: Validate JSON Schema
-        run: ajv validate -s commands.schema.json -d commands.json --spec=draft7
+        run: |
+          echo "Validating against schema..."
+          ajv validate -s commands.schema.json -d commands.json --spec=draft7 && echo "✅ Schema validation passed"
