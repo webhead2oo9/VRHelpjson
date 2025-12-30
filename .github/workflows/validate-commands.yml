@@ -1,0 +1,30 @@
+name: Validate commands.json
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - 'commands.json'
+      - 'commands.schema.json'
+  pull_request:
+    paths:
+      - 'commands.json'
+      - 'commands.schema.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats
+
+      - name: Validate JSON Schema
+        run: ajv validate -s commands.schema.json -d commands.json --spec=draft7

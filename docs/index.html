@@ -1,0 +1,1080 @@
+---
+layout: null
+title: VR Discord Commands Reference
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VR Discord Commands Reference</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg-deep: #06060a;
+      --bg-surface: #0d0d14;
+      --bg-elevated: #14141f;
+      --glass-bg: rgba(20, 20, 35, 0.6);
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --cyan: #00f5ff;
+      --purple: #b829ff;
+      --pink: #ff2d92;
+      --blue: #4f46e5;
+      --text-primary: #f0f0f5;
+      --text-secondary: #8888a0;
+      --text-muted: #55556a;
+      --gradient-holo: linear-gradient(135deg, var(--cyan), var(--purple), var(--pink), var(--cyan));
+      --border-radius: 16px;
+      --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Animated background */
+    .bg-animation {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .bg-animation::before {
+      content: '';
+      position: absolute;
+      width: 150%;
+      height: 150%;
+      top: -25%;
+      left: -25%;
+      background:
+        radial-gradient(ellipse at 20% 20%, rgba(79, 70, 229, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(184, 41, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(0, 245, 255, 0.05) 0%, transparent 60%);
+      animation: bgFloat 20s ease-in-out infinite;
+    }
+
+    @keyframes bgFloat {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      33% { transform: translate(2%, 2%) rotate(1deg); }
+      66% { transform: translate(-1%, 1%) rotate(-0.5deg); }
+    }
+
+    /* Scan lines overlay */
+    .scanlines {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      pointer-events: none;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.03) 2px,
+        rgba(0, 0, 0, 0.03) 4px
+      );
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding: 4rem 0 3rem;
+      position: relative;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(0, 245, 255, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .logo-icon {
+      width: 56px;
+      height: 56px;
+      background: var(--gradient-holo);
+      background-size: 300% 300%;
+      animation: holoShift 8s ease infinite;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.75rem;
+      box-shadow: 0 0 30px rgba(0, 245, 255, 0.3);
+    }
+
+    @keyframes holoShift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      background: var(--gradient-holo);
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: holoShift 8s ease infinite;
+      text-shadow: 0 0 60px rgba(0, 245, 255, 0.5);
+    }
+
+    .subtitle {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      font-weight: 300;
+      margin-top: 0.5rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* Search Section */
+    .search-section {
+      max-width: 600px;
+      margin: 0 auto 3rem;
+    }
+
+    .search-wrapper {
+      position: relative;
+    }
+
+    .search-wrapper::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      background: var(--gradient-holo);
+      background-size: 300% 300%;
+      border-radius: calc(var(--border-radius) + 2px);
+      opacity: 0;
+      transition: opacity var(--transition-smooth);
+      animation: holoShift 8s ease infinite;
+    }
+
+    .search-wrapper:focus-within::before {
+      opacity: 1;
+    }
+
+    .search-box {
+      width: 100%;
+      padding: 1.25rem 1.5rem 1.25rem 3.5rem;
+      font-size: 1.125rem;
+      font-family: 'Outfit', sans-serif;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--border-radius);
+      color: var(--text-primary);
+      backdrop-filter: blur(20px);
+      position: relative;
+      transition: all var(--transition-smooth);
+    }
+
+    .search-box::placeholder {
+      color: var(--text-muted);
+    }
+
+    .search-box:focus {
+      outline: none;
+      background: rgba(20, 20, 35, 0.8);
+      box-shadow: 0 0 40px rgba(0, 245, 255, 0.2);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 1.25rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 1.25rem;
+      z-index: 1;
+      transition: color var(--transition-smooth);
+    }
+
+    .search-wrapper:focus-within .search-icon {
+      color: var(--cyan);
+    }
+
+    /* Stats Bar */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .stat-value {
+      color: var(--cyan);
+      font-weight: 700;
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 0.75rem;
+    }
+
+    /* Commands Grid */
+    .commands-grid {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    /* Command Card */
+    .command-card {
+      position: relative;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--border-radius);
+      backdrop-filter: blur(20px);
+      overflow: hidden;
+      transition: all var(--transition-smooth);
+    }
+
+    .command-card::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      background: var(--gradient-holo);
+      background-size: 400% 400%;
+      border-radius: var(--border-radius);
+      opacity: 0;
+      z-index: -1;
+      transition: opacity var(--transition-smooth);
+      animation: holoShift 8s ease infinite;
+    }
+
+    .command-card:hover::before {
+      opacity: 1;
+    }
+
+    .command-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 245, 255, 0.1);
+      background: rgba(20, 20, 35, 0.8);
+    }
+
+    .command-header {
+      padding: 1.25rem 1.5rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+      transition: background var(--transition-smooth);
+    }
+
+    .command-header:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .command-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .command-name {
+      font-family: 'Space Mono', monospace;
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: var(--cyan);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .command-name::before {
+      content: '/';
+      color: var(--purple);
+    }
+
+    .command-desc {
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+      margin-top: 0.375rem;
+      font-weight: 400;
+    }
+
+    .expand-btn {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      border-radius: 10px;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      transition: all var(--transition-smooth);
+      flex-shrink: 0;
+      margin-left: 1rem;
+    }
+
+    .command-card:hover .expand-btn {
+      background: rgba(0, 245, 255, 0.1);
+      border-color: rgba(0, 245, 255, 0.3);
+      color: var(--cyan);
+    }
+
+    .command-card.expanded .expand-btn {
+      transform: rotate(90deg);
+      background: rgba(0, 245, 255, 0.15);
+      color: var(--cyan);
+    }
+
+    /* Command Details */
+    .command-details {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .command-card.expanded .command-details {
+      max-height: 3000px;
+    }
+
+    .command-content {
+      padding: 0 1.5rem 1.5rem;
+      border-top: 1px solid var(--glass-border);
+    }
+
+    /* Embed Section */
+    .embed {
+      padding-top: 1.25rem;
+    }
+
+    .embed-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .embed-desc {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      font-size: 0.9375rem;
+    }
+
+    .embed-image {
+      margin: 1.25rem 0;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--glass-border);
+    }
+
+    .embed-image img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+    }
+
+    /* Fields */
+    .fields-grid {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+
+    .field {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--glass-border);
+      border-left: 3px solid var(--purple);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+    }
+
+    .field-name {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--cyan);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .field-value {
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+    }
+
+    .field-value a {
+      color: var(--cyan);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: all var(--transition-smooth);
+    }
+
+    .field-value a:hover {
+      color: var(--pink);
+      border-bottom-color: var(--pink);
+    }
+
+    /* Pages/Tabs */
+    .pages-section {
+      margin-top: 1.5rem;
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .pages-header {
+      padding: 1rem 1.25rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-bottom: 1px solid var(--glass-border);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .pages-header .icon {
+      color: var(--purple);
+    }
+
+    .tabs-nav {
+      display: flex;
+      gap: 0.25rem;
+      padding: 0.75rem;
+      background: rgba(0, 0, 0, 0.2);
+      overflow-x: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--glass-border) transparent;
+    }
+
+    .tabs-nav::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .tabs-nav::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .tabs-nav::-webkit-scrollbar-thumb {
+      background: var(--glass-border);
+      border-radius: 2px;
+    }
+
+    .tab-btn {
+      padding: 0.625rem 1rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.8125rem;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all var(--transition-smooth);
+    }
+
+    .tab-btn:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-secondary);
+    }
+
+    .tab-btn.active {
+      background: rgba(0, 245, 255, 0.1);
+      border-color: rgba(0, 245, 255, 0.3);
+      color: var(--cyan);
+    }
+
+    .tab-content {
+      display: none;
+      padding: 1.25rem;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Store Links */
+    .store-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
+    .store-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      padding: 0.5rem 0.875rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      border-radius: 8px;
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: all var(--transition-smooth);
+    }
+
+    .store-link:hover {
+      background: rgba(0, 245, 255, 0.1);
+      border-color: rgba(0, 245, 255, 0.3);
+      color: var(--cyan);
+      transform: translateY(-1px);
+    }
+
+    .store-link.amazon { border-left: 3px solid #ff9900; }
+    .store-link.aliexpress { border-left: 3px solid #e62e04; }
+    .store-link.official { border-left: 3px solid var(--cyan); }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    .keyboard-hints {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .kbd-hint {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    kbd {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 2rem;
+      padding: 0.25rem 0.5rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--glass-border);
+      border-radius: 6px;
+      color: var(--text-secondary);
+    }
+
+    /* Scroll to top */
+    .scroll-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 48px;
+      height: 48px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 14px;
+      color: var(--text-secondary);
+      font-size: 1.25rem;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: all var(--transition-smooth);
+      backdrop-filter: blur(20px);
+      z-index: 100;
+    }
+
+    .scroll-top:hover {
+      background: rgba(0, 245, 255, 0.1);
+      border-color: rgba(0, 245, 255, 0.3);
+      color: var(--cyan);
+      transform: translateY(-2px);
+    }
+
+    .scroll-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* No results */
+    .no-results {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-muted);
+    }
+
+    .no-results-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+
+    .no-results-text {
+      font-size: 1.125rem;
+    }
+
+    /* Hidden */
+    .hidden {
+      display: none !important;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+
+      .header {
+        padding: 2rem 0 1.5rem;
+      }
+
+      .logo-icon {
+        width: 44px;
+        height: 44px;
+        font-size: 1.25rem;
+      }
+
+      .search-box {
+        padding: 1rem 1rem 1rem 3rem;
+        font-size: 1rem;
+      }
+
+      .stats-bar {
+        gap: 1rem;
+      }
+
+      .command-header {
+        padding: 1rem;
+      }
+
+      .command-name {
+        font-size: 1rem;
+      }
+
+      .command-content {
+        padding: 0 1rem 1rem;
+      }
+
+      .keyboard-hints {
+        display: none;
+      }
+
+      .tabs-nav {
+        padding: 0.5rem;
+      }
+
+      .tab-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.75rem;
+      }
+    }
+
+    /* Formatted text */
+    .formatted-text {
+      white-space: pre-line;
+      word-wrap: break-word;
+    }
+
+    .formatted-text code {
+      padding: 0.15em 0.4em;
+      background: rgba(0, 245, 255, 0.1);
+      border: 1px solid rgba(0, 245, 255, 0.2);
+      border-radius: 4px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.875em;
+      color: var(--cyan);
+    }
+
+    /* Thumbnail */
+    .thumbnail {
+      float: right;
+      margin: 0 0 1rem 1rem;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid var(--glass-border);
+    }
+
+    @media (max-width: 500px) {
+      .thumbnail {
+        float: none;
+        margin: 0 0 1rem 0;
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+      }
+    }
+
+    /* Clearfix */
+    .clearfix::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-animation"></div>
+  <div class="scanlines"></div>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <div class="logo-icon">🥽</div>
+      </div>
+      <h1 class="title">VR Discord</h1>
+      <p class="subtitle">Commands Reference</p>
+    </header>
+
+    <div class="search-section">
+      <div class="search-wrapper">
+        <span class="search-icon">⌕</span>
+        <input
+          type="text"
+          class="search-box"
+          id="searchBox"
+          placeholder="Search commands..."
+          autocomplete="off"
+        />
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-value" id="visibleCount">{{ site.data.commands.size }}</span>
+        <span class="stat-label">/ {{ site.data.commands.size }} commands</span>
+      </div>
+    </div>
+
+    <div class="commands-grid" id="commandsGrid">
+      {% for cmd in site.data.commands %}
+      <article class="command-card" data-name="{{ cmd.name | downcase }}" data-search="{{ cmd.name | downcase }} {{ cmd.description | downcase }} {{ cmd.embed.description | downcase | default: '' }}">
+        <div class="command-header" onclick="toggleCard(this)">
+          <div class="command-info">
+            <div class="command-name">{{ cmd.name }}</div>
+            <div class="command-desc">{{ cmd.description | strip_html | escape }}</div>
+          </div>
+          <button class="expand-btn" aria-label="Expand">▶</button>
+        </div>
+
+        <div class="command-details">
+          <div class="command-content">
+            {% if cmd.embed %}
+            <div class="embed clearfix">
+              {% if cmd.embed.thumbnail.url %}
+              <img src="{{ cmd.embed.thumbnail.url }}" alt="" class="thumbnail" loading="lazy">
+              {% endif %}
+
+              {% if cmd.embed.title %}
+              <h3 class="embed-title">{{ cmd.embed.title | replace: '**', '' | replace: '__', '' }}</h3>
+              {% endif %}
+
+              {% if cmd.embed.description %}
+              <div class="embed-desc formatted-text">{{ cmd.embed.description | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+              {% endif %}
+
+              {% if cmd.embed.image.url %}
+              <div class="embed-image">
+                <img src="{{ cmd.embed.image.url }}" alt="{{ cmd.embed.title }}" loading="lazy">
+              </div>
+              {% endif %}
+
+              {% if cmd.embed.fields %}
+              <div class="fields-grid">
+                {% for field in cmd.embed.fields %}
+                <div class="field">
+                  <div class="field-name">{{ field.name | replace: '**', '' | replace: '__', '' }}</div>
+                  <div class="field-value formatted-text">{{ field.value | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+                </div>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+            {% endif %}
+
+            {% if cmd.pages and cmd.pages.size > 1 %}
+            <div class="pages-section">
+              <div class="pages-header">
+                <span class="icon">📑</span>
+                <span>{{ cmd.pages.size }} Pages Available</span>
+              </div>
+              <nav class="tabs-nav" data-tabs="{{ cmd.name }}">
+                {% for page in cmd.pages %}
+                <button class="tab-btn{% if forloop.first %} active{% endif %}" data-tab="{{ cmd.name }}-{{ forloop.index0 }}">
+                  {{ page.name | default: page.title }}
+                </button>
+                {% endfor %}
+              </nav>
+              {% for page in cmd.pages %}
+              <div class="tab-content{% if forloop.first %} active{% endif %}" id="{{ cmd.name }}-{{ forloop.index0 }}">
+                {% if page.embeds %}
+                {% for embed in page.embeds %}
+                <div class="embed clearfix">
+                  {% if embed.thumbnail.url %}
+                  <img src="{{ embed.thumbnail.url }}" alt="" class="thumbnail" loading="lazy">
+                  {% endif %}
+
+                  {% if embed.title %}
+                  <h4 class="embed-title">{{ embed.title | replace: '**', '' | replace: '__', '' }}</h4>
+                  {% endif %}
+
+                  {% if embed.description %}
+                  <div class="embed-desc formatted-text">{{ embed.description | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+                  {% endif %}
+
+                  {% if embed.image.url %}
+                  <div class="embed-image">
+                    <img src="{{ embed.image.url }}" alt="{{ embed.title }}" loading="lazy">
+                  </div>
+                  {% endif %}
+
+                  {% if embed.fields %}
+                  <div class="fields-grid">
+                    {% for field in embed.fields %}
+                    <div class="field">
+                      <div class="field-name">{{ field.name | replace: '**', '' | replace: '__', '' }}</div>
+                      <div class="field-value formatted-text">{{ field.value | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+                {% endfor %}
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="no-results hidden" id="noResults">
+      <div class="no-results-icon">🔍</div>
+      <div class="no-results-text">No commands found</div>
+    </div>
+
+    <footer class="footer">
+      <div class="keyboard-hints">
+        <div class="kbd-hint">
+          <kbd>Ctrl</kbd><kbd>K</kbd>
+          <span>Focus search</span>
+        </div>
+        <div class="kbd-hint">
+          <kbd>Ctrl</kbd><kbd>E</kbd>
+          <span>Expand/collapse all</span>
+        </div>
+      </div>
+      <p>VR Discord Commands Reference</p>
+    </footer>
+  </div>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script>
+    // DOM Elements
+    const searchBox = document.getElementById('searchBox');
+    const commandsGrid = document.getElementById('commandsGrid');
+    const visibleCount = document.getElementById('visibleCount');
+    const noResults = document.getElementById('noResults');
+    const scrollTopBtn = document.getElementById('scrollTop');
+    const cards = document.querySelectorAll('.command-card');
+    const totalCommands = cards.length;
+
+    // Toggle card expansion
+    function toggleCard(header) {
+      const card = header.closest('.command-card');
+      card.classList.toggle('expanded');
+    }
+
+    // Search functionality
+    function filterCommands() {
+      const term = searchBox.value.toLowerCase().trim();
+      let visible = 0;
+
+      cards.forEach(card => {
+        const searchData = card.dataset.search;
+        const matches = term === '' || searchData.includes(term);
+        card.classList.toggle('hidden', !matches);
+        if (matches) visible++;
+      });
+
+      visibleCount.textContent = visible;
+      noResults.classList.toggle('hidden', visible > 0);
+    }
+
+    searchBox.addEventListener('input', filterCommands);
+
+    // Tab functionality
+    document.querySelectorAll('.tabs-nav').forEach(nav => {
+      nav.addEventListener('click', (e) => {
+        if (!e.target.classList.contains('tab-btn')) return;
+
+        const tabId = e.target.dataset.tab;
+        const section = nav.closest('.pages-section');
+
+        // Update active tab button
+        nav.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        e.target.classList.add('active');
+
+        // Update active content
+        section.querySelectorAll('.tab-content').forEach(content => {
+          content.classList.toggle('active', content.id === tabId);
+        });
+      });
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      // Ctrl+K - Focus search
+      if (e.ctrlKey && e.key === 'k') {
+        e.preventDefault();
+        searchBox.focus();
+        searchBox.select();
+      }
+
+      // Ctrl+E - Expand/collapse all
+      if (e.ctrlKey && e.key === 'e') {
+        e.preventDefault();
+        const allExpanded = Array.from(cards).filter(c => !c.classList.contains('hidden')).every(c => c.classList.contains('expanded'));
+        cards.forEach(card => {
+          if (!card.classList.contains('hidden')) {
+            card.classList.toggle('expanded', !allExpanded);
+          }
+        });
+      }
+
+      // Escape - Clear search
+      if (e.key === 'Escape' && document.activeElement === searchBox) {
+        searchBox.value = '';
+        filterCommands();
+        searchBox.blur();
+      }
+    });
+
+    // Scroll to top button
+    window.addEventListener('scroll', () => {
+      scrollTopBtn.classList.toggle('visible', window.scrollY > 500);
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // URL hash support
+    function openCommandFromHash() {
+      const hash = window.location.hash.slice(1);
+      if (hash) {
+        const card = document.querySelector(`[data-name="${hash.toLowerCase()}"]`);
+        if (card) {
+          card.classList.add('expanded');
+          setTimeout(() => {
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 100);
+        }
+      }
+    }
+
+    window.addEventListener('hashchange', openCommandFromHash);
+    openCommandFromHash();
+
+    // Convert URLs and markdown links to clickable links
+    document.querySelectorAll('.formatted-text').forEach(el => {
+      let html = el.innerHTML;
+
+      // Store existing anchors
+      const placeholders = [];
+      html = html.replace(/<a[^>]*>.*?<\/a>/g, match => {
+        placeholders.push(match);
+        return `__PLACEHOLDER_${placeholders.length - 1}__`;
+      });
+
+      // Convert markdown links [text](url)
+      html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, text, url) => {
+        const linkClass = getStoreLinkClass(url);
+        return `<a href="${url}" target="_blank" rel="noopener" class="${linkClass}">${text}</a>`;
+      });
+
+      // Convert plain URLs
+      html = html.replace(/(?<![">])(https?:\/\/[^\s<]+)/g, url => {
+        return `<a href="${url}" target="_blank" rel="noopener">${url}</a>`;
+      });
+
+      // Restore placeholders
+      placeholders.forEach((original, i) => {
+        html = html.replace(`__PLACEHOLDER_${i}__`, original);
+      });
+
+      el.innerHTML = html;
+    });
+
+    function getStoreLinkClass(url) {
+      if (url.includes('amazon.') || url.includes('amzn.') || url.includes('vrdiscord.com/go')) return 'store-link amazon';
+      if (url.includes('aliexpress.')) return 'store-link aliexpress';
+      if (url.includes('.com') && !url.includes('discord')) return 'store-link official';
+      return '';
+    }
+  </script>
+</body>
+</html>
