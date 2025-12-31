@@ -136,7 +136,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE / WiFi 6E) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE / WiFi 6E) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE / WiFi 6E) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE / WiFi 6E) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX) - PRISMXR Puppis S1 (80$)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
     },
     "pages": [
       {
@@ -147,7 +147,7 @@
         "embeds": [
           {
             "title": "Community Tested Routers",
-            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
             
           }
         ]
@@ -410,7 +410,65 @@
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
             }
-          }          
+          }
+        ]
+      },
+      {
+        "name": "ArrisSurfboardW6U",
+        "title": "ARRIS Surfboard W6U",
+        "description": "Dedicated AP (AXE / WiFi 6E) - ARRIS Surfboard W6U",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "ARRIS Surfboard W6U",
+            "description": "The ARRIS Surfboard W6U is a WiFi 6E access point with a single 2.5 Gbps Ethernet port. It adds a dedicated 6 GHz band to your existing router/network. Not a standalone router - requires connection to an existing router.",
+            "url": "https://amzn.to/49lSEzF",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: WiFi 6E / AXE\n__Ports__: 1x 2.5 GbE\n__Type__: Access Point (not a router)",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon (USA)](https://amzn.to/49lSEzF)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://m.media-amazon.com/images/I/61NvuuWa4IL._AC_SL1500_.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ArrisSurfboardW6B",
+        "title": "ARRIS Surfboard Thruster W6B",
+        "description": "Network Bridge (AXE / WiFi 6E) - ARRIS Surfboard Thruster W6B",
+        "emoji": "",
+        "embeds": [
+          {
+            "title": "ARRIS Surfboard Thruster W6B",
+            "description": "The ARRIS Surfboard Thruster W6B is a WiFi 6E network bridge kit (2-piece). It wirelessly bridges ethernet from your router to your PC/console over a dedicated 6 GHz connection. One unit connects to your router, the other to your device. Pre-paired out of box. Single 2.5 GbE port on each unit.",
+            "url": "https://amzn.to/3MXmx1D",
+            "color": null,
+            "fields": [
+              {
+                "name": "Info",
+                "value": "__Wireless Type__: WiFi 6E / AXE (6 GHz)\n__Ports__: 1x 2.5 GbE per unit\n__Type__: Network Bridge (2-piece kit)",
+                "inline": true
+              },
+              {
+                "name": "Store Links",
+                "value": "[Amazon (USA)](https://amzn.to/3MXmx1D)",
+                "inline": true
+              }
+            ],
+            "thumbnail": {
+              "url": "https://m.media-amazon.com/images/I/71Ig0i76BGL._AC_SL1500_.jpg"
+            }
+          }
         ]
       }
     ]
