@@ -28,11 +28,6 @@
                 "name": "Kiwi Elite Strap",
                 "value": "The Kiwi Elite Strap is similar to the official Elite Strap but without the cracking issue of the official strap, and is known to be comfortable.",
                 "inline": false
-              },
-              {
-                "name": "Vive Deluxe Audio Strap",
-                "value": "The Vive Deluxe Audio Strap is a solution using a strap designed for a Vive with integrated audio, but is quite costly.",
-                "inline": false
               }
             ],
             "thumbnail": {
@@ -98,35 +93,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "Vive Deluxe Audio Strap",
-        "title": "Vive Deluxe Audio Strap",
-        "description": "",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "Vive Deluxe Audio Strap",
-            "description": "The Vive Deluxe Audio Strap is a popular strap due to the integrated audio. However, it is not as popular as it once was due to pricing. \n The Quest 2 has modular strap attachments that support third party straps designed specifically for Quest 2, and as such, other straps like the BOBOVR and Kiwi have been made for far cheaper.\n\n You can get a Vive Deluxe Audio Strap for $100 typically, but you also need a 3D-printed adapter. \n If you do not have a 3D printer, you will have to pay upwards of $20 for the adapter.",
-            "url": "https://www.vive.com/us/accessory/vive-deluxe-audio-strap/",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Included Battery__: No \n __Included Audio__: Yes",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[Amazon Affliate (USA)](https://www.vrdiscord.com/go/vive-deluxe-audio) [Amazon Canada](https://www.amazon.ca/HTC-99HAMR001-00-Deluxe-Audio-Strap/dp/B06Y2GDXMC) [Amazon UK](https://www.amazon.co.uk/VIVE-Deluxe-Audio-Strap-schwarz/dp/B072586SVF)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://cdn.discordapp.com/attachments/416305941491875851/935117590597107742/61aVKko6rkL.png"
-            }
-          }
-        ]
       }
     ]
   },
@@ -148,7 +114,6 @@
           {
             "title": "Community Tested Routers",
             "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
-            
           }
         ]
       },
@@ -197,7 +162,7 @@
                 "name": "Info",
                 "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
                 "inline": true
-              },  
+              },
               {
                 "name": "Store Links",
                 "value": "[Amazon Affliate (USA)](https://www.vrdiscord.com/go/glinet-opal) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
@@ -238,7 +203,7 @@
             }
           }
         ]
-      },         
+      },
       {
         "name": "BerylGLMT3000",
         "title": "GL.iNet Beryl GL-MT3000",
@@ -255,7 +220,7 @@
                 "name": "Info",
                 "value": "__Wireless Type__: WiFi 6 / AX\n__Supports DFS__: Yes",
                 "inline": true
-              },     
+              },
               {
                 "name": "Store Links",
                 "value": "[Amazon Affliate (USA)](https://www.vrdiscord.com/go/glinet-beryl) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)",
@@ -267,7 +232,7 @@
             }
           }
         ]
-      }, 
+      },
       {
         "name": "TPLinkAXE5400",
         "title": "TP-Link Archer AXE75/AXE5400",
@@ -325,7 +290,7 @@
             }
           }
         ]
-      },     
+      },
       {
         "name": "minion6e",
         "title": "Davolink Minion 6E",
@@ -381,7 +346,7 @@
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
             }
-          }          
+          }
         ]
       },
       {
@@ -517,7 +482,7 @@
                 "name": "Syntech Link Cable with Charging",
                 "value": "Syntech's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever (Quest 2, Pro & 3)",
                 "inline": false
-              },              
+              },
               {
                 "name": "Meta Official Link Cable",
                 "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.",
@@ -556,7 +521,8 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
             }
           }
-        ]
+        ],
+        "title": "Kiwi Design Link Cable"
       },
       {
         "name": "Syntech Link Cable",
@@ -584,7 +550,8 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004914067737169940/unknown.png?width=905&height=905"
             }
           }
-        ]
+        ],
+        "title": "Syntech Link Cable"
       },
       {
         "name": "Kuject USB Link Cable",
@@ -612,7 +579,8 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004916959307104336/unknown.png?width=905&height=905"
             }
           }
-        ]
+        ],
+        "title": "Kuject USB Link Cable"
       },
       {
         "name": "INIU Link Cable",
@@ -640,7 +608,8 @@
               "url": "https://m.media-amazon.com/images/I/81+t8OSS6kL._AC_SL1500_.jpg"
             }
           }
-        ]
+        ],
+        "title": "INIU Link Cable"
       },
       {
         "name": "Syntech Link Cable with Charging",
@@ -668,8 +637,9 @@
               "url": "https://vrdiscord.com/images/products/cables/syntec-cable-powered.jpeg"
             }
           }
-        ]
-      },      
+        ],
+        "title": "Syntech Link Cable with Charging"
+      },
       {
         "name": "Meta Official Link Cable",
         "description": "",
@@ -696,7 +666,8 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
             }
           }
-        ]
+        ],
+        "title": "Meta Official Link Cable"
       }
     ]
   },
@@ -778,8 +749,9 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056146259800490034/Screenshot_20221224_014744_Meta_Quest.png"
             }
           }
-        ]
-      },      
+        ],
+        "title": "Referrals"
+      },
       {
         "name": "Anything you should avoid?",
         "description": "",
@@ -812,7 +784,8 @@
               }
             ]
           }
-        ]
+        ],
+        "title": "Anything you should avoid?"
       },
       {
         "name": "What games should I start with?",
@@ -854,11 +827,10 @@
                 "value": "Check out [Gibby's Guide](https://gibbysguide.org/) as they make a monthly guide on new content!",
                 "inline": false
               }
-
-              
             ]
           }
-        ]
+        ],
+        "title": "What games should I start with?"
       },
       {
         "name": "What else can I do with my quest?",
@@ -897,7 +869,8 @@
               }
             ]
           }
-        ]
+        ],
+        "title": "What else can I do with my quest?"
       },
       {
         "name": "What about PCVR?",
@@ -926,7 +899,8 @@
               }
             ]
           }
-        ]
+        ],
+        "title": "What about PCVR?"
       },
       {
         "name": "I'm looking for discounts",
@@ -955,7 +929,8 @@
               }
             ]
           }
-        ]
+        ],
+        "title": "I'm looking for discounts"
       },
       {
         "name": "Accessories - Quest 2 Headstrap",
@@ -981,13 +956,14 @@
                 "name": "KIWI design Comfort Battery",
                 "value": "Elite-style strap with 6400mAh battery, memory foam cushions, and simultaneous charging support.\n[Amazon Affliate (USA)](https://vrdiscord.com/go/B09XF69CR9)",
                 "inline": false
-              }                        
+              }
             ],
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151426822311946/shopping.png"
             }
           }
-        ]
+        ],
+        "title": "Accessories - Quest 2 Headstrap"
       },
       {
         "name": "Accessories - Quest 2 Facial Interface",
@@ -1019,7 +995,8 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151854586802186/01-oculus-quest-2.png"
             }
           }
-        ]
+        ],
+        "title": "Accessories - Quest 2 Facial Interface"
       },
       {
         "name": "Accessories - Controller - Quest 2 Grips",
@@ -1051,7 +1028,8 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152099873882212/media.png"
             }
           }
-        ]
+        ],
+        "title": "Accessories - Controller - Quest 2 Grips"
       },
       {
         "name": "Accessories - Link Cables",
@@ -1071,34 +1049,35 @@
               {
                 "name": "Syntech Link Cable",
                 "value": "The Kiwi Design Link Cable is a USB A to C cable that is 4, 5, or 6 meters long, depending on which one you purchase.\n[Amazon Affliate (USA)](https://www.vrdiscord.com/go/syntech-link)",
-                "inline": false 
+                "inline": false
               },
               {
                 "name": "Kuject USB Link Cable",
                 "value": "Kuject's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever. **Not on quest 3** \n[Amazon Affliate (USA)](https://www.vrdiscord.com/go/kuject-link/)",
-                "inline": false 
+                "inline": false
               },
               {
                 "name": "Syntech Link Cable with Charging",
                 "value": "Syntech's USB cable can accept external power, which means even on a weak USB port, it can keep playing forever. (Quest 2, Pro & 3) \n[Amazon Affliate (USA)](https://www.vrdiscord.com/go/syntech-link-charge/)",
-                "inline": false 
-              },              
+                "inline": false
+              },
               {
                 "name": "INIU Link Cable",
                 "value": "INIU's USB A cable can accept external power, which means even on a weak USB port, it can keep playing forever (Quest 2, Pro & 3)\n[Amazon Affliate (USA)](https://vrdiscord.com/go/iniu-link)",
                 "inline": false
-              },                
+              },
               {
                 "name": "Meta Official Link Cable",
                 "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.\n[Amazon Affliate (USA)](https://vrdiscord.com/go/meta-link)",
-                "inline": false 
+                "inline": false
               }
             ],
             "thumbnail": {
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152249912524840/oculus_quest_2_usb_port.png"
             }
           }
-        ]
+        ],
+        "title": "Accessories - Link Cables"
       },
       {
         "name": "Support",
@@ -1109,7 +1088,8 @@
             "title": "Support",
             "description": "If you are having issues with your Quest, please check out <#1030166436297064510>"
           }
-        ]
+        ],
+        "title": "Support"
       }
     ]
   },
@@ -1221,7 +1201,8 @@
               "url": "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
             }
           }
-        ]
+        ],
+        "title": "BOBOVR M3 Mini Sports"
       },
       {
         "name": "BOBOVR S3 Pro",
@@ -1249,7 +1230,8 @@
               "url": "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
             }
           }
-        ]
+        ],
+        "title": "BOBOVR S3 Pro"
       },
       {
         "name": "Kiwi K4 Comfort Head Strap",
@@ -1277,7 +1259,8 @@
               "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_Comfort_Head_Strap_for_Quest3_0.png?v=1732018921&width=1000"
             }
           }
-        ]
+        ],
+        "title": "Kiwi K4 Comfort Head Strap"
       },
       {
         "name": "KIWI design H4 Halo Comfort Head Strap",
@@ -1305,7 +1288,8 @@
               "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
             }
           }
-        ]
+        ],
+        "title": "KIWI design H4 Halo Comfort Head Strap"
       },
       {
         "name": "Kiwi Battery Headstrap",
@@ -1333,7 +1317,8 @@
               "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
             }
           }
-        ]
+        ],
+        "title": "Kiwi Battery Headstrap"
       },
       {
         "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
@@ -1361,7 +1346,8 @@
               "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
             }
           }
-        ]
+        ],
+        "title": "BOBOVR M2 > M3 Pro Retrofit Kit"
       },
       {
         "name": "KIWI design H4 Boost Battery Halo",
@@ -1389,7 +1375,8 @@
               "url": "https://vrdiscord.com/images/products/straps/kiwi-h4-boost.jpg"
             }
           }
-        ]
+        ],
+        "title": "KIWI design H4 Boost Battery Halo"
       },
       {
         "name": "KIWI design K4 Boost Battery",
@@ -1417,7 +1404,8 @@
               "url": "https://vrdiscord.com/images/products/straps/kiwi-k4-boost.jpg"
             }
           }
-        ]
+        ],
+        "title": "KIWI design K4 Boost Battery"
       }
     ]
   },
@@ -1434,12 +1422,16 @@
           "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
         },
         {
-          "name": "Quest 2/Pico Neo 3/Quest Pro/Quest 3",
-          "value": "Potato: 1440x1536\nLow: 1728x1824\nMedium: 2016x2112\nHigh: 2496x2592\nUltra: 2688x2784\nGodlike: 3072x3216 (Quest Pro/Quest 3)"
+          "name": "Quest 2/Quest 3S/Pico Neo 3/Quest Pro/Quest 3/Galaxy XR",
+          "value": "Potato: 1344x1440\nLow: 1728x1824\nMedium: 2112x2304\nHigh: 2496x2688\nUltra: 2688x2880\nGodlike: 3072x3264 (Quest Pro/Quest 3/Galaxy XR)\nMonster: 3648x3936 (Galaxy XR)"
         },
         {
-          "name": "Pico 4",
-          "value": "Potato: 1488x1488\nLow: 1776x1776\nMedium: 2064x2064\nHigh: 2544x2544\nUltra: 2736x2736\nGodlike: 3120x3120"
+          "name": "Vive XR Elite/Pico 4/Pico 4 Ultra",
+          "value": "Potato: 1344x1344\nLow: 1728x1728\nMedium: 2016x2016\nHigh: 2592x2592\nUltra: 2784x2784\nGodlike: 3168x3168\nMonster: 3648x3648 (Pico 4 Ultra)"
+        },
+        {
+          "name": "Play For Dream",
+          "value": "Potato: 1536x1440\nLow: 1824x1728\nMedium: 2208x2016\nHigh: 2688x2496\nUltra: 2880x2688\nGodlike: 3264x3072\nMonster: 3936x3648"
         }
       ]
     }
@@ -1564,7 +1556,7 @@
             }
           }
         ]
-      },              
+      },
       {
         "name": "Do I get the Rift Versions of these games?",
         "title": "Do I get the Rift Versions of these games?",
@@ -1582,7 +1574,7 @@
         ]
       }
     ]
-  },  
+  },
   {
     "name": "ipd",
     "description": "IPD and Its Importance in VR.",
@@ -1593,7 +1585,7 @@
       "fields": [
         {
           "name": "Common IPD Ranges",
-          "value": "Quest 2 - 3 Settings - 58mm, 63mm, 68mm (+/-2.5mm in each direction)\nValve Index - 58-70mm\nReverb G2 - 60-68mm\n[VRCompare for more headsets](https://vr-compare.com/)"
+          "value": "Quest 3 - Continuous 53-75mm\nQuest 3S - 3 Settings - 58mm, 63mm, 68mm\nQuest 2 - 3 Settings - 58mm, 63mm, 68mm\nQuest Pro - Continuous 55-75mm\nValve Index - 58-70mm\nReverb G2 - 60-68mm\n[VRCompare for more headsets](https://vr-compare.com/)"
         },
         {
           "name": "How to check?",
@@ -1601,7 +1593,7 @@
         },
         {
           "name": "Ruler Method",
-          "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the “0” mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
+          "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the \u201c0\u201d mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
         }
       ]
     }
@@ -1640,7 +1632,7 @@
         {
           "name": "How do I install it onto my Quest?",
           "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
-        },          
+        },
         {
           "name": "Is it safe?",
           "value": "It is accepted (and even endorsed) by Meta and you can find information on how to install it [here](https://sidequestvr.com/setup-howto) with all setup instructions."
@@ -1758,7 +1750,6 @@
       }
     }
   },
-
   {
     "name": "questpcvrinfo",
     "description": "Request more information - PC - Quest",
@@ -1791,7 +1782,7 @@
     "description": "What is Extended Reality (XR)",
     "ephemeral": false,
     "embed": {
-    "title": "Extended Reality (XR)",
+      "title": "Extended Reality (XR)",
       "description": "Extended Reality (XR) covers all the different ways we mix computer technology with our real world. Here's what that includes:\n\n**Virtual Reality (VR)**: This is like stepping into a different world. You wear a headset, and everything you see is created by a computer. It's used for video games and other interactive experiences.\n\n**Augmented Reality (AR)**: This adds computer-created elements to the real world. If you've played games where characters appear in the real world on your phone screen, or used a filter to add a hat to your selfie, that's AR!\n\n**Mixed Reality (MR)**: This is a blend of AR and VR. Here, virtual objects are added to the real world and can interact with it. It's like having virtual objects in your living room that you can move and touch."
     }
   },
@@ -1863,7 +1854,7 @@
       "title": "Half-Life: Alyx - Stutter Fix",
       "description": "Right-click Half-Life: Alyx in Steam then click Properties, in 'General' click in 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
     }
-  },  
+  },
   {
     "name": "questfactoryreset",
     "description": "Quest Factory Reset",
