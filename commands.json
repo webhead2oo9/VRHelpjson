@@ -444,7 +444,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Link Cables",
-      "description": "Please select a cable below for more information, or 'Summary' for an overview.\n These are only tested on Quest 1 and 2, except the INIU."
+      "description": "Please select a cable below for more information, or 'Summary' for an overview.\n Please note we do not advise Oculus Link."
     },
     "pages": [
       {
@@ -497,6 +497,7 @@
       },
       {
         "name": "Kiwi Design Link Cable",
+        "title": "Kiwi Design Link Cable",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -521,11 +522,11 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
             }
           }
-        ],
-        "title": "Kiwi Design Link Cable"
+        ]
       },
       {
         "name": "Syntech Link Cable",
+        "title": "Syntech Link Cable",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -550,17 +551,17 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004914067737169940/unknown.png?width=905&height=905"
             }
           }
-        ],
-        "title": "Syntech Link Cable"
+        ]
       },
       {
         "name": "Kuject USB Link Cable",
+        "title": "Kuject USB Link Cable",
         "description": "",
         "emoji": "",
         "embeds": [
           {
             "title": "Kuject USB A Link Cable",
-            "description": "The Kuject USB C cable is a unique cable in the fact it can support external power, this allows you to have unlimited playtime on link regardless of your USB ports output. (Quest 2)",
+            "description": "The Kuject USB C cable is useful cable in the fact it can support external power, this allows you to have unlimited playtime on link regardless of your USB ports output. (Quest 2)",
             "url": "https://kuject.com/product/kuject-designed-link-cable-for-oculus-quest-2-smart-chip-supported-charging-while-playing-separated-charging-port-cable-usb-3-0-type-a-to-c-for-vr-headset-accessories-and-gaming-pc-16ft/",
             "color": null,
             "fields": [
@@ -579,11 +580,11 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004916959307104336/unknown.png?width=905&height=905"
             }
           }
-        ],
-        "title": "Kuject USB Link Cable"
+        ]
       },
       {
         "name": "INIU Link Cable",
+        "title": "INIU Link Cable",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -608,11 +609,11 @@
               "url": "https://m.media-amazon.com/images/I/81+t8OSS6kL._AC_SL1500_.jpg"
             }
           }
-        ],
-        "title": "INIU Link Cable"
+        ]
       },
       {
         "name": "Syntech Link Cable with Charging",
+        "title": "Syntech Link Cable with Charging",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -637,11 +638,11 @@
               "url": "https://vrdiscord.com/images/products/cables/syntec-cable-powered.jpeg"
             }
           }
-        ],
-        "title": "Syntech Link Cable with Charging"
+        ]
       },
       {
         "name": "Meta Official Link Cable",
+        "title": "Meta Official Link Cable",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -666,8 +667,7 @@
               "url": "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
             }
           }
-        ],
-        "title": "Meta Official Link Cable"
+        ]
       }
     ]
   },
@@ -720,6 +720,7 @@
       },
       {
         "name": "Referrals",
+        "title": "Referrals",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -749,11 +750,11 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056146259800490034/Screenshot_20221224_014744_Meta_Quest.png"
             }
           }
-        ],
-        "title": "Referrals"
+        ]
       },
       {
         "name": "Anything you should avoid?",
+        "title": "Anything you should avoid?",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -784,11 +785,11 @@
               }
             ]
           }
-        ],
-        "title": "Anything you should avoid?"
+        ]
       },
       {
         "name": "What games should I start with?",
+        "title": "What games should I start with?",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -829,11 +830,11 @@
               }
             ]
           }
-        ],
-        "title": "What games should I start with?"
+        ]
       },
       {
         "name": "What else can I do with my quest?",
+        "title": "What else can I do with my quest?",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -869,11 +870,11 @@
               }
             ]
           }
-        ],
-        "title": "What else can I do with my quest?"
+        ]
       },
       {
         "name": "What about PCVR?",
+        "title": "What about PCVR?",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -899,11 +900,11 @@
               }
             ]
           }
-        ],
-        "title": "What about PCVR?"
+        ]
       },
       {
         "name": "I'm looking for discounts",
+        "title": "I'm looking for discounts",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -929,11 +930,11 @@
               }
             ]
           }
-        ],
-        "title": "I'm looking for discounts"
+        ]
       },
       {
         "name": "Accessories - Quest 2 Headstrap",
+        "title": "Accessories - Quest 2 Headstrap",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -962,11 +963,11 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151426822311946/shopping.png"
             }
           }
-        ],
-        "title": "Accessories - Quest 2 Headstrap"
+        ]
       },
       {
         "name": "Accessories - Quest 2 Facial Interface",
+        "title": "Accessories - Quest 2 Facial Interface",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -995,11 +996,11 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151854586802186/01-oculus-quest-2.png"
             }
           }
-        ],
-        "title": "Accessories - Quest 2 Facial Interface"
+        ]
       },
       {
         "name": "Accessories - Controller - Quest 2 Grips",
+        "title": "Accessories - Controller - Quest 2 Grips",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1028,11 +1029,11 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152099873882212/media.png"
             }
           }
-        ],
-        "title": "Accessories - Controller - Quest 2 Grips"
+        ]
       },
       {
         "name": "Accessories - Link Cables",
+        "title": "Accessories - Link Cables",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1076,11 +1077,11 @@
               "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152249912524840/oculus_quest_2_usb_port.png"
             }
           }
-        ],
-        "title": "Accessories - Link Cables"
+        ]
       },
       {
         "name": "Support",
+        "title": "Support",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1088,8 +1089,7 @@
             "title": "Support",
             "description": "If you are having issues with your Quest, please check out <#1030166436297064510>"
           }
-        ],
-        "title": "Support"
+        ]
       }
     ]
   },
@@ -1103,7 +1103,7 @@
       "fields": [
         {
           "name": "Ask in One Channel",
-          "value": "Posting the same issue in multiple channel leads to confusion, reduces the willingness of volunteers to assist, and does not accelerate response times. Stick to #support channels for each issue."
+          "value": "Posting the same issue in multiple channel leads to confusion, reduces the willingness of volunteers to assist, and does not accelerate response times. Stick to #community-support."
         }
       ]
     }
@@ -1177,6 +1177,7 @@
       },
       {
         "name": "BOBOVR M3 Mini Sports",
+        "title": "BOBOVR M3 Mini Sports",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1201,11 +1202,11 @@
               "url": "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
             }
           }
-        ],
-        "title": "BOBOVR M3 Mini Sports"
+        ]
       },
       {
         "name": "BOBOVR S3 Pro",
+        "title": "BOBOVR S3 Pro",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1230,11 +1231,11 @@
               "url": "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
             }
           }
-        ],
-        "title": "BOBOVR S3 Pro"
+        ]
       },
       {
         "name": "Kiwi K4 Comfort Head Strap",
+        "title": "Kiwi K4 Comfort Head Strap",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1259,11 +1260,11 @@
               "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_Comfort_Head_Strap_for_Quest3_0.png?v=1732018921&width=1000"
             }
           }
-        ],
-        "title": "Kiwi K4 Comfort Head Strap"
+        ]
       },
       {
         "name": "KIWI design H4 Halo Comfort Head Strap",
+        "title": "KIWI design H4 Halo Comfort Head Strap",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1288,11 +1289,11 @@
               "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
             }
           }
-        ],
-        "title": "KIWI design H4 Halo Comfort Head Strap"
+        ]
       },
       {
         "name": "Kiwi Battery Headstrap",
+        "title": "Kiwi Battery Headstrap",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1317,11 +1318,11 @@
               "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
             }
           }
-        ],
-        "title": "Kiwi Battery Headstrap"
+        ]
       },
       {
         "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
+        "title": "BOBOVR M2 > M3 Pro Retrofit Kit",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1346,11 +1347,11 @@
               "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
             }
           }
-        ],
-        "title": "BOBOVR M2 > M3 Pro Retrofit Kit"
+        ]
       },
       {
         "name": "KIWI design H4 Boost Battery Halo",
+        "title": "KIWI design H4 Boost Battery Halo",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1375,11 +1376,11 @@
               "url": "https://vrdiscord.com/images/products/straps/kiwi-h4-boost.jpg"
             }
           }
-        ],
-        "title": "KIWI design H4 Boost Battery Halo"
+        ]
       },
       {
         "name": "KIWI design K4 Boost Battery",
+        "title": "KIWI design K4 Boost Battery",
         "description": "",
         "emoji": "",
         "embeds": [
@@ -1404,8 +1405,7 @@
               "url": "https://vrdiscord.com/images/products/straps/kiwi-k4-boost.jpg"
             }
           }
-        ],
-        "title": "KIWI design K4 Boost Battery"
+        ]
       }
     ]
   },
@@ -1593,7 +1593,7 @@
         },
         {
           "name": "Ruler Method",
-          "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the \u201c0\u201d mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
+          "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the “0” mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
         }
       ]
     }
@@ -1714,9 +1714,10 @@
   {
     "name": "drivers",
     "description": "Recommended GPU Drivers",
+    "ephemeral": false,
     "embed": {
       "title": "Recommended GPU Drivers",
-      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/7000/9000 series: [25.10.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-10-2.html)"
+      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html#Downloads)\n\nAMD 7000/9000 series: [25.10.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-10-2.html#Downloads)"
     }
   },
   {
