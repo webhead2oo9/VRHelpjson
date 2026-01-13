@@ -102,7 +102,7 @@
     "ephemeral": false,
     "embed": {
       "title": "Community Tested Routers",
-      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE / WiFi 6E) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE / WiFi 6E) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE / WiFi 6E) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX) - PRISMXR Puppis S1 (80$)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+      "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE / WiFi 6E) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE / WiFi 6E) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE / WiFi 6E) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
     },
     "pages": [
       {
@@ -113,7 +113,7 @@
         "embeds": [
           {
             "title": "Community Tested Routers",
-            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nDedicated (AX) - PRISMXR Puppis S1 (80$ US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+            "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
           }
         ]
       },
@@ -171,35 +171,6 @@
             ],
             "thumbnail": {
               "url": "https://m.media-amazon.com/images/I/41sKZ-x0NDL._AC_UF894,1000_QL80_.jpg"
-            }
-          }
-        ]
-      },
-      {
-        "name": "puppiss1",
-        "title": "PRISMXR Puppis S1",
-        "description": "Dedicated (AX) - PRISMXR Puppis S1",
-        "emoji": "",
-        "embeds": [
-          {
-            "title": "PRISMXR Puppis S1",
-            "description": "The Puppis is a small USB connected device that uses a mobile device to setup a connection to your existing network, it can't be used for multiple devices but is a very solid option for just a VR device connected to it.",
-            "url": "https://www.prismxr.com/products/prismxr-puppis-s1-ax3000-wifi6-router-for-pc-vr-streaming-quest-3-compatible",
-            "color": null,
-            "fields": [
-              {
-                "name": "Info",
-                "value": "__Wireless Type__: WiFi 6 / AX",
-                "inline": true
-              },
-              {
-                "name": "Store Links",
-                "value": "[Amazon Affliate (USA)](https://www.vrdiscord.com/go/prismxr-puppis)",
-                "inline": true
-              }
-            ],
-            "thumbnail": {
-              "url": "https://images-ext-1.discordapp.net/external/rRFkGCfqqhBfuQ0_wnX6IQWwXb3fdaj41iLEg4Ty1LM/https/m.media-amazon.com/images/I/51vTZVO%2BbUL._AC_SL1500_.jpg"
             }
           }
         ]
@@ -1554,7 +1525,7 @@
         },
         {
           "name": "Ruler Method",
-          "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the “0” mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
+          "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the \u201c0\u201d mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
         }
       ]
     }
