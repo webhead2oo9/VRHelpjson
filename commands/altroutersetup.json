@@ -1,0 +1,11 @@
+{
+  "name": "altroutersetup",
+  "description": "Alternate Dedicated Router Setup Diagrams",
+  "ephemeral": false,
+  "embed": {
+    "title": "Alternate Dedicated Router Setup Diagrams",
+    "image": {
+      "url": "https://vrdiscord.com/images/network_setups.png"
+    }
+  }
+}

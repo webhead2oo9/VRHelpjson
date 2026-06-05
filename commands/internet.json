@@ -1,0 +1,12 @@
+{
+  "name": "internet",
+  "description": "Internet isn't used when streaming",
+  "ephemeral": false,
+  "embed": {
+    "title": "Internet isn't used when streaming",
+    "description": "Once your VR headset is connected to your computer, all data traffic remains local. This is true whether you're connected directly to your main router or to a dedicated router on the same local area network (LAN). The only requirement is a wired connection from your PC to a router. The VR headset then connects wirelessly to the same router or dedicated router.",
+    "image": {
+      "url": "https://cdn.discordapp.com/attachments/1051582245649006593/1188703795560063006/VD_internet_command.png"
+    }
+  }
+}

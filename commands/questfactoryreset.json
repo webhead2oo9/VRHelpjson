@@ -1,0 +1,9 @@
+{
+  "name": "questfactoryreset",
+  "description": "Quest Factory Reset",
+  "ephemeral": false,
+  "embed": {
+    "title": "Quest Factory Reset",
+    "description": "If you need to factory reset your Quest, follow [these](https://www.meta.com/help/quest/articles/fix-a-problem/troubleshoot-headsets-and-accessories/troubleshooting-factory-reset-quest/) instructions on the factory reset."
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "name": "routers",
+  "description": "Community Tested Routers",
+  "ephemeral": false,
+  "embed": {
+    "title": "Community Tested Routers",
+    "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE / WiFi 6E) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX / WiFi 6) - Asus RT-AX86U ($300 US)\nDedicated (BE / Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE / WiFi 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (AXE / WiFi 6E) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE / WiFi 6E) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE / WiFi 6E) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX / WiFi 6) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC / WiFi 5) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC / WiFi 5) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+  },
+  "pages": [
+    {
+      "name": "main",
+      "title": "Main Page",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Community Tested Routers",
+          "description": "The following routers have been reported to work reliably from a number of users.\nHigh End (AXE) - TP-Link AXE300/AXE16000 ($450 US)\nHigh End (AX) - Asus RT-AX86U ($300 US)\nHigh End (AXE 6E) - Davolink 'Kevin' Minion 6E ($129 US)\nDedicated (Wifi 7) - TP-Link BE9300/BE550 ($200-$300 US)\nDedicated (AXE) - TP-Link Archer AXE75/AXE5400 ($160-$200 US)\nDedicated AP (AXE) - ARRIS Surfboard W6U (single port)\nNetwork Bridge (AXE) - ARRIS Surfboard Thruster W6B (2-piece kit)\nDedicated (AX) - GL.iNet Beryl GL-MT3000 ($90 US)\nLow End (AC) - GL.iNet Opal GL-SFT1200 ($50 US)\nLow End (AC) - TP-Link Archer C6 or A6 ($40 US)\n\nTP-Link AX and Huawei routers have been known to have issues we are unable to identify. Higher end TP-Link AX/AXE routers not listed here may work well but as with any router not on this list, should be considered untested.\nThe TP-Link Archer AXE5400 is not the same thing as the Deco AXE5400. The latter is a mesh router and may not work as expected."
+        }
+      ]
+    },
+    {
+      "name": "TPLinkC6",
+      "title": "TP-Link Archer C6 or A6",
+      "description": "Low End (AC) - TP-Link C6 or A6",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "TP-Link Archer C6 or A6",
+          "description": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop.",
+          "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-c6/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-c6) [Canada Amazon](https://www.amazon.ca/ROUTER-TP-LINK-ARCHER-AC1200-MU-MIMO/dp/B08GDC3534/) [UK](https://www.amazon.co.uk/TP-Link-AC1200-Wireless-Wi-Fi-Router/dp/B07L5YRYF4)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://static.tp-link.com/Archer-C6-1_normal_1533257570157g.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "OpalGLSFT1200",
+      "title": "GL.iNet Opal GL-SFT1200",
+      "description": "Low End (AC) - Opal GL-SFT1200",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "GL.iNet Opal GL-SFT1200",
+          "description": "The GL.iNet Opal GL-SFT1200 is a good dedicated router for bridging and repeating an existing wireless network.",
+          "url": "https://www.gl-inet.com/products/gl-sft1200/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: Wifi 5 / AC\n__Supports DFS__: No",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/glinet-opal) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://m.media-amazon.com/images/I/41sKZ-x0NDL._AC_UF894,1000_QL80_.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "BerylGLMT3000",
+      "title": "GL.iNet Beryl GL-MT3000",
+      "description": "Dedicated (AX) GL.iNet Beryl GL-MT3000",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "GL.iNet Beryl GL-MT3000",
+          "description": "The GL.iNet Beryl GL-MT3000 is a good dedicated router for bridging and repeating an existing wireless network. Unlike the GL.iNet Opal GL-SFT1200, the Beryl supports DFS channels which can be useful when there are limited clear 5ghz channels. Currently you will need to update this to beta firmware 4.6.0 or later for proper performance.",
+          "url": "https://www.gl-inet.com/products/gl-mt3000/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6 / AX\n__Supports DFS__: Yes",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/glinet-beryl) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://m.media-amazon.com/images/I/41IiLQJghoL._AC_SX679_.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TPLinkAXE5400",
+      "title": "TP-Link Archer AXE75/AXE5400",
+      "description": "Dedicated (AXE) - TP-Link Archer AXE75/AXE5400",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "TP-Link Archer AXE75/AXE5400",
+          "description": "The TP-Link Archer AXE75/AXE5400 is a WiFi 6e router that has been tested as a good dedicated router for wireless VR streaming.",
+          "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe5400/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-axe75) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TPLinkBE9300",
+      "title": "TP-Link BE9300/BE550",
+      "description": "Dedicated (Wifi 7) - TP-Link BE9300/BE550",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "TP-Link BE9300/BE550",
+          "description": "The TP-Link BE9300/BE550 is a Wifi 7 (Works for WiFi 6e) router that has been tested as a good dedicated router for wireless VR streaming. It has 4 2.5GbE LAN ports and 1 2.5GbE WAN port.\n*Note: Headsets do not support Wifi 7 but Wifi 7 routers function as WiFi 6e as well",
+          "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9300/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6/6e/7 5/6Ghz\n__Supports DFS__: Yes",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-be550) [USA Walmart](https://www.walmart.com/ip/TP-Link-Archer-BE9300-Router-Tri-Band-WiFi-7-Wireless-Router-up-to-9-2-Gbps-Speeds-Easy-Setup-Parental-Controls/3339006219) [EU Amazon](https://www.amazon.de/-/en/Archer-BE550/dp/B0CJSNSVMR/)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/682369095798489129/1224843314860265584/61Uj6QU3jBL.png?ex=661ef73a&is=660c823a&hm=6949b4ed6de752b8f09c80967deb5a509dcdc15eb945a307895500e38ea76229&"
+          }
+        }
+      ]
+    },
+    {
+      "name": "minion6e",
+      "title": "Davolink Minion 6E",
+      "description": "High End (AXE 6E) - Davolink Minion 6E",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Davolink Minion 6E",
+          "description": "The 'Kevin' Router is a good dedicated 6E Router, offering one of the best prices on a 6E Router/AP that has been tested.",
+          "url": "http://www.davolink.co.kr/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6E / AC\n__Supports DFS__: Yes",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/davolink-kevin)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AsusAX86U",
+      "title": "Asus RT-AX86U",
+      "description": "High End (AX) - Asus RT-AX86U",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Asus RT-AX86U",
+          "description": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas.",
+          "url": "https://www.asus.com/us/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AX86U/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6 / AX\n__Supports DFS__: Yes",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/asus-ax86u) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tplaxe300",
+      "title": "TP-Link AXE300/AXE16000",
+      "description": "High End (AXE) - TP-Link AXE300/AXE16000",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "TP-Link AXE300/AXE16000",
+          "description": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured WiFi 6E/AXE router with solid performance.",
+          "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-axe300/",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6/6e 5/6Ghz \n__Supports DFS__: Yes",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-axe300/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ArrisSurfboardW6U",
+      "title": "ARRIS Surfboard W6U",
+      "description": "Dedicated AP (AXE / WiFi 6E) - ARRIS Surfboard W6U",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "ARRIS Surfboard W6U",
+          "description": "The ARRIS Surfboard W6U is a WiFi 6E access point with a single 2.5 Gbps Ethernet port. It adds a dedicated 6 GHz band to your existing router/network. Not a standalone router - requires connection to an existing router.",
+          "url": "https://amzn.to/49lSEzF",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6E / AXE\n__Ports__: 1x 2.5 GbE\n__Type__: Access Point (not a router)",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon (USA)](https://amzn.to/49lSEzF)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://m.media-amazon.com/images/I/61NvuuWa4IL._AC_SL1500_.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ArrisSurfboardW6B",
+      "title": "ARRIS Surfboard Thruster W6B",
+      "description": "Network Bridge (AXE / WiFi 6E) - ARRIS Surfboard Thruster W6B",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "ARRIS Surfboard Thruster W6B",
+          "description": "The ARRIS Surfboard Thruster W6B is a WiFi 6E network bridge kit (2-piece). It wirelessly bridges ethernet from your router to your PC/console over a dedicated 6 GHz connection. One unit connects to your router, the other to your device. Pre-paired out of box. Single 2.5 GbE port on each unit.",
+          "url": "https://amzn.to/3MXmx1D",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Wireless Type__: WiFi 6E / AXE (6 GHz)\n__Ports__: 1x 2.5 GbE per unit\n__Type__: Network Bridge (2-piece kit)",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon (USA)](https://amzn.to/3MXmx1D)",
+              "inline": true
+            }
+          ],
+          "thumbnail": {
+            "url": "https://m.media-amazon.com/images/I/71Ig0i76BGL._AC_SL1500_.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

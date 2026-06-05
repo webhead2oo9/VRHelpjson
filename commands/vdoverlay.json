@@ -1,0 +1,12 @@
+{
+  "name": "vdoverlay",
+  "description": "Quest - Virtual Desktop - Overlay",
+  "ephemeral": false,
+  "embed": {
+    "title": "Sharing Screenshots of the Performance Overlay",
+    "description": "1.) Go into the Settings tab in the Virtual Desktop menu in VR and make sure 'copy screenshots to desktop' is enabled.\n2.) Go into the Streaming tab and check 'Show performance overlay'.\n3.) Launch your VR game.\n4.) Look for numbers that are turning orange.\n5.) When you see this, hold right Meta button and press right trigger or left trigger to take a screenshot.\n\n The screenshot will be found on your desktop and you can share it here.",
+    "image": {
+      "url": "https://cdn.discordapp.com/attachments/830109245642899496/893921627153240064/vdoverlay.gif"
+    }
+  }
+}

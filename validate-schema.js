@@ -1,24 +1,44 @@
 const fs = require('fs');
+const path = require('path');
 
-const data = JSON.parse(fs.readFileSync('commands.json', 'utf8'));
 let issues = [];
 
-// Expected page schema order
-const expectedPageKeys = ['name', 'title', 'description', 'emoji', 'embeds'];
+const commandDir = 'commands';
+const files = fs.readdirSync(commandDir)
+  .filter(file => file.endsWith('.json'))
+  .sort();
 
-data.forEach((cmd, cmdIdx) => {
+if (files.length === 0) {
+  issues.push('commands/ contains no .json files');
+}
+
+// Expected page schema order
+const expectedPageKeys = ['name', 'title', 'description', 'emoji', 'embed', 'embeds'];
+
+files.forEach((file, cmdIdx) => {
+  const filePath = path.join(commandDir, file);
+  let cmd;
+  try {
+    cmd = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch (err) {
+    issues.push(`${filePath} is not valid JSON: ${err.message}`);
+    return;
+  }
+
   // Check command level
   if (!cmd.name) {
-    issues.push(`Command at index ${cmdIdx} is missing 'name' field`);
+    issues.push(`Command file ${filePath} is missing 'name' field`);
+  } else {
+    const expectedName = path.basename(file, '.json');
+    if (cmd.name !== expectedName) {
+      issues.push(`Command file ${filePath} has name '${cmd.name}' but expected '${expectedName}'`);
+    }
   }
   if (!cmd.hasOwnProperty('description')) {
     issues.push(`Command '${cmd.name}' is missing 'description' field`);
   }
-  if (!cmd.hasOwnProperty('ephemeral')) {
-    issues.push(`Command '${cmd.name}' is missing 'ephemeral' field`);
-  }
-  if (!cmd.embed) {
-    issues.push(`Command '${cmd.name}' is missing 'embed' field`);
+  if (!cmd.embed && !cmd.embeds && !cmd.pages) {
+    issues.push(`Command '${cmd.name}' is missing 'embed', 'embeds', or 'pages' field`);
   }
   // Pages are optional - some commands only have a single embed
 
@@ -37,8 +57,8 @@ data.forEach((cmd, cmdIdx) => {
       if (!page.hasOwnProperty('emoji')) {
         issues.push(`Command '${cmd.name}' -> Page '${pageName}' is missing 'emoji' field`);
       }
-      if (!page.embeds) {
-        issues.push(`Command '${cmd.name}' -> Page '${pageName}' is missing 'embeds' field`);
+      if (!page.embed && !page.embeds) {
+        issues.push(`Command '${cmd.name}' -> Page '${pageName}' is missing 'embed' or 'embeds' field`);
       }
 
       // Check field order
@@ -67,5 +87,5 @@ if (issues.length > 0) {
   issues.forEach(i => console.log('  - ' + i));
   process.exit(1);
 } else {
-  console.log('✓ All pages have required fields in correct order!');
+  console.log('✓ All command files have required fields in correct order!');
 }

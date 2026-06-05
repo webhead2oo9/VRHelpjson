@@ -1,0 +1,9 @@
+{
+  "name": "valvesupport",
+  "description": "Index - Official Support",
+  "ephemeral": false,
+  "embed": {
+    "title": "Valve Support",
+    "description": "You can contact Valve via a ticket [here](https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820)."
+  }
+}

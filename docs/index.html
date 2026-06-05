@@ -613,6 +613,8 @@ title: VR Discord Commands Reference
   <div class="page-bg"></div>
 
   <div class="container">
+    {% assign command_entries = site.data.commands | sort %}
+
     <header class="header">
       <div class="logo">🥽</div>
       <h1 class="title">VR Discord</h1>
@@ -641,12 +643,13 @@ title: VR Discord Commands Reference
     </div>
 
     <div class="stats">
-      <span><span class="stats-count" id="count">{{ site.data.commands.size }}</span> / {{ site.data.commands.size }} commands</span>
+      <span><span class="stats-count" id="count">{{ command_entries.size }}</span> / {{ command_entries.size }} commands</span>
     </div>
 
     <main class="commands-list" id="commandsList">
-      {% for cmd in site.data.commands %}
-      <article class="command" data-name="{{ cmd.name | downcase }}" data-search="{{ cmd.name | downcase }} {{ cmd.description | downcase }} {{ cmd.embed.description | downcase | default: '' }}">
+      {% for entry in command_entries %}
+      {% assign cmd = entry[1] %}
+      <article class="command" data-name="{{ cmd.name | downcase }}" data-search="{{ cmd.name | downcase }} {{ cmd.description | downcase }} {{ cmd.embed.description | downcase | default: '' }} {{ cmd.embeds | jsonify | downcase | escape }} {{ cmd.pages | jsonify | downcase | escape }}">
         <div class="command-header" onclick="toggleCommand(this)">
           <div class="command-meta">
             <div class="command-name"><span class="slash">/</span>{{ cmd.name }}</div>
@@ -697,6 +700,43 @@ title: VR Discord Commands Reference
               </div>
               {% endif %}
 
+              {% if cmd.embeds %}
+              {% for embed in cmd.embeds %}
+              <div class="embed">
+                <div class="embed-header">
+                  {% if embed.thumbnail.url %}
+                  <img src="{{ embed.thumbnail.url }}" alt="" class="embed-thumbnail" loading="lazy">
+                  {% endif %}
+                  <div class="embed-info">
+                    {% if embed.title %}
+                    <h3 class="embed-title">{{ embed.title | replace: '**', '' | replace: '__', '' }}</h3>
+                    {% endif %}
+                    {% if embed.description %}
+                    <div class="embed-desc formatted">{{ embed.description | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+                    {% endif %}
+                  </div>
+                </div>
+
+                {% if embed.image.url %}
+                <div class="embed-image">
+                  <img src="{{ embed.image.url }}" alt="{{ embed.title }}" loading="lazy">
+                </div>
+                {% endif %}
+
+                {% if embed.fields %}
+                <div class="fields">
+                  {% for field in embed.fields %}
+                  <div class="field">
+                    <div class="field-name">{{ field.name | replace: '**', '' | replace: '__', '' }}</div>
+                    <div class="field-value formatted">{{ field.value | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+                  </div>
+                  {% endfor %}
+                </div>
+                {% endif %}
+              </div>
+              {% endfor %}
+              {% endif %}
+
               {% if cmd.pages and cmd.pages.size > 1 %}
               <div class="pages">
                 <div class="pages-header">{{ cmd.pages.size }} Pages</div>
@@ -744,6 +784,42 @@ title: VR Discord Commands Reference
                     {% endif %}
                   </div>
                   {% endfor %}
+                  {% endif %}
+
+                  {% if page.embed %}
+                  {% assign embed = page.embed %}
+                  <div class="embed">
+                    <div class="embed-header">
+                      {% if embed.thumbnail.url %}
+                      <img src="{{ embed.thumbnail.url }}" alt="" class="embed-thumbnail" loading="lazy">
+                      {% endif %}
+                      <div class="embed-info">
+                        {% if embed.title %}
+                        <h4 class="embed-title">{{ embed.title | replace: '**', '' | replace: '__', '' }}</h4>
+                        {% endif %}
+                        {% if embed.description %}
+                        <div class="embed-desc formatted">{{ embed.description | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+                        {% endif %}
+                      </div>
+                    </div>
+
+                    {% if embed.image.url %}
+                    <div class="embed-image">
+                      <img src="{{ embed.image.url }}" alt="{{ embed.title }}" loading="lazy">
+                    </div>
+                    {% endif %}
+
+                    {% if embed.fields %}
+                    <div class="fields">
+                      {% for field in embed.fields %}
+                      <div class="field">
+                        <div class="field-name">{{ field.name | replace: '**', '' | replace: '__', '' }}</div>
+                        <div class="field-value formatted">{{ field.value | replace: '**', '' | replace: '__', '' | replace: '*', '' | newline_to_br }}</div>
+                      </div>
+                      {% endfor %}
+                    </div>
+                    {% endif %}
+                  </div>
                   {% endif %}
                 </div>
                 {% endfor %}

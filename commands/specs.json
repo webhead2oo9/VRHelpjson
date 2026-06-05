@@ -1,0 +1,15 @@
+{
+  "name": "specs",
+  "description": "Minimum PC Specs",
+  "ephemeral": false,
+  "embed": {
+    "title": "General Minimum Specs for VR",
+    "description": "OS: Windows 10\nCPU: Intel i5-7500 / AMD Ryzen 5 1600 or greater\nRAM: 12GB+ RAM\nGPU: NVIDIA GTX 1660 Super / AMD Radeon RX 5600XT or greater\nUSB Ports: 1x 3.1 port\nFree Space: 35GB on C:",
+    "fields": [
+      {
+        "name": "Detailed Info",
+        "value": "You can find detailed minimums below, please note minimum does not mean you can play every game.\n[Meta Quest Link Supported Specs](https://www.meta.com/help/quest/140991407990979/)\n[Valve Index Supported Specs](https://support.steampowered.com/kb_article.php?ref=4061-QUZB-4602)"
+      }
+    ]
+  }
+}

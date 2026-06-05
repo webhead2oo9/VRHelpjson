@@ -1,0 +1,9 @@
+{
+  "name": "crossbuy",
+  "description": "Quest - Cross-Buy",
+  "ephemeral": false,
+  "embed": {
+    "title": "Quest/Rift Cross-Buy Apps",
+    "description": "Rift and Quest have some games that support cross-buy, and you can find that list [here](https://www.meta.com/experiences/section/2335732183153590/).\n Please note that cross-buy can only apply between Meta PC and Quest stores, and this does not include any other platform."
+  }
+}

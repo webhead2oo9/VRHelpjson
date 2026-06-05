@@ -1,0 +1,9 @@
+{
+  "name": "pcvrlink",
+  "description": "PCVR Streaming Alternatives",
+  "ephemeral": false,
+  "embed": {
+    "title": "PCVR Streaming Alternatives",
+    "description": "If you're using Meta Quest Link (wired or Air Link) for PCVR, consider switching to something else.\n\n**The Problems:**\nMeta Link has constant issues with updates, random disconnects and crashes, visual artifacts, and a general lack of maintenance since PCVR users typically buy games on Steam anyway.\n\n**What to Use Instead:**\n**Virtual Desktop** (~$25 on Quest Store)\nThe gold standard for wireless PCVR. Better customization, reliability, and actively maintained. \"It just works.\"\n\n**Steam Link** (Free)\nValve's official solution with good performance. Will be the native option for the upcoming Steam Frame headset.\n\n**ALVR** (Free, Open Source)\nCompletely free alternative. Less user-friendly but very capable if you like tinkering.\n\n**Note:** Wireless PCVR doesn't require fast internet - it only needs a good local network. All streaming happens between your PC and headset on your LAN."
+  }
+}

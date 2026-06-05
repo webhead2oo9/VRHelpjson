@@ -1,0 +1,417 @@
+{
+  "name": "welcometoquest",
+  "description": "Quest New User Guide",
+  "ephemeral": false,
+  "embed": {
+    "title": "Quest New User Guide",
+    "description": "Please select a section to start"
+  },
+  "pages": [
+    {
+      "name": "Getting Started",
+      "title": "Getting Started",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "So you just got it out of the box, now what?",
+          "description": "",
+          "color": null,
+          "fields": [
+            {
+              "name": "Charge",
+              "value": "Plug in your quest to charge, so after everything is ready you have plenty of battery!",
+              "inline": false
+            },
+            {
+              "name": "Create your account",
+              "value": "Make your Meta account if you haven't already on the Mobile app.",
+              "inline": false
+            },
+            {
+              "name": "Referrals",
+              "value": "Redeem any referrals you got from friends on your Meta Quest App (only works before activation), or if you need one you can use <#927288276673523782>\n for more information please check out the referrals option.",
+              "inline": false
+            },
+            {
+              "name": "Video Guide",
+              "value": "Follow the [video guide](https://youtu.be/ZBSiZ5Pcjjg) by Meta, this will help get you set up in your new Quest.",
+              "inline": false
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Referrals",
+      "title": "Referrals",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "What are Referrals?",
+          "description": "When setting up a Meta Quest Device you can use a referral to gain a free $30 in-store credit for the Meta store.\nThis has to be done BEFORE setting up the device but can be done with a pre-existing account, this also gives a $30 credit to the provider of the referral link.",
+          "url": "https://www.meta.com/quest/referrals/",
+          "color": null,
+          "fields": [
+            {
+              "name": "How can a friend send me a referral?",
+              "value": "Your friend must first add you as a friend on their Quest Account and then generate a referral link in the Meta Quest app:\n1. Go to the Meta Quest app.\n2. Tap your Avatar at the bottom.\n3. Click the three lines at the top-right corner.\n4. Scroll down and find **Referrals** (diamond icon).\n5. Use the large blue box to start the referral process.",
+              "inline": false
+            },
+            {
+              "name": "What can be referred?",
+              "value": "The referral program includes **Devices**, **Games**, and **Meta Quest+ Subscription**. \n**Important:** If you own Meta Quest+, you are unable to share or use App Referrals.",
+              "inline": false
+            },
+            {
+              "name": "Additional Details",
+              "value": "Device referrals provide $30 credits to both parties after device setup. App referrals give up to **15% discounts to recipients** and small credit rewards (e.g., $6) to referrers. Certain pricing and use limits apply.",
+              "inline": false
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056146259800490034/Screenshot_20221224_014744_Meta_Quest.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anything you should avoid?",
+      "title": "Anything you should avoid?",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Anything I should avoid?",
+          "description": "As you are new to VR, there are a few things you should consider.",
+          "color": null,
+          "fields": [
+            {
+              "name": "Guardian",
+              "value": "Make sure you set your guardian in a nice open area with nothing to hit\n I'd personally advise you give a little buffer on top, when you're new it's pretty easy to get a bit excited and swing past the guardian as well.",
+              "inline": false
+            },
+            {
+              "name": "Sunlight",
+              "value": "Make sure you keep the lenses (the part you look into, not the cameras) away from direct sun, as that can burn the displays inside the headset rather quickly.",
+              "inline": false
+            },
+            {
+              "name": "Sickness",
+              "value": "If you start to feel sick, make sure you take breaks! Pushing through it can make it worse in a lot of cases.",
+              "inline": false
+            },
+            {
+              "name": "Cleaning the lenses",
+              "value": "Make sure you don't use any cleaning liquids on your lenses, and only use microfiber cloths.",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What games should I start with?",
+      "title": "What games should I start with?",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "What games to start with?",
+          "description": "One thing to consider when looking into new games is the comfort rating, as you're new to VR you would want to look into more 'comfortable' experiences until you get more familiar with VR.\n Here are some recommendations to get started.",
+          "color": null,
+          "fields": [
+            {
+              "name": "Free",
+              "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[Rec Room](https://www.oculus.com/experiences/quest/2173678582678296/)\n[MiReality Pool (MR)](https://www.meta.com/experiences/5796340207136099/)\n[Blaston](https://www.meta.com/experiences/2307085352735834/)",
+              "inline": false
+            },
+            {
+              "name": "Paid - Get Moving",
+              "value": "[Beat Saber](https://www.oculus.com/experiences/quest/2448060205267927)\n[Synth Riders](https://www.oculus.com/experiences/quest/2436558143118760)\n[The Light Brigade](https://www.meta.com/experiences/2681027292004911/)\n[COMPOUND](https://www.meta.com/experiences/5472934942761937/)\n[Thrill Of The Fight](https://www.oculus.com/experiences/quest/3008315795852749)",
+              "inline": false
+            },
+            {
+              "name": "Paid - Great Stationary",
+              "value": "[I Expect You To Die 2: Spy and the Liar](https://www.oculus.com/experiences/quest/2970998659623177)\n[Real VR Fishing](https://www.meta.com/experiences/2582932495064035/)\n[Puzzling Places](https://www.meta.com/experiences/3931148300302917/)\n[Moss: Book 2](https://www.oculus.com/experiences/quest/4395292760584049/)\n[Tetris Effect: Connected](https://www.oculus.com/experiences/quest/3386618894743567)\n[Vermillion](https://www.oculus.com/experiences/quest/4900967296622279)",
+              "inline": false
+            },
+            {
+              "name": "Paid - Great Multiplayer",
+              "value": "[Among Us VR](https://www.oculus.com/experiences/quest/4948428055244413/)\n[Demeo](https://www.oculus.com/experiences/quest/3634830803298285)\n[Eleven Table Tennis](https://www.oculus.com/experiences/quest/1995434190525828/)\n[Contractors](https://www.oculus.com/experiences/quest/2436897736439055/)\n[Pavlov: Shack](https://www.oculus.com/experiences/quest/3649611198468269/)\n[Walkabout Minigolf](https://www.meta.com/en-gb/experiences/walkabout-mini-golf/2462678267173943/)",
+              "inline": false
+            },
+            {
+              "name": "Paid - Close to Home (Mixed Reality)",
+              "value": "[Battle Talent](https://www.meta.com/experiences/8752849024786000/)\n[Blockworks](https://www.meta.com/experiences/4795837347172093/)\n[Track Craft](https://www.meta.com/experiences/5802051039897223/)\n[Neko Atsume Purrfect Kitty Collector](https://www.meta.com/experiences/8401739766534648/)\n[Synth Riders](https://www.meta.com/experiences/quest/2436558143118760)\n[Angry Birds VR: Isle of Pigs](https://www.meta.com/experiences/2718606324833775/)",
+              "inline": false
+            },
+            {
+              "name": "Other Guides",
+              "value": "Check out [Gibby's Guide](https://gibbysguide.org/) as they make a monthly guide on new content!",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What else can I do with my quest?",
+      "title": "What else can I do with my quest?",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "What else can I do?",
+          "description": "Looking through the store and can't find something that suits you?",
+          "color": null,
+          "fields": [
+            {
+              "name": "Other stores",
+              "value": "You can check out games on [Sidequest](https://sidequestvr.com/setup-howto)! There's some great titles like Dr. Beef's large library of ports from older PC games.",
+              "inline": false
+            },
+            {
+              "name": "Explore",
+              "value": "Explore the world in [Wooorld](https://www.oculus.com/experiences/quest/4360608937312293) with friends.",
+              "inline": false
+            },
+            {
+              "name": "Watch Something",
+              "value": "You can try 3D Movies out in [Bigscreen](https://www.oculus.com/experiences/quest/2497738113633933/), either with new friends or old, go solo in Meta Quest TV and check out their collection or join a live event in [Horizon Worlds](https://www.oculus.com/experiences/quest/2532035600194083/).",
+              "inline": false
+            },
+            {
+              "name": "Productivity",
+              "value": "You can be productive, use it as a virtual computer with multi tasking with browsers, or connected to a computer with programs like [Workrooms](https://www.oculus.com/experiences/quest/2514011888645651), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772), [vSpacial](https://www.oculus.com/experiences/quest/2540393919317658), and [Immersed](https://www.oculus.com/experiences/quest/2849273531812512/)",
+              "inline": false
+            },
+            {
+              "name": "PCVR",
+              "value": "You can also play PC VR games with a [VR Ready PC](https://support.oculus.com/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility/)!",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What about PCVR?",
+      "title": "What about PCVR?",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "PCVR",
+          "description": "As long as you have a VR Ready PC, you can play PC VR either wired or wireless! This does include SteamVR Games as well.",
+          "color": null,
+          "fields": [
+            {
+              "name": "Wired",
+              "value": "You can play wired PC VR using Meta Quest Link and a USB 3.0 cable.",
+              "inline": false
+            },
+            {
+              "name": "Wireless",
+              "value": "You can play wirelessly using [Air Link](https://www.meta.com/help/quest/562419235163295/), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772/), [Steam Link](https://www.meta.com/experiences/5841245619310585/) or [ALVR](https://github.com/alvr-org/ALVR).",
+              "inline": false
+            },
+            {
+              "name": "Where should I buy my games for PCVR?",
+              "value": "A lot of people prefer Steam, and most people agree - however I would check to see if the game is [crossbuy](https://www.meta.com/experiences/section/2335732183153590/) before you buy on steam, as a 'crossbuy' title you can buy on Quest and get on the Rift store and Quest store. (PC and Quest at the same time).",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "I'm looking for discounts",
+      "title": "I'm looking for discounts",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Discounts",
+          "description": "You're just in luck, there are many ways to find discounts for games!",
+          "color": null,
+          "fields": [
+            {
+              "name": "Meta Store",
+              "value": "The Meta Store always has *something* on-sale, you can find this via going into the store, and using the *On-Sale* filter, on both the desktop, in-headset, and app, or you can view the 'Sales' tab if you're in-headset!",
+              "inline": false
+            },
+            {
+              "name": "Reddit",
+              "value": "The wonderful users of the OculusQuest subreddit have compiled a [**Mega-Thread**](https://www.reddit.com/r/OculusQuest/comments/1ed8b5a/discounted_games_megathread/) of current games that have codes, this list is always updating, so check back frequently if you're eyeing a game!",
+              "inline": false
+            },
+            {
+              "name": "Referrals / Creator Codes",
+              "value": "Referrals and Creator Codes are your second best friend if none of the above has something for the specific game you're looking for, Referrals give 15% off a game, but require you to be friends with the user, and Creator Codes give 10% off a game, and can be used at any time by any one, you just need to find one, usually YouTubers will put these in the descriptions of their videos.",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accessories - Quest 2 Headstrap",
+      "title": "Accessories - Quest 2 Headstrap",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Quest 2 Straps",
+          "description": "The Quest has replaceable straps you can find from different vendors, here is the most popular in our community.",
+          "color": null,
+          "fields": [
+            {
+              "name": "BOBOVR M1 Plus",
+              "value": "Halo-style strap with dual pad options. Supports battery dock expansion. Does not include it however.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m1-plus)",
+              "inline": false
+            },
+            {
+              "name": "BOBOVR M2 Pro",
+              "value": "The BOBOVR M2 PRO is a 'halo' style strap that's a successor to the BOBOVR M2, but has an included hotswappable battery.\n It can be found in most regions, but not as many as the main one as this does support a hotswappable battery, and that can limit its shipping locations.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m2-pro)",
+              "inline": false
+            },
+            {
+              "name": "KIWI design Comfort Battery",
+              "value": "Elite-style strap with 6400mAh battery, memory foam cushions, and simultaneous charging support.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/B09XF69CR9)",
+              "inline": false
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151426822311946/shopping.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Accessories - Quest 2 Facial Interface",
+      "title": "Accessories - Quest 2 Facial Interface",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Quest 2 Facial Interfaces",
+          "description": "The Quest has a replaceable facial interface, as well as covers you can put over the existing facial interface.",
+          "color": null,
+          "fields": [
+            {
+              "name": "Included Silicone Cover",
+              "value": "Meta now includes a Silicone Cover for the existing facial interface, it's suggested to try this before replacing the interface to see if you are comfortable with it as is.",
+              "inline": false
+            },
+            {
+              "name": "VRCover",
+              "value": "VRCover makes multiple different replacement interfaces as well as other accessories, and people have had good results with this as a replacement gasket.\n[Amazon US](https://www.amazon.com/Interface-Replacement-Standard-Not-Machine-Specific/dp/B08HMQK73M)",
+              "inline": false
+            },
+            {
+              "name": "AMVR",
+              "value": "AMVR makes a few Quest solutions, and has a gasket designed specifically for airflow that has positive reviews.\n[Amazon US](https://www.amazon.com/AMVR-Resilient-Anti-Leakage-Replacement-Accessories/dp/B08ZMYF69S)",
+              "inline": false
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056151854586802186/01-oculus-quest-2.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Accessories - Controller - Quest 2 Grips",
+      "title": "Accessories - Controller - Quest 2 Grips",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Quest 2 Controller Grips",
+          "description": "The Quest 2 controllers do include a strap that you put around your wrist.\n Some people however prefer a 'knuckles' style grip that you can let go of the controller and keep playing, here's a few brands below.",
+          "color": null,
+          "fields": [
+            {
+              "name": "AUBIKA Grip",
+              "value": "The AUBIKA grip is a knuckles style grip, however it has a built in rechargeable battery, which gets rid of the need for AA's as well, this is a new option that does not have a lot of reviews so far, but current reviews are positive.\n[Amazon US](https://www.amazon.com/Rechargeable-Controller-Oculus-Quest-Accessories-2/dp/B0BHSTZJ94/)",
+              "inline": false
+            },
+            {
+              "name": "Kiwi Grip",
+              "value": "Kiwi sells a knuckles style grip that has great reviews and is suitable for larger hands. This does not include a rechargeable battery\n[Amazon US](https://www.amazon.com/KIWI-design-Controller-Adjustable-Accessories/dp/B09J8HJMFK/)",
+              "inline": false
+            },
+            {
+              "name": "AMVR Grip",
+              "value": "AMVR sells a knuckles style grip that also has a battery door.\n [Amazon US](https://www.amazon.com/Controller-Anti-Throw-Accessories-Battery-Opening-Adjustable/dp/B09HC4DFVM/)",
+              "inline": false
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152099873882212/media.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Accessories - Link Cables",
+      "title": "Accessories - Link Cables",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Quest Link Cables",
+          "description": "There are many cables available for the Quest, as it only requires a USB 3.0 connection to work. Here are some examples, but you can find other vendors as well.",
+          "color": null,
+          "fields": [
+            {
+              "name": "KIWI Design Link Cable",
+              "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.\n [Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-link)",
+              "inline": false
+            },
+            {
+              "name": "Kuject Link Cable with Charging",
+              "value": "USB 3.0 cable with dedicated 9V 2A charging port. Smart chip maintains battery around 78%.\n[Amazon (USA)](https://amzn.to/49zuRxh)",
+              "inline": false
+            },
+            {
+              "name": "INIU Link Cable",
+              "value": "INIU's USB A cable can accept external power, allowing unlimited playtime regardless of your USB port's output.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/iniu-link)",
+              "inline": false
+            },
+            {
+              "name": "Meta Official Link Cable",
+              "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/meta-link)",
+              "inline": false
+            },
+            {
+              "name": "Syntech Fast Charging Link Cable",
+              "value": "2-in-1 link cable with dedicated charging port. ~2.0-2.5 Gbps data rates. Includes velcro straps and LED indicator.\n[Amazon (USA) White](https://amzn.to/4jl1MZW) [Amazon (USA) Black](https://amzn.to/3YfoclF)",
+              "inline": false
+            }
+          ],
+          "thumbnail": {
+            "url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152249912524840/oculus_quest_2_usb_port.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "title": "Support",
+      "description": "",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Support",
+          "description": "If you are having issues with your Quest, please check out <#1030166436297064510>"
+        }
+      ]
+    }
+  ]
+}

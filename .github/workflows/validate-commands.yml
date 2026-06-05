@@ -1,15 +1,17 @@
-name: Validate commands.json
+name: Validate commands
 
 on:
   push:
     branches: ["main"]
     paths:
-      - 'commands.json'
+      - 'commands/**'
       - 'commands.schema.json'
+      - 'validate-schema.js'
   pull_request:
     paths:
-      - 'commands.json'
+      - 'commands/**'
       - 'commands.schema.json'
+      - 'validate-schema.js'
 
 jobs:
   validate:
@@ -26,10 +28,17 @@ jobs:
       - name: Validate JSON syntax
         run: |
           echo "Checking JSON syntax..."
-          node -e "JSON.parse(require('fs').readFileSync('commands.json', 'utf8'))" || {
-            echo "❌ Invalid JSON syntax in commands.json"
-            exit 1
+          if ! node - <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          for (const file of fs.readdirSync('commands').filter(f => f.endsWith('.json')).sort()) {
+            JSON.parse(fs.readFileSync(path.join('commands', file), 'utf8'));
           }
+          NODE
+          then
+            echo "❌ Invalid JSON syntax in commands/"
+            exit 1
+          fi
           echo "✅ JSON syntax is valid"
 
       - name: Install ajv-cli
@@ -38,4 +47,6 @@ jobs:
       - name: Validate JSON Schema
         run: |
           echo "Validating against schema..."
-          ajv validate -s commands.schema.json -d commands.json --spec=draft7 && echo "✅ Schema validation passed"
+          ajv validate -s commands.schema.json -d "commands/*.json" --spec=draft7
+          node validate-schema.js
+          echo "✅ Schema validation passed"

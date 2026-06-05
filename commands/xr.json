@@ -1,0 +1,9 @@
+{
+  "name": "xr",
+  "description": "What is Extended Reality (XR)",
+  "ephemeral": false,
+  "embed": {
+    "title": "Extended Reality (XR)",
+    "description": "Extended Reality (XR) covers all the different ways we mix computer technology with our real world. Here's what that includes:\n\n**Virtual Reality (VR)**: This is like stepping into a different world. You wear a headset, and everything you see is created by a computer. It's used for video games and other interactive experiences.\n\n**Augmented Reality (AR)**: This adds computer-created elements to the real world. If you've played games where characters appear in the real world on your phone screen, or used a filter to add a hat to your selfie, that's AR!\n\n**Mixed Reality (MR)**: This is a blend of AR and VR. Here, virtual objects are added to the real world and can interact with it. It's like having virtual objects in your living room that you can move and touch."
+  }
+}

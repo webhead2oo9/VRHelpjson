@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'commands.json'
+      - 'commands/**'
       - 'docs/**'
   workflow_dispatch: {}
 
@@ -24,10 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Copy commands.json to _data
+      - name: Copy command files to _data
         run: |
           mkdir -p docs/_data
-          cp commands.json docs/_data/commands.json
+          rm -rf docs/_data/commands
+          cp -R commands docs/_data/commands
           
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
