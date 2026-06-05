@@ -1645,12 +1645,14 @@
   },
   {
     "name": "drivers",
-    "description": "Recommended GPU Drivers",
+    "embeds": [
+      {
+        "title": "Recommended GPU Drivers",
+        "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000 series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html#Downloads)\n\nAMD 7000/9000 series: [25.10.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-10-2.html#Downloads)"
+      }
+    ],
     "ephemeral": false,
-    "embed": {
-      "title": "Recommended GPU Drivers",
-      "description": "NVIDIA RTX 30/40 Series: [566.36](https://www.nvidia.com/en-us/geforce/drivers/results/237719/)\n\nAll Other NVIDIA GPUs: [Latest](https://www.nvidia.com/en-us/software/nvidia-app/)\n\nAMD RX 400/500/VEGA series: [20.10.1](https://www.guru3d.com/download/amd-radeon-adrenalin-edition-20-10-1-driver-download/) (newer versions can have HEVC crashing issues)\n\nAMD 5000/6000/series: [25.3.1](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-3-1.html#Downloads)\n\nAMD 7000/9000 series: [25.10.2](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-25-10-2.html#Downloads)"
-    }
+    "description": "Recommended GPU Drivers"
   },
   {
     "name": "ddu",
