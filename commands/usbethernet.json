@@ -1,0 +1,291 @@
+{
+  "name": "usbethernet",
+  "description": "USB-C Ethernet Adapters for Wired Streaming",
+  "ephemeral": false,
+  "embed": {
+    "title": "USB-C Ethernet Adapters",
+    "description": "A USB-C → Ethernet adapter plugged into your headset gives it a wired connection to your network. This is the most stable, lowest-latency option for PCVR streaming (Virtual Desktop / Steam Link) because it removes WiFi interference entirely.\n\n**Key rule:** Adapters with a **Realtek** chipset work; **ASIX** chipsets do **not** (they drop the connection when streaming starts). Get the version **with Power Delivery (PD) charging** so the headset charges while you play.\n\nSelect an option below for details."
+  },
+  "pages": [
+    {
+      "name": "main",
+      "title": "Main Page",
+      "description": "Overview & recommendations",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "USB-C Ethernet Adapters - Overview",
+          "description": "Use a Realtek-based USB-C Ethernet adapter (with PD charging) to put your headset on a wired LAN with your PC.\n\n**Highly Recommended**\nBENFEI USB-C Gigabit (PD) - most-vouched, ~$15-20\nMyGatti Gold (100W PD) - cleanest single-cable setup\n\n**Recommended**\nCable Matters 2.5GbE (100W PD) - the canonical pick\nCable Matters 140W charging / generic 2.5GbE w/ PD\n\n**Budget**\nBenfei/Ruxely ~$10 (60W PD, 1GbE)\n\nSelect a product from the dropdown for details and links.",
+          "color": null,
+          "fields": [
+            {
+              "name": "Chipset rule",
+              "value": "__Works__: Realtek RTL8153 (1GbE), RTL8156/8156BG (2.5GbE)\n__Does NOT work__: ASIX (drops connection when VD opens), RTL8157/8159 (5/10GbE not supported)",
+              "inline": false
+            },
+            {
+              "name": "Cable length",
+              "value": "USB3 is rated to ~3m. Run the long distance as **Ethernet**, keep the USB-C short, or use a fiber link cable. Avoid slim/flat USB-C cables over 2m.",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cmatters25",
+      "title": "Cable Matters USB-C to 2.5GbE (100W PD)",
+      "description": "Recommended - the canonical pick",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Cable Matters USB-C to 2.5GbE Adapter (100W PD)",
+          "description": "The canonical wired-Ethernet pick. Realtek 2.5GbE confirmed working on the headset, with 100W passthrough charging.",
+          "url": "https://vrdiscord.com/go/B0CFGBNYX8",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Chipset__: Realtek (2.5GbE)\n__Charging__: 100W PD\n__Verdict__: Recommended",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/B0CFGBNYX8)",
+              "inline": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "benfeigbe",
+      "title": "BENFEI USB-C to Gigabit Ethernet (PD)",
+      "description": "Highly Recommended - most-vouched",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "BENFEI USB-C to Gigabit Ethernet (PD)",
+          "description": "The most-vouched adapter in the community thread (multiple users running it daily for months). Realtek RTL8153. May need a USB-C flip for full speed. ~$15-20.",
+          "url": "https://vrdiscord.com/go/B0D3GZMN8X",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Chipset__: Realtek RTL8153 (1GbE)\n__Charging__: PD\n__Verdict__: Highly recommended",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/B0D3GZMN8X)",
+              "inline": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mygatti",
+      "title": "MyGatti Gold USB-C to Ethernet (100W PD)",
+      "description": "Highly Recommended - single cable",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "MyGatti Gold USB-C to Ethernet (100W PD)",
+          "description": "Clean single-cable setup vouched by several long-term daily users. Make sure to get the PD/charging version.",
+          "url": "https://vrdiscord.com/go/B0DLPFB2M3",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Charging__: 100W PD (get this version)\n__Verdict__: Highly recommended\n__Note__: Pairs well with the Kuject link cable",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/B0DLPFB2M3)",
+              "inline": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "budget",
+      "title": "Budget Benfei/Ruxely (60W PD)",
+      "description": "Recommended (budget) - ~$10",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Cheap Benfei/Ruxely USB-C Ethernet (60W PD)",
+          "description": "Best budget pick - used flawlessly for months by community members (also sold as 'Ruxely', ~£14.99). 1GbE with 60W PD. May be intermittently out of stock.",
+          "url": "https://vrdiscord.com/go/B09MQDWP6H",
+          "color": null,
+          "fields": [
+            {
+              "name": "Info",
+              "value": "__Speed__: 1GbE\n__Charging__: 60W PD\n__Verdict__: Recommended (budget)",
+              "inline": true
+            },
+            {
+              "name": "Store Links",
+              "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/B09MQDWP6H)",
+              "inline": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "more",
+      "title": "Other Working Adapters",
+      "description": "Additional confirmed-working adapters",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Other Working Adapters",
+          "description": "These are confirmed working by community members but with fewer reports than the top picks.",
+          "color": null,
+          "fields": [
+            {
+              "name": "Cable Matters USB-C to Ethernet (140W Charging)",
+              "value": "Recommended. Flawless on Q3, keeps the headset charged (~$24). [Amazon Affiliate (USA)](https://vrdiscord.com/go/B0F8TDL49F)",
+              "inline": false
+            },
+            {
+              "name": "Cable Matters / generic 2.5GbE (PD)",
+              "value": "Recommended. Works great at 2.5GbE - you may need to force 2.5G in Windows + router. The 5GbE variant is not supported. [Amazon Affiliate (USA)](https://vrdiscord.com/go/B0FC61NLVD)",
+              "inline": false
+            },
+            {
+              "name": "Thzzhnno USB-C Ethernet",
+              "value": "Works - perfect 1Gbps on Q3, but cannot charge at the same time. [Amazon Affiliate (USA)](https://vrdiscord.com/go/B0DDKPSNBQ)",
+              "inline": false
+            },
+            {
+              "name": "BENFEI Secure-Clamp (bring your own cable)",
+              "value": "Recommended. Cheapest option that lets you use your own USB-C cable; charges via hub. [Amazon Affiliate (USA)](https://vrdiscord.com/go/B0F9WYWT47)",
+              "inline": false
+            },
+            {
+              "name": "UGREEN CM648 / CM848 / CM275",
+              "value": "Confirmed working (Realtek). UGREEN models 25052 / 35921 / 70446.",
+              "inline": false
+            },
+            {
+              "name": "AXAGON ADE-TXPD",
+              "value": "Confirmed working on Q3.",
+              "inline": false
+            },
+            {
+              "name": "Hoco UA37 (RJ45 to Type-C)",
+              "value": "Probably OK - limited reports.",
+              "inline": false
+            },
+            {
+              "name": "Fazn Type-C to 1000Mbps (PD)",
+              "value": "Works (used daily for sim racing). Regional - Bulgaria/Greece (plesio.bg).",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cables",
+      "title": "USB-C & Fiber Cables",
+      "description": "Cables to pair with your adapter",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "USB-C & Fiber Cables",
+          "description": "Run the long distance as **Ethernet** and keep the USB-C between adapter and headset short, or use a fiber link cable for long runs. USB3 is rated to ~3m; 5m+ copper breaks spec. Avoid slim/flat cables over 2m.",
+          "color": null,
+          "fields": [
+            {
+              "name": "Kuject 16ft USB-C Link Cable",
+              "value": "Highly recommended - the most-recommended link cable, especially paired with the MyGatti adapter. (See also the /linkcables command.)",
+              "inline": false
+            },
+            {
+              "name": "Meta / Oculus Official Link Cable (fiber)",
+              "value": "Works great - high-quality fiber optic, but expensive.",
+              "inline": false
+            },
+            {
+              "name": "Cheaper fiber options",
+              "value": "Insignia fiber (~$15 on eBay, built like the Meta cable), plus 'onn' (Walmart) and CableCreations fiber.",
+              "inline": false
+            },
+            {
+              "name": "Confirmed-working USB-C cables",
+              "value": "All tested full-speed: [B09FDWG61C](https://vrdiscord.com/go/B09FDWG61C) / [B09VKY632R](https://vrdiscord.com/go/B09VKY632R) / [B0BRCMGJS3](https://vrdiscord.com/go/B0BRCMGJS3) (the black one is thinner/more flexible).",
+              "inline": false
+            },
+            {
+              "name": "USB-C cable (worked without flipping)",
+              "value": "Worked right away with several adapters. [Amazon Affiliate (USA)](https://vrdiscord.com/go/B0DLNW1T8S)",
+              "inline": false
+            },
+            {
+              "name": "Kiwidesign L1 Plus charging link cable",
+              "value": "Works, great quality.",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "accessories",
+      "title": "Couplers / Chargers / Switches",
+      "description": "Useful extras",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Couplers, Chargers & Switches",
+          "description": "Optional extras to clean up or extend your wired setup.",
+          "color": null,
+          "fields": [
+            {
+              "name": "USB-C female-to-female coupler",
+              "value": "Keeps the dongle off the headset - pair with a long USB-C extension. [Amazon Affiliate (USA)](https://vrdiscord.com/go/B0BRCQ2G1B)",
+              "inline": false
+            },
+            {
+              "name": "65W USB-C power brick",
+              "value": "Meta says 18W minimum / 45W for fast charge; 45W is the common sweet spot. [Amazon Affiliate (USA)](https://vrdiscord.com/go/B087MD5MYH)",
+              "inline": false
+            },
+            {
+              "name": "Cheap 2.5Gb switch",
+              "value": "~$30 4-port 2.5GbE switch - more stable than Internet Connection Sharing. TP-Link / NETGEAR gigabit switches also work.",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "setup",
+      "title": "Direct-to-PC (ICS)",
+      "description": "No router needed",
+      "emoji": "",
+      "embeds": [
+        {
+          "title": "Connect the Adapter Directly to Your PC (ICS)",
+          "description": "You can plug the adapter straight into your PC (no router needed) using Windows Internet Connection Sharing. Enable ICS and follow the persistence step (set the service to automatic + the registry key) so it survives reboots. Alternatively run a standalone DHCP server, or use a cheap 2.5Gb switch for more stability.",
+          "url": "https://github.com/Crayphish/vrdocs",
+          "color": null,
+          "fields": [
+            {
+              "name": "Guide",
+              "value": "[Crayphish vrdocs (ICS setup, Step 5)](https://github.com/Crayphish/vrdocs)",
+              "inline": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
