@@ -1,89 +1,216 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VR help-center custom command",
+  "description": "One help-center command per file; the filename (without .json) must equal 'name'. Block-based format 2 only — see AUTHORING.md.",
   "type": "object",
-  "required": ["name", "description"],
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "name",
+    "description"
+  ],
   "anyOf": [
-    { "required": ["embed"] },
-    { "required": ["embeds"] },
-    { "required": ["pages"] }
+    {
+      "required": [
+        "blocks"
+      ]
+    },
+    {
+      "required": [
+        "pages"
+      ]
+    }
   ],
   "properties": {
-    "name": {
-      "type": "string",
-      "pattern": "^[a-z0-9_-]{1,32}$"
+    "format": {
+      "const": 2
     },
-    "description": { "type": "string" },
-    "ephemeral": { "type": "boolean" },
-    "embed": { "$ref": "#/$defs/embed" },
-    "embeds": {
-      "type": "array",
-      "minItems": 1,
-      "items": { "$ref": "#/$defs/embed" }
+    "name": {
+      "$ref": "#/definitions/commandName"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "accent_color": {
+      "$ref": "#/definitions/color"
+    },
+    "blocks": {
+      "$ref": "#/definitions/blockList"
     },
     "pages": {
       "type": "array",
       "minItems": 1,
+      "maxItems": 25,
       "items": {
         "type": "object",
-        "required": ["name", "title"],
-        "anyOf": [
-          { "required": ["embed"] },
-          { "required": ["embeds"] }
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "blocks"
         ],
         "properties": {
-          "name": { "type": "string" },
-          "title": { "type": "string" },
-          "description": { "type": "string" },
-          "emoji": { "type": "string" },
-          "embed": { "$ref": "#/$defs/embed" },
-          "embeds": {
-            "type": "array",
-            "minItems": 1,
-            "items": { "$ref": "#/$defs/embed" }
+          "name": {
+            "$ref": "#/definitions/commandName"
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "accent_color": {
+            "$ref": "#/definitions/color"
+          },
+          "blocks": {
+            "$ref": "#/definitions/blockList"
           }
         }
       }
     }
   },
-  "$defs": {
-    "embed": {
-      "type": "object",
-      "properties": {
-        "title": { "type": "string" },
-        "description": { "type": "string" },
-        "url": { "type": ["string", "null"] },
-        "color": { "type": ["integer", "null"] },
-        "fields": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["name", "value"],
-            "properties": {
-              "name": { "type": "string" },
-              "value": { "type": "string" },
-              "inline": { "type": "boolean" }
+  "definitions": {
+    "blockList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 30,
+      "items": {
+        "$ref": "#/definitions/block"
+      }
+    },
+    "block": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "text"
+          ],
+          "properties": {
+            "type": {
+              "const": "heading"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "url": {
+              "$ref": "#/definitions/httpUrl"
             }
           }
         },
-        "thumbnail": {
+        {
           "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "text"
+          ],
           "properties": {
-            "url": { "type": "string" }
+            "type": {
+              "const": "text"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 3800
+            }
           }
         },
-        "image": {
+        {
           "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "name",
+            "value"
+          ],
           "properties": {
-            "url": { "type": "string" }
+            "type": {
+              "const": "field"
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            },
+            "value": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1024
+            }
           }
         },
-        "footer": {
+        {
           "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type"
+          ],
           "properties": {
-            "text": { "type": "string" }
+            "type": {
+              "const": "divider"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "urls"
+          ],
+          "properties": {
+            "type": {
+              "const": "images"
+            },
+            "urls": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 10,
+              "items": {
+                "$ref": "#/definitions/httpUrl"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "text"
+          ],
+          "properties": {
+            "type": {
+              "const": "small"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1024
+            }
           }
         }
-      }
+      ]
+    },
+    "commandName": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]{1,32}$"
+    },
+    "color": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 16777215
+    },
+    "httpUrl": {
+      "type": "string",
+      "pattern": "^https?://"
     }
   }
 }

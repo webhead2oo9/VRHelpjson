@@ -1,19 +1,25 @@
 {
+  "format": 2,
   "name": "airlink",
   "description": "Quest - Air Link",
-  "ephemeral": false,
-  "embed": {
-    "title": "Air Link",
-    "description": "Air Link is the wireless PCVR feature introduced in [V28](https://www.meta.com/blog/introducing-oculus-air-link-a-wireless-way-to-play-pc-vr-games-on-oculus-quest-2-plus-infinite-office-updates-support-for-120-hz-on-quest-2-and-more/)",
-    "fields": [
-      {
-        "name": "Requirements",
-        "value": "1. [VR-Ready PC](https://www.meta.com/help/quest/140991407990979), please note this is not 100% of all hardware supported; better graphics cards than listed will work as well. \n2. 5GHz AC or AX network with a wired connection to your PC."
-      },
-      {
-        "name": "FAQ",
-        "value": "1. **Is my internet good enough?:** Internet does not matter for Air Link, you only need a good local connection.\n2. **Can I play SteamVR on this?:** Yes, SteamVR is fully supported just like wired link.\n3. **Is my router good enough?:** If you want more information, look up your router's model number and make sure it's AX or AC, or provide your model number in your help thread.\n4. **I'm having issues, where can I get help?:** Please create a thread using #support."
-      }
-    ]
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Air Link"
+    },
+    {
+      "type": "text",
+      "text": "Air Link is the wireless PCVR feature introduced in [V28](https://www.meta.com/blog/introducing-oculus-air-link-a-wireless-way-to-play-pc-vr-games-on-oculus-quest-2-plus-infinite-office-updates-support-for-120-hz-on-quest-2-and-more/)"
+    },
+    {
+      "type": "field",
+      "name": "Requirements",
+      "value": "1. [VR-Ready PC](https://www.meta.com/help/quest/140991407990979), please note this is not 100% of all hardware supported; better graphics cards than listed will work as well. \n2. 5GHz AC or AX network with a wired connection to your PC."
+    },
+    {
+      "type": "field",
+      "name": "FAQ",
+      "value": "1. **Is my internet good enough?:** Internet does not matter for Air Link, you only need a good local connection.\n2. **Can I play SteamVR on this?:** Yes, SteamVR is fully supported just like wired link.\n3. **Is my router good enough?:** If you want more information, look up your router's model number and make sure it's AX or AC, or provide your model number in your help thread.\n4. **I'm having issues, where can I get help?:** Please create a thread using #support."
+    }
+  ]
 }

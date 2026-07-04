@@ -1,95 +1,107 @@
 {
+  "format": 2,
   "name": "quest2straps",
   "description": "Quest 2 Straps",
-  "ephemeral": false,
-  "embed": {
-    "title": "Quest 2 Straps",
-    "description": "Please select a strap below for more information, or 'Summary' for an overview."
-  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Quest 2 Straps"
+    },
+    {
+      "type": "text",
+      "text": "Please select a strap below for more information, or 'Summary' for an overview."
+    }
+  ],
   "pages": [
     {
-      "name": "Summary",
+      "name": "summary",
       "title": "Summary",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Quest 2 Straps",
-          "description": "The Quest 2 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos.",
-          "color": null,
-          "fields": [
-            {
-              "name": "BOBOVR M2 Pro",
-              "value": "The BOBOVR M2 Pro is a popular halo-style strap with a built-in battery.",
-              "inline": false
-            },
-            {
-              "name": "Kiwi Elite Strap",
-              "value": "The Kiwi Elite Strap is similar to the official Elite Strap but without the cracking issue of the official strap, and is known to be comfortable.",
-              "inline": false
-            }
-          ],
-          "thumbnail": {
-            "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-          }
+          "type": "heading",
+          "text": "Quest 2 Straps"
+        },
+        {
+          "type": "text",
+          "text": "The Quest 2 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos."
+        },
+        {
+          "type": "field",
+          "name": "BOBOVR M2 Pro",
+          "value": "The BOBOVR M2 Pro is a popular halo-style strap with a built-in battery."
+        },
+        {
+          "type": "field",
+          "name": "Kiwi Elite Strap",
+          "value": "The Kiwi Elite Strap is similar to the official Elite Strap but without the cracking issue of the official strap, and is known to be comfortable."
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+          ]
         }
       ]
     },
     {
-      "name": "BOBOVR M2 Pro",
+      "name": "bobovr-m2-pro",
       "title": "BOBOVR M2 Pro",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "BOBOVR M2 Pro",
-          "description": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a successor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap.",
-          "url": "https://www.bobovr.com/product/m2pro/",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: Yes \n __Included Audio__: No",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m2-pro) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Pro-Lightweight-Uninterrupted/dp/B09JNR4Y15) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M2-Battery-Replacement-Accessories-White/dp/B09KNF4Q9G) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://cdn.discordapp.com/attachments/416305941491875851/935048206922944565/WechatIMG1111.png"
-          }
+          "type": "heading",
+          "text": "BOBOVR M2 Pro",
+          "url": "https://www.bobovr.com/product/m2pro/"
+        },
+        {
+          "type": "text",
+          "text": "The BOBOVR M2 PRO is a 'halo' style strap that's relatively new and a successor to the BOBOVR M2, but has an included hotswappable battery.\n\nIt's a bit harder to find due to the battery but is generally known to be a good overall choice for comfort and value compared to other options like the Elite Battery Strap."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: Yes \n __Included Audio__: No"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m2-pro) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Pro-Lightweight-Uninterrupted/dp/B09JNR4Y15) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M2-Battery-Replacement-Accessories-White/dp/B09KNF4Q9G) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://cdn.discordapp.com/attachments/416305941491875851/935048206922944565/WechatIMG1111.png"
+          ]
         }
       ]
     },
     {
-      "name": "Kiwi Elite Strap",
+      "name": "kiwi-elite-strap",
       "title": "Kiwi Elite Strap",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Kiwi Elite Strap",
-          "description": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases.",
-          "url": "https://www.kiwidesign.com/products/upgraded-elite-strap-for-oculus-quest-2",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: No \n __Included Audio__: No",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-q2-comfort) [Amazon Canada](https://www.amazon.ca/KIWI-design-Upgraded-Enhanced-Support/dp/B098JTDPQC) [UK](https://www.amazon.co.uk/KIWI-design-Upgraded-Accessories-Enhanced-Head-Strap/dp/B098JTDPQC), [AliExpress](https://www.aliexpress.com/item/1005003162851232.html)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://cdn.discordapp.com/attachments/416305941491875851/935115896010203136/KIWIdesign_Meta__Quest_2_EliteStrap_700x700.png"
-          }
+          "type": "heading",
+          "text": "Kiwi Elite Strap",
+          "url": "https://www.kiwidesign.com/products/upgraded-elite-strap-for-oculus-quest-2"
+        },
+        {
+          "type": "text",
+          "text": "The Kiwi Elite Strap is an upgraded strap in the style of the official Elite Strap with a nice cushioned top and head cushion.\n One of the main benefits of this is that it's able to fit in the official case and third party cases."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: No \n __Included Audio__: No"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-q2-comfort) [Amazon Canada](https://www.amazon.ca/KIWI-design-Upgraded-Enhanced-Support/dp/B098JTDPQC) [UK](https://www.amazon.co.uk/KIWI-design-Upgraded-Accessories-Enhanced-Head-Strap/dp/B098JTDPQC), [AliExpress](https://www.aliexpress.com/item/1005003162851232.html)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://cdn.discordapp.com/attachments/416305941491875851/935115896010203136/KIWIdesign_Meta__Quest_2_EliteStrap_700x700.png"
+          ]
         }
       ]
     }

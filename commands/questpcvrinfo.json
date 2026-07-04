@@ -1,9 +1,15 @@
 {
+  "format": 2,
   "name": "questpcvrinfo",
   "description": "Request more information - PC - Quest",
-  "ephemeral": false,
-  "embed": {
-    "title": "Please provide more information",
-    "description": "All support is volunteer, to be able to have people help it's best if you could provide more information about your computer or issue. \n Please provide relevent computer information such as your CPU, Graphics Card, and Operating System.\n Additionally, any information you could see to be helpful to further assist, if this is airlink or vd related, your network setup such as router model, and if you are wired can help in these cases too.\n \n[You can also contact Meta before reaching out to the community for help.](https://www.meta.com/help/support/?b=quest)"
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Please provide more information"
+    },
+    {
+      "type": "text",
+      "text": "All support is volunteer, to be able to have people help it's best if you could provide more information about your computer or issue. \n Please provide relevent computer information such as your CPU, Graphics Card, and Operating System.\n Additionally, any information you could see to be helpful to further assist, if this is airlink or vd related, your network setup such as router model, and if you are wired can help in these cases too.\n \n[You can also contact Meta before reaching out to the community for help.](https://www.meta.com/help/support/?b=quest)"
+    }
+  ]
 }

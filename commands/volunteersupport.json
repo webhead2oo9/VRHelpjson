@@ -1,15 +1,20 @@
 {
+  "format": 2,
   "name": "volunteersupport",
   "description": "Support is volunteer driven.",
-  "ephemeral": false,
-  "embed": {
-    "title": "Support is volunteer-driven",
-    "description": "Be patient, be civil, and be descriptive about your issues.\n\nAll support is volunteer driven, we help who we can as we can. Not everyone knows how to help you, and not everyone will. Avoid pinging staff directly, they are volunteers too and will assist when possible.\n\nBe as descriptive as you can with your issue; it's a lot more likely someone will remember something if they see a keyword that helps them.",
-    "fields": [
-      {
-        "name": "Ask in One Channel",
-        "value": "Posting the same issue in multiple channels leads to confusion, reduces the willingness of volunteers to assist, and does not accelerate response times. Stick to #community-support."
-      }
-    ]
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Support is volunteer-driven"
+    },
+    {
+      "type": "text",
+      "text": "Be patient, be civil, and be descriptive about your issues.\n\nAll support is volunteer driven, we help who we can as we can. Not everyone knows how to help you, and not everyone will. Avoid pinging staff directly, they are volunteers too and will assist when possible.\n\nBe as descriptive as you can with your issue; it's a lot more likely someone will remember something if they see a keyword that helps them."
+    },
+    {
+      "type": "field",
+      "name": "Ask in One Channel",
+      "value": "Posting the same issue in multiple channels leads to confusion, reduces the willingness of volunteers to assist, and does not accelerate response times. Stick to #community-support."
+    }
+  ]
 }

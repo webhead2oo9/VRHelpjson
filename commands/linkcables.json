@@ -1,197 +1,215 @@
 {
+  "format": 2,
   "name": "linkcables",
   "description": "Quest Link Cables",
-  "ephemeral": false,
-  "embed": {
-    "title": "Link Cables",
-    "description": "Please select a cable below for more information, or 'Summary' for an overview.\n Please note we do not advise Meta Quest Link."
-  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Link Cables"
+    },
+    {
+      "type": "text",
+      "text": "Please select a cable below for more information, or 'Summary' for an overview.\n Please note we do not advise Meta Quest Link."
+    }
+  ],
   "pages": [
     {
-      "name": "Summary",
+      "name": "summary",
       "title": "Summary",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Link Cables",
-          "description": "There are many cables available for the Quest, as it only requires a USB 3.0 connection to work. In the dropdown below, you can see details on multiple cables, including photos.",
-          "color": null,
-          "fields": [
-            {
-              "name": "KIWI Design Link Cable",
-              "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.",
-              "inline": false
-            },
-            {
-              "name": "Kuject Link Cable with Charging",
-              "value": "USB 3.0 cable with dedicated 9V 2A charging port. Smart chip maintains battery around 78%.",
-              "inline": false
-            },
-            {
-              "name": "INIU Link Cable",
-              "value": "INIU's USB A cable can accept external power, allowing unlimited playtime regardless of your USB port's output.",
-              "inline": false
-            },
-            {
-              "name": "Meta Official Link Cable",
-              "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.",
-              "inline": false
-            },
-            {
-              "name": "Syntech Fast Charging Link Cable",
-              "value": "2-in-1 link cable with dedicated charging port. ~2.0-2.5 Gbps data rates. Includes velcro straps and LED indicator.",
-              "inline": false
-            }
-          ],
-          "thumbnail": {
-            "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-          }
+          "type": "heading",
+          "text": "Link Cables"
+        },
+        {
+          "type": "text",
+          "text": "There are many cables available for the Quest, as it only requires a USB 3.0 connection to work. In the dropdown below, you can see details on multiple cables, including photos."
+        },
+        {
+          "type": "field",
+          "name": "KIWI Design Link Cable",
+          "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase."
+        },
+        {
+          "type": "field",
+          "name": "Kuject Link Cable with Charging",
+          "value": "USB 3.0 cable with dedicated 9V 2A charging port. Smart chip maintains battery around 78%."
+        },
+        {
+          "type": "field",
+          "name": "INIU Link Cable",
+          "value": "INIU's USB A cable can accept external power, allowing unlimited playtime regardless of your USB port's output."
+        },
+        {
+          "type": "field",
+          "name": "Meta Official Link Cable",
+          "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive."
+        },
+        {
+          "type": "field",
+          "name": "Syntech Fast Charging Link Cable",
+          "value": "2-in-1 link cable with dedicated charging port. ~2.0-2.5 Gbps data rates. Includes velcro straps and LED indicator."
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+          ]
         }
       ]
     },
     {
-      "name": "Kiwi Design Link Cable",
+      "name": "kiwi-design-link-cable",
       "title": "Kiwi Design Link Cable",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Kiwi Design Link Cable",
-          "description": "The Kiwi Design Link Cable is a copper standard cable made by a reputable company. Supports USB 3.2 Gen1 (5Gbps) with 18W charging.",
-          "url": "https://www.kiwidesign.com/products/qc-kiwi-design-transfer-charging-compatible ",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n __Length__: 5M/6M \n __Speed__: USB 3.2 Gen1 (5Gbps) \n __Charging__: 18W",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA) (5M)](https://vrdiscord.com/go/kiwi-link) [Amazon Canada (5M)](https://www.amazon.ca/KIWI-design-Compatible-Accessories-High-Speed/dp/B09N77BGDF) [Amazon UK (5M)](https://www.amazon.co.uk/KIWI-design-Compatible-Oculus-Accessories/dp/B09N77BGDF) [AliExpress (6M)](https://s.click.aliexpress.com/e/_DCPk11l)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
-          }
+          "type": "heading",
+          "text": "Kiwi Design Link Cable",
+          "url": "https://www.kiwidesign.com/products/qc-kiwi-design-transfer-charging-compatible "
+        },
+        {
+          "type": "text",
+          "text": "The Kiwi Design Link Cable is a copper standard cable made by a reputable company. Supports USB 3.2 Gen1 (5Gbps) with 18W charging."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n __Length__: 5M/6M \n __Speed__: USB 3.2 Gen1 (5Gbps) \n __Charging__: 18W"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA) (5M)](https://vrdiscord.com/go/kiwi-link) [Amazon Canada (5M)](https://www.amazon.ca/KIWI-design-Compatible-Accessories-High-Speed/dp/B09N77BGDF) [Amazon UK (5M)](https://www.amazon.co.uk/KIWI-design-Compatible-Oculus-Accessories/dp/B09N77BGDF) [AliExpress (6M)](https://s.click.aliexpress.com/e/_DCPk11l)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
+          ]
         }
       ]
     },
     {
-      "name": "Kuject Link Cable with Charging",
+      "name": "kuject-link-cable-with-charging",
       "title": "Kuject Link Cable with Charging",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Kuject Link Cable with Charging",
-          "description": "USB 3.0 cable with dedicated 9V 2A charging port. Smart chip regulates current and maintains battery around 78%. Supports up to 5Gbps (verified ~3Gbps on Quest).",
-          "url": "https://amzn.to/49zuRxh",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n __Length__: 16FT (5M) \n __Speed__: USB 3.0 (5Gbps) \n __Charging__: 9V 2A (dedicated port)",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon (USA)](https://amzn.to/49zuRxh)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://m.media-amazon.com/images/I/71xV+Aw0CkL._SL1500_.jpg"
-          }
+          "type": "heading",
+          "text": "Kuject Link Cable with Charging",
+          "url": "https://amzn.to/49zuRxh"
+        },
+        {
+          "type": "text",
+          "text": "USB 3.0 cable with dedicated 9V 2A charging port. Smart chip regulates current and maintains battery around 78%. Supports up to 5Gbps (verified ~3Gbps on Quest)."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n __Length__: 16FT (5M) \n __Speed__: USB 3.0 (5Gbps) \n __Charging__: 9V 2A (dedicated port)"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon (USA)](https://amzn.to/49zuRxh)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://m.media-amazon.com/images/I/71xV+Aw0CkL._SL1500_.jpg"
+          ]
         }
       ]
     },
     {
-      "name": "INIU Link Cable",
+      "name": "iniu-link-cable",
       "title": "INIU Link Cable",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "INIU Link Cable",
-          "description": "The INIU Link cable can support external power, allowing unlimited playtime regardless of your USB port's output.",
-          "url": "https://iniushop.com/collections/cables",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/iniu-link)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://m.media-amazon.com/images/I/81+t8OSS6kL._AC_SL1500_.jpg"
-          }
+          "type": "heading",
+          "text": "INIU Link Cable",
+          "url": "https://iniushop.com/collections/cables"
+        },
+        {
+          "type": "text",
+          "text": "The INIU Link cable can support external power, allowing unlimited playtime regardless of your USB port's output."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n Length: 5M"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/iniu-link)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://m.media-amazon.com/images/I/81+t8OSS6kL._AC_SL1500_.jpg"
+          ]
         }
       ]
     },
     {
-      "name": "Meta Official Link Cable",
+      "name": "meta-official-link-cable",
       "title": "Meta Official Link Cable",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Meta Official Link Cable",
-          "description": "The official cable is known to be a reliable good option as it's a lightweight thin fiber optic cable, but it is much more expensive than other options.",
-          "url": "https://www.meta.com/quest/accessories/link-cable/",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__USB A or C (PC End)__: C \n __90 Degree Angle__: Yes \n Length: 5M",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/meta-link) [Amazon Canada](https://www.amazon.ca/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773) [Amazon UK](https://www.amazon.co.uk/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773/)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
-          }
+          "type": "heading",
+          "text": "Meta Official Link Cable",
+          "url": "https://www.meta.com/quest/accessories/link-cable/"
+        },
+        {
+          "type": "text",
+          "text": "The official cable is known to be a reliable good option as it's a lightweight thin fiber optic cable, but it is much more expensive than other options."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__USB A or C (PC End)__: C \n __90 Degree Angle__: Yes \n Length: 5M"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/meta-link) [Amazon Canada](https://www.amazon.ca/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773) [Amazon UK](https://www.amazon.co.uk/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773/)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
+          ]
         }
       ]
     },
     {
-      "name": "Syntech Fast Charging Link Cable",
+      "name": "syntech-fast-charging-link-cable",
       "title": "Syntech Fast Charging Link Cable",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Syntech Fast Charging Link Cable",
-          "description": "2-in-1 link cable with dedicated charging port. ~2.0-2.5 Gbps data rates. Includes velcro straps and LED indicator.",
-          "url": "https://syntechhome.com/collections/cable",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n __Length__: 16FT (5M) \n __Charging__: Yes (dedicated port)",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon (USA) White](https://amzn.to/4jl1MZW) [Amazon (USA) Black](https://amzn.to/3YfoclF)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://vrdiscord.com/images/products/cables/syntec-cable-powered.jpeg"
-          }
+          "type": "heading",
+          "text": "Syntech Fast Charging Link Cable",
+          "url": "https://syntechhome.com/collections/cable"
+        },
+        {
+          "type": "text",
+          "text": "2-in-1 link cable with dedicated charging port. ~2.0-2.5 Gbps data rates. Includes velcro straps and LED indicator."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__USB A or C (PC End)__: A \n __90 Degree Angle__: Yes \n __Length__: 16FT (5M) \n __Charging__: Yes (dedicated port)"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon (USA) White](https://amzn.to/4jl1MZW) [Amazon (USA) Black](https://amzn.to/3YfoclF)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://vrdiscord.com/images/products/cables/syntec-cable-powered.jpeg"
+          ]
         }
       ]
     }

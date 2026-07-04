@@ -1,19 +1,25 @@
 {
+  "format": 2,
   "name": "oculuslink",
   "description": "Quest - Link",
-  "ephemeral": false,
-  "embed": {
-    "title": "Meta Quest Link",
-    "description": "Meta Quest Link is a feature built into the Quest that allows you to use your Quest as a PC VR headset while wired into a VR-ready PC.",
-    "fields": [
-      {
-        "name": "Can I play any VR game?",
-        "value": "You can generally play any Meta PC or SteamVR title while on Link, as long as your PC is capable of running it."
-      },
-      {
-        "name": "What's required?",
-        "value": "You need a VR-ready PC that meets the minimum specs, you can find out more details [here](https://www.meta.com/help/quest/140991407990979/) as well as a USB 3.0 A-to-C or C-to-C cable.\n You can find more info about this with /linkcables."
-      }
-    ]
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Meta Quest Link"
+    },
+    {
+      "type": "text",
+      "text": "Meta Quest Link is a feature built into the Quest that allows you to use your Quest as a PC VR headset while wired into a VR-ready PC."
+    },
+    {
+      "type": "field",
+      "name": "Can I play any VR game?",
+      "value": "You can generally play any Meta PC or SteamVR title while on Link, as long as your PC is capable of running it."
+    },
+    {
+      "type": "field",
+      "name": "What's required?",
+      "value": "You need a VR-ready PC that meets the minimum specs, you can find out more details [here](https://www.meta.com/help/quest/140991407990979/) as well as a USB 3.0 A-to-C or C-to-C cable.\n You can find more info about this with /linkcables."
+    }
+  ]
 }

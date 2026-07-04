@@ -1,27 +1,35 @@
 {
+  "format": 2,
   "name": "vdresolution",
   "description": "Quest - Virtual Desktop - Resolution",
-  "ephemeral": false,
-  "embed": {
-    "title": "VD Resolution",
-    "description": "Render Resolution __per eye__",
-    "fields": [
-      {
-        "name": "Quest",
-        "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
-      },
-      {
-        "name": "Quest 2/Quest 3S/Pico Neo 3/Quest Pro/Quest 3/Galaxy XR",
-        "value": "Potato: 1344x1440\nLow: 1728x1824\nMedium: 2112x2304\nHigh: 2496x2688\nUltra: 2688x2880\nGodlike: 3072x3264 (Quest Pro/Quest 3/Galaxy XR)\nMonster: 3648x3936 (Galaxy XR)"
-      },
-      {
-        "name": "Vive XR Elite/Pico 4/Pico 4 Ultra",
-        "value": "Potato: 1344x1344\nLow: 1728x1728\nMedium: 2016x2016\nHigh: 2592x2592\nUltra: 2784x2784\nGodlike: 3168x3168\nMonster: 3648x3648 (Pico 4 Ultra)"
-      },
-      {
-        "name": "Play For Dream",
-        "value": "Potato: 1536x1440\nLow: 1824x1728\nMedium: 2208x2016\nHigh: 2688x2496\nUltra: 2880x2688\nGodlike: 3264x3072\nMonster: 3936x3648"
-      }
-    ]
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VD Resolution"
+    },
+    {
+      "type": "text",
+      "text": "Render Resolution __per eye__"
+    },
+    {
+      "type": "field",
+      "name": "Quest",
+      "value": "Potato: 1200x1344\nLow: 1536x1728\nMedium: 1824x2016\nHigh: 2208x2400"
+    },
+    {
+      "type": "field",
+      "name": "Quest 2/Quest 3S/Pico Neo 3/Quest Pro/Quest 3/Galaxy XR",
+      "value": "Potato: 1344x1440\nLow: 1728x1824\nMedium: 2112x2304\nHigh: 2496x2688\nUltra: 2688x2880\nGodlike: 3072x3264 (Quest Pro/Quest 3/Galaxy XR)\nMonster: 3648x3936 (Galaxy XR)"
+    },
+    {
+      "type": "field",
+      "name": "Vive XR Elite/Pico 4/Pico 4 Ultra",
+      "value": "Potato: 1344x1344\nLow: 1728x1728\nMedium: 2016x2016\nHigh: 2592x2592\nUltra: 2784x2784\nGodlike: 3168x3168\nMonster: 3648x3648 (Pico 4 Ultra)"
+    },
+    {
+      "type": "field",
+      "name": "Play For Dream",
+      "value": "Potato: 1536x1440\nLow: 1824x1728\nMedium: 2208x2016\nHigh: 2688x2496\nUltra: 2880x2688\nGodlike: 3264x3072\nMonster: 3936x3648"
+    }
+  ]
 }

@@ -1,299 +1,323 @@
 {
+  "format": 2,
   "name": "quest3straps",
   "description": "Quest 3 Straps",
-  "ephemeral": false,
-  "embed": {
-    "title": "Quest 3 Straps",
-    "description": "Please select a strap below for more information, or 'Summary' for an overview."
-  },
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Quest 3 Straps"
+    },
+    {
+      "type": "text",
+      "text": "Please select a strap below for more information, or 'Summary' for an overview."
+    }
+  ],
   "pages": [
     {
-      "name": "Summary",
+      "name": "summary",
       "title": "Summary",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Quest 3 Straps",
-          "description": "The Quest 3 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box.",
-          "color": null,
-          "fields": [
-            {
-              "name": "BOBOVR M3 Mini Sports",
-              "value": "The BOBOVR M3 mini is a headstrap similar to that of the Meta Elite Strap, but at a cheaper asking price. This is a minimalistic yet comfortable strap.",
-              "inline": false
-            },
-            {
-              "name": "BOBOVR S3 Pro",
-              "value": "The BOBOVR S3 Pro is a pricey headstrap similar to its other battery straps, however it has ''2 times'' the capacity of the B2, thanks to its 10,000mAh battery, and also includes a built-in Air Conditioning system.",
-              "inline": false
-            },
-            {
-              "name": "Kiwi K4 Comfort Headstrap",
-              "value": "The Kiwi K4 Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This version varies from the base comfort strap in that it has a Stealth Knob, and additional cushioning.",
-              "inline": false
-            },
-            {
-              "name": "KIWI design H4 Halo Comfort Head Strap",
-              "value": "Zero facial pressure halo-style strap.",
-              "inline": false
-            },
-            {
-              "name": "Kiwi Battery Headstrap",
-              "value": "The Kiwi Battery Headstrap is similar to the comfort headstrap, but it has a built-in battery, extending playtime for 2+ hours in one charge.",
-              "inline": false
-            },
-            {
-              "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
-              "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3s design, saving you the money of having to purchase a new strap all together.",
-              "inline": false
-            },
-            {
-              "name": "KIWI design H4 Boost Battery Halo",
-              "value": "Halo-style strap with Single-Point-Charging (Charge Quest and Battery with one cable) with FOV adjustment.",
-              "inline": false
-            },
-            {
-              "name": "KIWI design K4 Boost Battery",
-              "value": "Elite-style strap with Single-Point-Charging (Charge Quest and Battery with one cable).",
-              "inline": false
-            }
-          ],
-          "thumbnail": {
-            "url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-          }
+          "type": "heading",
+          "text": "Quest 3 Straps"
+        },
+        {
+          "type": "text",
+          "text": "The Quest 3 supports modular head straps, and as such, many accessories are available. In the dropdown below, you can see details on several straps, including photos. \n\n **Important:** Quest 2 straps **are not** compatible with Quest 3 out of the box."
+        },
+        {
+          "type": "field",
+          "name": "BOBOVR M3 Mini Sports",
+          "value": "The BOBOVR M3 mini is a headstrap similar to that of the Meta Elite Strap, but at a cheaper asking price. This is a minimalistic yet comfortable strap."
+        },
+        {
+          "type": "field",
+          "name": "BOBOVR S3 Pro",
+          "value": "The BOBOVR S3 Pro is a pricey headstrap similar to its other battery straps, however it has ''2 times'' the capacity of the B2, thanks to its 10,000mAh battery, and also includes a built-in Air Conditioning system."
+        },
+        {
+          "type": "field",
+          "name": "Kiwi K4 Comfort Headstrap",
+          "value": "The Kiwi K4 Comfort Headstrap is similar to the official Elite Strap but at a cheaper asking price. This version varies from the base comfort strap in that it has a Stealth Knob, and additional cushioning."
+        },
+        {
+          "type": "field",
+          "name": "KIWI design H4 Halo Comfort Head Strap",
+          "value": "Zero facial pressure halo-style strap."
+        },
+        {
+          "type": "field",
+          "name": "Kiwi Battery Headstrap",
+          "value": "The Kiwi Battery Headstrap is similar to the comfort headstrap, but it has a built-in battery, extending playtime for 2+ hours in one charge."
+        },
+        {
+          "type": "field",
+          "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
+          "value": "This kit allows you to retrofit your old M2 Pro strap into a new one that fits the Quest 3s design, saving you the money of having to purchase a new strap all together."
+        },
+        {
+          "type": "field",
+          "name": "KIWI design H4 Boost Battery Halo",
+          "value": "Halo-style strap with Single-Point-Charging (Charge Quest and Battery with one cable) with FOV adjustment."
+        },
+        {
+          "type": "field",
+          "name": "KIWI design K4 Boost Battery",
+          "value": "Elite-style strap with Single-Point-Charging (Charge Quest and Battery with one cable)."
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
+          ]
         }
       ]
     },
     {
-      "name": "BOBOVR M3 Mini Sports",
+      "name": "bobovr-m3-mini-sports",
       "title": "BOBOVR M3 Mini Sports",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "BOBOVR M3 Mini Sports",
-          "description": "The BOBOVR M3 Mini is a comfort strap in the old fashion Elite strap-style, it is made to fit nicely around the head without interference around the ears. It is a simplistic yet comfortable strap\n\nIt can be found in multiple regions and is a good choice for a comfort upgrade.",
-          "url": "https://www.bobovr.com/products/m3-mini",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: No \n __Included Audio__: No",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/bobo-m3-mini) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
-          }
+          "type": "heading",
+          "text": "BOBOVR M3 Mini Sports",
+          "url": "https://www.bobovr.com/products/m3-mini"
+        },
+        {
+          "type": "text",
+          "text": "The BOBOVR M3 Mini is a comfort strap in the old fashion Elite strap-style, it is made to fit nicely around the head without interference around the ears. It is a simplistic yet comfortable strap\n\nIt can be found in multiple regions and is a good choice for a comfort upgrade."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: No \n __Included Audio__: No"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/bobo-m3-mini) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
+          ]
         }
       ]
     },
     {
-      "name": "BOBOVR S3 Pro",
+      "name": "bobovr-s3-pro",
       "title": "BOBOVR S3 Pro",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "BOBOVR S3 Pro",
-          "description": "The BOBOVR S3 Pro Super is a 'halo' style strap that's quite pricier than it's competitors, but offers a lot for the price. It has a 10,000 mAh battery, which is twice the capacity of their B2 Strap's battery, and has a built-in Air Conditioning system, and can still be hotswapped.",
-          "url": "https://www.bobovr.com/products/s3-pro",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: Yes (10000mAh) \n __Included Audio__: No \n __Weight__: 547g \n __Price__: $89.99",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/bobo-s3-pro)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
-          }
+          "type": "heading",
+          "text": "BOBOVR S3 Pro",
+          "url": "https://www.bobovr.com/products/s3-pro"
+        },
+        {
+          "type": "text",
+          "text": "The BOBOVR S3 Pro Super is a 'halo' style strap that's quite pricier than it's competitors, but offers a lot for the price. It has a 10,000 mAh battery, which is twice the capacity of their B2 Strap's battery, and has a built-in Air Conditioning system, and can still be hotswapped."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: Yes (10000mAh) \n __Included Audio__: No \n __Weight__: 547g \n __Price__: $89.99"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/bobo-s3-pro)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
+          ]
         }
       ]
     },
     {
-      "name": "Kiwi K4 Comfort Head Strap",
+      "name": "kiwi-k4-comfort-head-strap",
       "title": "Kiwi K4 Comfort Head Strap",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Kiwi K4 Comfort Headstrap",
-          "description": "The Kiwi K4 Comfort Headstrap features an adaptive headrest that cradles the back of your head similar to an Elite Strap.",
-          "url": "https://www.kiwidesign.com/products/k4-comfort-head-strap",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: No \n __Included Audio__: No \n __Weight__: 234g \n __Price__: $39.99",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Attribution (USA)](https://www.amazon.com/KIWI-design-Comfort-Strap-Accessories/dp/B0D3TGPT5F?maas=maas_adg_D3A379FB95AEBEA6A793401EFCE518E7_afap_abs&ref_=aa_maas&tag=maas) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/products/k4-comfort-head-strap)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_Comfort_Head_Strap_for_Quest3_0.png?v=1732018921&width=1000"
-          }
+          "type": "heading",
+          "text": "Kiwi K4 Comfort Headstrap",
+          "url": "https://www.kiwidesign.com/products/k4-comfort-head-strap"
+        },
+        {
+          "type": "text",
+          "text": "The Kiwi K4 Comfort Headstrap features an adaptive headrest that cradles the back of your head similar to an Elite Strap."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: No \n __Included Audio__: No \n __Weight__: 234g \n __Price__: $39.99"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Attribution (USA)](https://www.amazon.com/KIWI-design-Comfort-Strap-Accessories/dp/B0D3TGPT5F?maas=maas_adg_D3A379FB95AEBEA6A793401EFCE518E7_afap_abs&ref_=aa_maas&tag=maas) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/products/k4-comfort-head-strap)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_Comfort_Head_Strap_for_Quest3_0.png?v=1732018921&width=1000"
+          ]
         }
       ]
     },
     {
-      "name": "KIWI design H4 Halo Comfort Head Strap",
+      "name": "kiwi-design-h4-halo-comfort-head",
       "title": "KIWI design H4 Halo Comfort Head Strap",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "KIWI design H4 Halo Comfort Head Strap",
-          "description": "The KIWI design H4 Halo Comfort Head Strap is designed for zero facial pressure, using an adaptive front headrest design that distributes the weight of the Quest 3/3S.",
-          "url": "https://www.kiwidesign.com/products/h4-halo-comfort-head-strap",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: No \n __Included Audio__: No \n __Weight__: 234g \n __Price__: $54.99",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Attribution (USA)](https://www.amazon.com/KIWI-design-Compatible-Non-Battery-Lightweight/dp/B0D78Q47C8?maas=maas_adg_17B1925A95CB80B0113B9B325951A307_afap_abs&ref_=aa_maas&tag=maas) [KIWI's Website](https://www.kiwidesign.com/products/h4-halo-comfort-head-strap)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
-          }
+          "type": "heading",
+          "text": "KIWI design H4 Halo Comfort Head Strap",
+          "url": "https://www.kiwidesign.com/products/h4-halo-comfort-head-strap"
+        },
+        {
+          "type": "text",
+          "text": "The KIWI design H4 Halo Comfort Head Strap is designed for zero facial pressure, using an adaptive front headrest design that distributes the weight of the Quest 3/3S."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: No \n __Included Audio__: No \n __Weight__: 234g \n __Price__: $54.99"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Attribution (USA)](https://www.amazon.com/KIWI-design-Compatible-Non-Battery-Lightweight/dp/B0D78Q47C8?maas=maas_adg_17B1925A95CB80B0113B9B325951A307_afap_abs&ref_=aa_maas&tag=maas) [KIWI's Website](https://www.kiwidesign.com/products/h4-halo-comfort-head-strap)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
+          ]
         }
       ]
     },
     {
-      "name": "Kiwi Battery Headstrap",
+      "name": "kiwi-battery-headstrap",
       "title": "Kiwi Battery Headstrap",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "Kiwi Battery Headstrap",
-          "description": "The Kiwi Battery Headstrap is an upgraded version of it's base Comfort headstrap, allowing for longer playtimes and 2PC charging, it has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load), and has a memory foam backing.",
-          "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: Yes (6400mAh) \n __Included Audio__: No \n __Weight__: 358g \n __Price__: $49.99",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-spc)\n[Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/)\n [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/),\n[KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
-          }
+          "type": "heading",
+          "text": "Kiwi Battery Headstrap",
+          "url": "https://www.kiwidesign.com/products/comfort-head-strap-for-quest-3"
+        },
+        {
+          "type": "text",
+          "text": "The Kiwi Battery Headstrap is an upgraded version of it's base Comfort headstrap, allowing for longer playtimes and 2PC charging, it has a 6400mAh battery, ensuring your headset will stay charged for a minimum of 2-4h's (depending on load), and has a memory foam backing."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: Yes (6400mAh) \n __Included Audio__: No \n __Weight__: 358g \n __Price__: $49.99"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-spc)\n[Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/)\n [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/),\n[KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
+          ]
         }
       ]
     },
     {
-      "name": "BOBOVR M2 > M3 Pro Retrofit Kit",
+      "name": "bobovr-m2-m3-pro-retrofit-kit",
       "title": "BOBOVR M2 > M3 Pro Retrofit Kit",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "BOBOVR M2 > M3 Pro Retrofit Kit",
-          "description": "BOBOVR has launched a retrofit kit that allows any owners of the BOBOVR M2 Pro to convert their strap into a retrofitted Quest 3 strap. In the kit you will find additional cushions, mounting plastics, screws and a screwdriver.\n\n On the site you will find more information as well as instructions. \n\n **Note as of 2023-12-29:** Due to shortages this kit is currently unavailable in many places, including certain regional Amazons. The links below might not work",
-          "url": "https://www.bobovr.com/products/m2-to-m3-pro",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: No \n __Included Audio__: No",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[BOBOVRs Website](https://www.bobovr.com/products/m2-to-m3-pro)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
-          }
+          "type": "heading",
+          "text": "BOBOVR M2 > M3 Pro Retrofit Kit",
+          "url": "https://www.bobovr.com/products/m2-to-m3-pro"
+        },
+        {
+          "type": "text",
+          "text": "BOBOVR has launched a retrofit kit that allows any owners of the BOBOVR M2 Pro to convert their strap into a retrofitted Quest 3 strap. In the kit you will find additional cushions, mounting plastics, screws and a screwdriver.\n\n On the site you will find more information as well as instructions. \n\n **Note as of 2023-12-29:** Due to shortages this kit is currently unavailable in many places, including certain regional Amazons. The links below might not work"
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: No \n __Included Audio__: No"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[BOBOVRs Website](https://www.bobovr.com/products/m2-to-m3-pro)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
+          ]
         }
       ]
     },
     {
-      "name": "KIWI design H4 Boost Battery Halo",
+      "name": "kiwi-design-h4-boost-battery-hal",
       "title": "KIWI design H4 Boost Battery Halo",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "KIWI design H4 Boost Battery Halo",
-          "description": "The KIWI design H4 Boost Battery Halo is a premium halo-style strap featuring Single-Point-Charging, which allows you to charge both your Quest and the battery with a single cable. It also includes FOV adjustment capability to optimize your field of view.\n\nWith a 5300mAh battery, this strap provides extended playtime while maintaining comfort with its balanced weight distribution across the halo design.",
-          "url": "https://www.kiwidesign.com/products/h4-boost-halo-battery-strap",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: Yes (5300mAh) \n __Included Audio__: No \n __Weight__: 446g \n __Price__: $99.99",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-meta-quest-3-head-strap/dp/B0D6W88TCN?maas=maas_adg_AFB44EF008C1C472E574EBA32088E9A0_afap_abs&ref_=aa_maas&tag=maas)\n [KIWI's Website](https://www.kiwidesign.com/products/h4-boost-halo-battery-strap)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://vrdiscord.com/images/products/straps/kiwi-h4-boost.jpg"
-          }
+          "type": "heading",
+          "text": "KIWI design H4 Boost Battery Halo",
+          "url": "https://www.kiwidesign.com/products/h4-boost-halo-battery-strap"
+        },
+        {
+          "type": "text",
+          "text": "The KIWI design H4 Boost Battery Halo is a premium halo-style strap featuring Single-Point-Charging, which allows you to charge both your Quest and the battery with a single cable. It also includes FOV adjustment capability to optimize your field of view.\n\nWith a 5300mAh battery, this strap provides extended playtime while maintaining comfort with its balanced weight distribution across the halo design."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: Yes (5300mAh) \n __Included Audio__: No \n __Weight__: 446g \n __Price__: $99.99"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-meta-quest-3-head-strap/dp/B0D6W88TCN?maas=maas_adg_AFB44EF008C1C472E574EBA32088E9A0_afap_abs&ref_=aa_maas&tag=maas)\n [KIWI's Website](https://www.kiwidesign.com/products/h4-boost-halo-battery-strap)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://vrdiscord.com/images/products/straps/kiwi-h4-boost.jpg"
+          ]
         }
       ]
     },
     {
-      "name": "KIWI design K4 Boost Battery",
+      "name": "kiwi-design-k4-boost-battery",
       "title": "KIWI design K4 Boost Battery",
-      "description": "",
-      "emoji": "",
-      "embeds": [
+      "blocks": [
         {
-          "title": "KIWI design K4 Boost Battery",
-          "description": "The KIWI design K4 Boost Battery is an elite-style strap with Single-Point-Charging technology, allowing you to charge both your Quest and the strap's battery with a single cable. This streamlined charging solution eliminates the need for multiple cables or power sources.\n\nFeaturing a 5300mAh battery, the K4 Boost provides substantial additional playtime while maintaining a relatively lightweight design at 358g.",
-          "url": "https://www.kiwidesign.com/products/k4-boost-battery-head-strap-for-quest-3",
-          "color": null,
-          "fields": [
-            {
-              "name": "Info",
-              "value": "__Included Battery__: Yes (5300mAh) \n __Included Audio__: No \n __Weight__: 358g \n __Price__: $69.99",
-              "inline": true
-            },
-            {
-              "name": "Store Links",
-              "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-Boost-Comfort-Battery/dp/B0D4TGY2F2?maas=maas_adg_E7F02FAF4A4989232FEDE23DFE6CD469_afap_abs&ref_=aa_maas&tag=maas)\n[KIWI's Website](https://www.kiwidesign.com/products/k4-boost-comfort-battery-head-strap)",
-              "inline": true
-            }
-          ],
-          "thumbnail": {
-            "url": "https://vrdiscord.com/images/products/straps/kiwi-k4-boost.jpg"
-          }
+          "type": "heading",
+          "text": "KIWI design K4 Boost Battery",
+          "url": "https://www.kiwidesign.com/products/k4-boost-battery-head-strap-for-quest-3"
+        },
+        {
+          "type": "text",
+          "text": "The KIWI design K4 Boost Battery is an elite-style strap with Single-Point-Charging technology, allowing you to charge both your Quest and the strap's battery with a single cable. This streamlined charging solution eliminates the need for multiple cables or power sources.\n\nFeaturing a 5300mAh battery, the K4 Boost provides substantial additional playtime while maintaining a relatively lightweight design at 358g."
+        },
+        {
+          "type": "field",
+          "name": "Info",
+          "value": "__Included Battery__: Yes (5300mAh) \n __Included Audio__: No \n __Weight__: 358g \n __Price__: $69.99"
+        },
+        {
+          "type": "field",
+          "name": "Store Links",
+          "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-Boost-Comfort-Battery/dp/B0D4TGY2F2?maas=maas_adg_E7F02FAF4A4989232FEDE23DFE6CD469_afap_abs&ref_=aa_maas&tag=maas)\n[KIWI's Website](https://www.kiwidesign.com/products/k4-boost-comfort-battery-head-strap)"
+        },
+        {
+          "type": "images",
+          "urls": [
+            "https://vrdiscord.com/images/products/straps/kiwi-k4-boost.jpg"
+          ]
         }
       ]
     }

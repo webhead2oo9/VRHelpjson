@@ -1,9 +1,15 @@
 {
+  "format": 2,
   "name": "manualupdate",
   "description": "Quest - Manual Update",
-  "ephemeral": false,
-  "embed": {
-    "title": "Quest Manual Update",
-    "description": "You can find a guide on how to manually update [here](https://www.reddit.com/r/oculusquest/wiki/guides/manualupdate). You will also need a copy of the firmware you want to update to."
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Quest Manual Update"
+    },
+    {
+      "type": "text",
+      "text": "You can find a guide on how to manually update [here](https://www.reddit.com/r/oculusquest/wiki/guides/manualupdate). You will also need a copy of the firmware you want to update to."
+    }
+  ]
 }

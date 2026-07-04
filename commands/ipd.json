@@ -1,23 +1,30 @@
 {
+  "format": 2,
   "name": "ipd",
   "description": "IPD and Its Importance in VR.",
-  "ephemeral": false,
-  "embed": {
-    "title": "IPD and Its Importance in VR.",
-    "description": "IPD is the distance between the pupils of your eyes. This is important for VR as you need to make sure you are within the supported IPD range of a headset, otherwise you will experience eye strain, focus issues, and other related issues.",
-    "fields": [
-      {
-        "name": "Common IPD Ranges",
-        "value": "Quest 3 - Continuous 53-75mm\nQuest 3S - 3 Settings - 58mm, 63mm, 68mm\nQuest 2 - 3 Settings - 58mm, 63mm, 68mm\nQuest Pro - Continuous 55-75mm\nValve Index - 58-70mm\nReverb G2 - 60-68mm\n[VRCompare for more headsets](https://vr-compare.com/)"
-      },
-      {
-        "name": "How to check?",
-        "value": "There are a few ways to check, but the two main methods are measuring with a ruler in front of a mirror or using the app [EyeMeasure](https://apps.apple.com/us/app/eyemeasure/id1417435049)\n You want the 'Far' IPD from this app."
-      },
-      {
-        "name": "Ruler Method",
-        "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the “0” mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
-      }
-    ]
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "IPD and Its Importance in VR."
+    },
+    {
+      "type": "text",
+      "text": "IPD is the distance between the pupils of your eyes. This is important for VR as you need to make sure you are within the supported IPD range of a headset, otherwise you will experience eye strain, focus issues, and other related issues."
+    },
+    {
+      "type": "field",
+      "name": "Common IPD Ranges",
+      "value": "Quest 3 - Continuous 53-75mm\nQuest 3S - 3 Settings - 58mm, 63mm, 68mm\nQuest 2 - 3 Settings - 58mm, 63mm, 68mm\nQuest Pro - Continuous 55-75mm\nValve Index - 58-70mm\nReverb G2 - 60-68mm\n[VRCompare for more headsets](https://vr-compare.com/)"
+    },
+    {
+      "type": "field",
+      "name": "How to check?",
+      "value": "There are a few ways to check, but the two main methods are measuring with a ruler in front of a mirror or using the app [EyeMeasure](https://apps.apple.com/us/app/eyemeasure/id1417435049)\n You want the 'Far' IPD from this app."
+    },
+    {
+      "type": "field",
+      "name": "Ruler Method",
+      "value": "Stand in front of a mirror and hold a ruler up to your nose, such that the measuring edge runs directly underneath both your pupils.\nClose your right eye and look directly at your left eye. Move the ruler so that the “0” mark appears directly underneath the center of your left pupil. Try to keep the ruler still for the next step.\nClose your left eye and look directly at your right eye. The mark directly underneath the center of your right pupil is your IPD."
+    }
+  ]
 }

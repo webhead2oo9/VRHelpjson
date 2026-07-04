@@ -1,9 +1,15 @@
 {
+  "format": 2,
   "name": "valvesupport",
   "description": "Index - Official Support",
-  "ephemeral": false,
-  "embed": {
-    "title": "Valve Support",
-    "description": "You can contact Valve via a ticket [here](https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820)."
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Valve Support"
+    },
+    {
+      "type": "text",
+      "text": "You can contact Valve via a ticket [here](https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820)."
+    }
+  ]
 }

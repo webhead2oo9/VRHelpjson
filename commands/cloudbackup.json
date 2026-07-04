@@ -1,9 +1,15 @@
 {
+  "format": 2,
   "name": "cloudbackup",
   "description": "Quest Cloud Backup",
-  "ephemeral": false,
-  "embed": {
-    "title": "Quest Cloud Backup",
-    "description": "You can see what games you own that support cloud backup [here](https://secure.oculus.com/my/cloud-backup/)."
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Quest Cloud Backup"
+    },
+    {
+      "type": "text",
+      "text": "You can see what games you own that support cloud backup [here](https://secure.oculus.com/my/cloud-backup/)."
+    }
+  ]
 }

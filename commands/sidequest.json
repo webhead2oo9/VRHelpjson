@@ -1,27 +1,35 @@
 {
+  "format": 2,
   "name": "sidequest",
   "description": "Quest - Sidequest",
-  "ephemeral": false,
-  "embed": {
-    "title": "Sidequest",
-    "description": "Sidequest is a widely known application that allows you to 'sideload' third-party apps and modifications to your Quest.",
-    "fields": [
-      {
-        "name": "Do I need a VR-ready PC?",
-        "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality, if you want to install games without using a computer, you can also install it onto your headset however it's use is limited."
-      },
-      {
-        "name": "What does it hold?",
-        "value": "Not only does it hold third-party apps, such as mods and fangames, you can also change your recording values, and install mods and apks directly to your headset via your PC."
-      },
-      {
-        "name": "How do I install it onto my Quest?",
-        "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
-      },
-      {
-        "name": "Is it safe?",
-        "value": "It is accepted (and even endorsed) by Meta and you can find information on how to install it [here](https://sidequestvr.com/setup-howto) with all setup instructions."
-      }
-    ]
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Sidequest"
+    },
+    {
+      "type": "text",
+      "text": "Sidequest is a widely known application that allows you to 'sideload' third-party apps and modifications to your Quest."
+    },
+    {
+      "type": "field",
+      "name": "Do I need a VR-ready PC?",
+      "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality, if you want to install games without using a computer, you can also install it onto your headset however it's use is limited."
+    },
+    {
+      "type": "field",
+      "name": "What does it hold?",
+      "value": "Not only does it hold third-party apps, such as mods and fangames, you can also change your recording values, and install mods and apks directly to your headset via your PC."
+    },
+    {
+      "type": "field",
+      "name": "How do I install it onto my Quest?",
+      "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
+    },
+    {
+      "type": "field",
+      "name": "Is it safe?",
+      "value": "It is accepted (and even endorsed) by Meta and you can find information on how to install it [here](https://sidequestvr.com/setup-howto) with all setup instructions."
+    }
+  ]
 }

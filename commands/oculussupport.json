@@ -1,9 +1,15 @@
 {
+  "format": 2,
   "name": "oculussupport",
   "description": "Quest - Official Support",
-  "ephemeral": false,
-  "embed": {
-    "title": "Meta Quest Support",
-    "description": "You can contact Meta Quest Support via either a ticket or live chat [here](https://www.meta.com/help/support/?b=quest)."
-  }
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Meta Quest Support"
+    },
+    {
+      "type": "text",
+      "text": "You can contact Meta Quest Support via either a ticket or live chat [here](https://www.meta.com/help/support/?b=quest)."
+    }
+  ]
 }
