@@ -50,14 +50,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-c6) [Canada Amazon](https://www.amazon.ca/ROUTER-TP-LINK-ARCHER-AC1200-MU-MIMO/dp/B08GDC3534/) [UK](https://www.amazon.co.uk/TP-Link-AC1200-Wireless-Wi-Fi-Router/dp/B07L5YRYF4)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://static.tp-link.com/Archer-C6-1_normal_1533257570157g.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://static.tp-link.com/Archer-C6-1_normal_1533257570157g.jpg"
     },
     {
       "name": "opalglsft1200",
@@ -82,14 +77,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/glinet-opal) [Canada](https://www.amazon.ca/GL-iNet-GL-SFT1200-Secure-Travel-Router/dp/B09N72FMH5/) [UK](https://www.amazon.co.uk/GL-iNet-GL-SFT1200-Wireless-Pocket-Sized-Repeater-White/dp/B09N72FMH5)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://m.media-amazon.com/images/I/41sKZ-x0NDL._AC_UF894,1000_QL80_.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/41sKZ-x0NDL._AC_UF894,1000_QL80_.jpg"
     },
     {
       "name": "berylglmt3000",
@@ -114,14 +104,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/glinet-beryl) [Canada](https://www.amazon.ca/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/) [UK](https://www.amazon.co.uk/GL-iNet-GL-MT3000-Pocket-Sized-Wireless-Gigabit/dp/B0BPSGJN7T/)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://m.media-amazon.com/images/I/41IiLQJghoL._AC_SX679_.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/41IiLQJghoL._AC_SX679_.jpg"
     },
     {
       "name": "tplinkaxe5400",
@@ -146,14 +131,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[USA Walmart](https://www.walmart.com/ip/TP-Link-Tri-Band-6-Stream-Wi-Fi-6E-Router-6-Ghz-Band-Speed-up-to-5-4-Gbps-Archer-AXE5400/1853029190) [Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-axe75) [USA TPLink](https://us.store.tp-link.com/collections/router-x/products/archer-axe75-axe5400-tri-band-gigabit-wi-fi-6e-router)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/682369095798489129/1132126125754167346/Archer_AXE5400_Tri-Band_6-Stream_WiFi_6E_Router-01_normal_20221227005559i.png"
     },
     {
       "name": "tplinkbe9300",
@@ -178,14 +158,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-be550) [USA Walmart](https://www.walmart.com/ip/TP-Link-Archer-BE9300-Router-Tri-Band-WiFi-7-Wireless-Router-up-to-9-2-Gbps-Speeds-Easy-Setup-Parental-Controls/3339006219) [EU Amazon](https://www.amazon.de/-/en/Archer-BE550/dp/B0CJSNSVMR/)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/682369095798489129/1224843314860265584/61Uj6QU3jBL.png?ex=661ef73a&is=660c823a&hm=6949b4ed6de752b8f09c80967deb5a509dcdc15eb945a307895500e38ea76229&"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/682369095798489129/1224843314860265584/61Uj6QU3jBL.png?ex=661ef73a&is=660c823a&hm=6949b4ed6de752b8f09c80967deb5a509dcdc15eb945a307895500e38ea76229&"
     },
     {
       "name": "minion6e",
@@ -210,14 +185,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/davolink-kevin)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/875149053221019668/1211527202085015572/Kevin.png"
     },
     {
       "name": "asusax86u",
@@ -242,14 +212,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/asus-ax86u) [Canada](https://www.amazon.ca/RT-AX86U-AX5700-Dual-Band-Wireless-Gaming/dp/B08H6NVB5N) [UK](https://www.amazon.co.uk/ASUS-RT-AX86U-Compatible-Lifetime-Internet/dp/B08CBCR6BB)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/875149053221019668/930535591953698966/P_setting_xxx_0_90_end_500.png"
     },
     {
       "name": "tplaxe300",
@@ -274,14 +239,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/tplink-axe300/) [Canada](https://www.amazon.ca/TP-Link-AXE16000-Quad-Band-Archer-AXE300/dp/B0BCWBCY34/)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/830109388927926282/1188657513873293322/51xvfaZyLL.png"
     },
     {
       "name": "arrissurfboardw6u",
@@ -306,14 +266,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon (USA)](https://amzn.to/49lSEzF)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://m.media-amazon.com/images/I/61NvuuWa4IL._AC_SL1500_.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/61NvuuWa4IL._AC_SL1500_.jpg"
     },
     {
       "name": "arrissurfboardw6b",
@@ -338,14 +293,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon (USA)](https://amzn.to/3MXmx1D)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://m.media-amazon.com/images/I/71Ig0i76BGL._AC_SL1500_.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/71Ig0i76BGL._AC_SL1500_.jpg"
     }
   ]
 }

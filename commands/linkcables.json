@@ -49,14 +49,9 @@
           "type": "field",
           "name": "Syntech Fast Charging Link Cable",
           "value": "2-in-1 link cable with dedicated charging port. ~2.0-2.5 Gbps data rates. Includes velcro straps and LED indicator."
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
     },
     {
       "name": "kiwi-design-link-cable",
@@ -80,14 +75,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA) (5M)](https://vrdiscord.com/go/kiwi-link) [Amazon Canada (5M)](https://www.amazon.ca/KIWI-design-Compatible-Accessories-High-Speed/dp/B09N77BGDF) [Amazon UK (5M)](https://www.amazon.co.uk/KIWI-design-Compatible-Oculus-Accessories/dp/B09N77BGDF) [AliExpress (6M)](https://s.click.aliexpress.com/e/_DCPk11l)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://media.discordapp.net/attachments/875149053221019668/1004901022839345202/unknown.png?width=638&height=905"
     },
     {
       "name": "kuject-link-cable-with-charging",
@@ -111,14 +101,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon (USA)](https://amzn.to/49zuRxh)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://m.media-amazon.com/images/I/71xV+Aw0CkL._SL1500_.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/71xV+Aw0CkL._SL1500_.jpg"
     },
     {
       "name": "iniu-link-cable",
@@ -142,14 +127,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/iniu-link)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://m.media-amazon.com/images/I/81+t8OSS6kL._AC_SL1500_.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://m.media-amazon.com/images/I/81+t8OSS6kL._AC_SL1500_.jpg"
     },
     {
       "name": "meta-official-link-cable",
@@ -173,14 +153,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/meta-link) [Amazon Canada](https://www.amazon.ca/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773) [Amazon UK](https://www.amazon.co.uk/Oculus-Virtual-Reality-Headset-Cable/dp/B081SHD773/)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://media.discordapp.net/attachments/875149053221019668/1004919600103833630/unknown.png?width=905&height=905"
     },
     {
       "name": "syntech-fast-charging-link-cable",
@@ -204,14 +179,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon (USA) White](https://amzn.to/4jl1MZW) [Amazon (USA) Black](https://amzn.to/3YfoclF)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://vrdiscord.com/images/products/cables/syntec-cable-powered.jpeg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://vrdiscord.com/images/products/cables/syntec-cable-powered.jpeg"
     }
   ]
 }

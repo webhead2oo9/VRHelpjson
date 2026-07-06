@@ -34,14 +34,9 @@
           "type": "field",
           "name": "Kiwi Elite Strap",
           "value": "The Kiwi Elite Strap is similar to the official Elite Strap but without the cracking issue of the official strap, and is known to be comfortable."
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
     },
     {
       "name": "bobovr-m2-pro",
@@ -65,14 +60,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m2-pro) [Amazon Canada](https://www.amazon.ca/BOBOVR-M2-Pro-Lightweight-Uninterrupted/dp/B09JNR4Y15) [Amazon UK](https://www.amazon.co.uk/BOBOVR-M2-Battery-Replacement-Accessories-White/dp/B09KNF4Q9G) [AliExpress](https://www.aliexpress.com/i/1005002558081445.html)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/416305941491875851/935048206922944565/WechatIMG1111.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/416305941491875851/935048206922944565/WechatIMG1111.png"
     },
     {
       "name": "kiwi-elite-strap",
@@ -96,14 +86,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-q2-comfort) [Amazon Canada](https://www.amazon.ca/KIWI-design-Upgraded-Enhanced-Support/dp/B098JTDPQC) [UK](https://www.amazon.co.uk/KIWI-design-Upgraded-Accessories-Enhanced-Head-Strap/dp/B098JTDPQC), [AliExpress](https://www.aliexpress.com/item/1005003162851232.html)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/416305941491875851/935115896010203136/KIWIdesign_Meta__Quest_2_EliteStrap_700x700.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/416305941491875851/935115896010203136/KIWIdesign_Meta__Quest_2_EliteStrap_700x700.png"
     }
   ]
 }

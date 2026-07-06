@@ -64,14 +64,9 @@
           "type": "field",
           "name": "KIWI design K4 Boost Battery",
           "value": "Elite-style strap with Single-Point-Charging (Charge Quest and Battery with one cable)."
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/416305941491875851/935119240413990912/oculus-quest-2-14368-1631656107.png"
     },
     {
       "name": "bobovr-m3-mini-sports",
@@ -95,14 +90,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/bobo-m3-mini) [Amazon Canada](https://www.amazon.ca/BOBOVR-M3-Accessories-Compatible-Lightweight/dp/B0CNPPC776) [Amazon UK](https://www.amazon.co.uk/BOBOVR-Mini-Accessories-Comfortable-Lightweight-White/dp/B0CPLX5CLK) [BOBOVRs Site](https://www.bobovr.com/products/m3-mini)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://media.discordapp.net/attachments/829007841582252152/1190107163276869694/Untitled.jpg?ex=65a098aa&is=658e23aa&hm=91fd8e22b331109ac7580eafdb71b8231e6ccfeb96f209833121497c78cbdecb&=&format=webp"
     },
     {
       "name": "bobovr-s3-pro",
@@ -126,14 +116,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/bobo-s3-pro)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://www.bobovr.com/cdn/shop/files/S3.png?v=1717647254&width=1024"
     },
     {
       "name": "kiwi-k4-comfort-head-strap",
@@ -157,14 +142,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Attribution (USA)](https://www.amazon.com/KIWI-design-Comfort-Strap-Accessories/dp/B0D3TGPT5F?maas=maas_adg_D3A379FB95AEBEA6A793401EFCE518E7_afap_abs&ref_=aa_maas&tag=maas) [Amazon Canada](https://www.amazon.ca/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp) [UK](https://www.amazon.co.uk/KIWI-design-K4-Comfort-Compatible/dp/B0D3TGPT5F?ref_=ast_sto_dp), [KIWI's Website](https://www.kiwidesign.com/products/k4-comfort-head-strap)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_Comfort_Head_Strap_for_Quest3_0.png?v=1732018921&width=1000"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_K4_Comfort_Head_Strap_for_Quest3_0.png?v=1732018921&width=1000"
     },
     {
       "name": "kiwi-design-h4-halo-comfort-head",
@@ -188,14 +168,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Attribution (USA)](https://www.amazon.com/KIWI-design-Compatible-Non-Battery-Lightweight/dp/B0D78Q47C8?maas=maas_adg_17B1925A95CB80B0113B9B325951A307_afap_abs&ref_=aa_maas&tag=maas) [KIWI's Website](https://www.kiwidesign.com/products/h4-halo-comfort-head-strap)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_H4_Halo_Comfort_Head_Strap_6.jpg?v=1732020501&width=1000"
     },
     {
       "name": "kiwi-battery-headstrap",
@@ -219,14 +194,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-spc)\n[Amazon Canada](https://www.amazon.ca/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/)\n [UK](https://www.amazon.co.uk/KIWI-design-Comfort-Battery-Compatible/dp/B0CLGK5YK6/),\n[KIWI's Website](https://www.kiwidesign.com/collections/quest-3-accessories/products/battery-head-strap-for-quest-3)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://www.kiwidesign.com/cdn/shop/files/KIWIdesign_battery_head_strap_for_meta_quest_3_0.png?v=1700648762&width=600"
     },
     {
       "name": "bobovr-m2-m3-pro-retrofit-kit",
@@ -250,14 +220,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[BOBOVRs Website](https://www.bobovr.com/products/m2-to-m3-pro)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://cdn.discordapp.com/attachments/829007841582252152/1190113098783273060/1_548cd53d-390c-483f-b3b1-971b9dc6bcb6.webp?ex=65a09e31&is=658e2931&hm=94b19b4b7dd62937f58350585c051853b3be07887876fe6b3323c8b1c9a35115&"
     },
     {
       "name": "kiwi-design-h4-boost-battery-hal",
@@ -281,14 +246,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-meta-quest-3-head-strap/dp/B0D6W88TCN?maas=maas_adg_AFB44EF008C1C472E574EBA32088E9A0_afap_abs&ref_=aa_maas&tag=maas)\n [KIWI's Website](https://www.kiwidesign.com/products/h4-boost-halo-battery-strap)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://vrdiscord.com/images/products/straps/kiwi-h4-boost.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://vrdiscord.com/images/products/straps/kiwi-h4-boost.jpg"
     },
     {
       "name": "kiwi-design-k4-boost-battery",
@@ -312,14 +272,9 @@
           "type": "field",
           "name": "Store Links",
           "value": "[Amazon Attribution](https://www.amazon.com/KIWI-design-Boost-Comfort-Battery/dp/B0D4TGY2F2?maas=maas_adg_E7F02FAF4A4989232FEDE23DFE6CD469_afap_abs&ref_=aa_maas&tag=maas)\n[KIWI's Website](https://www.kiwidesign.com/products/k4-boost-comfort-battery-head-strap)"
-        },
-        {
-          "type": "images",
-          "urls": [
-            "https://vrdiscord.com/images/products/straps/kiwi-k4-boost.jpg"
-          ]
         }
-      ]
+      ],
+      "thumbnail_url": "https://vrdiscord.com/images/products/straps/kiwi-k4-boost.jpg"
     }
   ]
 }
