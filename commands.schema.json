@@ -36,6 +36,9 @@
     "accent_color": {
       "$ref": "#/definitions/color"
     },
+    "thumbnail_url": {
+      "$ref": "#/definitions/thumbnailUrl"
+    },
     "blocks": {
       "$ref": "#/definitions/blockList"
     },
@@ -64,6 +67,9 @@
           },
           "accent_color": {
             "$ref": "#/definitions/color"
+          },
+          "thumbnail_url": {
+            "$ref": "#/definitions/thumbnailUrl"
           },
           "blocks": {
             "$ref": "#/definitions/blockList"
@@ -211,6 +217,11 @@
     "httpUrl": {
       "type": "string",
       "pattern": "^https?://"
+    },
+    "thumbnailUrl": {
+      "type": "string",
+      "pattern": "^https?://",
+      "maxLength": 1024
     }
   }
 }

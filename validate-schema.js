@@ -39,6 +39,21 @@ function checkUnitBudget(filePath, label, blocks, issues) {
   }
 }
 
+// A thumbnail renders as a Section accessory beside the view's first run of
+// text blocks — with no text block the bot strips it at load with only a
+// warning, so CI is the loud gate against authoring one.
+const TEXT_BLOCK_TYPES = new Set(["heading", "text", "field", "small"]);
+
+function checkThumbnail(filePath, label, unit, issues) {
+  if (unit.thumbnail_url === undefined) return;
+  const blocks = Array.isArray(unit.blocks) ? unit.blocks : [];
+  if (!blocks.some(block => block && TEXT_BLOCK_TYPES.has(block.type))) {
+    issues.push(
+      `${filePath}: ${label} sets 'thumbnail_url' but has no text block (heading/text/field/small) to attach it to`,
+    );
+  }
+}
+
 const issues = [];
 const files = fs
   .readdirSync(COMMANDS_DIR)
@@ -85,10 +100,12 @@ for (const file of files) {
   if (Array.isArray(command.blocks)) {
     checkUnitBudget(filePath, "top-level blocks", command.blocks, issues);
   }
+  checkThumbnail(filePath, "the command", command, issues);
   for (const page of command.pages ?? []) {
     if (Array.isArray(page.blocks)) {
       checkUnitBudget(filePath, `page '${page.name}'`, page.blocks, issues);
     }
+    checkThumbnail(filePath, `page '${page.name}'`, page, issues);
   }
 }
 
