@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "IPD is the distance between the pupils of your eyes. This is important for VR as you need to make sure you are within the supported IPD range of a headset, otherwise you will experience eye strain, focus issues, and other related issues."
+      "text": "IPD is the distance between the pupils of your eyes. This is important for VR as you need to make sure you are within the supported IPD range of a headset, otherwise you will experience eye strain, focus issues, and other discomfort."
     },
     {
       "type": "field",
@@ -19,7 +19,7 @@
     {
       "type": "field",
       "name": "How to check?",
-      "value": "There are a few ways to check, but the two main methods are measuring with a ruler in front of a mirror or using the app [EyeMeasure](https://apps.apple.com/us/app/eyemeasure/id1417435049)\n You want the 'Far' IPD from this app."
+      "value": "There are a few ways to check, but the two main methods are measuring with a ruler in front of a mirror or using the app [EyeMeasure](https://apps.apple.com/us/app/eyemeasure/id1417435049)\nYou want the 'Far' IPD from this app."
     },
     {
       "type": "field",

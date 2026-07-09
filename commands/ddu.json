@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the recommended drivers, to check the latest recommendations type /drivers."
+      "text": "Follow these steps to uninstall GPU drivers using DDU (Display Driver Uninstaller):\n1. Download DDU from the [official website](https://www.guru3d.com/download/display-driver-uninstaller-download/) and download the GPU driver you intend to install (see below).\n2. Reboot your PC into [Safe Mode](https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234)\n3. Launch DDU and select the GPU from the list.\n4. Click on 'Clean and restart'.\n5. After the process and restart, the GPU drivers will be uninstalled.\n\nYou can then reinstall the recommended drivers. To check the latest recommendations, type /drivers."
     }
   ]
 }

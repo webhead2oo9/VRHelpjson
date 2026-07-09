@@ -39,7 +39,7 @@
         },
         {
           "type": "text",
-          "text": "The TPLink C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop."
+          "text": "The TP-Link C6/A6 is a good dedicated router specifically for wireless VR usage, it is a budget router that works well for Virtual Desktop."
         },
         {
           "type": "field",
@@ -93,7 +93,7 @@
         },
         {
           "type": "text",
-          "text": "The GL.iNet Beryl GL-MT3000 is a good dedicated router for bridging and repeating an existing wireless network. Unlike the GL.iNet Opal GL-SFT1200, the Beryl supports DFS channels which can be useful when there are limited clear 5ghz channels. Currently you will need to update this to beta firmware 4.6.0 or later for proper performance."
+          "text": "The GL.iNet Beryl GL-MT3000 is a good dedicated router for bridging and repeating an existing wireless network. Unlike the GL.iNet Opal GL-SFT1200, the Beryl supports DFS channels which can be useful when there are limited clear 5GHz channels. Currently you will need to update this to the latest stable firmware (4.8.x or later) for proper performance."
         },
         {
           "type": "field",
@@ -125,7 +125,7 @@
         {
           "type": "field",
           "name": "Info",
-          "value": "__Wireless Type__: WiFi 6/6e 5/6Ghz \n__Supports DFS__: Yes"
+          "value": "__Wireless Type__: WiFi 6/6e 5/6GHz \n__Supports DFS__: Yes"
         },
         {
           "type": "field",
@@ -152,7 +152,7 @@
         {
           "type": "field",
           "name": "Info",
-          "value": "__Wireless Type__: WiFi 6/6e/7 5/6Ghz\n__Supports DFS__: Yes"
+          "value": "__Wireless Type__: WiFi 6/6e/7 5/6GHz\n__Supports DFS__: Yes"
         },
         {
           "type": "field",
@@ -179,7 +179,7 @@
         {
           "type": "field",
           "name": "Info",
-          "value": "__Wireless Type__: WiFi 6E / AC\n__Supports DFS__: Yes"
+          "value": "__Wireless Type__: WiFi 6E / AXE\n__Supports DFS__: Yes"
         },
         {
           "type": "field",
@@ -201,7 +201,7 @@
         },
         {
           "type": "text",
-          "text": "The RT-AX86U is a great home router as well as being great for wireless streaming. \n It supports DFS channels, which decrease interference in congested areas."
+          "text": "The RT-AX86U is a great home router as well as being great for wireless streaming. \nIt supports DFS channels, which decrease interference in congested areas."
         },
         {
           "type": "field",
@@ -228,12 +228,12 @@
         },
         {
           "type": "text",
-          "text": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \n It is a full featured WiFi 6E/AXE router with solid performance."
+          "text": "The TP-Link AXE300/AXE16000 is a great home router as well as being great for wireless streaming. \nIt is a full featured WiFi 6E/AXE router with solid performance."
         },
         {
           "type": "field",
           "name": "Info",
-          "value": "__Wireless Type__: WiFi 6/6e 5/6Ghz \n__Supports DFS__: Yes"
+          "value": "__Wireless Type__: WiFi 6/6e 5/6GHz \n__Supports DFS__: Yes"
         },
         {
           "type": "field",

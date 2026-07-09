@@ -34,7 +34,7 @@
         {
           "type": "field",
           "name": "Referrals",
-          "value": "Redeem any referrals you got from friends on your Meta Quest App (only works before activation), or if you need one you can use <#1344573178655281202>\n for more information please check out the referrals option."
+          "value": "Redeem any referrals you got from friends on your Meta Quest App (only works before activation), or if you need one you can use <#1344573178655281202>.\nFor more information, please check out the referrals option."
         },
         {
           "type": "field",
@@ -90,7 +90,7 @@
         {
           "type": "field",
           "name": "Guardian",
-          "value": "Make sure you set your guardian in a nice open area with nothing to hit\n I'd personally advise you give a little buffer on top, when you're new it's pretty easy to get a bit excited and swing past the guardian as well."
+          "value": "Make sure you set your guardian in a nice open area with nothing to hit.\nI'd personally advise you to give a little buffer on top, when you're new it's pretty easy to get a bit excited and swing past the guardian as well."
         },
         {
           "type": "field",
@@ -119,12 +119,12 @@
         },
         {
           "type": "text",
-          "text": "One thing to consider when looking into new games is the comfort rating, as you're new to VR you would want to look into more 'comfortable' experiences until you get more familiar with VR.\n Here are some recommendations to get started."
+          "text": "One thing to consider when looking into new games is the comfort rating, as you're new to VR you would want to look into more 'comfortable' experiences until you get more familiar with VR.\nHere are some recommendations to get started."
         },
         {
           "type": "field",
           "name": "Free",
-          "value": "[PokerStars VR](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[MiReality Pool (MR)](https://www.meta.com/experiences/5796340207136099/)\n[Blaston](https://www.meta.com/experiences/2307085352735834/)"
+          "value": "[Vegas Infinite](https://www.oculus.com/experiences/quest/2370815932930055/)\n[VRChat](https://www.oculus.com/experiences/quest/1856672347794301/)\n[Blaston](https://www.meta.com/experiences/2307085352735834/)"
         },
         {
           "type": "field",
@@ -183,7 +183,7 @@
         {
           "type": "field",
           "name": "Productivity",
-          "value": "You can be productive, use it as a virtual computer with multi tasking with browsers, or connected to a computer with programs like [Workrooms](https://www.oculus.com/experiences/quest/2514011888645651), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772), [vSpacial](https://www.oculus.com/experiences/quest/2540393919317658), and [Immersed](https://www.oculus.com/experiences/quest/2849273531812512/)"
+          "value": "You can be productive: use it as a virtual computer, multitasking with browsers, or connected to a computer with programs like [Workrooms](https://www.oculus.com/experiences/quest/2514011888645651), [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772), [vSpatial](https://www.oculus.com/experiences/quest/2540393919317658), and [Immersed](https://www.oculus.com/experiences/quest/2849273531812512/)"
         },
         {
           "type": "field",
@@ -246,7 +246,7 @@
         {
           "type": "field",
           "name": "Referrals / Creator Codes",
-          "value": "Referrals and Creator Codes are your second best friend if none of the above has something for the specific game you're looking for, Referrals give 15% off a game, but require you to be friends with the user, and Creator Codes give 10% off a game, and can be used at any time by any one, you just need to find one, usually YouTubers will put these in the descriptions of their videos."
+          "value": "Referrals and Creator Codes are your second best friend if none of the above has something for the specific game you're looking for, Referrals give 15% off a game, but require you to be friends with the user, and Creator Codes give 10% off a game, and can be used at any time by anyone; you just need to find one, usually YouTubers will put these in the descriptions of their videos."
         }
       ]
     },
@@ -265,12 +265,12 @@
         {
           "type": "field",
           "name": "BOBOVR M1 Plus",
-          "value": "Halo-style strap with dual pad options. Supports battery dock expansion. Does not include it however.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m1-plus)"
+          "value": "Halo-style strap with dual pad options. Supports battery dock expansion, though the battery dock is not included.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m1-plus)"
         },
         {
           "type": "field",
           "name": "BOBOVR M2 Pro",
-          "value": "The BOBOVR M2 PRO is a 'halo' style strap that's a successor to the BOBOVR M2, but has an included hotswappable battery.\n It can be found in most regions, but not as many as the main one as this does support a hotswappable battery, and that can limit its shipping locations.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m2-pro)"
+          "value": "The BOBOVR M2 PRO is a 'halo' style strap that's a successor to the BOBOVR M2, but has an included hotswappable battery.\nIt can be found in most regions, but not as many as the main one as this does support a hotswappable battery, and that can limit its shipping locations.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/bobo-m2-pro)"
         },
         {
           "type": "field",
@@ -320,7 +320,7 @@
         },
         {
           "type": "text",
-          "text": "The Quest 2 controllers do include a strap that you put around your wrist.\n Some people however prefer a 'knuckles' style grip that you can let go of the controller and keep playing, here's a few brands below."
+          "text": "The Quest 2 controllers do include a strap that you put around your wrist.\nSome people however prefer a 'knuckles' style grip that you can let go of the controller and keep playing, here's a few brands below."
         },
         {
           "type": "field",
@@ -330,12 +330,12 @@
         {
           "type": "field",
           "name": "Kiwi Grip",
-          "value": "Kiwi sells a knuckles style grip that has great reviews and is suitable for larger hands. This does not include a rechargeable battery\n[Amazon US](https://www.amazon.com/KIWI-design-Controller-Adjustable-Accessories/dp/B09J8HJMFK/)"
+          "value": "Kiwi sells a knuckles style grip that has great reviews and is suitable for larger hands. This does not include a rechargeable battery.\n[Amazon US](https://www.amazon.com/KIWI-design-Controller-Adjustable-Accessories/dp/B09J8HJMFK/)"
         },
         {
           "type": "field",
           "name": "AMVR Grip",
-          "value": "AMVR sells a knuckles style grip that also has a battery door.\n [Amazon US](https://www.amazon.com/Controller-Anti-Throw-Accessories-Battery-Opening-Adjustable/dp/B09HC4DFVM/)"
+          "value": "AMVR sells a knuckles style grip that also has a battery door.\n[Amazon US](https://www.amazon.com/Controller-Anti-Throw-Accessories-Battery-Opening-Adjustable/dp/B09HC4DFVM/)"
         }
       ],
       "thumbnail_url": "https://cdn.discordapp.com/attachments/416305941491875851/1056152099873882212/media.png"
@@ -355,7 +355,7 @@
         {
           "type": "field",
           "name": "KIWI Design Link Cable",
-          "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.\n [Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-link)"
+          "value": "The Kiwi Design Link Cable is a USB A to C cable that is 5 or 6 meters long, depending on which one you purchase.\n[Amazon Affiliate (USA)](https://www.vrdiscord.com/go/kiwi-link)"
         },
         {
           "type": "field",
@@ -370,7 +370,7 @@
         {
           "type": "field",
           "name": "Meta Official Link Cable",
-          "value": "The official cable is a USB C to C fiber optic cable that makes it lightweight, but fairly expensive.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/meta-link)"
+          "value": "The official cable is a lightweight USB C to C fiber optic cable, but it is fairly expensive.\n[Amazon Affiliate (USA)](https://vrdiscord.com/go/meta-link)"
         },
         {
           "type": "field",

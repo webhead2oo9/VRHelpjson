@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "Right-click Half-Life: Alyx in Steam then click Properties, in 'General' click in 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
+      "text": "Right-click Half-Life: Alyx in Steam then click Properties, in 'General' click 'Launch Options', and paste the following: ```+vr_fidelity_level_auto 0 +vr_fidelity_level 3```"
     }
   ]
 }

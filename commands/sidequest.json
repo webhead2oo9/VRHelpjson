@@ -1,20 +1,20 @@
 {
   "format": 2,
   "name": "sidequest",
-  "description": "Quest - Sidequest",
+  "description": "Quest - SideQuest",
   "blocks": [
     {
       "type": "heading",
-      "text": "Sidequest"
+      "text": "SideQuest"
     },
     {
       "type": "text",
-      "text": "Sidequest is a widely known application that allows you to 'sideload' third-party apps and modifications to your Quest."
+      "text": "SideQuest is a widely known application that allows you to 'sideload' third-party apps and modifications to your Quest."
     },
     {
       "type": "field",
       "name": "Do I need a VR-ready PC?",
-      "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality, if you want to install games without using a computer, you can also install it onto your headset however it's use is limited."
+      "value": "No, it does not require a VR-ready PC to use, but does require a cable to connect your Quest to your PC (2.0 or 3.0) for the advanced functionality. If you want to install games without using a computer, you can also install it onto your headset; however, its use is limited."
     },
     {
       "type": "field",
@@ -24,7 +24,7 @@
     {
       "type": "field",
       "name": "How do I install it onto my Quest?",
-      "value": "The folks at Sidequest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)"
+      "value": "The folks at SideQuest have made a handy tutorial to help with this, please [watch it here](https://www.youtube.com/watch?v=LhOJBTwJ-40)."
     },
     {
       "type": "field",

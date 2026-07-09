@@ -19,7 +19,7 @@
     {
       "type": "field",
       "name": "What's required?",
-      "value": "You need a VR-ready PC that meets the minimum specs, you can find out more details [here](https://www.meta.com/help/quest/140991407990979/) as well as a USB 3.0 A-to-C or C-to-C cable.\n You can find more info about this with /linkcables."
+      "value": "You need a VR-ready PC that meets the minimum specs (you can find out more details [here](https://www.meta.com/help/quest/140991407990979/)), as well as a USB 3.0 A-to-C or C-to-C cable.\nYou can find more info about this with /linkcables."
     }
   ]
 }
