@@ -1,15 +1,15 @@
 {
   "format": 2,
   "name": "questplus",
-  "description": "Info on the Quest Subscription Service, Quest+",
+  "description": "Info on Meta Horizon+, its game catalogues, benefits, and pricing",
   "blocks": [
     {
       "type": "heading",
-      "text": "Meta Quest +"
+      "text": "Meta Horizon+"
     },
     {
       "type": "text",
-      "text": "The below pages contain info on Meta Quest +, click each one to learn more about the program, or 'Summary' for a brief overview."
+      "text": "The pages below explain Meta Horizon+, including its monthly games, separate Games and Indie Catalogues, member add-ons, and Xbox Game Pass Starter benefits."
     }
   ],
   "pages": [
@@ -23,7 +23,7 @@
         },
         {
           "type": "text",
-          "text": "Meta Quest+ is Meta's version of Xbox Game Pass - Get 2 monthly games, selected by Meta, to add to your library each month and explore the **Games Catalog** to add even more!"
+          "text": "Meta Horizon+ includes two monthly games to claim, a rotating Games Catalogue, a separate Indie Catalogue (Beta), member deals and add-ons, plus Xbox Game Pass Starter benefits in supported regions."
         }
       ],
       "thumbnail_url": "https://www.uploadvr.com/content/images/size/w1200/2024/02/Meta-Quest-Plus-subscription.png"
@@ -38,22 +38,22 @@
         },
         {
           "type": "text",
-          "text": "Meta Quest+ is Meta's version of Xbox Game Pass/Live Gold - Get 2 monthly games, selected by Meta, to add to your library each month and explore the **Games Catalog** to add even more!"
+          "text": "Horizon+ members can claim two games selected by Meta each month. Claimed monthly games remain available while the membership is active and return if the member resubscribes."
         }
       ],
       "thumbnail_url": "https://www.uploadvr.com/content/images/size/w1024/format/webp/2024/02/Meta-Quest-Plus-subscription.png"
     },
     {
       "name": "game-catalog",
-      "title": "Game Catalog",
+      "title": "Game / Indie Catalogues",
       "blocks": [
         {
           "type": "heading",
-          "text": "Game Catalog"
+          "text": "Game / Indie Catalogues"
         },
         {
           "type": "text",
-          "text": "Meta Quest + also offers a game catalog! These games rotate in and out just like Game Pass or PS+. Check back every few months to see what's new, you can see a full list of the currently available titles [here](https://www.meta.com/experiences/section/746836817401205/)"
+          "text": "**Games Catalogue**\nA curated, rotating selection of established VR games. You can redeem and play each title while it remains in the Games Catalogue and you have an active Horizon+ membership.\n\nCurrent Games Catalogue:\nhttps://www.meta.com/experiences/section/746836817401205/\n\n**Indie Catalogue (Beta)**\nA separate rotating catalogue focused on emerging apps, hidden gems, and games that haven't reached the Store's top-selling charts. You can redeem and play each title while it remains in the Indie Catalogue and you have an active Horizon+ membership.\n\nCurrent Indie Catalogue:\nhttps://www.meta.com/experiences/section/3170833353093973/"
         }
       ]
     },
@@ -67,7 +67,7 @@
         },
         {
           "type": "text",
-          "text": "Meta Quest + includes exclusive deals for members, these include deals on hit classics such as **Superhot VR**, but new titles also rotate in, like **Arizona Sunshine 2** and many others! Meta will also occasionally give out 30% off coupons for *any* game on the Store to subscribers!"
+          "text": "Horizon+ members may receive exclusive Store deals. Available games, discounts, and promotions change over time and may vary by region."
         }
       ]
     },
@@ -81,7 +81,7 @@
         },
         {
           "type": "text",
-          "text": "No, just like Xbox Game Pass or PlayStation Plus, you lose access to your games once your subscription month ends; until then, you keep access to them.\nAs soon as you resubscribe, you'll regain access to all claimed games, regardless of whether it's still their month."
+          "text": "When a Horizon+ membership ends, access to membership content ends too. Previously claimed monthly games become available again if you resubscribe. Catalogue games are only playable while your membership is active and the game remains in its catalogue. Xbox Game Pass Starter benefits also require an active, eligible membership."
         }
       ]
     },
@@ -101,15 +101,15 @@
     },
     {
       "name": "exclusive-add-on-packs",
-      "title": "Exclusive Add-on Packs",
+      "title": "Member Add-Ons",
       "blocks": [
         {
           "type": "heading",
-          "text": "Exclusive Add-on Packs"
+          "text": "Member Add-Ons"
         },
         {
           "type": "text",
-          "text": "As of February 2025, Horizon+ now offers Add-Ons. Sometimes these will be game content, like Walkabout Minigolf courses, and other times just cosmetics, like the Ug bundles. Currently, these only appear in-headset."
+          "text": "In supported regions, Horizon+ members receive bonus add-on content each month. Recent benefits have included Walkabout Mini Golf courses, which are regular DLCs also available for purchase, and exclusive Ug cosmetic bundles that haven't returned to the Store. Available add-ons, redemption methods, and eligibility may vary by month and region."
         }
       ]
     },
@@ -124,6 +124,34 @@
         {
           "type": "text",
           "text": "At this moment, no. However this can change in the future."
+        }
+      ]
+    },
+    {
+      "name": "xbox-game-pass",
+      "title": "Xbox Game Pass",
+      "blocks": [
+        {
+          "text": "Xbox Game Pass Starter",
+          "type": "heading"
+        },
+        {
+          "text": "In supported regions, Horizon+ includes Xbox Game Pass Starter through the Xbox app on Quest. It offers more than 50 flat-screen games and up to **10 hours of cloud gaming per month**. Select supported games can also be downloaded for unlimited play on compatible devices.\n\nA Microsoft/Xbox profile and suitable internet connection are required for cloud play. A standard Bluetooth gamepad can be paired with Quest; Touch-controller gamepad emulation is also being introduced.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "pricing-and-trial",
+      "title": "Pricing and Trial",
+      "blocks": [
+        {
+          "text": "Pricing and Trial",
+          "type": "heading"
+        },
+        {
+          "text": "In the US, Horizon+ costs **$7.99 per month** or **$59.99 per year**. Eligible new members may receive a one-month trial. Pricing, availability, and trial eligibility vary by country and account.",
+          "type": "text"
         }
       ]
     }
