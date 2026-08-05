@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "A USB-C → Ethernet adapter plugged into your headset gives it a wired connection to your network. This is the most stable, lowest-latency option for PCVR streaming (Virtual Desktop / Steam Link) because it removes WiFi interference entirely.\n\n**Key rule:** Adapters with a **Realtek** chipset work; **ASIX** chipsets do **not** (they drop the connection when streaming starts). Get the version **with Power Delivery (PD) charging** so the headset charges while you play.\n\nSelect an option below for details."
+      "text": "A USB-C → Ethernet adapter plugged into your headset gives it a wired connection to your network. This is one of the most stable, lowest-latency options for PCVR streaming (Virtual Desktop / Steam Link) because it removes WiFi interference entirely.\n\n**Note:** This is different from Virtual Desktop's new direct USB connection (in its current beta), which plugs the headset straight into your PC with a USB cable (see /linkcables) — the Ethernet adapter puts the headset on your LAN instead.\n\n**Key rule:** Adapters with a **Realtek** chipset work; **ASIX** chipsets do **not** (they drop the connection when streaming starts). Get the version **with Power Delivery (PD) charging** so the headset charges while you play.\n\nSelect an option below for details."
     }
   ],
   "pages": [
