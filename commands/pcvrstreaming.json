@@ -5,11 +5,11 @@
   "blocks": [
     {
       "type": "heading",
-      "text": "Wireless PCVR Streaming: AirLink vs Virtual Desktop vs Steam Link"
+      "text": "PCVR Streaming: AirLink vs Virtual Desktop vs Steam Link"
     },
     {
       "type": "text",
-      "text": "A comprehensive comparison of the three main wireless PCVR streaming solutions for Quest headsets."
+      "text": "A comprehensive comparison of the three main PCVR streaming solutions for Quest headsets. All three stream wirelessly; Virtual Desktop now also supports a wired USB connection (new in its current beta)."
     },
     {
       "type": "field",
@@ -24,11 +24,11 @@
       "blocks": [
         {
           "type": "heading",
-          "text": "Wireless PCVR Streaming Solutions Overview"
+          "text": "PCVR Streaming Solutions Overview"
         },
         {
           "type": "text",
-          "text": "Here's a quick comparison of all three wireless streaming options."
+          "text": "Here's a quick comparison of all three streaming options."
         },
         {
           "type": "field",
@@ -48,7 +48,7 @@
         {
           "type": "field",
           "name": "Cable Support",
-          "value": "**AirLink**: No (wireless only; wired PCVR uses Quest Link)\n**Virtual Desktop**: No\n**Steam Link**: No"
+          "value": "**AirLink**: No (wireless only; wired PCVR uses Quest Link)\n**Virtual Desktop**: Yes - USB connection (new in beta)\n**Steam Link**: No"
         }
       ]
     },
@@ -100,21 +100,21 @@
       "blocks": [
         {
           "type": "heading",
-          "text": "Virtual Desktop - Premium Wireless Solution"
+          "text": "Virtual Desktop - Premium Streaming Solution"
         },
         {
           "type": "text",
-          "text": "The most feature-rich and reliable wireless PCVR streaming option."
+          "text": "The most feature-rich and reliable PCVR streaming option - wireless, or wired over USB (new in its current beta)."
         },
         {
           "type": "field",
           "name": "Pros",
-          "value": "Best overall performance\n- SSW (frame generation)\n- Super Resolution upscaling\n- Multiple codec options\n- VDXR runtime (+10% performance)\n- Bitrates up to 500 Mbps\n- Regular updates\n- Multi-monitor streaming\n- Most customization options"
+          "value": "Best overall performance\n- Wired USB connection option (new in beta)\n- SSW (frame generation)\n- Super Resolution upscaling\n- Multiple codec options\n- VDXR runtime (+10% performance)\n- Bitrates up to 500 Mbps\n- Regular updates\n- Multi-monitor streaming\n- Most customization options"
         },
         {
           "type": "field",
           "name": "Cons",
-          "value": "Costs $24.99\n- Learning curve for settings\n- Minor game compatibility issues\n- No cable support\n- More complex initial setup"
+          "value": "Costs $24.99\n- Learning curve for settings\n- Minor game compatibility issues\n- More complex initial setup"
         },
         {
           "type": "field",
@@ -233,12 +233,12 @@
         {
           "type": "field",
           "name": "Network Requirements (ALL Solutions)",
-          "value": "**CRITICAL**: ALL wireless PCVR solutions require:\n**PC wired to router via Ethernet cable**\n**Router**: WiFi 5 minimum, WiFi 6 recommended\n**Network**: Dedicated 5GHz band\n**Placement**: Same room, line of sight\n\n*Wireless PC connections will result in poor performance*"
+          "value": "**CRITICAL**: ALL wireless PCVR solutions require:\n**PC wired to router via Ethernet cable**\n**Router**: WiFi 5 minimum, WiFi 6 recommended\n**Network**: Dedicated 5GHz band\n**Placement**: Same room, line of sight\n\n*Wireless PC connections will result in poor performance*\n*A wired USB connection (Quest Link, or Virtual Desktop's new USB mode) bypasses these network requirements*"
         },
         {
           "type": "field",
           "name": "PC Requirements",
-          "value": "**GPU**: GTX 1060 / RX 580 minimum\n**CPU**: i5-4590 / Ryzen 5 1500X minimum\n**RAM**: 8GB minimum, 16GB recommended\n**USB**: USB 3.0 (for Link Cable - AirLink only)"
+          "value": "**GPU**: GTX 1060 / RX 580 minimum\n**CPU**: i5-4590 / Ryzen 5 1500X minimum\n**RAM**: 8GB minimum, 16GB recommended\n**USB**: USB 3.0 (for wired play - Quest Link or Virtual Desktop's USB mode)"
         },
         {
           "type": "field",
