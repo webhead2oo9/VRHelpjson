@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "A comprehensive comparison of the three main PCVR streaming solutions for Quest headsets. All three stream wirelessly; Virtual Desktop now also supports a wired USB connection (new in its current beta)."
+      "text": "A comprehensive comparison of the three main PCVR streaming solutions for Quest headsets. All three stream wirelessly; Virtual Desktop and Steam Link also support wired USB connections in their current betas."
     },
     {
       "type": "field",
@@ -48,7 +48,7 @@
         {
           "type": "field",
           "name": "Cable Support",
-          "value": "**AirLink**: No (wireless only; wired PCVR uses Quest Link)\n**Virtual Desktop**: Yes - USB connection (new in beta)\n**Steam Link**: No"
+          "value": "**AirLink**: No (wireless only; wired PCVR uses Quest Link)\n**Virtual Desktop**: Yes - USB connection (new in beta)\n**Steam Link**: Yes - direct USB streaming on Meta Quest (initial beta support)"
         }
       ]
     },
@@ -144,17 +144,17 @@
         },
         {
           "type": "text",
-          "text": "Native Steam VR streaming app, a solid free option for wireless PCVR."
+          "text": "Native Steam VR streaming app, a solid free option for wireless PCVR with initial direct USB streaming support on Meta Quest in the current beta."
         },
         {
           "type": "field",
           "name": "Pros",
-          "value": "Completely free\n- Plug-and-play setup\n- No Meta software needed\n- Direct Steam VR integration\n- Simple, clean interface\n- Good performance\n- Easiest setup process"
+          "value": "Completely free\n- Plug-and-play setup\n- No Meta software needed\n- Direct Steam VR integration\n- Wired USB connection on Meta Quest (initial beta support)\n- Simple, clean interface\n- Good performance\n- Easiest setup process"
         },
         {
           "type": "field",
           "name": "Cons",
-          "value": "Wireless only (no cable)\n- Some users report stuttering\n- Limited configuration options\n- Newer, less mature\n- Only for Steam content\n- Fewer features than VD"
+          "value": "Wired USB mode currently requires beta software\n- Some users report stuttering\n- Limited configuration options\n- Newer, less mature\n- Only for Steam content\n- Fewer features than VD"
         },
         {
           "type": "field",
@@ -169,6 +169,10 @@
         {
           "type": "small",
           "text": "Verdict: Best free option for most users"
+        },
+        {
+          "text": "Wired USB is initial beta support. Opt into the Steam Link for Meta Quest beta, SteamVR beta, and Steam Client beta. Valve announcement: https://steamcommunity.com/games/250820/announcements/detail/697648355380036492",
+          "type": "small"
         }
       ]
     },
@@ -233,17 +237,17 @@
         {
           "type": "field",
           "name": "Network Requirements (ALL Solutions)",
-          "value": "**CRITICAL**: ALL wireless PCVR solutions require:\n**PC wired to router via Ethernet cable**\n**Router**: WiFi 5 minimum, WiFi 6 recommended\n**Network**: Dedicated 5GHz band\n**Placement**: Same room, line of sight\n\n*Wireless PC connections will result in poor performance*\n*A wired USB connection (Quest Link, or Virtual Desktop's new USB mode) bypasses these network requirements*"
+          "value": "**CRITICAL**: ALL wireless PCVR solutions require:\n**PC wired to router via Ethernet cable**\n**Router**: WiFi 5 minimum, WiFi 6 recommended\n**Network**: Dedicated 5GHz band\n**Placement**: Same room, line of sight\n\n*Wireless PC connections will result in poor performance*\n*A wired USB connection (Quest Link, Virtual Desktop beta, or Steam Link beta on Meta Quest) bypasses these network requirements*"
         },
         {
           "type": "field",
           "name": "PC Requirements",
-          "value": "**GPU**: GTX 1060 / RX 580 minimum\n**CPU**: i5-4590 / Ryzen 5 1500X minimum\n**RAM**: 8GB minimum, 16GB recommended\n**USB**: USB 3.0 (for wired play - Quest Link or Virtual Desktop's USB mode)"
+          "value": "**GPU**: GTX 1060 / RX 580 minimum\n**CPU**: i5-4590 / Ryzen 5 1500X minimum\n**RAM**: 8GB minimum, 16GB recommended\n**USB**: USB 3.0 (for wired play with Quest Link, Virtual Desktop beta, or Steam Link beta)"
         },
         {
           "type": "field",
           "name": "Required Software",
-          "value": "**AirLink**: Meta Quest app\n**Virtual Desktop**: VD app ($24.99) + VD Streamer (PC)\n**Steam Link**: Steam + Steam Link app (Quest)"
+          "value": "**AirLink**: Meta Quest app\n**Virtual Desktop**: VD app ($24.99) + VD Streamer (PC)\n**Steam Link**: Steam + Steam Link app (Quest). Direct USB currently requires the Steam Link, SteamVR, and Steam Client betas"
         },
         {
           "type": "field",
