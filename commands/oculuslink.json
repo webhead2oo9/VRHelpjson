@@ -9,7 +9,7 @@
     },
     {
       "type": "text",
-      "text": "Meta Quest Link is a feature built into the Quest that allows you to use your Quest as a PC VR headset while wired into a VR-ready PC.\nVirtual Desktop also supports a wired USB connection now (new in its current beta) as an alternative — see /pcvrlink."
+      "text": "Meta Quest Link is a feature built into the Quest that allows you to use your Quest as a PC VR headset while wired into a VR-ready PC.\nVirtual Desktop and Steam Link also support wired USB connections in their current betas as alternatives. Steam Link's initial USB support is for Meta Quest and currently requires the Steam Link, SteamVR, and Steam Client betas — see /pcvrlink."
     },
     {
       "type": "field",
