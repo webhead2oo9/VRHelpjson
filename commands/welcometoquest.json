@@ -207,7 +207,7 @@
         {
           "type": "field",
           "name": "Wired",
-          "value": "You can play wired PC VR using Meta Quest Link or [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772/) (USB support is new in its current beta), with a USB 3.0 cable."
+          "value": "You can play wired PC VR with a USB 3.0 cable using Meta Quest Link, [Virtual Desktop](https://www.oculus.com/experiences/quest/2017050365004772/) beta, or [Steam Link](https://www.meta.com/experiences/5841245619310585/) beta. Steam Link's initial USB support currently requires the Steam Link for Meta Quest beta, SteamVR beta, and Steam Client beta."
         },
         {
           "type": "field",
